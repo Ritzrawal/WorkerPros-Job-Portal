@@ -1,0 +1,52 @@
+.EmployerUpdateProfile {
+  display: flex;
+}
+
+.EmployerUpdateProfile .EmployerUpdateProfile__Sidebar {
+  width: 400px;
+  background-color: #F4F7FA;
+  height: 100vh;
+}
+
+.EmployerUpdateProfile .EmployerUpdateProfile__Sidebar .EmployerUpdateProfile__Sidebar--Image {
+  margin-top: 134px;
+}
+
+.EmployerUpdateProfile .EmployerUpdateProfile__Body {
+  width: 100%;
+  text-align: center;
+  overflow-y: scroll;
+}
+
+.EmployerUpdateProfile .EmployerUpdateProfile__Body .EmployerUpdateProfile__Body--Header {
+  padding-top: 32px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 33px;
+  letter-spacing: -0.02em;
+  color: #2ec2e2;
+  text-align: center;
+}
+
+.EmployerUpdateProfile .EmployerUpdateProfile__Body .EmployerUpdateProfile__Body--Form {
+  padding-bottom: 50px;
+}
+
+.EmployerUpdateProfile .EmployerUpdateProfile__Body .EmployerUpdateProfile__Body--Form .EmployerUpdateProfile__Body--Form--Button {
+  padding-top: 22px;
+}
+
+.EmployerUpdateProfile .EmployerUpdateProfile__Body .EmployerUpdateProfile__Body--Form .EmployerUpdateProfile__Body--Form--Button button {
+  width: 100%;
+  background: #2EC2E2;
+  border-radius: 50px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+  border: none;
+  padding: 12px 0px;
+  width: 50%;
+}

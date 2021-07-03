@@ -1,0 +1,185 @@
+.ListTable {
+}
+
+.ListTable__Header {
+}
+
+.ListTable__Header--Container {
+  display: flex;
+  text-transform: uppercase;
+  font-size: 12px;
+  line-height: 15px;
+  color: #808fa6;
+}
+
+.ListTable__Body {
+  padding-top: 20px;
+  height: 600px;
+  overflow-y: scroll;
+}
+
+.ListTable__Body::-webkit-scrollbar {
+  width: 0; /* Remove scrollbar space */
+  background: transparent; /* Optional: just make scrollbar invisible */
+}
+
+.ListTable__Body--Container {
+  display: flex;
+  background-color: #fff;
+  border: 1px solid #ebeff5;
+  box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.05);
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.ListTable__Body--Container--Company {
+  display: flex;
+  align-items: center;
+  padding-left: 15px;
+}
+
+.ListTable__Body--Container--Company
+  .ListTable__Body--Container--Company--Logo {
+  height: 52px;
+  width: 52px;
+}
+
+.ListTable__Body--Container--Company
+  .ListTable__Body--Container--Company--Logo
+  img {
+  height: 52px;
+  width: 52px;
+  border-radius: 50%;
+}
+
+.ListTable__Body--Container--Company--Name {
+  font-size: 15px;
+  font-weight: bold;
+  font-style: normal;
+  color: #808fa6;
+  padding-left: 25px;
+  text-align: left;
+  text-transform: capitalize;
+}
+
+.ListTable__Body--Container--Position,
+.ListTable__Body--Container--Skilllevel,
+.ListTable__Body--Container--Jobtype,
+.ListTable__Body--Container--Pay,
+.ListTable__Body--Container--Status {
+  font-size: 15px;
+  font-weight: 600 !important;
+  color: #162a49;
+  text-transform: capitalize;
+  padding-top: 18px;
+}
+
+.ApplicationListTable__Body--Container--Status span {
+  background-color: #ecf7fa;
+  padding: 4px 12px;
+  border-radius: 50px;
+  color: #2ec2e2;
+  font-weight: bold;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+/* Application List Status Styling */
+
+.ApplicationListTable__Body--Container--Status {
+  margin-top: 18px !important;
+  text-transform: capitalize;
+}
+
+/* --------- Application Status list button styling --------- */
+
+.ApplicationListTable__Body--Container--Status
+  .applicationListStatus_interviewScheduled {
+  display: flex;
+  background-color: #2ec2e2;
+  padding: 4px 12px;
+  border-radius: 50px;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 12px;
+  text-transform: uppercase;
+  margin-right: 20px;
+  width: max-content;
+}
+
+.ApplicationListTable__Body--Container--Status
+  .applicationListStatus_interviewRequested {
+  width: max-content;
+  display: flex;
+  background-color: #ecf7fa;
+  padding: 4px 12px;
+  border-radius: 50px;
+  color: #2ec2e2;
+  font-weight: bold;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.ApplicationListTable__Body--Container--Status .applicationListStatus_offered {
+  background-color: #9ae84c;
+  padding: 4px 12px;
+  border-radius: 50px;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+.ApplicationListTable__Body--Container--Status
+  .applicationListStatus_interviewPending {
+  background-color: #234476;
+  padding: 4px 12px;
+  border-radius: 50px;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+/*---------- New Table Styling ---------- */
+.tableMainThread tr th {
+  text-transform: uppercase;
+  font-size: 12px;
+  line-height: 15px;
+  color: #808fa6;
+}
+
+.tableTrContainer tr {
+  margin-bottom: 20px !important;
+  background: #ffffff;
+  border: 2px solid #ebeff5;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.05);
+  border-radius: 5px;
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 0 1rem;
+}
+
+.loaderDiv {
+  text-align: center;
+  width: 100%;
+}
+
+/* ----------- CSS Fixes ------------- */
+
+.ApplicationListTable__Body--Container--Status_TD {
+  border-right: 1px solid #ebeff5 !important;
+  box-shadow: 5px 0 5px -5px rgba(0, 0, 0, 0.05);
+}
+
+.ListTable__Body--Container--Company_TD {
+  border-left: 1px solid #ebeff5 !important;
+  box-shadow: -5px 0 5px -5px rgba(0, 0, 0, 0.05);
+}
+
+.ListTable__Body--Container--Pay_TD {
+  border-right: 1px solid #ebeff5 !important;
+  box-shadow: 5px 0 5px -5px rgba(0, 0, 0, 0.05);
+}

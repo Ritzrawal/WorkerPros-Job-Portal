@@ -1,0 +1,215 @@
+.CandidateDetailBox {
+    background: #FFFFFF;
+    border: 1px solid rgba(160, 172, 189, 0.19);
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.03);
+    border-radius: 6px;
+    padding: 21px;
+}
+
+.CandidateDetailBox .CandidateDetailBox__Header {
+    display: flex;
+    border-bottom: 1px solid #EAEFF5;
+    padding-bottom: 28px;
+}
+
+.CandidateDetailBox .CandidateDetailBox__Header .CandidateDetailBox__Header--Image {
+    height: 109px;
+    width: 109px;
+    border-radius: 109px;
+    overflow: hidden;
+}
+
+.CandidateDetailBox .CandidateDetailBox__Header .CandidateDetailBox__Header--Image img {
+    height: 100%;
+    width: 100%;
+}
+
+.CandidateDetailBox .CandidateDetailBox__Header .CandidateDetailBox__Header--Detail {
+    padding-top: 8px;
+    padding-left: 21px;
+}
+
+.CandidateDetailBox .CandidateDetailBox__Header .CandidateDetailBox__Header--Detail .CandidateDetailBox__Header--Detail--Name {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 150%;
+    letter-spacing: -0.03em;
+    color: #162A49;
+    display: flex;
+}
+
+.CandidateDetailBox .CandidateDetailBox__Header .CandidateDetailBox__Header--Detail .CandidateDetailBox__Header--Detail--Name .CandidateDetailBox__Header--Detail--Name--Rating {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 21px;
+    color: #F09D20;
+    padding-left: 11px;
+    padding-top: 6px;
+}
+
+.CandidateDetailBox .CandidateDetailBox__Header .CandidateDetailBox__Header--Detail .CandidateDetailBox__Header--Detail--Joined {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #C8CFDA;
+}
+
+.CandidateDetailBox .CandidateDetailBox__Header .CandidateDetailBox__Header--Detail .CandidateDetailBox__Header--Detail--Category {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 21px;
+    color: #162A49;
+}
+
+.CandidateDetailBox .CandidateDetailBox__Header .CandidateDetailBox__Header--Option {
+    margin-left: auto;
+}
+
+.CandidateDetailBox .CandidateDetailBox__Header .CandidateDetailBox__Header--Option .CandidateDetailBox__Header--Option--Close {
+    float: right;
+}
+
+.CandidateDetailBox .CandidateDetailBox__Header .CandidateDetailBox__Header--Option .CandidateDetailBox__Header--Option--Close a {
+    text-decoration: none;
+    color: #2EC2E2;
+}
+
+.CandidateDetailBox .CandidateDetailBox__Header .CandidateDetailBox__Header--Option .CandidateDetailBox__Header--Option--Button {
+    padding-top: 30px;
+}
+
+.CandidateDetailBox .CandidateDetailBox__Header .CandidateDetailBox__Header--Option .CandidateDetailBox__Header--Option--Button button {
+    background: #2EC2E2;
+    border: none;
+    border-radius: 50px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #fff;
+    padding: 10px 30px;
+}
+
+.CandidateDetailBox .CandidateDetailBox__Header .CandidateDetailBox__Header--Option .CandidateDetailBox__Header--Option--Button svg {
+    color: #CED7E6;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: 10px
+}
+
+.CandidateDetailBox .CandidateDetailBox__Trade,
+.CandidateDetailBox .CandidateDetailBox__Skill,
+.CandidateDetailBox .CandidateDetailBox__Experience {
+    padding-top: 26px;
+}
+
+.CandidateDetailBox .CandidateDetailBox__Trade .CandidateDetailBox__Trade--Title,
+.CandidateDetailBox .CandidateDetailBox__Skill .CandidateDetailBox__Skill--Title,
+.CandidateDetailBox .CandidateDetailBox__Experience .CandidateDetailBox__Experience--Title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: -0.03em;
+    color: #162A49;
+}
+
+.CandidateDetailBox .CandidateDetailBox__Trade .CandidateDetailBox__Trade--Body {
+   display: flex;
+   flex-wrap: wrap;
+   padding-top: 10px;
+}
+
+.CandidateDetailBox .CandidateDetailBox__Trade .CandidateDetailBox__Trade--Body .CandidateDetailBox__Trade--Body--Container{
+   padding-right: 17px;
+   padding-bottom: 15px;
+ }
+
+.CandidateDetailBox .CandidateDetailBox__Skill .CandidateDetailBox__Skill--Detail .CandidateDetailBox__Skill--Detail--List {
+    padding-top: 21px;
+    
+}
+
+.CandidateDetailBox .CandidateDetailBox__Skill .CandidateDetailBox__Skill--Detail .CandidateDetailBox__Skill--Detail--List .CandidateDetailBox__Skill--Detail--List--Title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #808FA6;
+}
+
+.CandidateDetailBox .CandidateDetailBox__Skill .CandidateDetailBox__Skill--Detail .CandidateDetailBox__Skill--Detail--List .CandidateDetailBox__Skill--Detail--List--Body {
+    padding-top: 13px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.CandidateDetailBox .CandidateDetailBox__Skill .CandidateDetailBox__Skill--Detail .CandidateDetailBox__Skill--Detail--List .CandidateDetailBox__Skill--Detail--List--Body .CandidateDetailBox__Skill--Detail--List--Body--Container {
+    padding-right: 8px;
+    padding-bottom: 7px;
+}
+
+.CandidateDetailBox .CandidateDetailBox__Experience .CandidateDetailBox__Experience--Detail {
+    padding-top: 10px;
+}
+
+.CandidateDetailBox .CandidateDetailBox__Experience .CandidateDetailBox__Experience--Detail .CandidateDetailBox__Experience--Detail--List {
+    padding-top: 25px;
+}
+
+.CandidateDetailBox .CandidateDetailBox__Experience .CandidateDetailBox__Experience--Detail .CandidateDetailBox__Experience--Detail--List .CandidateDetailBox__Experience--Detail--List--Title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #234476;
+}
+
+.CandidateDetailBox .CandidateDetailBox__Experience .CandidateDetailBox__Experience--Detail .CandidateDetailBox__Experience--Detail--List .CandidateDetailBox__Experience--Detail--List--Year {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #808FA6;
+}
+
+.CandidateDetailBox .CandidateDetailBox__Experience .CandidateDetailBox__Experience--Detail .CandidateDetailBox__Experience--Detail--List .CandidateDetailBox__Experience--Detail--List--Info {
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.CandidateDetailBox .CandidateDetailBox__Experience .CandidateDetailBox__Experience--Detail .CandidateDetailBox__Experience--Detail--List .CandidateDetailBox__Experience--Detail--List--Info .CandidateDetailBox__Experience--Detail--List--Info--Single {
+  
+}
+
+.CandidateDetailBox .CandidateDetailBox__Experience .CandidateDetailBox__Experience--Detail .CandidateDetailBox__Experience--Detail--List .CandidateDetailBox__Experience--Detail--List--Info .CandidateDetailBox__Experience--Detail--List--Info--Single .CandidateDetailBox__Experience--Detail--List--Info--Single--Title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #AEB8C7;
+}
+
+.CandidateDetailBox .CandidateDetailBox__Experience .CandidateDetailBox__Experience--Detail .CandidateDetailBox__Experience--Detail--List .CandidateDetailBox__Experience--Detail--List--Info .CandidateDetailBox__Experience--Detail--List--Info--Single .CandidateDetailBox__Experience--Detail--List--Info--Single--Detail {
+    padding-top: 4px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #162A49;
+}

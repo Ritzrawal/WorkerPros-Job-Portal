@@ -1,0 +1,120 @@
+.AdminTradeCardComponent {
+  height: 197px;
+  margin-top: 25px;
+  background: #ffffff;
+  box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+}
+.AdminTradeCardUpperContentContainer {
+  display: flex;
+}
+.AdminTradeAvatarCustomize {
+  width: 88.14px;
+  height: 88.14px;
+  border-radius: 50%;
+}
+.AdminTradeInnerCardContainerCustomize {
+  padding: 21px 24px 21px 14px;
+}
+.AdminTradeAvatarImage {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.AdminTradeCardContentNameLocationContainer {
+  padding-left: 14px;
+}
+.AdminTradeCardNameDisplay {
+  padding-left: 3px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #162a49;
+}
+.AdminTradeCardNameRatingContainer {
+  display: flex;
+}
+.AdminTradeCardLocationContainer {
+  padding-top: 9px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.AdminTradeCardLocationDisplay {
+  padding-left: 7px;
+  padding-right: 18px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: #234476;
+}
+.AdminTradeCardJoinedYearDisplay {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: #808fa6;
+}
+.AdminTradeCardLaborTypeContainer {
+  font-family: 'Montserrat';
+  padding-top: 9px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+
+  color: #8d9bb0;
+}
+.AdminTradeInputCustomizeOuterContainer {
+  display: flex;
+  flex: auto;
+  justify-content: flex-end;
+}
+.AdmiTradeCardIconContainer {
+  padding-left: 15px;
+}
+.AdminTradeCardStarIcon {
+  color: #ffa723;
+}
+.AdminTradeCardNameDisplayRating {
+  padding-left: 5px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 21px;
+  color: #f09d20;
+}
+.AdminCompanyDisplayButton {
+  display: flex;
+  padding-top: 25px;
+}
+.AdminCompanyBadgeTrade {
+  background-color: #85d700;
+  padding: 5px 15px;
+  border-radius: 14px;
+  top: 15px;
+  position: absolute;
+  z-index: 100;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}

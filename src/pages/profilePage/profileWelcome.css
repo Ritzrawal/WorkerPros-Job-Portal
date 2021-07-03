@@ -1,0 +1,967 @@
+.ProfileMainConatiner {
+}
+
+.SkillList {
+  width: 247px;
+  margin: 0px 24px;
+  height: 230px;
+  background: #ffffff;
+  box-shadow: 0px 0px 7px rgb(0 0 0 / 7%);
+  border-radius: 5px;
+
+  background: #ffffff;
+  box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.07);
+  border-radius: 5px;
+}
+.ProfileSideTextCustomize {
+  cursor: pointer;
+  width: 218px;
+  height: 37px;
+  padding-left: 16px;
+  font-family: 'Montserrat';
+  display: flex;
+  align-items: center;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+
+  color: #808fa6;
+}
+.ProfileSideTextCustomize .IconForTheOnCLick {
+  display: none;
+}
+.ProfileSideTextCustomize .IconForTheOnCLickGeneral {
+  display: none;
+}
+.ProfileSideTextCustomize .IconForTheOnCLickCert {
+  display: none;
+}
+.ProfileSideTextCustomizeActiveOne {
+  width: 218px;
+  padding-left: 16px;
+  background-color: #f3f6fb;
+  border-radius: 25px;
+  height: 37px;
+  font-family: 'Montserrat';
+  display: flex;
+  align-items: center;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+
+  color: #2ec2e2;
+}
+.ProfileSideTextCustomizeChange {
+  /* cursor: pointer; */
+  width: 218px;
+  padding-left: 16px;
+  background-color: #ffffff;
+  border-radius: 25px;
+  height: 37px;
+  font-family: 'Montserrat';
+  display: flex;
+  align-items: center;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+
+  color: #2ec2e2;
+}
+/* .ProfileSideTextCustomizeChange.IconForTheOnCLick{
+  display: none!important;
+} */
+.IconForTheOnCLickGeneral {
+  flex-grow: 1;
+  padding-left: 75px;
+  display: flex;
+  justify-content: flex-end;
+}
+.IconForTheOnCLickCert {
+  flex-grow: 1;
+  padding-left: 50px;
+  display: flex;
+  justify-content: flex-end;
+}
+.IconForTheOnCLick {
+  flex-grow: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.ProfileOuterContainer {
+  /* padding-bottom: 300px; */
+  min-height: calc(100vh - 75px);
+  background-color: #f2f4fa;
+  padding-top: 30px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+.ProfileContent {
+  /* position: relative; */
+  padding: 26px 50px 41px 50px;
+  background: #ffffff;
+  box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.07);
+}
+.ProfileDisplay {
+  position: relative;
+  background: #f2f4fa;
+  border-radius: 5px;
+}
+.WelcomeTitle {
+  /* H3 */
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 34px;
+  letter-spacing: -0.03em;
+  text-transform: capitalize;
+
+  color: #162a49;
+}
+.ImageUploadContainer {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+}
+.ImageCustomize {
+  /* background-color: red; */
+  border-radius: 107.16px;
+  width: 107.16px;
+  height: 107.16px;
+}
+.ImageStyling {
+  width: 100%;
+  height: 100%;
+  resize: cover;
+  border-radius: 50%;
+}
+.NameAndButton {
+  margin-left: 33px;
+}
+.DisplayName {
+  text-transform: capitalize;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: -0.03em;
+  color: #162a49;
+  padding: 6px 0px;
+}
+.DisplayEmail {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+  color: #2ec2e2;
+}
+.UploadProfileButton {
+  margin-top: 13px;
+  width: 230px;
+  height: 40px;
+  background-color: #2ec2e2;
+  border-radius: 50px;
+  position: relative;
+}
+.UploadButton {
+  position: absolute;
+  opacity: 0;
+  width: 282px;
+  height: 40px;
+  background-color: #2ec2e2;
+  margin-left: -65px;
+  cursor: pointer;
+  top: 0;
+  left: -10px;
+}
+.InputDropDownContainer select {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #808fa6;
+}
+.ProfileCropButtonCustomizerUpperCancelButton {
+  background-color: #ffffff;
+  padding: 10px 20px 10px 20px;
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #808fa6;
+  z-index: 100;
+  width: 100%;
+  top: 0;
+}
+.ProfileCropCancelButtonCustomize {
+  font-size: 18px;
+  cursor: pointer;
+}
+.reactEasyCrop_CropAreaRound {
+  width: 400px !important;
+  height: 400px !important;
+}
+.ProfileInputUploadCustomiz {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+}
+.ProfileInupuLogoCustomize {
+  display: flex;
+}
+.ProfileInupuTextCustomize {
+  margin-left: 5px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+
+  color: #ffffff;
+}
+.ProfileSliderValueContainer {
+  width: 667px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.InitialValueSlider {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 16px;
+  /* identical to box height */
+
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: #9ba8bc;
+}
+.FormContainerProfile {
+  margin-top: 50px;
+}
+.InputDropDownContainer {
+  display: flex;
+  flex-direction: row;
+}
+.InputDropDownField {
+  width: 320px;
+  height: 50px;
+}
+.InputDropDownFieldRight {
+  width: 320px;
+  height: 50px;
+  margin-left: 27px;
+}
+.InputDropTextField {
+  width: 320px;
+  height: 50px;
+  background: #ffffff;
+  border: 2px solid #c7d0de;
+  box-sizing: border-box;
+  border-radius: 6px;
+}
+
+.InputDropTextField.form-control {
+  background: url('../../assets/images/icons/dropdownArrowThin.png') no-repeat
+    96% 50%;
+  text-transform: capitalize;
+}
+
+.HowfartextConatiner {
+  margin-top: 45px;
+}
+.NoramTextofHowFar {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+
+  color: #162a49;
+}
+.CustomizeTextofHowFar {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #2ec2e2;
+  padding-left: 4px;
+}
+.SliderCustomizer {
+  margin-top: 45px;
+}
+.RangeSliderCustomizer {
+  width: 667px;
+  height: 5px;
+  background-color: #234476 !important;
+  border-radius: 5px;
+}
+.TradeSkillsTag button {
+  margin: 3px;
+}
+.SelectTextCustomize {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  /* identical to box height */
+
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  /* Primary Grey */
+
+  color: #808fa6;
+}
+.UploadContainer {
+}
+.ProfileCheckBoxContainer {
+  margin-top: 24px;
+}
+.ProfileInputCheckboxCustomize {
+  display: flex;
+  align-items: center;
+}
+
+.ProfileInputCheckBox {
+  width: 19px;
+  height: 19px;
+  background: #f2f8f9;
+  border: 2px solid #2ec2e2;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+.TextofCheckboxContainer {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+  color: #5e7291;
+}
+.DisplayTradeandSkills {
+  width: 100%;
+  display: flex;
+}
+.ProfilesaveAddButtonContainer {
+  margin-top: 45px;
+  padding-bottom: 45px;
+}
+.ProfilesaveAddButtonContainerNext {
+  margin-top: 30px;
+  /* padding-bottom: 45px; */
+}
+.ProfilesaveAddButtonContainerModal {
+  width: 93%;
+  margin-top: 30px;
+  /* padding-bottom: 45px; */
+}
+
+/* Profile Trade and SKills Customize */
+
+.TradeAndSkillContainer {
+  width: 770px;
+  left: 391px;
+  top: 677px;
+  padding-top: 30px;
+  padding-bottom: 43px;
+  background: #ffffff;
+  box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.07);
+  border-radius: 5px;
+}
+.TradeandSkilContentContainer select {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #808fa6;
+}
+.WorkInputDropDownField.form-group #exampleSelect::placeholder {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #808fa6;
+}
+.WorkDescriptionCustomize.form-group #exampleText::placeholder {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #808fa6;
+}
+.WorkExperienceContainer {
+  padding-top: 30px;
+  padding-bottom: 44px;
+  width: 770px;
+  left: 391px;
+  background: #ffffff;
+  box-shadow: 0px 0px 7px rgb(0 0 0 / 7%);
+  border-radius: 5px;
+}
+.WorkDataToshowWhenSearch {
+  max-height: 200px;
+  margin-top: -13px;
+  padding-top: 10px;
+  overflow: auto;
+  box-shadow: 0px 0px 7px rgb(0 0 0 / 7%);
+  background: #ffffff;
+  color: #808fa6;
+  position: absolute;
+  z-index: 10;
+  width: 374px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+}
+.WorkSearchListDisplayWithImage {
+  display: flex;
+  cursor: pointer;
+  flex-direction: row;
+  /* padding-top: -10px; */
+}
+.CertificateDisplayCheckBox .GlobalChecBoxContainer {
+  margin-right: auto;
+  min-width: 185px;
+}
+.TradeandSkilContentContainer {
+  margin-left: 52px;
+  /* margin-top: 30px; */
+}
+.TradeAndSkillsHeader {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 34px;
+  letter-spacing: -0.03em;
+
+  color: #162a49;
+}
+.TradeAndSkillPrimaryContainer {
+  margin-top: 38px;
+}
+.TradeAndSkillsPrimaryTrade {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 26px;
+
+  color: #162a49;
+}
+.TradeAndSkillsInputContainer {
+  display: flex;
+  flex-direction: row;
+  margin-top: 23px;
+}
+.TradeInputDropDownField {
+  width: 450px;
+  height: 50px;
+}
+.TradeInputDropDownFieldRight {
+  margin-left: 20px;
+  width: 194px;
+  height: 50px;
+}
+.TradeInputDropTextField {
+  width: 450px;
+  height: 50px;
+  background-color: #ffffff;
+  border: 2px solid #c7d0de;
+  box-sizing: border-box;
+  border-radius: 6px;
+}
+
+.TradeInputDropTextField.form-control {
+  background: url('../../assets/images/icons/dropdownArrowThin.png') no-repeat
+    96% 50%;
+  text-transform: capitalize;
+}
+
+.TradeInputDropTextFieldExperience {
+  width: 194px;
+  height: 50px;
+  background-color: #ffffff;
+  border: 2px solid #c7d0de;
+  box-sizing: border-box;
+  border-radius: 6px;
+}
+
+.TradeInputDropTextFieldExperience.form-control {
+  background: url('../../assets/images/icons/dropdownArrowThin.png') no-repeat
+    96% 50%;
+  text-transform: capitalize;
+}
+
+.TopSkillsTextField {
+  display: flex;
+  margin-top: 30px;
+}
+.TradeTopSKill {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: #162a49;
+}
+.TradeIncarpentry {
+  font-family: 'Montserrat';
+  padding-left: 5px;
+  padding-right: 5px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: #2ec2e2;
+}
+.TradeLImitText {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: #808fa6;
+}
+.TradeSkillsTag {
+  flex-wrap: wrap;
+  margin-top: 12px;
+  display: flex;
+  flex-direction: row;
+}
+.TradeAdditionalContainer {
+  margin-top: 54px;
+}
+.TradeAdditionalDispalText {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 26px;
+  /* identical to box height */
+
+  color: #162a49;
+}
+.TradeAdditionalCounterText {
+  margin-left: 11px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 26px;
+  /* identical to box height */
+
+  color: #2ec2e2;
+}
+.TradeAddBUttonContainer {
+  margin-top: 14px;
+  width: 664px;
+}
+/* Profile Work Experience */
+.WorkInputDropDownField {
+  width: 374px;
+  height: 50px;
+}
+.WorkInputDropTextField {
+  width: 374px;
+  height: 50px;
+  background-color: #ffffff;
+  border: 2px solid #c7d0de;
+  box-sizing: border-box;
+  border-radius: 6px;
+}
+.WorkInputDropDownFieldRight {
+  margin-left: 23px;
+  width: 269px;
+  height: 50px;
+}
+.WorkInputDropTextFieldExperience {
+  width: 269px;
+  height: 50px;
+  background-color: #ffffff;
+  border: 2px solid #c7d0de;
+  box-sizing: border-box;
+  border-radius: 6px;
+}
+
+.WorkInputDropTextFieldExperience.form-control {
+  background: url('../../assets/images/icons/dropdownArrowThin.png') no-repeat
+    96% 50%;
+  text-transform: capitalize;
+}
+
+.ProfileDateContainer {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+}
+.ProfileDateDropDown {
+  margin-top: 25px;
+  /* width: 156px; */
+  /* height: 50px; */
+}
+.ProfileDateDropDownYear {
+  margin-left: 10px;
+  margin-top: 56px;
+  /* width: 156px; */
+  height: 50px;
+}
+.ProfileDropDownInputYear {
+  /* width: 156px; */
+  height: 50px;
+}
+.ProfileDropDownInput {
+  width: 156px;
+  height: 50px;
+}
+.ProfileDateDropDownRight {
+  margin-top: 25px;
+  margin-left: 23px;
+}
+.ProfileDateDropDownInputRight {
+  width: 156px;
+  height: 50px;
+}
+.ProfileDateDropDownRightYear {
+  margin-left: 10px;
+  margin-top: 10px;
+  width: 156px;
+  height: 50px;
+}
+.ProfileDropDownInputRightYear {
+  width: 156px;
+  height: 50px;
+}
+.CheckRoleCustomize {
+  margin-top: 10px;
+}
+.WorkDescriptionCustomize {
+  margin-top: 43px;
+}
+.WorkDisplayCustomize {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: #162a49;
+}
+.WorkDisplayOptional {
+  font-family: 'Montserrat';
+  font-style: normal;
+  display: flex;
+  flex-direction: row;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: #2ec2e2;
+}
+.WorkLabelCustomize {
+  display: flex;
+  flex-direction: row;
+}
+.WorkTextAreaCustomize {
+  width: 666px;
+  min-height: 77px;
+}
+.WorkExperienceAddBUttonContainer {
+  margin-top: 33px;
+  width: 664px;
+}
+
+/* Certificate Profile CUstomize */
+.CertificateContainer {
+  width: 770px;
+  /* height: 315px; */
+  background-color: #ffffff;
+  box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.07);
+  border-radius: 5px;
+}
+
+.CertificateInnerContainer {
+  display: flex;
+  padding-top: 30px;
+  flex-direction: column;
+  margin-left: 50px;
+}
+.CertificateTitleContainer {
+  display: flex;
+  flex-direction: row;
+}
+.CertificateText {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 34px;
+  letter-spacing: -0.03em;
+
+  color: #162a49;
+}
+.CertificateBadge {
+  display: flex;
+  justify-content: center;
+  margin-left: 20px;
+  align-items: center;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  background-color: #edf5f6;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+
+  color: #9eb2b7;
+}
+.OtherTypeOfCertificates {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #808fa6;
+}
+.InputTextForTypeCertificate {
+  height: 50px;
+  font-family: 'Montserrat';
+  background-color: #ffffff;
+  border: 2px solid #c7d0de;
+  font-size: 16px;
+  box-sizing: border-box;
+  border-radius: 6px;
+}
+.CertificateDisplayCheckBox {
+  justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  flex-direction: row;
+  width: 700px;
+}
+.CertificateAddButtonContainer {
+  margin-top: 30px;
+  width: 664px;
+  margin-bottom: 44px;
+  /* margin-left: auto;
+  margin-right: auto; */
+}
+
+/* Display the Work Prefence Customize */
+
+.WorkPrefenceDisplayTypes {
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  height: 54px;
+  justify-content: space-between;
+  width: 667px;
+}
+.WorkPrefenceCertificateContainer {
+  width: 770px;
+  padding: 0px 0px 44px 0px;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.07);
+  border-radius: 5px;
+}
+.WorkPrefenceOuterContainer {
+  margin-top: 23px;
+  width: 667px;
+  background-color: #ffffff;
+  border: 1px solid #e3eef0;
+  box-sizing: border-box;
+  border-radius: 6px;
+}
+.WorkPrefenceDispalyTitle {
+  font-family: 'Montserrat';
+  margin-left: 20px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 26px;
+  /* identical to box height */
+
+  color: #162a49;
+}
+.WorkPrefenceDispalyIcon {
+  margin-right: 23px;
+}
+.WorkPrefenceIcon {
+  color: #2ec2e2;
+}
+.WorkPrefenceShowMoreDetails {
+  /* width: 667px; */
+  background: #ffffff;
+}
+.WorkPrefenceDisplayCheckbox {
+  display: flex;
+  cursor: pointer;
+  flex-wrap: wrap;
+  margin-left: 22px;
+  margin-top: 32px;
+  flex-direction: row;
+}
+/* date picker CUstomize */
+.DatePickerClass {
+  display: flex;
+  flex-direction: row;
+  width: 322px;
+}
+[data-field='day'] {
+  opacity: 0;
+  width: 0px;
+}
+[data-field='year'] {
+  border-radius: 6px;
+  margin-left: 6px;
+  background-color: #ffffff;
+  border: 2px solid #c7d0de;
+  width: 156px;
+  height: 50px;
+}
+[data-field='month'] {
+  border-radius: 6px;
+  background-color: #ffffff;
+  border: 2px solid #c7d0de;
+  width: 156px;
+  height: 50px;
+}
+
+.DatePickerClass div {
+  display: flex;
+  flex-direction: row;
+}
+
+.DatePickerClass select {
+  padding-left: 5px;
+  background: url('../../assets/images/icons/dropdownArrowThin.png') no-repeat
+    96% 50%;
+  text-transform: capitalize;
+}
+.css-1pahdxg-control {
+  border-width: 0px !important;
+  height: 100%;
+  border-color: green;
+}
+.css-yk16xz-control {
+  height: 100%;
+  border-width: 0px !important;
+}
+.css-1okebmr-indicatorSeparator {
+  display: none;
+}
+/* .css-tlfecz-indicatorContainer{
+  background: url('../../assets/images/icons/dropdownArrowThin.png') no-repeat
+  96% 50%;
+} */
+.css-tj5bde-Svg {
+  display: none !important;
+}
+.css-1wa3eu0-placeholder {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #808fa6;
+}
+/*=========upload image container================*/
+.reactEasyCrop_Container {
+  width: 100%;
+  height: 70%;
+}
+.ProfileUploadPhotoDisplayCrop {
+  /* padding-top: 20px; */
+  /* position: relative; */
+}
+.ProfileCropButtonCustomizer {
+  width: 100%;
+
+  /* margin-top: 10px; */
+  flex: auto;
+  justify-content: flex-end;
+  padding-top: 10px;
+  display: flex;
+  padding-left: 30px;
+  padding-right: 30px;
+  align-items: center;
+  padding-bottom: 10px;
+  background-color: #ffffff;
+  border: 1px solid #e3eef0;
+  box-sizing: border-box;
+  border-radius: 6px;
+}
+.CropbuttonSaveCustomizer {
+  background-color: #2ec2e2;
+  padding: 10px 15px 10px 15px;
+  cursor: pointer;
+  border: 1px #2ec2e2;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  letter-spacing: 0.06em;
+  color: #ffff;
+  border-radius: 6px;
+}
+.CropButtonCancelButton {
+  /* background-color: #2ec2e2; */
+  padding: 10px 15px 10px 15px;
+  cursor: pointer;
+  border: 2px solid #2ec2e2;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  letter-spacing: 0.06em;
+  color: #2ec2e2;
+  border-radius: 6px;
+}
+/* .css-1hb7zxy-IndicatorsContainer{
+padding-right: 10px;
+} */

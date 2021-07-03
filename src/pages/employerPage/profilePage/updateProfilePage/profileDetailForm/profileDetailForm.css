@@ -1,0 +1,57 @@
+.EmployerProfileDetailForm {
+    padding-top: 40px;
+    width: 60%;
+    margin: auto;
+}
+
+.EmployerProfileDetailForm .EmployerProfileDetailForm__Title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+    letter-spacing: -0.03em;
+    color: #162A49;
+}
+
+.EmployerProfileDetailForm .EmployerProfileDetailForm__SubTitle {
+    padding-top: 14px;
+}
+
+.EmployerProfileDetailForm .EmployerProfileDetailForm__Form {
+    padding-top: 38px;
+}
+
+.EmployerProfileDetailForm .EmployerProfileDetailForm__Form .EmployerProfileDetailForm__Form--Name {
+    display: flex;
+    justify-content: space-between;
+}
+
+.EmployerProfileDetailForm .EmployerProfileDetailForm__Form .EmployerProfileDetailForm__Form--Name .EmployerProfileDetailForm__Form--Name--First,
+.EmployerProfileDetailForm .EmployerProfileDetailForm__Form .EmployerProfileDetailForm__Form--Name .EmployerProfileDetailForm__Form--Name--Last {
+    width: 48%;
+}
+
+.EmployerProfileDetailForm .EmployerProfileDetailForm__Form .EmployerProfileDetailForm__Form--Name .EmployerProfileDetailForm__Form--Name--First--Label,
+.EmployerProfileDetailForm .EmployerProfileDetailForm__Form .EmployerProfileDetailForm__Form--Name .EmployerProfileDetailForm__Form--Name--Last--Label {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    color: #808FA6;
+    text-align: left;
+    margin-bottom: 7px;
+}
+
+.EmployerProfileDetailForm .EmployerProfileDetailForm__Form .EmployerProfileDetailForm__Form--Name .EmployerProfileDetailForm__Form--Name--First--Box,
+.EmployerProfileDetailForm .EmployerProfileDetailForm__Form .EmployerProfileDetailForm__Form--Name .EmployerProfileDetailForm__Form--Name--Last--Box {
+    background-color: #F4F7FA;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.EmployerProfileDetailForm .EmployerProfileDetailForm__Form .EmployerProfileDetailForm__Form--Position,
+.EmployerProfileDetailForm .EmployerProfileDetailForm__Form .EmployerProfileDetailForm__Form--Website,
+.EmployerProfileDetailForm .EmployerProfileDetailForm__Form .EmployerProfileDetailForm__Form--Phone {
+    padding-top: 14px;
+}

@@ -1,0 +1,73 @@
+.candidateMessengerMainContainer {
+  background: #f2f4fa;
+  padding: 24px;
+  height: 720px;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+.candidateMessengerTitle {
+  font-family: 'Montserrat' sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+
+  color: #162a49;
+}
+
+.candidateMessengerTitle span {
+  background: #2EC2E2;
+  border-radius: 25px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #FFFFFF;
+  padding: 3px 8px;
+  margin-left: 10px;
+}
+
+.searchMessagesInputContainer {
+  position: relative;
+}
+
+.searchMessagesSearchBox {
+  padding-left: 40px;
+  margin-top: 11px;
+  width: 100%;
+  border: none;
+}
+
+.searchMessagesSearchBox::placeholder {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 138.5%;
+  /* or 19px */
+
+  color: #ced5df;
+}
+
+.searchMessagesInnerDiv {
+  display: flex;
+}
+
+.Loading__Container {
+  text-align: center;
+}
+
+.searchMessagesPlaceholderImage {
+  position: absolute;
+  left: 10px;
+  top: 8px;
+}
+
+.noMessageDiv {
+  width: 100%;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+}

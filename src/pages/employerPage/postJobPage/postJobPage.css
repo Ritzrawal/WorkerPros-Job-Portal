@@ -1,0 +1,421 @@
+.EmployerPostJob {
+  padding: 35px 65px;
+}
+
+.EmployerPostJob .EmployerPostJob__Header {
+  display: flex;
+}
+
+.EmployerPostJob .EmployerPostJob__Header .EmployerPostJob__Header--LeftLink a {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: uppercase;
+  color: #2ec2e2;
+}
+
+.EmployerPostJob
+  .EmployerPostJob__Header
+  .EmployerPostJob__Header--LeftLink
+  a:hover {
+  text-decoration: none;
+  color: #2ec2e2;
+}
+
+.EmployerPostJob
+  .EmployerPostJob__Header
+  .EmployerPostJob__Header--LeftLink
+  svg {
+  font-size: 14px;
+  margin-right: 15px;
+}
+
+.EmployerPostJob .EmployerPostJob__Header .EmployerPostJob__Header--Title {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 33px;
+  color: #2ec2e2;
+  position: absolute;
+  left: calc(50% - 65px);
+}
+
+.EmployerPostJob .EmployerPostJob__Title {
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 39px;
+  text-align: center;
+  letter-spacing: -0.03em;
+  color: #162a49;
+  padding-top: 45px;
+}
+
+.EmployerPostJob .EmployerPostJob__Container {
+  display: flex;
+  padding-top: 36px;
+}
+
+.EmployerPostJob
+  .EmployerPostJob__Container
+  .EmployerPostJob__Container--Sidebar {
+  min-width: 300px;
+  padding-right: 65px;
+  padding-left: 21px;
+}
+
+.EmployerPostJob
+  .EmployerPostJob__Container
+  .EmployerPostJob__Container--Sidebar
+  ul {
+  list-style: none;
+  padding: 0px;
+}
+
+.EmployerPostJob
+  .EmployerPostJob__Container
+  .EmployerPostJob__Container--Sidebar
+  ul
+  li {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: #808fa6;
+  margin-bottom: 39px;
+}
+
+.EmployerPostJob
+  .EmployerPostJob__Container
+  .EmployerPostJob__Container--Sidebar
+  .EmployerPostJob__Container--Sidebar--Active {
+  background: #2ec2e2;
+  box-shadow: 0px 0px 13px rgba(0, 0, 0, 0.05);
+  border-radius: 50px;
+  padding: 11px 21px 13px 21px;
+  margin-left: -21px;
+  color: #ffffff;
+}
+
+.EmployerPostJob
+  .EmployerPostJob__Container
+  .EmployerPostJob__Container--Sidebar
+  .EmployerPostJob__Container--Sidebar--Active
+  svg {
+  float: right;
+  font-size: 18px;
+}
+
+.EmployerPostJob .EmployerPostJob__Container .EmployerPostJob__Container--Body {
+  width: 100%;
+  padding-right: 250px;
+}
+
+.EmployerPostJob
+  .EmployerPostJob__Container
+  .EmployerPostJob__Container--Body
+  .EmployerPostJob__Container--Body--DetailWrapper {
+  border-right: 2px solid #eeeff1;
+  padding-right: 30px;
+}
+
+.EmployerPostJob
+  .EmployerPostJob__Container
+  .EmployerPostJob__Container--Body
+  .EmployerPostJob__Container--Body--Detail {
+  background: #ffffff;
+  box-shadow: 0px 0px 9px rgba(0, 0, 0, 0.08);
+  border-radius: 9px;
+  padding: 15px;
+  display: flex;
+}
+
+.EmployerPostJob
+  .EmployerPostJob__Container
+  .EmployerPostJob__Container--Body
+  .EmployerPostJob__Container--Body--Detail
+  .EmployerPostJob__Container--Body--Detail--Container
+  .EmployerPostJob__Container--Body--Detail--Container--Title {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: #162a49;
+  text-transform: capitalize;
+}
+
+.EmployerPostJob
+  .EmployerPostJob__Container
+  .EmployerPostJob__Container--Body
+  .EmployerPostJob__Container--Body--Detail
+  .EmployerPostJob__Container--Body--Detail--Container
+  .EmployerPostJob__Container--Body--Detail--Container--Info {
+  display: flex;
+  padding-top: 13px;
+}
+
+.EmployerPostJob
+  .EmployerPostJob__Container
+  .EmployerPostJob__Container--Body
+  .EmployerPostJob__Container--Body--Detail
+  .EmployerPostJob__Container--Body--Detail--Container
+  .EmployerPostJob__Container--Body--Detail--Container--Info
+  .EmployerPostJob__Container--Body--Detail--Container--Info--Location {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: #2ec2e2;
+  text-transform: capitalize;
+}
+
+.EmployerPostJob
+  .EmployerPostJob__Container
+  .EmployerPostJob__Container--Body
+  .EmployerPostJob__Container--Body--Detail
+  .EmployerPostJob__Container--Body--Detail--Container
+  .EmployerPostJob__Container--Body--Detail--Container--Info
+  .EmployerPostJob__Container--Body--Detail--Container--Info--Location
+  svg {
+  margin-right: 10px;
+}
+
+.EmployerPostJob
+  .EmployerPostJob__Container
+  .EmployerPostJob__Container--Body
+  .EmployerPostJob__Container--Body--Detail
+  .EmployerPostJob__Container--Body--Detail--Container
+  .EmployerPostJob__Container--Body--Detail--Container--Info
+  .EmployerPostJob__Container--Body--Detail--Container--Info--Type {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  padding-left: 20px;
+  color: #808fa6;
+}
+
+.EmployerPostJob
+  .EmployerPostJob__Container
+  .EmployerPostJob__Container--Body
+  .EmployerPostJob__Container--Body--Detail
+  .EmployerPostJob__Container--Body--Detail--Container
+  .EmployerPostJob__Container--Body--Detail--Container--Info
+  .EmployerPostJob__Container--Body--Detail--Container--Info--Rate {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  padding-left: 20px;
+  color: #808fa6;
+}
+
+.EmployerPostJob
+  .EmployerPostJob__Container
+  .EmployerPostJob__Container--Body
+  .EmployerPostJob__Container--Body--Detail
+  .EmployerPostJob__Container--Body--Detail--Button {
+  margin-left: auto;
+}
+
+.EmployerPostJob
+  .EmployerPostJob__Container
+  .EmployerPostJob__Container--Body
+  .EmployerPostJob__Container--Body--Detail
+  .EmployerPostJob__Container--Body--Detail--Button
+  button {
+  border: none;
+  background: none;
+  color: #2ec2e2;
+}
+
+.EmployerPostJob
+  .EmployerPostJob__Container
+  .EmployerPostJob__Container--Body
+  .EmployerPostJob__Container--Body--Detail
+  .EmployerPostJob__Container--Body--Detail--Button
+  svg {
+  font-size: 20px;
+}
+
+.EmployerPostJob
+  .EmployerPostJob__Container
+  .EmployerPostJob__Container--Body
+  .EmployerPostJob__Container--Body--DescriptionWrapper {
+  border-right: 2px solid #eeeff1;
+  padding-right: 30px;
+  margin-top: 21px;
+}
+
+.EmployerPostJob
+  .EmployerPostJob__Container
+  .EmployerPostJob__Container--Body
+  .EmployerPostJob__Container--Body--Description {
+  background: #ffffff;
+  box-shadow: 0px 0px 9px rgba(0, 0, 0, 0.08);
+  border-radius: 9px;
+  padding: 15px;
+  display: flex;
+  word-break: break-all;
+}
+
+.EmployerPostJob
+  .EmployerPostJob__Container
+  .EmployerPostJob__Container--Body
+  .EmployerPostJob__Container--Body--Description
+  .EmployerPostJob__Container--Body--Description--Container
+  .EmployerPostJob__Container--Body--Description--Container--Title {
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #808fa6;
+  text-transform: uppercase;
+}
+
+.EmployerPostJob
+  .EmployerPostJob__Container
+  .EmployerPostJob__Container--Body
+  .EmployerPostJob__Container--Body--Description
+  .EmployerPostJob__Container--Body--Description--Container
+  .EmployerPostJob__Container--Body--Description--Container--Info {
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 150%;
+  color: #808fa6;
+  text-transform: capitalize;
+  padding-top: 6px;
+}
+
+.EmployerPostJob
+  .EmployerPostJob__Container
+  .EmployerPostJob__Container--Body
+  .EmployerPostJob__Container--Body--Description
+  .EmployerPostJob__Container--Body--Description--Button {
+  margin-left: auto;
+}
+
+.EmployerPostJob
+  .EmployerPostJob__Container
+  .EmployerPostJob__Container--Body
+  .EmployerPostJob__Container--Body--Description
+  .EmployerPostJob__Container--Body--Description--Button
+  button {
+  border: none;
+  background: none;
+  color: #2ec2e2;
+}
+
+.EmployerPostJob
+  .EmployerPostJob__Container
+  .EmployerPostJob__Container--Body
+  .EmployerPostJob__Container--Body--Description
+  .EmployerPostJob__Container--Body--Description--Button
+  svg {
+  font-size: 20px;
+}
+
+.EmployerPostJob
+  .EmployerPostJob__Container
+  .EmployerPostJob__Container--Body
+  .EmployerPostJob__Container--Body--Form
+  .EmployerPostJob__Container--Body--Form--JobDescriptionForm,
+.EmployerPostJob
+  .EmployerPostJob__Container
+  .EmployerPostJob__Container--Body
+  .EmployerPostJob__Container--Body--Form
+  .EmployerPostJob__Container--Body--Form--JobSkillForm {
+  border-right: 2px solid #2ec2e2;
+  padding-right: 31px;
+  margin-top: 31px;
+}
+
+.EmployerPostJob
+  .EmployerPostJob__Container
+  .EmployerPostJob__Container--Body
+  .EmployerPostJob__Container--Body--Form
+  .EmployerPostJob__Container--Body--Form--JobBasicForm.Hide,
+.EmployerPostJob
+  .EmployerPostJob__Container
+  .EmployerPostJob__Container--Body
+  .EmployerPostJob__Container--Body--Form
+  .EmployerPostJob__Container--Body--Form--JobDescriptionForm.Hide,
+.EmployerPostJob
+  .EmployerPostJob__Container
+  .EmployerPostJob__Container--Body
+  .EmployerPostJob__Container--Body--Form
+  .EmployerPostJob__Container--Body--Form--JobSkillForm.Hide {
+  display: none;
+}
+
+.EmployerPostJob
+  .EmployerPostJob__Container
+  .EmployerPostJob__Container--Body
+  .EmployerPostJob__Container--NextButton {
+  display: flex;
+  background: #ffffff;
+  border: 1px solid #e8eaee;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.06);
+  border-radius: 7px;
+  margin-top: 60px;
+  padding: 10px 15px;
+}
+
+.EmployerPostJob
+  .EmployerPostJob__Container
+  .EmployerPostJob__Container--Body
+  .EmployerPostJob__Container--NextButton
+  .EmployerPostJob__Container--NextButton--Preview {
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 18px;
+  color: #808fa6;
+  padding: 12px 0px;
+}
+
+.EmployerPostJob
+  .EmployerPostJob__Container
+  .EmployerPostJob__Container--Body
+  .EmployerPostJob__Container--NextButton
+  .EmployerPostJob__Container--NextButton--Preview
+  svg {
+  margin-right: 7px;
+}
+
+.EmployerPostJob
+  .EmployerPostJob__Container
+  .EmployerPostJob__Container--Body
+  .EmployerPostJob__Container--NextButton
+  .EmployerPostJob__Container--NextButton--Next {
+  margin-left: auto;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 18px;
+  color: #2ec2e2;
+}
+
+.EmployerPostJob
+  .EmployerPostJob__Container
+  .EmployerPostJob__Container--Body
+  .EmployerPostJob__Container--NextButton
+  .EmployerPostJob__Container--NextButton--Next
+  button {
+  padding: 12px 40px;
+  background: #2ec2e2;
+  border: none;
+  border-radius: 50px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: #fff;
+  margin-left: 26px;
+}
+
+.EmployerPostJob
+  .EmployerPostJob__Container
+  .EmployerPostJob__Container--Body
+  .EmployerPostJob__Container--NextButton
+  .EmployerPostJob__Container--NextButton--Next
+  span:hover {
+  cursor: pointer;
+}

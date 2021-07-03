@@ -1,0 +1,369 @@
+.form-control {
+  margin-bottom: 15px;
+}
+#root {
+  height: 100%;
+  width: 100%;
+}
+div.App {
+  height: 100%;
+}
+.LoginMainContainer {
+  background-color: #ffffff;
+  width: 100%;
+  display: flex;
+  height: 100%;
+  flex-direction: row;
+}
+
+.logInBtn {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.LoginInnerMainContainer {
+  width: 50%;
+  margin-right: 15%;
+}
+
+.LoginTitleText {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 33px;
+  letter-spacing: -0.02em;
+
+  color: #234476;
+}
+.LoginTextComponent {
+  margin-top: 42px;
+}
+.LoginPasswordTextComponent {
+  margin-bottom: 10%;
+  margin-top: 40px;
+}
+
+.LoginSignUpText {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 39px;
+  /* identical to box height */
+  letter-spacing: -0.03em;
+  color: #162a49;
+}
+.LoginAccountTypeContainer {
+  margin-top: 10px;
+}
+.LoginAccountTypeText {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #808fa6;
+}
+
+.loginOptions {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  color: #162a49;
+  text-align: center;
+  width: 100%;
+}
+
+.loginOptions .signUp {
+  margin-bottom: 10px;
+}
+
+.loginOptions a {
+  color: #2ec2e2;
+  font-weight: bold;
+}
+
+.LoginGoogleLoginButtonText {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+}
+
+/* Overwriting Sign Up with google style */
+.LoginGoogleLoginButton {
+  opacity: 1 !important;
+  display: flex;
+  justify-content: center;
+  height: 44px;
+  width: 100%;
+  background: #ffffff;
+  border: 2px solid #c7d0de !important;
+  box-sizing: border-box;
+  border-radius: 50px !important;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px !important;
+  line-height: 18px;
+  text-align: center;
+  box-shadow: none !important;
+  color: #162a49 !important;
+}
+.LoginGoogleButtonContainer {
+  margin-top: 27px;
+  display: flex;
+  width: 341px;
+  justify-content: center;
+}
+.LoginDivideLine {
+  margin-top: 16px;
+  margin-bottom: 13px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 341px;
+}
+.LoginLeftHalfDivider {
+  height: 1px;
+  background: #e1e5ec;
+  flex-grow: 1;
+}
+.LoginDividerText {
+  margin-left: 30px;
+  margin-right: 30px;
+  color: #808fa6;
+  font-size: 12px;
+  font-weight: 700;
+}
+.LoginRightHalfDivider {
+  border-bottom: 1px solid #e1e5ec;
+  width: 40%;
+}
+
+.CustomCheckBox .LoginCheckBoxCustomize {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 20px;
+  white-space: nowrap;
+}
+
+.checkmark {
+  position: absolute;
+  top: 2px;
+  left: 0;
+  height: 19px;
+  width: 19px;
+  background-color: #fff;
+  border: 2px solid #2ec2e2;
+  border-radius: 4px;
+}
+
+.LoginChecBoxContainer:hover input ~ .checkmark {
+  background: #f2f8f9;
+}
+
+.checkmark:after {
+  content: '';
+  position: absolute;
+  display: none;
+}
+
+.LoginChecBoxContainer input:checked ~ .checkmark:after {
+  display: block;
+}
+
+.LoginChecBoxContainer .checkmark:after {
+  left: 5px;
+  top: 2px;
+  width: 5px;
+  height: 10px;
+  border: solid #2ec2e2;
+  border-width: 0 3px 3px 0;
+  transform: rotate(45deg);
+}
+
+.LoginCheckBoxText {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  color: #5e7291;
+  font-weight: 500;
+  font-size: 14px;
+  margin-left: 10px;
+}
+.LoginChecBoxContainer {
+  display: flex;
+  /* justify-content: center; */
+  /* margin-right: 30%; */
+  margin-bottom: 2%;
+  margin-top: 2%;
+}
+.LoginLabelCustomizer {
+  font-family: 'Montserrat', sans-serif;
+  color: #808fa6;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.LoginButtonContainer {
+}
+.LoginMainContainer .signup-para {
+  margin-top: 180px;
+}
+.logInBtn.form-group button {
+  height: 46px !important;
+  width: 342px !important;
+}
+.LoginMainContainer .logInBtn.form-group {
+  margin-bottom: 26px !important;
+}
+.LoginFormGroupCustomize {
+  font-family: 'Montserrat', sans-serif;
+  height: 44px;
+  width: 342px;
+  background: #ffffff;
+  border: 2px solid #c7d0de;
+  box-sizing: border-box;
+  border-radius: 6px;
+  font-size: 15px;
+  color: #162a49;
+  font-weight: 500;
+}
+.SignupMainContainer .LoginFormGroupCustomize {
+  width: 100% !important;
+}
+.SignupMainContainer #email {
+  width: 342px !important;
+}
+.SignupMainContainer #password {
+  width: 342px !important;
+}
+
+.SignupMainContainer #examplePassword {
+  width: 164px !important;
+}
+.FormGroupCustomize::placeholder {
+  font-family: 'Montserrat', sans-serif;
+}
+.LoginButtonCustomize {
+  width: 100%;
+  height: 30%;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.LoginButtonCustomizeStyling {
+  height: 50px;
+  width: 100%;
+}
+.LoginUsernameCustomize {
+  display: flex;
+  flex-direction: row;
+}
+.LoginSignupLoginText {
+  display: flex;
+}
+.LoginTextSecondary {
+  color: yellow;
+}
+.LoginFirstNameLastName {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.LoginFormCustomizer {
+  width: 100%;
+  /* display: flex; */
+  /* height: 100%; */
+  /* justify-content: center;
+    align-items: center; */
+}
+.LoginInpuStyling {
+  height: 60px;
+  width: 60%;
+  border-radius: 10px;
+}
+.ErrorTextMessage {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 16px;
+  color: #cb1e1e;
+}
+.SucessTextMessage {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 16px;
+  color: #270;
+}
+.LoginCreateProfileContainer {
+  width: 100%;
+  display: flex;
+  margin-top: 20px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.LoginRightHalfContainer {
+  background-image: url('../../assets/images/landing-page/signup.png');
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 100% 180px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 0.5;
+  width: 100%;
+  height: 100vh;
+  background-color: #1d355a;
+  align-items: center;
+}
+.RightHalfButton button:first-child {
+  margin-right: 1px;
+  width: 172px !important;
+  height: 44px !important;
+}
+.RightHalfButton button:nth-child(2) {
+  width: 190px !important;
+  height: 44px !important;
+  background: #eceef0 !important;
+  /* color: #162A49 !important; */
+}
+.LoginMainContainer .loginOptions .signUp {
+  width: 342px;
+}
+.LoginMainContainer .loginOptions .forgotPassword {
+  width: 342px;
+}
+.LoginTitleTextConatiner {
+  margin-top: 36px;
+}
+.signup-para {
+  margin-top: 124px;
+  margin-right: 8%;
+}
+.LoginBackgroundImage {
+  /* justify-content: center; */
+  background-size: 100% 100%;
+  width: 100%;
+
+  height: 100%;
+  background-repeat: no-repeat;
+  background-image: url(../../assets/righthalf.png);
+}

@@ -1,0 +1,71 @@
+.EmployerDashboard {
+  display: flex;
+}
+
+.EmployerDashboard .EmployerDashboard__Body {
+  width: 100%;
+  height: calc(100vh - 75px);
+  overflow-y: scroll;
+  padding: 39px 65px 39px 47px;
+  background-color: #F2F4FA;
+}
+
+.EmployerDashboard .EmployerDashboard__Body .EmployerDashboard__Body--PostFirstJob   {
+  padding-top: 29px;
+}
+
+
+.EmployerDashboard
+  .EmployerDashboard__Body
+  .EmployerDashboard__Body--Container {
+  display: flex;
+  padding-top: 34px;
+  justify-content: space-between;
+}
+
+.EmployerDashboard
+  .EmployerDashboard__Body
+  .EmployerDashboard__Body--Container
+  .EmployerDashboard__Body--Container--Left,
+.EmployerDashboard
+  .EmployerDashboard__Body
+  .EmployerDashboard__Body--Container
+  .EmployerDashboard__Body--Container--Right {
+  width: 49%;
+}
+
+.EmployerDashboard
+  .EmployerDashboard__Body
+  .EmployerDashboard__Body--Container
+  .EmployerDashboard__Body--Container--Left
+  .EmployerDashboard__Body--Container--Left--Job,
+.EmployerDashboard
+  .EmployerDashboard__Body
+  .EmployerDashboard__Body--Container
+  .EmployerDashboard__Body--Container--Right
+  .EmployerDashboard__Body--Container--Right--Notification,
+.EmployerDashboard
+  .EmployerDashboard__Body
+  .EmployerDashboard__Body--Container
+  .EmployerDashboard__Body--Container--Right
+  .EmployerDashboard__Body--Container--Right--EventCalendar {
+  padding-top: 32px;
+}
+
+.EmployerDashboard
+  .EmployerDashboard__Body
+  .EmployerDashboard__Body--Container
+  .EmployerDashboard__Body--Container--Left
+  .EmployerDashboard__Body--Container--Left--Message,
+.EmployerDashboard
+  .EmployerDashboard__Body
+  .EmployerDashboard__Body--Container
+  .EmployerDashboard__Body--Container--Left
+  .EmployerDashboard__Body--Container--Left--Download,
+.EmployerDashboard
+  .EmployerDashboard__Body
+  .EmployerDashboard__Body--Container
+  .EmployerDashboard__Body--Container--Left
+  .EmployerDashboard__Body--Container--Left--PostFirstJob {
+  padding-top: 16px;
+}

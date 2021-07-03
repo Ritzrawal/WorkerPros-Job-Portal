@@ -1,0 +1,24 @@
+.EmployerMessage {
+    display: flex;
+}
+
+.EmployerMessage .EmployerMessage__Body {
+    width: 100%;
+    height: calc(100vh - 75px); 
+    background-color: #F2F4FA;
+    display: flex;
+    overflow-y: scroll;
+}
+
+.EmployerMessage .EmployerMessage__Body .EmployerMessage__Body--MessageList {
+    width: 331px;
+}
+
+.EmployerMessage .EmployerMessage__Body .EmployerMessage__Body--MessageDetail {
+    width: 100%;
+    background-color: #fff;
+}
+
+.EmployerMessage .EmployerMessage__Body .EmployerMessage__Body--MessageInfo {
+    width: 531px;
+}

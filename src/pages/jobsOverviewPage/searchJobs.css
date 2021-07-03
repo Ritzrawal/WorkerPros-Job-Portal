@@ -1,0 +1,31 @@
+.SearchJobs__Body--Header--Search {
+  margin-left: auto;
+}
+
+.SearchJobs__Body--Header--Search .SearchBox__Icon {
+  position: relative;
+}
+
+.SearchJobs__Body--Header--Search .SearchBox__Icon .fa.fa-search {
+  position: absolute;
+  top: 12px;
+  left: 18px;
+  color: #2ec2e2;
+}
+
+.SearchJobs__Body--Header--Search .SearchBox__Icon .searchJobsPageInputModule {
+  padding-left: 40px;
+  width: 269px;
+  height: 40px;
+  border: 1px solid #edf1f8;
+  border-radius: 6px;
+  display: flex;
+}
+
+.SearchJobs__Body--Header--Search
+  .SearchBox__Icon
+  .searchJobsPageInputModule::placeholder {
+  padding: 9px 0px 12px 10px;
+  color: #ced5df;
+  font-size: 14px;
+}

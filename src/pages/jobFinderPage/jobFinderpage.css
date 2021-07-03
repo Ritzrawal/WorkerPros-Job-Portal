@@ -1,0 +1,391 @@
+.JobsMainContainer {
+  padding-bottom: 40px;
+  background-color: #f2f4fa;
+}
+
+.loaderDiv {
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+/* -------------- BannerSection ----------------- */
+
+.bannerSectionJobPage {
+  height: 328px;
+  font-family: "Montserrat", sans-serif;
+  padding: 73px 120px;
+
+  background-image: linear-gradient(
+      180deg,
+      rgba(35, 68, 118, 0.67) 0%,
+      rgba(35, 68, 118, 0.41) 100%
+    ),
+    url("../../assets//images/job-description/banner.png");
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 0;
+}
+
+.findJobsInSectionJobPage {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 27px;
+  /* identical to box height */
+
+  letter-spacing: -0.01em;
+
+  color: #162a49;
+  padding-left: 20px;
+}
+
+/* .findJobsInSectionJobPage .JobFilter__Option {
+  display: flex;
+}
+
+.findJobsInSectionJobPage .JobFilter__Option--HourlyPay {
+} */
+
+.companiesFilterSectionJobPage {
+  flex-direction: column;
+  display: flex;
+  width: 100%;
+  box-shadow: 0px -2px 16px rgb(0 0 0 / 8%);
+  border-radius: 14px;
+  padding: 30px;
+  background-color: white;
+  height: fit-content;
+}
+
+/* -------- Jobs Type List -----------  */
+
+.jobsListSection {
+  font-family: "Montserrat", sans-serif;
+  /* margin-top: 340px; */
+  padding: 0px 35px;
+}
+
+.findJobsInBannerSection {
+  margin-top: -267px;
+  padding: 73px 120px;
+
+  display: flex;
+  z-index: 1000;
+}
+
+.jobsListSection h5 {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #162a49;
+}
+
+.TotalofJobFinder {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: right;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+
+  color: #aab5c5;
+}
+
+.job-category-list .landingPageJobstypeLi {
+  text-transform: capitalize;
+  background-color: #ffffff;
+  border: 2px solid #c7d0de;
+  color: #000000;
+}
+
+.job-category-list .landingPageJobstypeLi.active {
+  background-color: #234476;
+  border: 2px solid #234476;
+  color: #ffffff;
+}
+
+.jobs-list-ul .midCardLeft {
+  margin-right: 70px;
+}
+
+.landingPageJobstypeLi.jobFinder:hover {
+  background-color: #234476;
+  border: 2px solid #234476;
+  color: white;
+}
+
+/* -------- Filtering Section ---------- */
+
+.jobFinderRangeSliderDiv {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  padding-left: 20px;
+}
+
+.jobFinderPageFilterTitle {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+
+  color: #162a49;
+}
+
+.jobFinderPageRangeMin {
+  position: absolute;
+  top: 72px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: #9ba8bc;
+}
+
+.jobFinderPageRangeMax {
+  position: absolute;
+  top: 72px;
+  right: 5px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: #9ba8bc;
+}
+
+.jobFinderMoreFilterDiv {
+  margin-top: 15px;
+  cursor: pointer;
+  text-align: center;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 18px;
+
+  color: #234476;
+}
+
+.jobFinderPageFilter1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.jobFinderPageSkillLevelDiv {
+  margin-left: 40px;
+}
+
+.jobFinderPageSkillLevelDiv .form-control {
+  margin-top: 15px;
+  margin-bottom: 0px;
+}
+
+.jobFinderPageSearchDiv {
+  margin-left: 30px;
+  position: relative;
+}
+
+.jobFinderSearchInnerDiv {
+  display: flex;
+}
+
+.jobFinderButtonDiv {
+  margin-left: auto;
+}
+
+.jobFinderButtonDiv button {
+  border-radius: 2px !important;
+}
+
+.jobFinderPageSearchDiv button {
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.jobFinderPageSearchBox {
+  width: 400px;
+  padding-left: 45px;
+  margin-top: 20px;
+  background: #ffffff;
+  border: 2px solid #c7d0de;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.jobFinderPageSearchBox::placeholder {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+
+  color: #b6bebe;
+}
+
+/* ---------- Additional Filters Div --------- */
+
+.jobFinderMoreFiltersDiv {
+  margin-top: 15px;
+  display: none;
+}
+
+.jobFinderMoreFiltersDiv .ProfileSliderValueContainer {
+  width: 100%;
+}
+
+.jobFinderAdditionalFiltersTextDiv {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: #c9d0d9;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.jobFinderAdditionalFiltersTextDiv:before,
+.jobFinderAdditionalFiltersTextDiv:after {
+  background-color: #f2f4f5;
+  content: "";
+  display: inline-block;
+  height: 2px;
+  position: relative;
+  vertical-align: middle;
+  width: 40%;
+  margin: 5px;
+}
+
+.jobFinderAdditionalFiltersContainer {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 20px;
+}
+
+.addFilterWilltoTravel {
+  width: 50%;
+  margin-left: 40px;
+}
+
+.jobFinderMoreFiltersDiv .ReactTags__tagInputField {
+  border: none;
+  width: 400px;
+}
+
+.jobFinderMoreFiltersDiv .ReactTags__selected {
+  display: flex;
+  padding: 10px;
+}
+
+.jobFinderMoreFiltersDiv .ReactTags__selected span {
+  color: #ffffff;
+  margin-right: 10px;
+  display: flex;
+  background: #234476;
+  border-radius: 3px;
+  padding: 5px;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 18px;
+
+  color: #ffffff;
+}
+
+.jobFinderMoreFiltersDiv .ReactTags__selected span button {
+  font-size: 15px;
+  background: transparent;
+  border: none;
+  color: #ffffff;
+}
+
+.jobFinderMoreFiltersDiv .react-tags-wrapper {
+  background: #ffffff;
+  border: 2px solid #c7d0de;
+  box-sizing: border-box;
+  border-radius: 5px;
+  margin-top: 20px;
+  padding-left: 40px;
+}
+
+.addFilterLocationSelect {
+  position: relative;
+}
+
+.addLocationTagImage {
+  position: absolute;
+  top: 55px;
+  left: 15px;
+}
+
+/* Skill Select Section Filters */
+.job-category-list ul {
+  position: relative;
+}
+
+.job-category-list .jobFinderSkillSelectContainer {
+  position: absolute;
+  width: 97%;
+  left: 0;
+  margin-top: 25px;
+  display: none;
+}
+.jobFinderSkillSelectContainer.show {
+  display: flex;
+
+  flex-wrap: wrap;
+  /* white-space: nowrap; */
+  background: #f2f6fc;
+  /* justify-content: space-between; */
+}
+
+.jobFinderSkillSelectContainer .GlobalChecBoxContainer {
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-top: 10px;
+  margin-left: 10px;
+  text-transform: capitalize;
+}
+
+.landingPageJobstypeLi.jobFinder.active.pointer .jobFinderContainer {
+  position: relative;
+}
+
+.landingPageJobstypeLi.jobFinder.active.pointer .jobFinderContainer:after {
+  content: '';
+  position: absolute;
+  border-top: 10px solid #234476;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  bottom: -20px;
+  left: 30%;
+}

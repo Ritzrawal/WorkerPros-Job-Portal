@@ -1,0 +1,304 @@
+.EmployerSubscriptionDetail {
+    display: flex;
+}
+
+.EmployerSubscriptionDetail .EmployerSubscriptionDetail__Body {
+    width: 100%;
+    height: calc(100vh - 75px); 
+    overflow-y: scroll;
+    display: flex;
+}
+
+.EmployerSubscriptionDetail .EmployerSubscriptionDetail__Body .EmployerSubscriptionDetail__Body--Left {
+    padding: 35px 29px 35px 43px;
+    width: 100%;
+    background-color: rgba(242, 244, 250, 0.54)
+}
+
+.EmployerSubscriptionDetail .EmployerSubscriptionDetail__Body .EmployerSubscriptionDetail__Body--Left .EmployerSubscriptionDetail__Body--Left--Title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: -0.03em;
+    color: #162A49;
+}
+
+.EmployerSubscriptionDetail .EmployerSubscriptionDetail__Body .EmployerSubscriptionDetail__Body--Left .EmployerSubscriptionDetail__Body--Left--Card {
+    padding-top: 26px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.EmployerSubscriptionDetail .EmployerSubscriptionDetail__Body .EmployerSubscriptionDetail__Body--Left .EmployerSubscriptionDetail__Body--Left--Card .EmployerSubscriptionDetail__Body--Left--Card--Plan {
+    padding: 16px;
+    background-color: #162A49;
+    border-radius: 6px;
+    width: 48%;
+    background-image: url('../../../../assets//images//subscriptionPlanBackground.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+}
+
+.EmployerSubscriptionDetail .EmployerSubscriptionDetail__Body .EmployerSubscriptionDetail__Body--Left .EmployerSubscriptionDetail__Body--Left--Card .EmployerSubscriptionDetail__Body--Left--Card--Plan .EmployerSubscriptionDetail__Body--Left--Card--Plan--Title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 160%;
+    color: #FFFFFF;
+}
+
+.EmployerSubscriptionDetail .EmployerSubscriptionDetail__Body .EmployerSubscriptionDetail__Body--Left .EmployerSubscriptionDetail__Body--Left--Card .EmployerSubscriptionDetail__Body--Left--Card--Plan .EmployerSubscriptionDetail__Body--Left--Card--Plan--Price {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    color: #808FA6;
+    padding-top: 25px;
+}
+
+.EmployerSubscriptionDetail .EmployerSubscriptionDetail__Body .EmployerSubscriptionDetail__Body--Left .EmployerSubscriptionDetail__Body--Left--Card .EmployerSubscriptionDetail__Body--Left--Card--Plan .EmployerSubscriptionDetail__Body--Left--Card--Plan--Price span {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 43px;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+}
+
+.EmployerSubscriptionDetail .EmployerSubscriptionDetail__Body .EmployerSubscriptionDetail__Body--Left .EmployerSubscriptionDetail__Body--Left--Card .EmployerSubscriptionDetail__Body--Left--Card--Plan .EmployerSubscriptionDetail__Body--Left--Card--Plan--Button {
+    padding-top: 40px;
+}
+
+.EmployerSubscriptionDetail .EmployerSubscriptionDetail__Body .EmployerSubscriptionDetail__Body--Left .EmployerSubscriptionDetail__Body--Left--Card .EmployerSubscriptionDetail__Body--Left--Card--Plan .EmployerSubscriptionDetail__Body--Left--Card--Plan--Button button {
+    background: #FFFFFF;
+    border-radius: 50px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #162A49;
+    padding: 13px 34px;
+    border: none;
+}
+
+.EmployerSubscriptionDetail .EmployerSubscriptionDetail__Body .EmployerSubscriptionDetail__Body--Left .EmployerSubscriptionDetail__Body--Left--Card .EmployerSubscriptionDetail__Body--Left--Card--Payment {
+    padding: 16px;
+    background-color: #fff;
+    border-radius: 6px;
+    width: 48%;
+}
+
+.EmployerSubscriptionDetail .EmployerSubscriptionDetail__Body .EmployerSubscriptionDetail__Body--Left .EmployerSubscriptionDetail__Body--Left--Card .EmployerSubscriptionDetail__Body--Left--Card--Payment .EmployerSubscriptionDetail__Body--Left--Card--Payment--Title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #808FA6;
+    padding-top: 5px;
+}
+
+.EmployerSubscriptionDetail .EmployerSubscriptionDetail__Body .EmployerSubscriptionDetail__Body--Left .EmployerSubscriptionDetail__Body--Left--Card .EmployerSubscriptionDetail__Body--Left--Card--Payment .EmployerSubscriptionDetail__Body--Left--Card--Payment--Date {
+    padding-top: 20px;
+    display: flex;
+}
+
+.EmployerSubscriptionDetail .EmployerSubscriptionDetail__Body .EmployerSubscriptionDetail__Body--Left .EmployerSubscriptionDetail__Body--Left--Card .EmployerSubscriptionDetail__Body--Left--Card--Payment .EmployerSubscriptionDetail__Body--Left--Card--Payment--Date .EmployerSubscriptionDetail__Body--Left--Card--Payment--Date--Icon {
+    background: #FFFFFF;
+    border: 1px solid #F7F9FC;
+    border-radius: 8px;
+    padding: 12px;
+}
+
+.EmployerSubscriptionDetail .EmployerSubscriptionDetail__Body .EmployerSubscriptionDetail__Body--Left .EmployerSubscriptionDetail__Body--Left--Card .EmployerSubscriptionDetail__Body--Left--Card--Payment .EmployerSubscriptionDetail__Body--Left--Card--Payment--Date .EmployerSubscriptionDetail__Body--Left--Card--Payment--Date--Text {
+
+    padding-left: 14px;
+}
+
+.EmployerSubscriptionDetail .EmployerSubscriptionDetail__Body .EmployerSubscriptionDetail__Body--Left .EmployerSubscriptionDetail__Body--Left--Card .EmployerSubscriptionDetail__Body--Left--Card--Payment .EmployerSubscriptionDetail__Body--Left--Card--Payment--Date .EmployerSubscriptionDetail__Body--Left--Card--Payment--Date--Text .EmployerSubscriptionDetail__Body--Left--Card--Payment--Date--Text--Count {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    color: #162A49;
+}
+
+.EmployerSubscriptionDetail .EmployerSubscriptionDetail__Body .EmployerSubscriptionDetail__Body--Left .EmployerSubscriptionDetail__Body--Left--Card .EmployerSubscriptionDetail__Body--Left--Card--Payment .EmployerSubscriptionDetail__Body--Left--Card--Payment--Date .EmployerSubscriptionDetail__Body--Left--Card--Payment--Date--Text .EmployerSubscriptionDetail__Body--Left--Card--Payment--Date--Text--Full {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 160%;
+    color: #808FA6;
+}
+
+.EmployerSubscriptionDetail .EmployerSubscriptionDetail__Body .EmployerSubscriptionDetail__Body--Left .EmployerSubscriptionDetail__Body--Left--Card .EmployerSubscriptionDetail__Body--Left--Card--Payment .EmployerSubscriptionDetail__Body--Left--Card--Payment--Button {
+    padding-top: 41px;
+}
+
+.EmployerSubscriptionDetail .EmployerSubscriptionDetail__Body .EmployerSubscriptionDetail__Body--Left .EmployerSubscriptionDetail__Body--Left--Card .EmployerSubscriptionDetail__Body--Left--Card--Payment .EmployerSubscriptionDetail__Body--Left--Card--Payment--Button button {
+    border: 2px solid #2EC2E2;
+    border-radius: 50px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #2EC2E2;
+    padding: 13px 54px;
+    background: #fff;
+}
+
+.EmployerSubscriptionDetail .EmployerSubscriptionDetail__Body .EmployerSubscriptionDetail__Body--Left .EmployerSubscriptionDetail__Body--Left--PaymentHistory {
+    padding-top: 34px;
+}
+
+.EmployerSubscriptionDetail .EmployerSubscriptionDetail__Body .EmployerSubscriptionDetail__Body--Left .EmployerSubscriptionDetail__Body--Left--PaymentHistory .EmployerSubscriptionDetail__Body--Left--PaymentHistory--Title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    color: #808FA6;
+}
+
+.EmployerSubscriptionDetail .EmployerSubscriptionDetail__Body .EmployerSubscriptionDetail__Body--Left .EmployerSubscriptionDetail__Body--Left--PaymentHistory .EmployerSubscriptionDetail__Body--Left--PaymentHistory--List {
+    padding-top: 22px;
+}
+
+.EmployerSubscriptionDetail .EmployerSubscriptionDetail__Body .EmployerSubscriptionDetail__Body--Left .EmployerSubscriptionDetail__Body--Left--PaymentHistory .EmployerSubscriptionDetail__Body--Left--PaymentHistory--List .EmployerSubscriptionDetail__Body--Left--PaymentHistory--List--PaymentHistoryBox {
+    padding-bottom: 15px;
+}
+
+.EmployerSubscriptionDetail .EmployerSubscriptionDetail__Body .EmployerSubscriptionDetail__Body--Right {
+    background-color: rgba(242, 244, 250, 0.22);
+    width: 450px;
+    padding: 35px 20px;
+}
+
+.EmployerSubscriptionDetail .EmployerSubscriptionDetail__Body .EmployerSubscriptionDetail__Body--Right .EmployerSubscriptionDetail__Body--Right--PaymentInformation {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.03);
+    border-radius: 6px;
+    padding: 17px;
+}
+
+.EmployerSubscriptionDetail .EmployerSubscriptionDetail__Body .EmployerSubscriptionDetail__Body--Right .EmployerSubscriptionDetail__Body--Right--PaymentInformation .EmployerSubscriptionDetail__Body--Right--PaymentInformation--Header {
+    display: flex;
+}
+
+.EmployerSubscriptionDetail .EmployerSubscriptionDetail__Body .EmployerSubscriptionDetail__Body--Right .EmployerSubscriptionDetail__Body--Right--PaymentInformation .EmployerSubscriptionDetail__Body--Right--PaymentInformation--Header .EmployerSubscriptionDetail__Body--Right--PaymentInformation--Header--Title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #162A49;
+    padding-top: 3px;
+}
+
+.EmployerSubscriptionDetail .EmployerSubscriptionDetail__Body .EmployerSubscriptionDetail__Body--Right .EmployerSubscriptionDetail__Body--Right--PaymentInformation .EmployerSubscriptionDetail__Body--Right--PaymentInformation--Header .EmployerSubscriptionDetail__Body--Right--PaymentInformation--Header--Icon {
+    margin-left: auto;
+}
+
+
+.EmployerSubscriptionDetail .EmployerSubscriptionDetail__Body .EmployerSubscriptionDetail__Body--Right .EmployerSubscriptionDetail__Body--Right--PaymentInformation .EmployerSubscriptionDetail__Body--Right--PaymentInformation--Body {
+    display: flex;
+    padding-top: 15px;
+}
+
+.EmployerSubscriptionDetail .EmployerSubscriptionDetail__Body .EmployerSubscriptionDetail__Body--Right .EmployerSubscriptionDetail__Body--Right--PaymentInformation .EmployerSubscriptionDetail__Body--Right--PaymentInformation--Body .EmployerSubscriptionDetail__Body--Right--PaymentInformation--Body--Image {}
+
+.EmployerSubscriptionDetail .EmployerSubscriptionDetail__Body .EmployerSubscriptionDetail__Body--Right .EmployerSubscriptionDetail__Body--Right--PaymentInformation .EmployerSubscriptionDetail__Body--Right--PaymentInformation--Body .EmployerSubscriptionDetail__Body--Right--PaymentInformation--Body--Text {
+    padding-left: 14px;
+}
+
+.EmployerSubscriptionDetail .EmployerSubscriptionDetail__Body .EmployerSubscriptionDetail__Body--Right .EmployerSubscriptionDetail__Body--Right--PaymentInformation .EmployerSubscriptionDetail__Body--Right--PaymentInformation--Body .EmployerSubscriptionDetail__Body--Right--PaymentInformation--Body--Text .EmployerSubscriptionDetail__Body--Right--PaymentInformation--Body--Text--Number,
+.EmployerSubscriptionDetail .EmployerSubscriptionDetail__Body .EmployerSubscriptionDetail__Body--Right .EmployerSubscriptionDetail__Body--Right--PaymentInformation .EmployerSubscriptionDetail__Body--Right--PaymentInformation--Body .EmployerSubscriptionDetail__Body--Right--PaymentInformation--Body--Text .EmployerSubscriptionDetail__Body--Right--PaymentInformation--Body--Text--Date {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    color: #808FA6;
+}
+
+.EmployerSubscriptionDetail .EmployerSubscriptionDetail__Body .EmployerSubscriptionDetail__Body--Right .EmployerSubscriptionDetail__Body--Right--PaymentInformation .EmployerSubscriptionDetail__Body--Right--PaymentInformation--Body .EmployerSubscriptionDetail__Body--Right--PaymentInformation--Body--Text .EmployerSubscriptionDetail__Body--Right--PaymentInformation--Body--Text--Number span,
+.EmployerSubscriptionDetail .EmployerSubscriptionDetail__Body .EmployerSubscriptionDetail__Body--Right .EmployerSubscriptionDetail__Body--Right--PaymentInformation .EmployerSubscriptionDetail__Body--Right--PaymentInformation--Body .EmployerSubscriptionDetail__Body--Right--PaymentInformation--Body--Text .EmployerSubscriptionDetail__Body--Right--PaymentInformation--Body--Text--Date span {
+    color: #162A49;
+}
+
+.EmployerSubscriptionDetail .EmployerSubscriptionDetail__Body .EmployerSubscriptionDetail__Body--Right .EmployerSubscriptionDetail__Body--Right--PaymentInformation .EmployerSubscriptionDetail__Body--Right--PaymentInformation--Footer {
+    padding-top: 19px;
+}
+
+.EmployerSubscriptionDetail .EmployerSubscriptionDetail__Body .EmployerSubscriptionDetail__Body--Right .EmployerSubscriptionDetail__Body--Right--PaymentInformation .EmployerSubscriptionDetail__Body--Right--PaymentInformation--Footer .EmployerSubscriptionDetail__Body--Right--PaymentInformation--Footer--Name {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    color: #162A49;
+}
+
+.EmployerSubscriptionDetail .EmployerSubscriptionDetail__Body .EmployerSubscriptionDetail__Body--Right .EmployerSubscriptionDetail__Body--Right--PaymentInformation .EmployerSubscriptionDetail__Body--Right--PaymentInformation--Footer .EmployerSubscriptionDetail__Body--Right--PaymentInformation--Footer--Address {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 139.6%;
+    color: #162A49;
+}
+
+.EmployerSubscriptionDetail .EmployerSubscriptionDetail__Body .EmployerSubscriptionDetail__Body--Right .EmployerSubscriptionDetail__Body--Right--UpgradePlan {
+    background: #162A49;
+    box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.03);
+    border-radius: 6px;
+    padding: 21px;
+    margin-top: 38px;
+}
+
+.EmployerSubscriptionDetail .EmployerSubscriptionDetail__Body .EmployerSubscriptionDetail__Body--Right .EmployerSubscriptionDetail__Body--Right--UpgradePlan .EmployerSubscriptionDetail__Body--Right--UpgradePlan--Image {
+    height: 170px;
+    width: 200px;
+    margin: auto;
+}
+
+.EmployerSubscriptionDetail .EmployerSubscriptionDetail__Body .EmployerSubscriptionDetail__Body--Right .EmployerSubscriptionDetail__Body--Right--UpgradePlan .EmployerSubscriptionDetail__Body--Right--UpgradePlan--Title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    letter-spacing: -0.03em;
+    color: #F2F4FA;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.EmployerSubscriptionDetail .EmployerSubscriptionDetail__Body .EmployerSubscriptionDetail__Body--Right .EmployerSubscriptionDetail__Body--Right--UpgradePlan .EmployerSubscriptionDetail__Body--Right--UpgradePlan--Description {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 156.1%;
+    text-align: center;
+    color: #808FA6;
+    padding-top: 14px;
+    text-align: center;
+}
+
+.EmployerSubscriptionDetail .EmployerSubscriptionDetail__Body .EmployerSubscriptionDetail__Body--Right .EmployerSubscriptionDetail__Body--Right--UpgradePlan .EmployerSubscriptionDetail__Body--Right--UpgradePlan--Button {
+    padding-top: 15px;
+    text-align: center;
+}
+
+.EmployerSubscriptionDetail .EmployerSubscriptionDetail__Body .EmployerSubscriptionDetail__Body--Right .EmployerSubscriptionDetail__Body--Right--UpgradePlan .EmployerSubscriptionDetail__Body--Right--UpgradePlan--Button button {
+    background: #FFFFFF;
+    border-radius: 50px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #2EC2E2;
+    padding: 13px 50px;
+    border: none;
+}

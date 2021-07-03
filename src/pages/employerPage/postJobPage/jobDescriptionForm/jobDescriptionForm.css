@@ -1,0 +1,74 @@
+.EmployerJobDescriptionForm {
+}
+
+.EmployerJobDescriptionForm .EmployerJobDescriptionForm__Summary {
+
+}
+
+.EmployerJobDescriptionForm .EmployerJobDescriptionForm__Responsibility,
+.EmployerJobDescriptionForm .EmployerJobDescriptionForm__Schedule {
+  padding-top: 31px;
+}
+
+.EmployerJobDescriptionForm .EmployerJobDescriptionForm__Summary .EmployerJobDescriptionForm__Summary--Title,
+.EmployerJobDescriptionForm .EmployerJobDescriptionForm__Responsibility .EmployerJobDescriptionForm__Responsibility--Title,
+.EmployerJobDescriptionForm .EmployerJobDescriptionForm__Schedule .EmployerJobDescriptionForm__Schedule--Title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  color: #162A49;
+}
+
+.EmployerJobDescriptionForm .EmployerJobDescriptionForm__Summary .EmployerJobDescriptionForm__Summary--Error,
+.EmployerJobDescriptionForm .EmployerJobDescriptionForm__Responsibility .EmployerJobDescriptionForm__Responsibility--Error,
+.EmployerJobDescriptionForm .EmployerJobDescriptionForm__Schedule .EmployerJobDescriptionForm__Schedule--Error {   
+  color: red;
+  font-weight: 600;
+}
+
+.EmployerJobDescriptionForm .EmployerJobDescriptionForm__Summary .EmployerJobDescriptionForm__Summary--Editor,
+.EmployerJobDescriptionForm .EmployerJobDescriptionForm__Responsibility .EmployerJobDescriptionForm__Responsibility--Editor {
+  padding-top: 15px;
+}
+
+.EmployerJobDescriptionForm .EmployerJobDescriptionForm__Schedule .EmployerJobDescriptionForm__Schedule--Body {
+  display: flex;
+  padding-top: 28px;
+}
+
+.EmployerJobDescriptionForm .EmployerJobDescriptionForm__Schedule .EmployerJobDescriptionForm__Schedule--Body .EmployerJobDescriptionForm__Schedule--Body--Time {
+  
+}
+
+.EmployerJobDescriptionForm .EmployerJobDescriptionForm__Schedule .EmployerJobDescriptionForm__Schedule--Body .EmployerJobDescriptionForm__Schedule--Body--Time .EmployerJobDescriptionForm__Schedule--Body--Time--Container {
+  display: flex;
+  padding-bottom: 17px;
+}
+
+.EmployerJobDescriptionForm .EmployerJobDescriptionForm__Schedule .EmployerJobDescriptionForm__Schedule--Body .EmployerJobDescriptionForm__Schedule--Body--Time .EmployerJobDescriptionForm__Schedule--Body--Time--Container .EmployerJobDescriptionForm__Schedule--Body--Time--Container--Day {
+  padding-top: 10px;
+  width: 30%;
+}
+
+.EmployerJobDescriptionForm .EmployerJobDescriptionForm__Schedule .EmployerJobDescriptionForm__Schedule--Body .EmployerJobDescriptionForm__Schedule--Body--Time .EmployerJobDescriptionForm__Schedule--Body--Time--Container .EmployerJobDescriptionForm__Schedule--Body--Time--Container--TimeStart,
+.EmployerJobDescriptionForm .EmployerJobDescriptionForm__Schedule .EmployerJobDescriptionForm__Schedule--Body .EmployerJobDescriptionForm__Schedule--Body--Time .EmployerJobDescriptionForm__Schedule--Body--Time--Container .EmployerJobDescriptionForm__Schedule--Body--Time--Container--TimeEnd {
+  min-width: 130px;
+  padding-right: 17px;
+}
+
+.EmployerJobDescriptionForm .EmployerJobDescriptionForm__Schedule .EmployerJobDescriptionForm__Schedule--Body .EmployerJobDescriptionForm__Schedule--Body--Option {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: right;
+  color: #2EC2E2;  
+  padding-top: 10px;
+  cursor: pointer;
+}
+
+.ck.ck-editor__main>div {
+  min-height: 250px;
+  max-width: 630px;
+}

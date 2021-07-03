@@ -1,0 +1,28 @@
+.AdminLoginMainContainer {
+  height: 100vh;
+  display: flex;
+}
+.AdminLoginTextCustomize {
+  padding-bottom: 10%;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 140%;
+  letter-spacing: -0.03em;
+  color: #162a49;
+}
+.AdminMainContainerLogin {
+  /* flex-grow: 0.5; */
+  /* height: 100%;*/
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+.AdminLoginInnerMainContainer {
+  padding-top: 20%;
+  width: 50%;
+  margin-right: 15%;
+}

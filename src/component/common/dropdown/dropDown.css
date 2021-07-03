@@ -1,0 +1,8 @@
+.DropDown {
+  border: none;
+  background: #ffffff;
+}
+
+.DropDown:hover {
+  background: none;
+}

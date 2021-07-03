@@ -1,0 +1,92 @@
+.EmployerDashboardMessageListBox {
+  display: flex;
+}
+
+.EmployerDashboardMessageListBox .EmployerDashboardMessageListBox__Image {
+  height: 35px;
+  width: 35px;
+  border-radius: 35px;
+  overflow: hidden;
+  margin: 10px 10px 10px 0px;
+}
+
+.EmployerDashboardMessageListBox .EmployerDashboardMessageListBox__Image img {
+  height: 100%;
+  width: 100%;
+}
+
+.EmployerDashboardMessageListBox .EmployerDashboardMessageListBox__Detail {
+  padding-top: 10px;
+}
+
+.EmployerDashboardMessageListBox
+  .EmployerDashboardMessageListBox__Detail
+  .EmployerDashboardMessageListBox__Detail--Info {
+  display: flex;
+}
+
+.EmployerDashboardMessageListBox
+  .EmployerDashboardMessageListBox__Detail
+  .EmployerDashboardMessageListBox__Detail--Info
+  .EmployerDashboardMessageListBox__Detail--Info--Name {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #162a49;
+}
+
+.EmployerDashboardMessageListBox
+  .EmployerDashboardMessageListBox__Detail
+  .EmployerDashboardMessageListBox__Detail--Info
+  .EmployerDashboardMessageListBox__Detail--Info--Name a {
+    text-decoration: none;
+    color: #162a49;
+}
+
+.EmployerDashboardMessageListBox
+  .EmployerDashboardMessageListBox__Detail
+  .EmployerDashboardMessageListBox__Detail--Info
+  .EmployerDashboardMessageListBox__Detail--Info--Name a:hover {
+    text-decoration: none;
+    color: #162a49;
+}
+
+.EmployerDashboardMessageListBox
+  .EmployerDashboardMessageListBox__Detail
+  .EmployerDashboardMessageListBox__Detail--Info
+  .EmployerDashboardMessageListBox__Detail--Info--Time {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #8d9bb0;
+  padding-left: 9px;
+}
+
+.EmployerDashboardMessageListBox
+  .EmployerDashboardMessageListBox__Detail
+  .EmployerDashboardMessageListBox__Detail--Message {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #8d9bb0;
+  padding-top: 2px;
+}
+
+.EmployerDashboardMessageListBox .EmployerDashboardMessageListBox__Count {
+  margin-left: auto;
+  padding-top: 10px;
+}
+
+.EmployerDashboardMessageListBox .EmployerDashboardMessageListBox__Count span {
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: center;
+  color: #ffffff;
+  background: #2ec2e2;
+  padding: 5px 8px;
+  border-radius: 15px;
+}

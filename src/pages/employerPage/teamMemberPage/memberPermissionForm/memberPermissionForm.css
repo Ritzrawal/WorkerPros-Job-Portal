@@ -1,0 +1,62 @@
+.EmployerMemberPermissionForm {
+    background: #fff;
+    padding: 23px 29px;
+}
+
+.EmployerMemberPermissionForm .EmployerMemberPermissionForm__Header {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    color: #162A49;
+}
+
+.EmployerMemberPermissionForm .EmployerMemberPermissionForm__Header button {
+    border: 2px solid #2EC2E2;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    color: #2EC2E2;
+    background: #fff;
+    padding: 5px 15px;
+    margin-left: 17px;
+}
+
+.EmployerMemberPermissionForm .EmployerMemberPermissionForm__Body {
+    padding-top: 9px;
+    display: flex;
+}
+
+.EmployerMemberPermissionForm .EmployerMemberPermissionForm__Body .EmployerMemberPermissionForm__Body--Left,
+.EmployerMemberPermissionForm .EmployerMemberPermissionForm__Body .EmployerMemberPermissionForm__Body--Right {
+    width: 48%;
+}
+
+.EmployerMemberPermissionForm .EmployerMemberPermissionForm__Body .EmployerMemberPermissionForm__Body--Left .EmployerMemberPermissionForm__Body--Left--Title,
+.EmployerMemberPermissionForm .EmployerMemberPermissionForm__Body .EmployerMemberPermissionForm__Body--Right .EmployerMemberPermissionForm__Body--Right--Title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #808FA6;
+}
+
+.EmployerMemberPermissionForm .EmployerMemberPermissionForm__Body .EmployerMemberPermissionForm__Body--Left .EmployerMemberPermissionForm__Body--Left--List,
+.EmployerMemberPermissionForm .EmployerMemberPermissionForm__Body .EmployerMemberPermissionForm__Body--Right .EmployerMemberPermissionForm__Body--Right--List {
+    padding-top: 16px;
+}
+
+
+.EmployerMemberPermissionForm .EmployerMemberPermissionForm__Body .EmployerMemberPermissionForm__Body--Left .EmployerMemberPermissionForm__Body--Left--List .EmployerMemberPermissionForm__Body--Left--List--CheckBox,
+.EmployerMemberPermissionForm .EmployerMemberPermissionForm__Body .EmployerMemberPermissionForm__Body--Right .EmployerMemberPermissionForm__Body--Left--List .EmployerMemberPermissionForm__Body--Right--List--CheckBox {}
+
+.EmployerMemberPermissionForm .EmployerMemberPermissionForm__Body .EmployerMemberPermissionForm__Body--Left .EmployerMemberPermissionForm__Body--Left--List .EmployerMemberPermissionForm__Body--Left--List--CheckBox .EmployerMemberPermissionForm__Body--Left--List--CheckBox--Child,
+.EmployerMemberPermissionForm .EmployerMemberPermissionForm__Body .EmployerMemberPermissionForm__Body--Right .EmployerMemberPermissionForm__Body--Right--List .EmployerMemberPermissionForm__Body--Right--List--CheckBox .EmployerMemberPermissionForm__Body--Right--List--CheckBox--Child {
+    padding-left: 30px;
+}

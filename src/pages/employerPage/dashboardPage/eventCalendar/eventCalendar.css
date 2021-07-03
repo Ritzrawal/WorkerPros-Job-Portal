@@ -1,0 +1,105 @@
+    .EmployerEventCalendar {
+        background-color: #fff;
+    }
+
+    .EmployerEventCalendar .EmployerEventCalendar__Title {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 13px;
+        line-height: 16px;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        color: #808FA6;
+        padding-top: 12px;
+        padding-left: 14px;
+    } 
+
+    .EmployerEventCalendar .EmployerEventCalendar__Calendar {
+        padding: 0px 75px 25px 75px;
+        border-bottom: 1px solid #EBEFF4;
+    }
+
+    .EmployerEventCalendar .EmployerEventCalendar__Calendar .EmployerEventCalendar__Calendar--Box {
+        border: none;
+        width: 100%;
+        position: relative;
+    }
+
+    .EmployerEventCalendar .EmployerEventCalendar__Calendar .EmployerEventCalendar__Calendar--Box .react-calendar__navigation__arrow.react-calendar__navigation__prev-button {
+        position: absolute;
+        top: 150px;
+        left: -50px;
+    }
+
+    .EmployerEventCalendar .EmployerEventCalendar__Calendar .EmployerEventCalendar__Calendar--Box .react-calendar__navigation__arrow.react-calendar__navigation__next-button {
+        position: absolute;
+        top: 150px;
+        right: -50px;
+    }
+
+    .EmployerEventCalendar .EmployerEventCalendar__Calendar .EmployerEventCalendar__Calendar--Box .react-calendar__navigation__arrow.react-calendar__navigation__prev-button svg,
+    .EmployerEventCalendar .EmployerEventCalendar__Calendar .EmployerEventCalendar__Calendar--Box .react-calendar__navigation__arrow.react-calendar__navigation__next-button svg {
+        font-size: 30px;
+    }
+
+    .EmployerEventCalendar .EmployerEventCalendar__Calendar .EmployerEventCalendar__Calendar--Box .react-calendar__navigation__label__labelText.react-calendar__navigation__label__labelText--from {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 19px;
+        line-height: 160%;
+        color: #162A49;
+    
+    }
+    
+    .EmployerEventCalendar .EmployerEventCalendar__Calendar .EmployerEventCalendar__Calendar--Box .react-calendar__month-view__weekdays__weekday abbr {
+        text-decoration: none;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 13px;
+        line-height: 16px;
+        text-align: center;
+        color: #808FA6;
+    }
+    
+    .EmployerEventCalendar .EmployerEventCalendar__Calendar .EmployerEventCalendar__Calendar--Box .react-calendar__tile.react-calendar__month-view__days__day {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 18px;
+        text-align: center;
+        color: #162A49;
+    }
+    
+    .EmployerEventCalendar .EmployerEventCalendar__Calendar .EmployerEventCalendar__Calendar--Box .react-calendar__tile.react-calendar__month-view__days__day.react-calendar__month-view__days__day--neighboringMonth {
+        color: #eaeaea;
+    }
+    
+    .EmployerEventCalendar .EmployerEventCalendar__Calendar .EmployerEventCalendar__Calendar--Box .react-calendar__tile.react-calendar__tile--now.react-calendar__tile--active.react-calendar__tile--range.react-calendar__tile--rangeStart.react-calendar__tile--rangeEnd.react-calendar__tile--rangeBothEnds.react-calendar__month-view__days__day,
+    .EmployerEventCalendar .EmployerEventCalendar__Calendar .EmployerEventCalendar__Calendar--Box .react-calendar__tile.react-calendar__tile--active.react-calendar__tile--range.react-calendar__tile--rangeStart.react-calendar__tile--rangeEnd.react-calendar__tile--rangeBothEnds.react-calendar__month-view__days__day {                                                                                                                                                                                         
+        background: #2EC2E2;
+        border-radius: 20px;
+        color: #fff; 
+    }
+    
+    .EmployerEventCalendar .EmployerEventCalendar__Calendar .EmployerEventCalendar__Calendar--Box .react-calendar__tile.react-calendar__tile--now.react-calendar__month-view__days__day {                                                                                                                                                                                         
+        background: none;    
+    }
+
+    .EmployerEventCalendar .EmployerEventCalendar__Event {
+        padding: 15px;
+    }
+
+    .EmployerEventCalendar .EmployerEventCalendar__Event .EmployerEventCalendar__Event--Title {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 160%;
+        color: #162A49;
+    }
+
+    .EmployerEventCalendar .EmployerEventCalendar__Event .EmployerEventCalendar__Event--List {
+        padding-top: 5px;
+    }

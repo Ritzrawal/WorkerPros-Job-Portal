@@ -1,0 +1,763 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap'); */
+
+* {
+  outline: none;
+  box-sizing: border-box;
+}
+.Step1InnerDiv img {
+  width: 560px;
+  height: auto;
+}
+.Step2InnerDiv img {
+  width: 560px;
+  height: auto;
+}
+.Step3InnerDiv img {
+  width: 560px;
+  height: auto;
+}
+.Step4InnerDiv img {
+  width: 560px;
+  height: auto;
+}
+.Step5InnerDiv img {
+  width: 560px;
+  height: auto;
+}
+.Step6InnerDiv img {
+  width: 560px;
+  height: auto;
+}
+.Step7InnerDiv img {
+  width: 265px;
+  height: auto;
+}
+
+.Button {
+  color: white;
+}
+
+.HeaderContainer {
+  font-family: "Montserrat", sans-serif;
+  background-color: #edf4ff;
+  display: flex;
+}
+.left_content {
+  flex-grow: 0.5;
+  padding: 109px;
+  padding-bottom: 0px;
+}
+.left_content h1 {
+  font-size: 40px;
+  line-height: 49px;
+  letter-spacing: -0.03em;
+  color: #162a49;
+  margin-bottom: 0;
+  white-space: nowrap;
+  font-family: "Montserrat";
+  font-weight: bold;
+}
+.left_content h2 {
+  font-size: 40px;
+  line-height: 49px;
+  letter-spacing: -0.03em;
+  color: #2ec2e2;
+  font-family: "Montserrat";
+  font-weight: bold;
+}
+.left_content p {
+  font-size: 16px;
+  color: #808fa6;
+  padding-bottom: 20px;
+  font-weight: 400;
+  font-family: "Montserrat";
+}
+
+.app_icon-text {
+  padding-top: 57px;
+}
+
+.app_icon {
+  display: flex;
+  flex-direction: row;
+}
+.app_icon img:first-child {
+  padding-right: 41px;
+}
+.app_icon-text p {
+  font-size: 13px;
+  line-height: 16px;
+  color: #808fa6;
+  padding-bottom: 0px !important;
+  font-family: "Montserrat";
+  font-weight: 600;
+}
+.right_content img {
+  width: 100%;
+  height: 526px;
+  clip-path: polygon(-6% -35%, 171% 1000%, 1000% 100%);
+}
+.right_content {
+  flex-grow: 0.5;
+}
+.HeaderLeft {
+  width: 40%;
+}
+
+.HeaderLeftInnerDiv {
+  width: 50%;
+  margin-left: 150px;
+  margin-top: 100px;
+}
+
+.HeaderLeft h1,
+.HeaderLeftInnerDiv span {
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 49px;
+  letter-spacing: -0.03em;
+}
+
+.AppAndroidIconDiv {
+  display: flex;
+  justify-content: space-between;
+  width: 120px;
+}
+
+.ConnectingPeople {
+  font-size: 16px;
+  line-height: 160%;
+  color: #808fa6;
+}
+.HeaderLeftInnerDiv .btn.btn-secondary {
+  color: #fff;
+  border: none;
+}
+
+.DownloadApp p {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding-bottom: 19px;
+  margin-bottom: 0;
+  color: #808fa6;
+}
+
+.DownloadApp {
+  margin-top: 73px;
+}
+
+.HeaderRight {
+  width: 60%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("../../assets/images/landing-page/WorksPageHeader.png");
+  clip-path: polygon(-6% -35%, 171% 1000%, 1000% 100%);
+  background-size: cover;
+}
+
+.SwitchButtonDiv {
+  display: flex;
+  justify-content: center;
+}
+
+.SwitchButtonInnerDiv {
+  width: 395px;
+}
+
+/* Step 1 Section */
+
+.Step1Container {
+  margin-top: -100px;
+  font-family: "Montserrat", sans-serif;
+  justify-content: center;
+}
+
+.OuterButtonGroup {
+  width: 395px;
+  background-color: #f2f4fa;
+  border-radius: 50px;
+}
+.OuterButtonGroup.btn-group button:first-child {
+  background: #ffffff;
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.12);
+}
+.OuterButtonGroup.btn-group button:nth-child(2) {
+  background-color: transparent !important;
+  color: #234476;
+}
+.SwitchButtonDiv {
+  display: flex;
+  justify-content: center;
+  padding: 55px 55px 0px 55px;
+}
+
+.Step1 {
+  margin-top: 26px;
+}
+
+.Step1Left {
+  height: fit-content;
+}
+
+.Step1Left p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 160%;
+  /* or 26px */
+
+  color: #808fa6;
+  width: 398px;
+}
+
+.StepNumber {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: #2ec2e2;
+  margin-top: 10px;
+  margin-bottom: 14px;
+}
+
+.Step1InnerDiv {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 80px 109px;
+  align-items: center;
+}
+
+.StepTitle {
+  margin-top: 16px;
+  margin-bottom: 22px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;
+  letter-spacing: -0.03em;
+  color: #162a49;
+  width: 391px;
+}
+
+/* Step 2 Section */
+
+.Step2Container {
+  font-family: "Montserrat", sans-serif;
+  justify-content: center;
+}
+
+.Step2 {
+  margin-top: 100px;
+}
+
+.Step2InnerDiv {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 80px 109px;
+  align-items: center;
+}
+
+.Step2Img {
+  position: relative;
+  z-index: 1000;
+}
+
+.Step2Dots {
+  width: 120px;
+  z-index: 0;
+  left: 83%;
+  top: 76%;
+  position: absolute;
+}
+
+.Step2Right p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 160%;
+  /* or 26px */
+
+  color: #808fa6;
+}
+
+.Step2left {
+  width: 50%;
+  border-radius: 50px;
+  background-color: #edf4ff;
+  padding: 30px;
+  margin-left: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+/* Step 3 Section */
+
+.Step3Container {
+  font-family: "Montserrat", sans-serif;
+  justify-content: center;
+}
+
+.Step3 {
+  margin-top: 100px;
+}
+
+.Step3InnerDiv {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 80px 109px;
+  align-items: center;
+}
+
+.Step3Left p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 160%;
+  /* or 26px */
+
+  color: #808fa6;
+  width: 398px;
+}
+
+.Step3Img {
+  z-index: 1000;
+  position: absolute;
+  width: 500px;
+  margin-left: -100px;
+  margin-top: 30px;
+}
+
+.Step3Dots {
+  margin-left: -100px;
+  margin-top: 110px;
+  z-index: 0;
+  position: absolute;
+  width: 130px;
+  height: 130px;
+  top: 20;
+}
+
+/*  Step 4 Section */
+
+.Step4Right {
+  padding: 30px 30px 30px 60px;
+}
+
+.Step4Container {
+  font-family: "Montserrat", sans-serif;
+  justify-content: center;
+}
+
+.Step4 {
+  margin-top: 100px;
+}
+
+.Step4InnerDiv {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 80px 109px;
+  align-items: center;
+}
+
+.Step4Left {
+  position: relative;
+  width: 40%;
+  border-radius: 50px;
+
+  padding: 30px;
+  margin-left: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.Step4Right p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 160%;
+  /* or 26px */
+
+  color: #808fa6;
+}
+
+/* .Step4left {
+  width: 50%;
+  border-radius: 50px;
+  background-color: #edf4ff;
+  padding: 30px;
+  margin-left: 20px;
+  display: flex;
+  justify-content: center;
+} */
+
+/* Step 5 Section */
+
+.Step5Container {
+  font-family: "Montserrat", sans-serif;
+}
+
+.Step5Left p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 160%;
+  /* or 26px */
+
+  color: #808fa6;
+  width: 398px;
+}
+
+/* .Step5Right {
+  position: relative;
+  width: 40%;
+  border-radius: 50px;
+  background-color: #edf4ff;
+  padding: 30px;
+  margin-left: 20px;
+  display: flex;
+  justify-content: center;
+} */
+
+.Step5Dots {
+  position: absolute;
+  width: 230px;
+  height: 230px;
+  margin-top: 90px;
+  margin-left: -80px;
+  top: 10;
+  z-index: 9;
+}
+
+.Step5InnerDiv {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 80px 109px;
+  align-items: center;
+}
+
+/* Step 6 Conatainer */
+
+.Step6Container {
+  font-family: "Montserrat", sans-serif;
+  justify-content: center;
+}
+
+.Step6InnerDiv {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 80px 109px;
+  align-items: center;
+}
+
+.Step6Right p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 160%;
+  /* or 26px */
+
+  color: #808fa6;
+}
+
+/* Step 7 Section */
+
+.Step7Container {
+  font-family: "Montserrat", sans-serif;
+  justify-content: center;
+}
+
+.Step7Left p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 160%;
+  /* or 26px */
+
+  color: #808fa6;
+  width: 398px;
+}
+
+.Step7Right {
+  border-radius: 50px;
+  background-color: #edf4ff;
+  padding: 100px 30px 0px 30px;
+  width: 570px;
+  height: 409px;
+  overflow: hidden;
+}
+
+.iphone {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.Step7Right img {
+  top: 10;
+  height: 300px;
+}
+
+.Step7Right span {
+  position: absolute;
+  top: 55px;
+  left: 205px;
+  font-weight: 600;
+}
+
+.Step7InnerDiv {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 80px 109px;
+  align-items: center;
+}
+
+.DownloadAppBtnDiv {
+  margin-top: 15px;
+  display: flex;
+}
+.HowItWorksMainContainerOuterContainer .SwitchButtonGroup {
+  height: 50px !important;
+  width: 395px;
+}
+.HowItWorksMainContainerOuterContainer .SwitchButtonGroup {
+  background-color: #f2f4fa !important;
+}
+.HowItWorksMainContainerOuterContainer .SwitchButtonGroup button:first-child {
+  margin-right: 1.5px;
+}
+.DownloadAppBtnDiv button {
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  border: 2px solid #2ec2e2;
+  justify-content: center;
+  border-radius: 50px;
+  min-width: 200px;
+  padding: 15px;
+  margin-right: 10px;
+  background: transparent;
+  cursor: pointer;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  align-items: center;
+  color: #2ec2e2;
+  transition: background-color 0.1s ease-in;
+}
+
+.DownloadAppBtnDiv button:hover {
+  background-color: #2ec2e2;
+  color: #f2f2f2;
+}
+
+.DownloadAppSpan {
+  line-height: 10px;
+  font-weight: 600;
+}
+
+/* .DownloadAppBtnDiv button:hover {
+  background: #2ec2e2;
+  color: #ffffff;
+} */
+/* responsive */
+/* @media screen and (min-width: 1400px) {
+  .StepTitle br {
+    display: none;
+  }
+  .Step1Left p {
+    width: 620px;
+  }
+  .Step1Left p br {
+    display: none;
+  }
+  .Step2Right p {
+    width: 620px;
+  }
+  .Step2Right p br {
+    display: none;
+  }
+  .Step3Left p {
+    width: 620px;
+  }
+  .Step3Left p br {
+    display: none;
+  }
+  .Step4Right p {
+    width: 620px;
+  }
+  .Step4Right p br {
+    display: none;
+  }
+  .Step5Left p {
+    width: 620px;
+  }
+  .Step5Left p br {
+    display: none;
+  }
+  .Step6Right p {
+    width: 620px;
+  }
+  .Step6Right p br {
+    display: none;
+  }
+  .Step7Left p {
+    width: 620px;
+  }
+  .Step7Left p br {
+    display: none;
+  }
+  .Step1InnerDiv img {
+    width: 570px;
+    height: auto;
+  }
+  .Step2InnerDiv img {
+    width: 570px;
+    height: auto;
+  }
+  .Step3InnerDiv img {
+    width: 570px;
+    height: auto;
+  }
+  .Step4InnerDiv img {
+    width: 570px;
+    height: auto;
+  }
+  .Step5InnerDiv img {
+    width: 570px;
+    height: auto;
+  }
+  .Step6InnerDiv img {
+    width: 570px;
+    height: auto;
+  }
+  .Step7InnerDiv img {
+    width: 265px;
+    height: auto;
+  }
+  .Step7Right {
+    width: 570px;
+  }
+} */
+@media screen and (max-width: 1200px) {
+  .navbar {
+    padding: 15px 10px;
+    margin: 0px;
+    flex-wrap: wrap;
+  }
+  .navbar-expand-md .navbar-nav .nav-link {
+    padding: 4px;
+    white-space: nowrap;
+  }
+  .left_content {
+    padding: 75px 0px 0px 20px;
+  }
+  .navbar-brand {
+    margin: 0px;
+    padding-left: 10px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .HeaderContainer {
+    flex-direction: column-reverse;
+  }
+  .left_content {
+    padding: 25px 0px 0px 20px;
+    text-align: center;
+  }
+  .app_icon {
+    justify-content: center;
+    padding-bottom: 25px;
+  }
+  .right_content img {
+    clip-path: none;
+  }
+  .Step1InnerDiv {
+    justify-content: center;
+    padding: 20px;
+    padding-top: 50px;
+  }
+  .Step2InnerDiv {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+    padding-bottom: 0px;
+  }
+  .Step3InnerDiv {
+    justify-content: center;
+    padding-bottom: 0px;
+  }
+  .Step4InnerDiv {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+    padding-bottom: 0px;
+  }
+  .Step5InnerDiv {
+    justify-content: center;
+    padding-bottom: 0px;
+  }
+  .Step6InnerDiv {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+    padding-bottom: 0px;
+  }
+  .Step7InnerDiv {
+    justify-content: center;
+    padding-bottom: 0px;
+  }
+  .Step1Left {
+    padding-bottom: 15px;
+  }
+  .Step2Right {
+    padding-bottom: 15px;
+  }
+  .Step3Left {
+    padding-bottom: 15px;
+  }
+  .Step4Right {
+    padding: 0px 0px 15px 0px;
+  }
+  .Step5Left {
+    padding-bottom: 15px;
+  }
+  .Step6Right {
+    padding-bottom: 15px;
+  }
+  .Step7Left {
+    padding-bottom: 15px;
+  }
+}
+
+/* ---------------- CSS change for Employer -------------  */
+
+.EmployerHIWMainContainer .Step2InnerDiv {
+  flex-wrap: nowrap;
+}
+
+.EmployerHIWMainContainer .Step2InnerDiv .Step2Right {
+  width: 40%;
+}
+
+.EmployerHIWMainContainer .Step4InnerDiv {
+  flex-wrap: nowrap;
+}
+
+.EmployerHIWMainContainer .Step4InnerDiv .Step4Right {
+  width: 40%;
+}

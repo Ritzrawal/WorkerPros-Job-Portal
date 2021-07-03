@@ -1,0 +1,47 @@
+.EventCalendarBox {
+    padding: 13px 0px 19px 0px;
+    border-bottom: 1px solid #EBEFF4;
+    display: flex;
+}
+
+.EventCalendarBox .EventCalendarBox__Schedule {
+    width: 25px;
+}
+
+.EventCalendarBox .EventCalendarBox__Schedule .EventCalendarBox__Schedule--Time {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 26px;
+    color: #162A49;
+}
+
+.EventCalendarBox .EventCalendarBox__Schedule .EventCalendarBox__Schedule--Hour {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #2EC2E2;
+}
+
+.EventCalendarBox .EventCalendarBox__Info {
+    padding-left: 17px;
+}
+
+.EventCalendarBox .EventCalendarBox__Info .EventCalendarBox__Info--Title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    color: #162A49;
+}
+.EventCalendarBox .EventCalendarBox__Info .EventCalendarBox__Info--Description {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #808FA6;
+    padding-top: 2px;
+}

@@ -1,0 +1,287 @@
+.EmployerMessageInfo {
+  height: 100%;
+  background: #fff;
+}
+
+.EmployerMessageInfo .EmployerMessageInfo__Header {
+  display: flex;
+  padding-top: 24px;
+  padding-left: 28px;
+  background: #f2f4fa;
+}
+
+.EmployerMessageInfo
+  .EmployerMessageInfo__Header
+  .EmployerMessageInfo__Header--Image {
+  height: 70px;
+  width: 70px;
+  border-radius: 70px;
+  overflow: hidden;
+}
+
+.EmployerMessageInfo
+  .EmployerMessageInfo__Header
+  .EmployerMessageInfo__Header--Image
+  img {
+  height: 100%;
+  width: 100%;
+}
+
+.EmployerMessageInfo
+  .EmployerMessageInfo__Header
+  .EmployerMessageInfo__Header--Detail {
+  padding-top: 10px;
+  padding-left: 16px;
+}
+
+.EmployerMessageInfo
+  .EmployerMessageInfo__Header
+  .EmployerMessageInfo__Header--Detail
+  .EmployerMessageInfo__Header--Detail--Text {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #162a49;
+}
+
+.EmployerMessageInfo
+  .EmployerMessageInfo__Header
+  .EmployerMessageInfo__Header--Detail
+  .EmployerMessageInfo__Header--Detail--Name {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 138.5%;
+  color: #162a49;
+  padding-top: 5px;
+}
+
+.EmployerMessageInfo .EmployerMessageInfo__Body {
+}
+
+.EmployerMessageInfo
+  .EmployerMessageInfo__Body
+  .EmployerMessageInfo__Body--Title {
+  display: flex;
+  background: #f2f4fa;
+  padding: 20px 20px 0px 20px;
+}
+
+.EmployerMessageInfo
+  .EmployerMessageInfo__Body
+  .EmployerMessageInfo__Body--Title
+  .EmployerMessageInfo__Body--Title--Description,
+.EmployerMessageInfo
+  .EmployerMessageInfo__Body
+  .EmployerMessageInfo__Body--Title
+  .EmployerMessageInfo__Body--Title--Note,
+.EmployerMessageInfo
+  .EmployerMessageInfo__Body
+  .EmployerMessageInfo__Body--Title
+  .EmployerMessageInfo__Body--Title--Files {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 138.5%;
+  text-align: center;
+  color: #808fa6;
+  padding: 0px 10px 10px 10px;
+}
+
+.EmployerMessageInfo
+  .EmployerMessageInfo__Body
+  .EmployerMessageInfo__Body--Title
+  .EmployerMessageInfo__Body--Title--Description.Active,
+.EmployerMessageInfo
+  .EmployerMessageInfo__Body
+  .EmployerMessageInfo__Body--Title
+  .EmployerMessageInfo__Body--Title--Note.Active,
+.EmployerMessageInfo
+  .EmployerMessageInfo__Body
+  .EmployerMessageInfo__Body--Title
+  .EmployerMessageInfo__Body--Title--Files.Active {
+  color: #2ec2e2;
+  border-bottom: 2px solid #2ec2e2;
+}
+
+.EmployerMessageInfo
+  .EmployerMessageInfo__Body
+  .EmployerMessageInfo__Body--Detail {
+  padding: 10px 20px 20px 20px;
+}
+
+.EmployerMessageInfo
+  .EmployerMessageInfo__Body
+  .EmployerMessageInfo__Body--Detail
+  .EmployerMessageInfo__Body--Detail--Skill,
+.EmployerMessageInfo
+  .EmployerMessageInfo__Body
+  .EmployerMessageInfo__Body--Detail
+  .EmployerMessageInfo__Body--Detail--Primary,
+.EmployerMessageInfo
+  .EmployerMessageInfo__Body
+  .EmployerMessageInfo__Body--Detail
+  .EmployerMessageInfo__Body--Detail--Trade {
+  padding-top: 12px;
+}
+
+.EmployerMessageInfo
+  .EmployerMessageInfo__Body
+  .EmployerMessageInfo__Body--Detail
+  .EmployerMessageInfo__Body--Detail--Skill
+  .EmployerMessageInfo__Body--Detail--Skill--Title,
+.EmployerMessageInfo
+  .EmployerMessageInfo__Body
+  .EmployerMessageInfo__Body--Detail
+  .EmployerMessageInfo__Body--Detail--Primary
+  .EmployerMessageInfo__Body--Detail--Primary--Title,
+.EmployerMessageInfo
+  .EmployerMessageInfo__Body
+  .EmployerMessageInfo__Body--Detail
+  .EmployerMessageInfo__Body--Detail--Trade
+  .EmployerMessageInfo__Body--Detail--Trade--Title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #808fa6;
+}
+
+.EmployerMessageInfo
+  .EmployerMessageInfo__Body
+  .EmployerMessageInfo__Body--Detail
+  .EmployerMessageInfo__Body--Detail--Skill
+  .EmployerMessageInfo__Body--Detail--Skill--Body,
+.EmployerMessageInfo
+  .EmployerMessageInfo__Body
+  .EmployerMessageInfo__Body--Detail
+  .EmployerMessageInfo__Body--Detail--Primary
+  .EmployerMessageInfo__Body--Detail--Primary--Body {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 18px;
+  color: #162a49;
+  padding-top: 4px;
+}
+
+.EmployerMessageInfo
+  .EmployerMessageInfo__Body
+  .EmployerMessageInfo__Body--Detail
+  .EmployerMessageInfo__Body--Detail--Trade
+  .EmployerMessageInfo__Body--Detail--Trade--Body {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 8px;
+}
+
+.EmployerMessageInfo
+  .EmployerMessageInfo__Body
+  .EmployerMessageInfo__Body--Detail
+  .EmployerMessageInfo__Body--Detail--Trade
+  .EmployerMessageInfo__Body--Detail--Trade--Body
+  .EmployerMessageInfo__Body--Detail--Trade--Body--Button {
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+
+.EmployerMessageInfo
+  .EmployerMessageInfo__Body
+  .EmployerMessageInfo__Body--Detail
+  .EmployerMessageInfo__Body--Detail--Experience {
+  padding-top: 27px;
+}
+
+.EmployerMessageInfo
+  .EmployerMessageInfo__Body
+  .EmployerMessageInfo__Body--Detail
+  .EmployerMessageInfo__Body--Detail--Experience
+  .EmployerMessageInfo__Body--Detail--Experience--Title {
+  display: flex;
+}
+
+.EmployerMessageInfo
+  .EmployerMessageInfo__Body
+  .EmployerMessageInfo__Body--Detail
+  .EmployerMessageInfo__Body--Detail--Experience
+  .EmployerMessageInfo__Body--Detail--Experience--Title
+  .EmployerMessageInfo__Body--Detail--Experience--Title--Text {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #808fa6;
+}
+
+.EmployerMessageInfo
+  .EmployerMessageInfo__Body
+  .EmployerMessageInfo__Body--Detail
+  .EmployerMessageInfo__Body--Detail--Experience
+  .EmployerMessageInfo__Body--Detail--Experience--Title
+  .EmployerMessageInfo__Body--Detail--Experience--Title--Dropdown {
+  margin-top: -3px;
+  margin-left: auto;
+}
+
+.EmployerMessageInfo
+  .EmployerMessageInfo__Body
+  .EmployerMessageInfo__Body--Detail
+  .EmployerMessageInfo__Body--Detail--Experience
+  .EmployerMessageInfo__Body--Detail--Experience--Body {
+  padding-top: 17px;
+}
+
+.EmployerMessageInfo
+  .EmployerMessageInfo__Body
+  .EmployerMessageInfo__Body--Detail
+  .EmployerMessageInfo__Body--Detail--Experience
+  .EmployerMessageInfo__Body--Detail--Experience--Body
+  .EmployerMessageInfo__Body--Detail--Experience--Body--Title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 18px;
+  color: #162a49;
+}
+
+.EmployerMessageInfo
+  .EmployerMessageInfo__Body
+  .EmployerMessageInfo__Body--Detail
+  .EmployerMessageInfo__Body--Detail--Experience
+  .EmployerMessageInfo__Body--Detail--Experience--Body
+  .EmployerMessageInfo__Body--Detail--Experience--Body--Detail {
+  padding-top: 6px;
+  display: flex;
+}
+
+.EmployerMessageInfo
+  .EmployerMessageInfo__Body
+  .EmployerMessageInfo__Body--Detail
+  .EmployerMessageInfo__Body--Detail--Experience
+  .EmployerMessageInfo__Body--Detail--Experience--Body
+  .EmployerMessageInfo__Body--Detail--Experience--Body--Detail
+  .EmployerMessageInfo__Body--Detail--Experience--Body--Detail--List {
+}
+
+.EmployerMessageInfo
+  .EmployerMessageInfo__Body
+  .EmployerMessageInfo__Body--Detail
+  .EmployerMessageInfo__Body--Detail--Experience
+  .EmployerMessageInfo__Body--Detail--Experience--Body
+  .EmployerMessageInfo__Body--Detail--Experience--Body--Detail
+  .EmployerMessageInfo__Body--Detail--Experience--Body--Detail--Year {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+  color: #162a49;
+  padding-top: 11px;
+  padding-left: 11px;
+}

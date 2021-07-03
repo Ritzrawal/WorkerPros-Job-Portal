@@ -1,0 +1,305 @@
+/* --------- Companies Sub Header Section ---------- */
+
+.CompaniesMainContainer {
+  width: 100%;
+  outline: none;
+  background: #f2f4fa;
+}
+
+.CompaniesMainContainer .companiesListSection .CompaniesMainContainer p {
+  margin: 13px 10px 10px 0px !important;
+}
+p.findJobsInSection {
+  padding: 13px 200px 3px 17px;
+  white-space: nowrap;
+}
+
+/* ----------- Banner Section ------------ */
+
+.bannerSection {
+  height: 328px;
+  position: relative;
+  font-family: "Montserrat", sans-serif;
+  padding: 30px 120px;
+
+  background-image: linear-gradient(
+      180deg,
+      rgba(35, 68, 118, 0.67) 0%,
+      rgba(35, 68, 118, 0.41) 100%
+    ),
+    url("../../assets//images/job-description/banner.png");
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.bannerTitle {
+  color: white;
+
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 50px;
+}
+
+.bannerTitle h1 {
+  font-size: 40px;
+
+  font-style: normal;
+  font-weight: bold;
+
+  line-height: 49px;
+  letter-spacing: -0.03em;
+
+  color: #ffffff;
+}
+
+/* ---------- Find Jobs In Section -------------- */
+
+.findJobsInSection {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 27px;
+  /* identical to box height */
+
+  letter-spacing: -0.01em;
+
+  color: #162a49;
+}
+
+.companiesFilterSection {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  box-shadow: 0px -2px 16px rgb(0 0 0 / 8%);
+  border-radius: 14px;
+  padding: 10px 14px;
+  background-color: white;
+  margin-top: 10px;
+}
+
+.companiesFilterContents {
+  padding: 15px;
+  display: flex;
+}
+
+.companiesFilterTrade .ReactTags__tagInputField {
+  border: none;
+  width: fit-content;
+}
+
+.companiesFilterTrade .ReactTags__selected {
+  display: flex;
+  padding: 10px;
+}
+
+.companiesFilterTrade .ReactTags__selected span {
+  color: #ffffff;
+  margin-right: 10px;
+  display: flex;
+  background: #234476;
+  border-radius: 3px;
+  padding: 5px;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 18px;
+
+  color: #ffffff;
+}
+
+.companiesFilterTrade .ReactTags__selected span button {
+  font-size: 15px;
+  background: transparent;
+  border: none;
+  color: #ffffff;
+}
+
+.companiesFilterTrade .react-tags-wrapper {
+  background: #ffffff;
+  border: 2px solid #c7d0de;
+  box-sizing: border-box;
+  border-radius: 5px;
+  margin-top: 10px;
+  width: fit-content;
+}
+
+.companiesFilterContraction {
+  margin-left: 30px;
+}
+
+.companiesFilterContraction .InputDropDownField {
+  margin-top: 10px;
+  width: fit-content !important;
+}
+
+.companiesFilterContraction .InputDropTextField {
+  width: 110%;
+}
+
+.companiesFilterSize {
+  margin-left: 30px;
+}
+
+.companiesFilterSize .InputDropDownField {
+  margin-top: 10px;
+  width: fit-content !important;
+}
+
+.companiesFilterSize .InputDropTextField {
+  width: 110%;
+}
+
+/* ---------------- Companies List Section ------------------ */
+
+.listHeader {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.companiesListSection {
+  margin-top: 195px;
+  padding: 0px 50px;
+}
+
+.companiesListSection h5 {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #162a49;
+}
+
+.CompanyUL {
+  padding-left: 0px;
+}
+
+.Totalof {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: right;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+
+  color: #aab5c5;
+}
+
+/* ----------- Pagination ----------- */
+
+/* #page-numbers {
+  display: flex;
+  list-style: none;
+}
+
+#page-numbers > li {
+  margin-right: 0.3em;
+  color: blue;
+  user-select: none;
+  cursor: pointer;
+} */
+
+.pagination {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin-top: 45px;
+}
+
+.pagination li {
+  cursor: pointer !important;
+  padding: 10px 18px;
+  border-radius: 50px;
+  font-size: 15px;
+  font-weight: 600;
+  margin: 4px;
+  color: #234476;
+}
+.pagination li:first-child {
+  margin-right: auto;
+}
+.pagination li:last-child {
+  margin-left: auto;
+}
+.activePaginate {
+  background: #2ec2e2;
+  padding: 20px;
+  border-radius: 50%;
+  color: white !important;
+}
+
+.previous.disabled {
+  padding: 10px;
+  border-radius: 50px;
+  background: #e3e9f2;
+  color: #ffffff;
+  width: 180px;
+  text-align: center;
+}
+
+.next.disabled {
+  padding: 10px;
+  border-radius: 50px;
+  background: #e3e9f2;
+  color: #ffffff;
+  width: 180px;
+  text-align: center;
+}
+
+.previous {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+
+  text-align: center;
+  padding: 10px;
+  border-radius: 50px;
+  background: #2ec2e2;
+  color: white !important;
+  width: 180px;
+  text-align: center;
+}
+
+.next {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  padding: 10px;
+  border-radius: 50px;
+  background: #2ec2e2;
+  color: white !important;
+  width: 180px;
+  text-align: center;
+}
+
+/*  ------------- Custom Location Dropdown --------  */
+
+.LocationSelectUL {
+  list-style: none;
+}
+
+.NoCompanieFoundDiv {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.companiesFinderButtonDiv {
+  text-align: center;
+  margin-left: auto;
+  margin-top: auto;
+}
+
+.companiesFinderButtonDiv button {
+  border-radius: 2px !important;
+}

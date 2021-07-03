@@ -1,0 +1,138 @@
+.AdminSocialCardComponent {
+  width: 100%;
+  padding-top: 35px;
+  display: flex;
+}
+.AdminSocialNewFeedCardContainer {
+  width: 65%;
+  /* height: 563px; */
+  left: 301px;
+  /* top: 175px; */
+  /* padding: 15px 13px 13px 17px; */
+  background: #ffffff;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.04);
+  border-radius: 6px;
+}
+.AdminSocialNotificationContainer {
+  width: 35%;
+  overflow-y: scroll;
+  padding: 16px 20px 20px 14px;
+  /* height: 563px; */
+  margin-left: 16px;
+  background: #ffffff;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.04);
+  border-radius: 6px;
+}
+.AdminSocialRemoveButtonContainer {
+  display: flex;
+  justify-content: flex-end;
+  flex: auto;
+}
+.AdminSocialProfileImageContainer {
+  height: 44px;
+  width: 44px;
+  border-radius: 50%;
+}
+.AdminSocialNewFeddProfileContainer {
+  display: flex;
+}
+.AdminSocaialNewFeedAvatar {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+}
+.AdminSocialProfileNameDisplay {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+  color: #162a49;
+}
+.AdminCardPostImageContainerImage {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  width: 100%;
+}
+.AdminimagePostUserName {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 138.5%;
+  /* or 19px */
+
+  color: #162a49;
+}
+.AdminimagePostTime {
+  font-family: 'Montserrat';
+  display: flex;
+  padding-left: 15px;
+  align-items: center;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 134%;
+  /* or 15px */
+
+  letter-spacing: 0.06em;
+  text-transform: capitalize;
+
+  color: #808fa6;
+}
+.AdminCArdContentDisplay {
+  padding-left: 14px;
+  width: 100%;
+  /* padding-top: 18px; */
+  padding-right: 8px;
+}
+.AdminContentDisplayCustomize {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 156%;
+  /* or 22px */
+
+  color: #162a49;
+}
+.AdminimagePostTopSection {
+  display: flex;
+  padding-top: 18px;
+  border-bottom: 1px solid #f2f4fa;
+  /* padding-bottom: 15px; */
+}
+.AdminSocialRemoveButtonContainerIcon {
+  color: #cb1e1e;
+  display: flex;
+  flex: auto;
+  justify-content: flex-end;
+}
+.ModalCustomizerButton {
+  display: flex;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+.DeleteModalTetxCustomize {
+  padding-top: 50px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 20px;
+}
+.ModalContainerCustomizerAlert {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ModalContainerCustomizerAlert .modal-content {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

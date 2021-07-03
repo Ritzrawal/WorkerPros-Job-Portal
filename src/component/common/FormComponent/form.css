@@ -1,0 +1,178 @@
+.FormContainerCustomize{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+}
+.InputTextCustomize{
+height: 50px;
+background-color: #FFFFFF;
+border: 2px solid #C7D0DE;
+font-family: "Montserrat";
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+
+color: #808FA6;
+}
+.LabelDropDownCustomize{
+font-family: "Montserrat";
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+line-height: 16px;
+/* identical to box height */
+
+letter-spacing: 0.06em;
+text-transform: uppercase;
+
+/* Primary Grey */
+
+color: #808FA6;
+}
+.OptionValueCustomize{
+    color: antiquewhite;
+}
+/* tagField Customize */
+.ButtonTagField{
+    border-top-color: #3A5277!important;
+    /* border-bottom-left-radius: 50px; */
+    padding-left: 10px!important;
+    padding-right: 10px!important;
+    border-width: 4px;
+    border-top-width: 0px!important;
+    padding: 0px!important;
+    border-style:none!important;
+    /* width: 50%; */
+    /* height: 50px; */
+        background-color: #3A5277!important;
+        border-radius: 50px!important;
+        font-family: "Montserrat";
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 20px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
+.ButtonTagField:focus {
+    outline: none;
+    box-shadow: none;
+  }
+  /* checkboz styling */
+  .GlobalCustomCheckBox .GlobalCheckBoxCustomize {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.Globalcheckmark {
+  position: absolute;
+  top: 2px;
+  left: 0;
+  height: 19px;
+  width: 19px;
+  background-color: #fff;
+  border-radius: 4px;
+}
+.AdminGlobalcheckmark {
+  position: absolute;
+  top: 10px;
+  left: 0;
+  height: 19px;
+  width: 19px;
+  background-color: #fff;
+  border: 2px solid #2ec2e2;
+  border-radius: 4px;
+}
+
+.GlobalChecBoxContainer:hover input ~ .Globalcheckmark {
+  background: #f2f8f9;
+}
+.AdminGlobalChecBoxContainer:hover input ~ .AdminGlobalcheckmark {
+  background: #f2f8f9;
+}
+
+.Globalcheckmark:after {
+  content: '';
+  position: absolute;
+  display: none;
+}
+.AdminGlobalcheckmark:after {
+  content: '';
+  position: absolute;
+  display: none;
+}
+
+.GlobalChecBoxContainer input:checked ~ .Globalcheckmark:after {
+  display: block;
+}
+.AdminGlobalChecBoxContainer input:checked ~ .AdminGlobalcheckmark:after {
+  display: block;
+}
+.AdminGlobalChecBoxContainer .AdminGlobalcheckmark:after {
+  left: 5px;
+  top: 2px;
+  width: 5px;
+  height: 10px;
+  border: solid #2ec2e2;
+  border-width: 0 3px 3px 0;
+  transform: rotate(45deg);
+}
+
+.GlobalChecBoxContainer .Globalcheckmark:after {
+  left: 5px;
+  top: 2px;
+  width: 5px;
+  height: 10px;
+  border: solid #2ec2e2;
+  border-width: 0 3px 3px 0;
+  transform: rotate(45deg);
+}
+
+.GlobalCheckBoxText {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  color: #5e7291;
+  font-weight: 500;
+  font-size: 14px;
+  margin-left: 10px;
+  white-space: nowrap;
+  text-transform: capitalize;
+}
+
+  .AdminGlobalCheckBoxText {
+    margin-top: 8px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    color: #5e7291;
+    font-weight: 500;
+    font-size: 14px;
+    margin-left: 10px;
+    white-space: nowrap;
+  
+  
+}
+.GlobalChecBoxContainer {
+  display: flex;
+  margin-right: 50px;
+  margin-bottom: 2%;
+ 
+}
+.AdminGlobalChecBoxContainer {
+  display: flex;
+  margin-top: 10px;
+  margin-right: 50px;
+  /* margin-bottom: 2%; */
+ 
+}
+  
+/* Form component Data */

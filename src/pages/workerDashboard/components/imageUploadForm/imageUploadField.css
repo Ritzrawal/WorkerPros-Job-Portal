@@ -1,0 +1,52 @@
+.AddImageDashboardForm {
+  width: 80%;
+  margin: auto;
+}
+
+.AddImageDashboardForm .EmployerProfileBrandForm__Form {
+  padding-top: 20px;
+}
+
+.AddImageDashboardForm
+  .AddImageDashboardForm__Form
+  .AddImageDashboardForm__Form--Logo
+  .AddImageDashboardForm__Form--Logo--Upload {
+  background: #f5fdff;
+  border: 2px solid #2ec2e2;
+  position: relative;
+  margin: auto;
+}
+.AddImageDashboardForm
+  .AddImageDashboardForm__Form
+  .AddImageDashboardForm__Form--Logo
+  .AddImageDashboardForm__Form--Logo--Upload
+  .AddImageDashboardForm__Form--Logo--Upload--Image {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+.AddImageDashboardForm
+  .AddImageDashboardForm__Form
+  .AddImageDashboardForm__Form--Logo
+  .AddImageDashboardForm__Form--Logo--Upload
+  .AddImageDashboardForm__Form--Logo--Upload--Image
+  img {
+  height: 100%;
+  width: 100%;
+}
+
+.AddImageDashboardForm
+  .AddImageDashboardForm__Form
+  .AddImageDashboardForm__Form--Logo
+  .AddImageDashboardForm__Form--Logo--Upload
+  button {
+  background: #2ec2e2;
+  border-radius: 50px;
+  border: none;
+  color: #fff;
+  padding: 3px 8px;
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  z-index: 9;
+}

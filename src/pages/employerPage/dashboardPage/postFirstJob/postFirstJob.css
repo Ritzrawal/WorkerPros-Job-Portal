@@ -1,0 +1,50 @@
+.EmployerPostFirstJob {
+    display: flex;
+    background: #273E61;
+    border-radius: 6px;
+    padding-top: 24px;
+    padding-left: 95px;
+    padding-right: 95px;
+}
+
+.EmployerPostFirstJob .EmployerPostFirstJob__Image {}
+
+.EmployerPostFirstJob .EmployerPostFirstJob__Text {
+    padding-left: 55px;
+    padding-top: 10px;
+}
+
+.EmployerPostFirstJob .EmployerPostFirstJob__Text .EmployerPostFirstJob__Text--Title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 150%;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+}
+
+.EmployerPostFirstJob .EmployerPostFirstJob__Text .EmployerPostFirstJob__Text--Description {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 150%;
+    color: #FFFFFF;
+    padding-top: 5px;
+}
+
+.EmployerPostFirstJob .EmployerPostFirstJob__Text .EmployerPostFirstJob__Text--Button {
+    padding-top: 30px;
+}
+
+.EmployerPostFirstJob .EmployerPostFirstJob__Text .EmployerPostFirstJob__Text--Button a {
+    background: #FFFFFF;
+    border-radius: 50px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    color: #2EC2E2;
+    padding: 12px 22px;
+    text-decoration: none;
+}

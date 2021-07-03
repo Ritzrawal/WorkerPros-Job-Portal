@@ -1,0 +1,33 @@
+.EmployerSidebar {
+  height: calc(100vh - 73px);
+  background-color: #203452;
+}
+
+.EmployerSidebar .EmployerSidebar__List {
+}
+
+.EmployerSidebar .EmployerSidebar__List ul {
+  list-style: none;
+  padding: 0px;
+}
+
+.EmployerSidebar .EmployerSidebar__List ul li {
+  color: #fff;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  text-transform: uppercase;
+  padding: 20px 25px;
+}
+
+.EmployerSidebar .EmployerSidebar__List ul a:hover {
+  text-decoration: none;
+}
+
+.EmployerSidebar .EmployerSidebar__List ul li img {
+  margin-right: 20px;
+}
+
+.EmployerSidebar .EmployerSidebar__List .EmployerSidebar___List--Active {
+  background-color: #2EC2E2;
+}

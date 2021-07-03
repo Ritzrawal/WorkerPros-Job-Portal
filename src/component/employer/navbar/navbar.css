@@ -1,0 +1,160 @@
+.EmployerNavbar {
+  display: flex;
+  width: 100%;
+  padding: 15px 50px;
+  background-color: #234476;
+}
+
+.EmployerNavbar .EmployerNavbar__Logo {
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 33px;
+  color: #fff;
+  padding-top: 8px;
+}
+
+.EmployerNavbar .EmployerNavbar__Logo a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.EmployerNavbar .EmployerNavbar__Search {
+  padding-left: 55px;
+  padding-top: 5px;
+}
+
+.EmployerNavbar .EmployerNavbar__Search .EmployerNavbar__Search--Container {
+  padding: 6px 12px;
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.04);
+  border-radius: 50px;
+  position: relative;
+}
+
+.EmployerNavbar
+  .EmployerNavbar__Search
+  .EmployerNavbar__Search--Container
+  .EmployerNavbar__Search--Container--SearchBox {
+  position: absolute;
+  width: 350px;
+  left: 0px;
+  top: 45px;
+  z-index: 9;
+}
+
+.EmployerNavbar .EmployerNavbar__Search .EmployerNavbar__Search--Container svg {
+  color: #2ec2e2;
+  margin-right: 10px;
+}
+
+.EmployerNavbar
+  .EmployerNavbar__Search
+  .EmployerNavbar__Search--Container
+  input {
+  background: none;
+  border: none;
+  color: #ced5df;
+}
+
+.EmployerNavbar
+  .EmployerNavbar__Search
+  .EmployerNavbar__Search--Container
+  input::placeholder {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 138.5%;
+  color: #ced5df;
+}
+
+.EmployerNavbar .EmployerNavbar__RightMenu {
+  display: flex;
+  margin-left: auto;
+}
+
+.EmployerNavbar .EmployerNavbar__RightMenu .EmployerNavbar__RightMenu--PostJob {
+  margin-top: 11px;
+}
+
+.EmployerNavbar
+  .EmployerNavbar__RightMenu
+  .EmployerNavbar__RightMenu--PostJob
+  a {
+  font-size: 15px;
+  padding: 10px 25px;
+  color: #fff;
+  background: #2ec2e2;
+  border: 2px solid #2ec2e2;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.EmployerNavbar
+  .EmployerNavbar__RightMenu
+  .EmployerNavbar__RightMenu--PostJob
+  a:hover {
+  text-decoration: none;
+}
+
+.EmployerNavbar
+  .EmployerNavbar__RightMenu
+  .EmployerNavbar__RightMenu--PostJob
+  a
+  svg {
+  font-size: 15px;
+  margin-right: 15px;
+}
+
+.EmployerNavbar
+  .EmployerNavbar__RightMenu
+  .EmployerNavbar__RightMenu--NotificationIcon {
+  color: #fff;
+  padding-left: 35px;
+  padding-top: 7px;
+  font-size: 20px;
+}
+
+.EmployerNavbar
+  .EmployerNavbar__RightMenu
+  .EmployerNavbar__RightMenu--UserDetail {
+  display: flex;
+  padding-left: 27px;
+}
+
+.EmployerNavbar
+  .EmployerNavbar__RightMenu
+  .EmployerNavbar__RightMenu--UserDetail
+  .EmployerNavbar__RightMenu--UserDetail--Image {
+  height: 40px;
+  width: 40px;
+  border-radius: 40px;
+  overflow: hidden;
+  margin-top: 3px;
+}
+
+.EmployerNavbar
+  .EmployerNavbar__RightMenu
+  .EmployerNavbar__RightMenu--UserDetail
+  .EmployerNavbar__RightMenu--UserDetail--Image
+  img {
+  height: 100%;
+  width: 100%;
+}
+
+.EmployerNavbar
+  .EmployerNavbar__RightMenu
+  .EmployerNavbar__RightMenu--UserDetail
+  .EmployerNavbar__RightMenu--UserDetail--Name {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 18px;
+  color: #fff;
+  padding-left: 15px;
+  padding-top: 15px;
+}
+
+.EmployerNavbar__RightMenu--UserDetail .dropdown-menu.show {
+  top: 0px !important;
+  left: -45px !important;
+}

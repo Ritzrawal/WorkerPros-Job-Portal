@@ -1,0 +1,52 @@
+.AdminSidebar {
+  width: 244px;
+  height: calc(100vh - 75px);
+  background-color: #203452;
+}
+/* .AdminSidebar .AdminSidebar__List {
+    padding: 30px 0px 0px 30px;
+  } */
+
+.AdminSidebar .AdminSidebar__List ul {
+  list-style: none;
+  padding: 0px;
+}
+
+.AdminSidebar .AdminSidebar__List ul li {
+  width: 100%;
+  height: 50px;
+  padding: 0px 40px 0px 30px;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  text-transform: uppercase;
+  /* padding-bottom: 35px; */
+}
+
+.AdminSidebar .AdminSidebar__List ul a:hover {
+  text-decoration: none;
+}
+
+.AdminSidebar .AdminSidebar__List ul li svg {
+  margin-right: 20px;
+  font-size: 20px;
+  margin-bottom: -3px;
+}
+.ActiveBackgroundcolor {
+  background-color: red;
+}
+.AdminHeader a {
+  /* padding: 5px 5px; */
+  transition: background-color 0.1s ease-in;
+}
+
+.AdminHeader .Adminactive {
+  background-color: #2ec2e2;
+  height: fit-content;
+}
+.Adminactive {
+  background-color: #2ec2e2;
+}

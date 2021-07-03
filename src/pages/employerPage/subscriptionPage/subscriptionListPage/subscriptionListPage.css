@@ -1,0 +1,109 @@
+.SubscriptionListPageBanner {
+  background-color: #162a49;
+  height: 364px;
+}
+
+.SubscriptionListPageMainContainer {
+  padding-bottom: 70px;
+  background: rgba(242, 244, 250, 0.54);
+}
+
+.SubscriptionListPageBannerContent {
+  padding: 70px 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.SubscriptionListPageBannerTitle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.SubscriptionListPageBannerTitle h2 {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 140%;
+  /* or 45px */
+
+  text-align: center;
+  letter-spacing: -0.03em;
+  color: #ffffff;
+}
+
+.SubscriptionListPageBannerTitle span {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 160%;
+  /* or 26px */
+
+  text-align: center;
+
+  /* Lighter Blue */
+
+  color: #edf4ff;
+}
+
+.SubscriptionListPageMonthlyYearly {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.SubscriptionListPageMonthly {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+
+  text-align: right;
+
+  color: #7086a8;
+  margin-right: 15px;
+}
+
+.SubscriptionListPageYearly {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+
+  /* Lighter Blue */
+
+  color: #edf4ff;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.SubscriptionListPageDiscount {
+  background-color: #2ec2e2;
+  padding: 3px 4px;
+  border-radius: 4px;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 160%;
+  /* or 19px */
+
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.SubscriptionListPageCardContainer {
+  padding: 0px 120px;
+  margin-top: -40px;
+  display: flex;
+  justify-content: space-between;
+}

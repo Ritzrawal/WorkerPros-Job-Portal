@@ -1,0 +1,102 @@
+.EmployerProfileBrandForm {
+    padding-top: 40px;
+    width: 80%;
+    margin: auto;
+}
+
+.EmployerProfileBrandForm .EmployerProfileBrandForm__Title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 39px;
+    letter-spacing: -0.03em;
+    color: #162A49;
+}
+
+.EmployerProfileBrandForm .EmployerProfileBrandForm__SubTitle {
+    padding-top: 8px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 160%;
+    color: #162A49;
+}
+
+.EmployerProfileBrandForm .EmployerProfileBrandForm__Form {
+    padding-top: 20px;
+}
+
+.EmployerProfileBrandForm .EmployerProfileBrandForm__Form .EmployerProfileBrandForm__Form--Logo {}
+
+.EmployerProfileBrandForm .EmployerProfileBrandForm__Form .EmployerProfileBrandForm__Form--Logo .EmployerProfileBrandForm__Form--Logo--Upload {
+    height: 117px;
+    width: 117px;
+    border-radius: 117px;
+    background: #F5FDFF;
+    border: 2px dashed #2EC2E2;
+    position: relative;
+    margin: auto;
+}
+.EmployerProfileBrandForm .EmployerProfileBrandForm__Form .EmployerProfileBrandForm__Form--Logo .EmployerProfileBrandForm__Form--Logo--Upload .EmployerProfileBrandForm__Form--Logo--Upload--Image {
+    height: 100%;
+    width: 100%;
+    border-radius: 100%;
+    overflow: hidden;
+}
+
+.EmployerProfileBrandForm .EmployerProfileBrandForm__Form .EmployerProfileBrandForm__Form--Logo .EmployerProfileBrandForm__Form--Logo--Upload .EmployerProfileBrandForm__Form--Logo--Upload--Image img {
+    height: 100%;
+    width: 100%;
+}
+
+.EmployerProfileBrandForm .EmployerProfileBrandForm__Form .EmployerProfileBrandForm__Form--Logo .EmployerProfileBrandForm__Form--Logo--Upload button {
+    background: #2EC2E2;
+    border-radius: 50px;
+    border: none;
+    color: #fff;
+    padding: 3px 8px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    z-index: 9;
+}
+
+
+.EmployerProfileBrandForm .EmployerProfileBrandForm__Form .EmployerProfileBrandForm__Form--Logo .EmployerProfileBrandForm__Form--Logo--Text {
+    padding-top: 15px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    color: #808FA6;
+}
+
+
+.EmployerProfileBrandForm .EmployerProfileBrandForm__Form .EmployerProfileBrandForm__Form--Logo .EmployerProfileBrandForm__Form--Logo--Error {
+    color: red;
+}
+
+.EmployerProfileBrandForm .EmployerProfileBrandForm__Form .EmployerProfileBrandForm__Form--Special {
+    padding-top: 39px;
+}
+
+.EmployerProfileBrandForm .EmployerProfileBrandForm__Form .EmployerProfileBrandForm__Form--Special .EmployerProfileBrandForm__Form--Special--Title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 141.5%;
+    color: #162A49;
+}
+
+.EmployerProfileBrandForm .EmployerProfileBrandForm__Form .EmployerProfileBrandForm__Form--Special .EmployerProfileBrandForm__Form--Special--Body {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 17px;
+}
+
+.EmployerProfileBrandForm .EmployerProfileBrandForm__Form .EmployerProfileBrandForm__Form--Special .EmployerProfileBrandForm__Form--Special--Body .EmployerProfileBrandForm__Form--Special--Body--Container {
+    padding-bottom: 10px;
+    padding-right: 10px;
+}

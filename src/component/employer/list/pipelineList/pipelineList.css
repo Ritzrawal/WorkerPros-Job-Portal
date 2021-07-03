@@ -1,0 +1,104 @@
+.EmployerPipelineList {}
+
+.EmployerPipelineList .EmployerPipelineList__Body {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.EmployerPipelineList .EmployerPipelineList__Body .EmployerPipelineList__Body--Applied,
+.EmployerPipelineList .EmployerPipelineList__Body .EmployerPipelineList__Body--Screening,
+.EmployerPipelineList .EmployerPipelineList__Body .EmployerPipelineList__Body--Interview,
+.EmployerPipelineList .EmployerPipelineList__Body .EmployerPipelineList__Body--Offered,
+.EmployerPipelineList .EmployerPipelineList__Body .EmployerPipelineList__Body--Hired  {
+    width: 19%;
+}
+
+.EmployerPipelineList .EmployerPipelineList__Body .EmployerPipelineList__Body--Applied .EmployerPipelineList__Body--Applied--Title,
+.EmployerPipelineList .EmployerPipelineList__Body .EmployerPipelineList__Body--Screening .EmployerPipelineList__Body--Screening--Title,
+.EmployerPipelineList .EmployerPipelineList__Body .EmployerPipelineList__Body--Interview .EmployerPipelineList__Body--Interview--Title,
+.EmployerPipelineList .EmployerPipelineList__Body .EmployerPipelineList__Body--Offered .EmployerPipelineList__Body--Offered--Title,
+.EmployerPipelineList .EmployerPipelineList__Body .EmployerPipelineList__Body--Hired .EmployerPipelineList__Body--Hired--Title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #808FA6;
+    display: flex;
+}
+
+.EmployerPipelineList .EmployerPipelineList__Body .EmployerPipelineList__Body--Applied .EmployerPipelineList__Body--Applied--Title .EmployerPipelineList__Body--Applied--Title--Icon {
+    height: 21px;
+    width: 21px;
+    background-color: #EAA800;
+    border-radius: 4px
+}
+
+.EmployerPipelineList .EmployerPipelineList__Body .EmployerPipelineList__Body--Screening .EmployerPipelineList__Body--Screening--Title .EmployerPipelineList__Body--Screening--Title--Icon {
+    height: 21px;
+    width: 21px;
+    background-color: #C5D700;
+    border-radius: 4px
+}
+
+.EmployerPipelineList .EmployerPipelineList__Body .EmployerPipelineList__Body--Interview .EmployerPipelineList__Body--Interview--Title .EmployerPipelineList__Body--Interview--Title--Icon {
+    height: 21px;
+    width: 21px;
+    background-color: #8F9EED;
+    border-radius: 4px
+}
+
+.EmployerPipelineList .EmployerPipelineList__Body .EmployerPipelineList__Body--Offered .EmployerPipelineList__Body--Offered--Title .EmployerPipelineList__Body--Offered--Title--Icon {
+    height: 21px;
+    width: 21px;
+    background-color: #7BDFF5;
+    border-radius: 4px
+}
+
+.EmployerPipelineList .EmployerPipelineList__Body .EmployerPipelineList__Body--Hired .EmployerPipelineList__Body--Hired--Title .EmployerPipelineList__Body--Hired--Title--Icon {
+    height: 21px;
+    width: 21px;
+    background-color: #85D700;
+    border-radius: 4px
+}
+
+.EmployerPipelineList .EmployerPipelineList__Body .EmployerPipelineList__Body--Applied .EmployerPipelineList__Body--Applied--Title .EmployerPipelineList__Body--Applied--Title--Text,
+.EmployerPipelineList .EmployerPipelineList__Body .EmployerPipelineList__Body--Screening .EmployerPipelineList__Body--Screening--Title .EmployerPipelineList__Body--Screening--Title--Text,
+.EmployerPipelineList .EmployerPipelineList__Body .EmployerPipelineList__Body--Interview .EmployerPipelineList__Body--Interview--Title .EmployerPipelineList__Body--Interview--Title--Text,
+.EmployerPipelineList .EmployerPipelineList__Body .EmployerPipelineList__Body--Offered .EmployerPipelineList__Body--Offered--Title .EmployerPipelineList__Body--Offered--Title--Text,
+.EmployerPipelineList .EmployerPipelineList__Body .EmployerPipelineList__Body--Hired .EmployerPipelineList__Body--Hired--Title .EmployerPipelineList__Body--Hired--Title--Text {
+    padding-left: 11px;
+}
+
+.EmployerPipelineList .EmployerPipelineList__Body .EmployerPipelineList__Body--Applied .EmployerPipelineList__Body--Applied--Title .EmployerPipelineList__Body--Applied--Title--Count span,
+.EmployerPipelineList .EmployerPipelineList__Body .EmployerPipelineList__Body--Screening .EmployerPipelineList__Body--Screening--Title .EmployerPipelineList__Body--Screening--Title--Count span,
+.EmployerPipelineList .EmployerPipelineList__Body .EmployerPipelineList__Body--Interview .EmployerPipelineList__Body--Interview--Title .EmployerPipelineList__Body--Interview--Title--Count span,
+.EmployerPipelineList .EmployerPipelineList__Body .EmployerPipelineList__Body--Offered .EmployerPipelineList__Body--Offered--Title .EmployerPipelineList__Body--Offered--Title--Count span,
+.EmployerPipelineList .EmployerPipelineList__Body .EmployerPipelineList__Body--Hired .EmployerPipelineList__Body--Hired--Title .EmployerPipelineList__Body--Hired--Title--Count span {
+    background: rgba(199, 208, 222, 0.38);
+    border-radius: 50px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 13px;
+    color: #808FA6;
+    padding: 5px 6px;
+    margin-left: 6px;
+}
+
+.EmployerPipelineList .EmployerPipelineList__Body .EmployerPipelineList__Body--Applied .EmployerPipelineList__Body--Applied--List,
+.EmployerPipelineList .EmployerPipelineList__Body .EmployerPipelineList__Body--Screening .EmployerPipelineList__Body--Screening--List,
+.EmployerPipelineList .EmployerPipelineList__Body .EmployerPipelineList__Body--Interview .EmployerPipelineList__Body--Interview--List,
+.EmployerPipelineList .EmployerPipelineList__Body .EmployerPipelineList__Body--Offered .EmployerPipelineList__Body--Offered--List,
+.EmployerPipelineList .EmployerPipelineList__Body .EmployerPipelineList__Body--Hired .EmployerPipelineList__Body--Hired--List {
+    padding-top: 31px;
+    height: 100%;
+}
+
+.EmployerPipelineList .EmployerPipelineList__Body .EmployerPipelineList__Body--Applied .EmployerPipelineList__Body--Applied--List .EmployerPipelineList__Body--Applied--List--PipelineListBox,
+.EmployerPipelineList .EmployerPipelineList__Body .EmployerPipelineList__Body--Screening .EmployerPipelineList__Body--Screening--List .EmployerPipelineList__Body--Screening--List--PipelineListBox,
+.EmployerPipelineList .EmployerPipelineList__Body .EmployerPipelineList__Body--Interview .EmployerPipelineList__Body--Interview--List .EmployerPipelineList__Body--Interview--List--PipelineListBox,
+.EmployerPipelineList .EmployerPipelineList__Body .EmployerPipelineList__Body--Offered .EmployerPipelineList__Body--Offered--List .EmployerPipelineList__Body--Offered--List--PipelineListBox,
+.EmployerPipelineList .EmployerPipelineList__Body .EmployerPipelineList__Body--Hired .EmployerPipelineList__Body--Hired--List .EmployerPipelineList__Body--Hired--List--PipelineListBox {
+    margin-bottom: 10px;
+}

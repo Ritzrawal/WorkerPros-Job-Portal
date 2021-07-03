@@ -1,0 +1,5 @@
+.EmployerAppliedCandidate {}
+
+.EmployerAppliedCandidate .EmployerAppliedCandidate__AppliedCandidateJobBox {
+    padding-bottom: 14px;
+}

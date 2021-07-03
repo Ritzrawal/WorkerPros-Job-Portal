@@ -1,0 +1,97 @@
+.EmployerJobListBox {
+  padding: 14px 0px;
+  display: flex;
+}
+
+.EmployerJobListBox .EmployerJobListBox__Detail {
+}
+
+.EmployerJobListBox
+  .EmployerJobListBox__Detail
+  .EmployerJobListBox__Detail--Title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+  color: #162a49;
+}
+
+.EmployerJobListBox
+  .EmployerJobListBox__Detail
+  .EmployerJobListBox__Detail--Count {
+  display: flex;
+  padding-top: 9px;
+}
+
+.EmployerJobListBox
+  .EmployerJobListBox__Detail
+  .EmployerJobListBox__Detail--Count
+  .EmployerJobListBox__Detail--Count--Message,
+.EmployerJobListBox
+  .EmployerJobListBox__Detail
+  .EmployerJobListBox__Detail--Count
+  .EmployerJobListBox__Detail--Count--Interview {
+  padding-left: 23px;
+}
+
+.EmployerJobListBox
+  .EmployerJobListBox__Detail
+  .EmployerJobListBox__Detail--Count
+  .EmployerJobListBox__Detail--Count--Applicant
+  .EmployerJobListBox__Detail--Count--Applicant--Title,
+.EmployerJobListBox
+  .EmployerJobListBox__Detail
+  .EmployerJobListBox__Detail--Count
+  .EmployerJobListBox__Detail--Count--Message
+  .EmployerJobListBox__Detail--Count--Message--Title,
+.EmployerJobListBox
+  .EmployerJobListBox__Detail
+  .EmployerJobListBox__Detail--Count
+  .EmployerJobListBox__Detail--Count--Interview
+  .EmployerJobListBox__Detail--Count--Interview--Title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  color: #162a49;
+}
+
+.EmployerJobListBox
+  .EmployerJobListBox__Detail
+  .EmployerJobListBox__Detail--Count
+  .EmployerJobListBox__Detail--Count--Applicant
+  .EmployerJobListBox__Detail--Count--Applicant--Title
+  span {
+  margin-left: 5px;
+  color: #2ec2e2;
+}
+
+.EmployerJobListBox
+  .EmployerJobListBox__Detail
+  .EmployerJobListBox__Detail--Count
+  .EmployerJobListBox__Detail--Count--Applicant
+  .EmployerJobListBox__Detail--Count--Applicant--Body,
+.EmployerJobListBox
+  .EmployerJobListBox__Detail
+  .EmployerJobListBox__Detail--Count
+  .EmployerJobListBox__Detail--Count--Message
+  .EmployerJobListBox__Detail--Count--Message--Body,
+.EmployerJobListBox
+  .EmployerJobListBox__Detail
+  .EmployerJobListBox__Detail--Count
+  .EmployerJobListBox__Detail--Count--Interview
+  .EmployerJobListBox__Detail--Count--Interview--Body {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #808fa6;
+  padding-top: 1px;
+}
+
+.EmployerJobListBox .EmployerJobListBox__Link {
+  margin-left: auto;
+  padding-top: 15px;
+  font-size: 18px;
+  color: #2ec2e2;
+}

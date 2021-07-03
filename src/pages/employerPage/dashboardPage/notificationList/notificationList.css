@@ -1,0 +1,22 @@
+.EmployerNotificationList {
+  background: #ffffff;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+  padding: 12px;
+}
+
+.EmployerNotificationList .EmployerNotificationList__Title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #808fa6;
+}
+
+.EmployerNotificationList
+  .EmployerNotificationList__Body
+  .EmployerNotificationList__Body--NotificationListBox.BottomBorder {
+  border-bottom: 1px solid #ebeff4;
+}

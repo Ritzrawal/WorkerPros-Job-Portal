@@ -1,0 +1,109 @@
+.EmployerDropdownBox {
+  background-color: #fff;
+}
+
+.EmployerDropdownBox .EmployerDropdownBox__Label {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  color: #162a49;
+  margin-bottom: 7px;
+}
+
+.EmployerDropdownBox .EmployerDropdownBox__Box {
+  display: flex;
+  border: 2px solid #c7d0de;
+  box-sizing: border-box;
+  border-radius: 6px;
+  cursor: pointer;
+  position: relative;
+}
+
+.EmployerDropdownBox .EmployerDropdownBox__Box.Error {
+  border: 2px solid red;
+}
+
+.EmployerDropdownBox .EmployerDropdownBox__Box--LeftIcon,
+.EmployerDropdownBox .EmployerDropdownBox__Box--RightIcon,
+.EmployerDropdownBox .EmployerDropdownBox__Box--RightText {
+  font-weight: 600;
+  line-height: 20px;
+  color: #9da6b5;
+  margin-top: 3px;
+}
+
+.EmployerDropdownBox .EmployerDropdownBox__Box--LeftIcon,
+.EmployerDropdownBox .EmployerDropdownBox__Box--RightIcon {
+  font-size: 18px;
+}
+
+.EmployerDropdownBox .EmployerDropdownBox__Box--LeftIcon {
+  position: absolute;
+  left: 6px;
+}
+
+.EmployerDropdownBox .EmployerDropdownBox__Box--RightIcon {
+  position: absolute;
+  right: 6px;
+}
+
+.EmployerDropdownBox
+  .EmployerDropdownBox__Box
+  .EmployerDropdownBox__Box--Input {
+  width: 100%;
+}
+
+.EmployerDropdownBox
+  .EmployerDropdownBox__Box
+  .EmployerDropdownBox__Box--Input
+  select {
+    width: 100%;
+    height: 100%;
+    border: none;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: capitalize;
+    color: #808fa6;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAKCAYAAAC9vt6cAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAACdSURBVHgBjZLNDYMwDIXtIHUOeuNUdYVs1E7SVbpB1A167K1hDSQSnhFI/NgEn6w8f1+iJESo26d93MO/ppMls8JIz2PD/CLK0fXJf/01luBUVQFtTTk/XZfSmzIBYgQuHJ1kA0dhWYIGwcUhYATGSRTY/zDD88CRxILHO1juoklk3YJ3Ak0yjaiwKthLUAZsClYSPJEFF0skTeGDDY2yix3ycykxAAAAAElFTkSuQmCC) no-repeat 98% 50%;
+  
+}
+
+.EmployerDropdownBox
+  .EmployerDropdownBox__Box
+  .EmployerDropdownBox__Box--CustomInput{
+    font-size: 16px;
+    width: 100%;
+    text-align: left;
+    white-space: nowrap;
+    overflow: hidden;
+    color: #808fa6;
+}
+
+.EmployerDropdownBox
+  .EmployerDropdownBox__Box
+  .EmployerDropdownBox__Box--CustomList {
+    background: #fff;
+    position: absolute;
+    width: 100%;
+    border: 1px solid #eaeaea;
+    border-radius: 6px;
+    font-size: 14px;
+    left: 0px;
+    text-align: left;
+}
+
+.EmployerDropdownBox
+  .EmployerDropdownBox__Box
+  .EmployerDropdownBox__Box--CustomList
+  .EmployerDropdownBox__Box--CustomList--Option {
+    border-bottom: 1px solid #eaeaea;
+    padding: 10px 10px;
+    cursor: pointer
+}
+
+.EmployerDropdownBox
+  .EmployerDropdownBox__Box
+  .EmployerDropdownBox__Box--CustomList
+  .EmployerDropdownBox__Box--CustomList--Option:hover {
+    background-color: #eaeaea;
+}

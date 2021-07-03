@@ -1,0 +1,160 @@
+.AdminFilterandInputOuterContainer {
+  display: flex;
+  width: 100%;
+}
+.AdminContentInnerContainer {
+}
+.AdminFilterInputCustomize {
+  width: 134px;
+  border-radius: 6px;
+  background-color: #ffffff !important;
+  border: 2px solid #2ec2e2;
+}
+.AdminSearchandFilter {
+  display: flex;
+  flex-grow: 1;
+  justify-content: flex-end;
+}
+.AdminSearchContainer {
+  padding-left: 10px;
+  /* border: 2px solid #808FA6;
+box-sizing: border-box;
+border-radius: 50px; */
+}
+.AdminSearchBarOuter {
+  display: flex;
+  height: 40px;
+  align-items: center;
+  border: 2px solid #808fa6;
+  box-sizing: border-box;
+  border-radius: 50px;
+}
+.AdminSearchIconColorChange {
+  padding-left: 5px;
+  color: #2ec2e2;
+  font-size: 20px;
+}
+.AdminSearchTextInputField {
+  height: 35px;
+  padding-left: 5px;
+  border: none;
+  border-radius: 50px;
+  background-color: #f2f4fa;
+  /* opacity: 0; */
+}
+.AdminCompanyCardComponent {
+  margin-top: 29px;
+  display: flex;
+  width: 100%;
+  height: 233px;
+  border-radius: 10px;
+  background: #ffffff;
+  box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+}
+.AdminCompanyImageContainer {
+  border-radius: 10px 0px 0px 10px;
+  /* height: 279px; */
+  width: 279px;
+}
+.AdminDisplayImageComanyLogo {
+  height: 100%;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  width: 100%;
+}
+.AdminCompanyCardContentContainer {
+  position: relative;
+  width: 100%;
+  padding-left: 27px;
+}
+.AdminCompanyDisplayTextData {
+  padding-top: 20px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 150%;
+  color: #808fa6;
+}
+.AdminCompanyWithLocationAndInputContainer {
+  display: flex;
+  padding-top: 12px;
+}
+.AdminCompanyAvatarCustomize {
+  width: 53px;
+  height: 53px;
+  border-radius: 50%;
+}
+.AdminCompanyAvatarImage {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.AdminCompanyTitleCustomizeContainer {
+  padding-left: 13px;
+}
+.AdminCompanyTitleTextStyling {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  color: #162a49;
+}
+.AdminCompanyLocationCity {
+  padding-left: 9px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: #234476;
+}
+.AdminCompanyLocationIconContainer {
+  display: flex;
+  align-items: center;
+}
+.AdminFilterInputInsideCardCustomize {
+  display: flex;
+  flex-grow: 1;
+  padding-right: 31px;
+  justify-content: flex-end;
+}
+.AdminCompanyDisplayButtonContainer {
+  position: absolute;
+  bottom: 15px;
+  padding-top: 12px;
+}
+.AdminFilterInputCustomize.form-control {
+  background: url('../../../assets/images/icons/dropdownArrowThin.png')
+    no-repeat 92% 50%;
+  text-transform: capitalize;
+  background-size: 13px 6.5px;
+}
+.AdminCompanyBadgeCustomize {
+  margin-left: 20px;
+  position: relative;
+}
+.AdminCompanyBadge {
+  background-color: #85d700;
+  padding: 5px 15px;
+  border-radius: 14px;
+  top: -15px;
+  position: absolute;
+  z-index: 100;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+.AdminButtonCustomizeButtonContainer {
+  margin-right: 10px;
+}

@@ -1,0 +1,60 @@
+.EmployerAddMemberForm {
+    background: #fff;
+    border-bottom: 1px solid #E7EAEF;
+}
+
+.EmployerAddMemberForm .EmployerAddMemberForm__Title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    color: #162A49;
+    padding: 27px 32px;
+}
+
+.EmployerAddMemberForm .EmployerAddMemberForm__Form {
+    padding: 0px 32px 27px 32px;
+}
+
+.EmployerAddMemberForm .EmployerAddMemberForm__Form .EmployerAddMemberForm__Form--Name {
+    display: flex;
+    justify-content: space-between;
+}
+
+.EmployerAddMemberForm .EmployerAddMemberForm__Form .EmployerAddMemberForm__Form--Name .EmployerAddMemberForm__Form--Name--First {
+    width: 48%
+}
+
+.EmployerAddMemberForm .EmployerAddMemberForm__Form .EmployerAddMemberForm__Form--Name .EmployerAddMemberForm__Form--Name--Last {
+    width: 48%
+}
+
+.EmployerAddMemberForm .EmployerAddMemberForm__Form .EmployerAddMemberForm__Form--Email {
+    padding-top: 21px;
+}
+
+.EmployerAddMemberForm .EmployerAddMemberForm__Form .EmployerAddMemberForm__Form--Error {
+    padding-top: 10px;
+    color: red;
+}
+
+.EmployerAddMemberForm .EmployerAddMemberForm__Form .EmployerAddMemberForm__Form--Button {
+    padding-top: 27px;
+}
+
+.EmployerAddMemberForm .EmployerAddMemberForm__Form .EmployerAddMemberForm__Form--Button button {
+    background: #2EC2E2;
+    border-radius: 50px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 12px 44px;
+    border: none;
+}
+
+.EmployerAddMemberForm .EmployerAddMemberForm__Permission {
+    border-top: 1px solid #E7EAEF;
+}

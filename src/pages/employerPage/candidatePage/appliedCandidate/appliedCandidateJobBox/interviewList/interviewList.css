@@ -1,0 +1,9 @@
+.EmployerInterviewList {}
+
+.EmployerInterviewList .EmployerInterviewList__Body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 19px;
+}
+

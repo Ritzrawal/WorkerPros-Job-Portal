@@ -1,0 +1,45 @@
+.EmployerSelectTickBox {
+}
+
+.EmployerSelectTickBox .EmployerSelectTickBox__Input {
+  border: 2px solid #9da6b5;
+  padding: 10px 20px 5px 15px;
+  border-radius: 25px;
+}
+
+.EmployerSelectTickBox .EmployerSelectTickBox__Input input {
+  display: none;
+}
+
+.EmployerSelectTickBox .EmployerSelectTickBox__Input label {
+  padding-left: 10px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #203452;
+  text-transform: capitalize;
+}
+
+.EmployerSelectTickBox .EmployerSelectTickBox__Input svg {
+  color: #2ec2e2;
+}
+
+.EmployerSelectTickBox
+  .EmployerSelectTickBox__Input.EmployerSelectTickBox__Input--Active {
+  border: 2px solid #2ec2e2;
+  background-color: #2ec2e2;
+  color: #fff;
+}
+
+.EmployerSelectTickBox
+  .EmployerSelectTickBox__Input.EmployerSelectTickBox__Input--Active
+  label {
+  color: #fff;
+}
+
+.EmployerSelectTickBox
+  .EmployerSelectTickBox__Input.EmployerSelectTickBox__Input--Active
+  svg {
+  color: #fff;
+  font-size: 15px;
+}

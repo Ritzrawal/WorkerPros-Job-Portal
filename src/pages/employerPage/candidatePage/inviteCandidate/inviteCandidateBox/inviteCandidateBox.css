@@ -1,0 +1,81 @@
+.EmployerInviteCandidateBox {
+    background: #FFFFFF;
+    border: 1px solid rgba(160, 172, 189, 0.19);
+    box-sizing: border-box;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.03);
+    border-radius: 6px;
+    padding: 15px;
+}
+
+.EmployerInviteCandidateBox a {
+    text-decoration: none;
+}
+
+.EmployerInviteCandidateBox .EmployerInviteCandidateBox__Info {
+    display: flex;
+}
+
+.EmployerInviteCandidateBox .EmployerInviteCandidateBox__Info .EmployerInviteCandidateBox__Info--Image {
+    height: 70px;
+    width: 70px;
+    border-radius: 70px;
+    overflow: hidden;
+}
+
+.EmployerInviteCandidateBox .EmployerInviteCandidateBox__Info .EmployerInviteCandidateBox__Info--Image img {
+    height: 100%;
+    width: 100%;
+}
+
+.EmployerInviteCandidateBox .EmployerInviteCandidateBox__Info .EmployerInviteCandidateBox__Info--Detail {
+    padding-left: 15px;
+    padding-top: 10px;
+}
+
+.EmployerInviteCandidateBox .EmployerInviteCandidateBox__Info .EmployerInviteCandidateBox__Info--Detail--Name {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #162A49;
+}
+
+.EmployerInviteCandidateBox .EmployerInviteCandidateBox__Info .EmployerInviteCandidateBox__Info--Detail--Skill {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #2EC2E2;
+}
+
+.EmployerInviteCandidateBox .EmployerInviteCandidateBox__Info .EmployerInviteCandidateBox__Info--Option {
+    color: #C7D0DE;
+    margin-left: auto;
+    cursor: pointer;
+}
+
+.EmployerInviteCandidateBox .EmployerInviteCandidateBox__Category {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 29px;
+}
+
+.EmployerInviteCandidateBox .EmployerInviteCandidateBox__Category .EmployerInviteCandidateBox__Category--Container {
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+.EmployerInviteCandidateBox .EmployerInviteCandidateBox__Location {
+    padding-top: 23px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #234476;
+}
+
+.EmployerInviteCandidateBox .EmployerInviteCandidateBox__Location svg {
+    color: #2EC2E2;
+}

@@ -1,0 +1,32 @@
+.EmployerEventBox {}
+
+.EmployerEventBox .EmployerEventBox__Time {}
+
+.EmployerEventBox .EmployerEventBox__Time span {
+    background: #2EC2E2;
+    border-radius: 14px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 16px;
+    color: #FFFFFF;
+    padding: 2px 10px;
+}
+    
+.EmployerEventBox .EmployerEventBox__Title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    color: #162A49;
+    padding-top: 6px;
+}
+
+.EmployerEventBox .EmployerEventBox__Description {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #808FA6;
+    padding-top: 2px;
+}

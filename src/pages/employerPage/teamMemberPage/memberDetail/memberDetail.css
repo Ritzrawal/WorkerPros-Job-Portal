@@ -1,0 +1,157 @@
+.EmployerMemberDetail {
+    background-color: #fff;
+}
+
+.EmployerMemberDetail .EmployerMemberDetail__Info {
+    display: flex;
+    padding: 28px 22px;
+    border-bottom: 1px solid #E7EAEF;
+}
+
+.EmployerMemberDetail .EmployerMemberDetail__Info .EmployerMemberDetail__Info--Image {
+    height: 90px;
+    width: 90px;
+    border-radius: 90px;
+    overflow: hidden;
+}
+
+.EmployerMemberDetail .EmployerMemberDetail__Info .EmployerMemberDetail__Info--Image img {
+    height: auto;
+    width: 100%;
+}
+
+.EmployerMemberDetail .EmployerMemberDetail__Info .EmployerMemberDetail__Info--Detail {
+    padding-top: 7px;
+    padding-left: 30px;
+}
+
+.EmployerMemberDetail .EmployerMemberDetail__Info .EmployerMemberDetail__Info--Detail .EmployerMemberDetail__Info--Detail--Name {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #162A49;
+    text-transform: capitalize;
+}
+
+
+.EmployerMemberDetail .EmployerMemberDetail__Info .EmployerMemberDetail__Info--Detail .EmployerMemberDetail__Info--Detail--Email {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    color: #2EC2E2;
+    padding-top: 7px;
+}
+
+.EmployerMemberDetail .EmployerMemberDetail__Info .EmployerMemberDetail__Info--Detail .EmployerMemberDetail__Info--Detail--Time {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    color: #808FA6;
+    padding-top: 7px;
+}
+
+.EmployerMemberDetail .EmployerMemberDetail__Info .EmployerMemberDetail__Info--Activity {
+    padding-top: 14px;
+    padding-right: 20px;
+    margin-left: auto;
+}
+
+.EmployerMemberDetail .EmployerMemberDetail__Info .EmployerMemberDetail__Info--Activity .EmployerMemberDetail__Info--Activity--Title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: right;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #808FA6;
+}
+
+.EmployerMemberDetail .EmployerMemberDetail__Info .EmployerMemberDetail__Info--Activity .EmployerMemberDetail__Info--Activity--Body {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: right;
+    letter-spacing: 0.06em;
+    color: #808FA6;
+    text-transform: uppercase;
+}
+
+.EmployerMemberDetail .EmployerMemberDetail__ResetPassword,
+.EmployerMemberDetail .EmployerMemberDetail__SuspendAccount,
+.EmployerMemberDetail .EmployerMemberDetail__RemoveAccount {
+    padding: 25px;
+    border-bottom: 1px solid #E7EAEF;
+}
+
+.EmployerMemberDetail .EmployerMemberDetail__ResetPassword .EmployerMemberDetail__ResetPassword--Title,
+.EmployerMemberDetail .EmployerMemberDetail__SuspendAccount .EmployerMemberDetail__SuspendAccount--Title ,
+.EmployerMemberDetail .EmployerMemberDetail__RemoveAccount .EmployerMemberDetail__RemoveAccount--Title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    color: #162A49;
+}
+
+.EmployerMemberDetail .EmployerMemberDetail__ResetPassword .EmployerMemberDetail__ResetPassword--Description,
+.EmployerMemberDetail .EmployerMemberDetail__SuspendAccount .EmployerMemberDetail__SuspendAccount--Description,
+.EmployerMemberDetail .EmployerMemberDetail__RemoveAccount .EmployerMemberDetail__RemoveAccount--Description {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 150%;
+    color: #162A49;
+    padding-top: 11px;
+}
+
+.EmployerMemberDetail .EmployerMemberDetail__ResetPassword .EmployerMemberDetail__ResetPassword--Button,
+.EmployerMemberDetail .EmployerMemberDetail__SuspendAccount .EmployerMemberDetail__SuspendAccount--Button,
+.EmployerMemberDetail .EmployerMemberDetail__RemoveAccount .EmployerMemberDetail__RemoveAccount--Button {
+    padding-top: 15px;
+}
+
+.EmployerMemberDetail .EmployerMemberDetail__ResetPassword .EmployerMemberDetail__ResetPassword--Button button {
+    background: #2EC2E2;
+    border-radius: 50px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
+    padding: 13px 38px;
+}
+
+.EmployerMemberDetail .EmployerMemberDetail__SuspendAccount .EmployerMemberDetail__SuspendAccount--Button button {
+    background: #fff;
+    border-radius: 50px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #162A49;
+    border: 2px solid #162A49;
+    padding: 13px 38px;
+}
+
+.EmployerMemberDetail .EmployerMemberDetail__RemoveAccount .EmployerMemberDetail__RemoveAccount--Button button {
+    background: #fff;
+    border-radius: 50px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #CB1E1E;
+    border: 2px solid #CB1E1E;
+    padding: 13px 38px;
+}

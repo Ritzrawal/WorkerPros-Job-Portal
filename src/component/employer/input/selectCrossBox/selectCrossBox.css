@@ -1,0 +1,40 @@
+.EmployerSelectCrossBox {
+}
+
+.EmployerSelectCrossBox .EmployerSelectCrossBox__Input {
+  border: 2px solid #9da6b5;
+  padding: 10px 15px 5px 15px;
+  border-radius: 25px;
+}
+
+.EmployerSelectCrossBox .EmployerSelectCrossBox__Input input {
+  display: none;
+}
+
+.EmployerSelectCrossBox
+  .EmployerSelectCrossBox__Input.EmployerSelectCrossBox__Input--Active {
+  border: 2px solid #234476;
+  background-color: #234476;
+  color: #fff;
+}
+
+.EmployerSelectCrossBox
+  .EmployerSelectCrossBox__Input.EmployerSelectCrossBox__Input--Active
+  label {
+  color: #fff;
+}
+
+.EmployerSelectCrossBox
+  .EmployerSelectCrossBox__Input.EmployerSelectCrossBox__Input
+  svg {
+  font-size: 15px;
+}
+
+.EmployerSelectCrossBox .EmployerSelectCrossBox__Input label {
+  padding-right: 10px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #234476;
+  text-transform: capitalize;
+}

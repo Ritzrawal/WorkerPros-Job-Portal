@@ -1,0 +1,506 @@
+* {
+  outline: none;
+}
+
+.JobDescriptionMainContainer {
+}
+
+.JobDescriptionBanner {
+  font-family: "Montserrat", sans-serif;
+  width: 100%;
+  height: 247px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.NoJobsDiv {
+  margin-top: 20px;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  width: 100%;
+}
+
+.JobDescriptionHead {
+  display: flex;
+  position: absolute;
+  width: 80%;
+  top: 160px;
+  left: 120px;
+  padding: 15px 0px;
+}
+
+.JobDescriptionHeadRight {
+  margin-left: 24px;
+}
+
+.JobDescriptionHeadRight h2 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: white;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 39px;
+  /* identical to box height */
+
+  letter-spacing: -0.03em;
+}
+
+.CompanyLogo {
+  width: 153px;
+  height: 153px;
+  margin-top: -19px !important;
+}
+
+.LogoImg {
+  width: 153px;
+  height: 153px;
+  border-radius: 50%;
+}
+
+.HeadRightDiv1 h2 {
+  text-transform: capitalize;
+}
+
+.CompanyType {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  /* identical to box height */
+
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: #e7e7e7;
+}
+
+.HeadRightDiv2 {
+  display: flex;
+  margin-top: 25px;
+  flex-wrap: wrap;
+}
+
+.vl {
+  border-left: 2px solid #e4ebf7;
+  height: 50px;
+  margin-right: 39px;
+  margin-left: 39px;
+}
+
+/* .HeadRightInner1,
+.HeadRightInner2,
+.HeadRightInner3 {
+  width:0%;
+} */
+
+.headinfoBlue {
+  color: #808fa6;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  margin-bottom: 0px;
+}
+.HeadRightInner2 .headinfoBlue {
+  display: flex;
+  flex-direction: column;
+}
+.HeadRightInner2 .headinfoBlue span {
+  text-transform: capitalize;
+}
+.headinfoGrey svg {
+  margin-right: 12px;
+}
+.headinfoGrey {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 21px;
+  /* identical to box height */
+  text-transform: capitalize;
+
+  color: #234476;
+  margin-top: 8px;
+}
+
+.JobDescription2ndDiv {
+  margin-top: 110px;
+  margin-left: 120px;
+  margin-bottom: 11px;
+}
+.BusinessDevelopment_span {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: #808fa6;
+}
+.JobInfo {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  margin-right: 67px;
+  cursor: pointer;
+
+  color: #162a49;
+}
+
+.companyTotalJobs {
+  color: #2ec2e2;
+  font-weight: 600;
+}
+
+/* ---------- Job Description Main Div Part  ------------------ */
+
+.JobDescriptionMainDiv {
+  font-family: "Montserrat", sans-serif;
+  background-color: #f2f4fa;
+  display: flex;
+  padding: 45px 119px;
+}
+
+.JobDescriptionMainDivLeft {
+  width: 100%;
+}
+
+.JobDescriptionMainDivRight {
+  width: 30%;
+}
+
+.BusinessDevelopment h3 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 34px;
+  letter-spacing: -0.03em;
+  margin: 0px;
+
+  color: #162a49;
+}
+
+.btnDiv {
+  display: flex;
+  flex-grow: 0.5;
+  justify-content: flex-start;
+}
+
+.JobInfo.key {
+  border-bottom: 4px solid #2ec2e2;
+  padding-bottom: 13px;
+}
+
+/* ----------- OverView Section ---------------- */
+
+.OverView h4 {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: -0.03em;
+
+  color: #162a49;
+  margin-bottom: 6px;
+}
+
+.OverViewP {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  line-height: 160%;
+  font-weight: 400;
+  /* or 26px */
+
+  color: #162a49;
+  margin-top: 0px;
+  margin-bottom: 50px;
+  word-break: break-all;
+}
+
+.OverView2ndDiv {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 60px;
+}
+
+.OverView2ndDiv span {
+  margin-bottom: 10px;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 156.1%;
+  /* identical to box height, or 25px */
+
+  color: #162a49;
+}
+
+/* -------- Responsibilities  Section -------------- */
+
+.Responsibilities {
+  margin-bottom: 50px;
+}
+
+.Responsibilities h4 {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: -0.03em;
+
+  color: #162a49;
+  margin-bottom: 6px;
+}
+
+.ResponsibilitiesP {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  line-height: 160%;
+  font-weight: 400;
+  /* or 26px */
+
+  color: #162a49;
+  margin-top: 0px;
+  word-break: break-all;
+}
+
+/* ------- Perks and Benefits Section ---------- */
+
+.PerksAndBenefits h4 {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: -0.03em;
+
+  color: #162a49;
+  margin-bottom: 6px;
+}
+
+.PerksTitle {
+  margin-bottom: 10px;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+
+  color: #808fa6;
+}
+
+.PerksTypeDiv {
+  margin-bottom: 1px;
+  padding-top: 22px;
+}
+.PerksAndBenefitsButtonDiv {
+  padding: 33px 0px 49px 0px;
+}
+.ParentalLeaveCardDiv {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.PerksAndBenefitsButtonDiv button {
+  padding: 10px 13px;
+  border-radius: 50px;
+  width: 690px;
+  color: #2ec2e2;
+  font-weight: 700;
+  border: 2px solid #2ec2e2;
+  background: transparent;
+  transition: background-color 0.05s ease-in;
+}
+
+.PerksAndBenefitsButtonDiv button:hover {
+  background-color: #2ec2e2;
+  color: white;
+}
+
+/* Work Schedule Section */
+
+.WorkSchedule h4 {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: -0.03em;
+
+  color: #162a49;
+  padding: 26px 0px 5px 0px;
+}
+
+/* ------------ Find Jobs At Section ---------- */
+
+.jobsAt h4 {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: -0.03em;
+
+  color: #162a49;
+  padding: 60px 0px 25px 0px;
+}
+.heart-cover {
+  cursor: pointer;
+  height: 50px;
+  width: 50px;
+  border: 2px solid #808fa6;
+  border-radius: 50%;
+  padding: 13px;
+  margin-right: 19px;
+}
+
+.heart-logoRed {
+  font-size: 18px;
+  transition: color 0.1s ease-in;
+  color: #e74c3c;
+}
+
+.heart-logoBlack {
+  font-size: 18px;
+  transition: color 0.1s ease-in;
+  background-color: transparent;
+}
+.JobDescriptionBanner img {
+  height: 100%;
+}
+.BusinessDevelopment_div {
+  display: flex;
+  margin-bottom: 38px;
+  justify-content: space-between;
+}
+
+.BusinessDevelopment_div h3 {
+  text-transform: capitalize;
+}
+.heart-cover i {
+  font-size: 18px;
+}
+.jobsAt {
+  list-style: none;
+}
+
+.jobsAt ul {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0px;
+}
+
+.jobsAt li {
+  text-align: center;
+  list-style: none;
+  font-size: 16px;
+  margin: 8px;
+  padding: 10px;
+  border-radius: 50px;
+  border: 2px solid grey;
+  min-width: 140px;
+  /* max-width: 200px;
+  width: 140px; */
+  cursor: pointer;
+  transition: background-color 0.2s ease-in;
+  transition: border 0.2s ease-in;
+}
+
+.jobsAt li:hover {
+  background-color: #2ec2e2;
+  border: 2px solid #2ec2e2;
+  color: white;
+}
+.HeadRightInner1 {
+  display: flex;
+  flex-direction: column;
+  white-space: nowrap;
+}
+.HeadRightInner2 {
+  display: flex;
+  flex-direction: column;
+  white-space: nowrap;
+}
+.HeadRightInner3 {
+  display: flex;
+  flex-direction: column;
+  white-space: nowrap;
+}
+
+.jobsAt .landingPageJobstypeLi {
+  text-transform: capitalize;
+  background-color: transparent;
+  border: 2px solid #cedad9;
+  color: #162a49;
+  font-weight: 600;
+}
+
+.jobsAt .landingPageJobstypeLi.active {
+  background-color: #2ec2e2;
+  border: 2px solid #2ec2e2;
+  color: #ffffff;
+}
+
+/* --------- Login ALert Modal ---------- */
+
+.JobDescription_LoginAlertDiv h3 {
+  font-size: 20px;
+}
+
+.JobDescription_LoginAlertDiv_Button {
+  display: flex;
+  justify-content: space-evenly;
+
+  margin-top: 20px;
+  margin: auto;
+}
+
+.JobDescription_LoginAlertDiv_NoAccount {
+  margin-top: 20px;
+}
+
+.WebsiteArrow {
+  margin-left: 8px;
+}
+
+.errorOccured {
+  width: 100%;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 40px;
+}
+
+.ProfileSocailSharingIconJobDescription {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.overlay {
+  position: relative;
+  overflow: auto;
+  top: 0px;
+  left: 0px;
+  background-color: rgba(0, 0, 0, 0.7); /* Tint color */
+  background-blend-mode: multiply; /*can be anything, of course*/
+}
+
+.jobDescriptionBannerImage {
+  opacity: 0.5 !important;
+}

@@ -1,0 +1,97 @@
+.AdminSelectedButton {
+  border: 2px solid #c7d0de;
+  margin-right: 8px;
+  padding: 0px 10px !important;
+  /* width: 10%; */
+  height: 32px;
+  text-transform: capitalize;
+  background-color: transparent !important;
+  border-radius: 50px !important;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+
+  color: #5e7290 !important;
+}
+
+.AdminSelectedButton:focus {
+  outline: none;
+  border-top-width: 0px !important;
+  box-shadow: none;
+}
+
+.AdminSelectedButton:hover {
+  background-color: none !important;
+  border: 2px solid #c7d0de !important;
+}
+
+.AdminDisabledButtons {
+  border-color: none !important;
+  text-transform: capitalize;
+  border: 2px solid #c7d0de;
+  margin-right: 8px;
+  border-style: none !important;
+  height: 32px;
+  background-color: #ffffff !important;
+  color: #14d5ee !important;
+  border-radius: 50px !important;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  outline: none;
+  /* box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.12) !important; */
+}
+.AdminDisabledButtons:active {
+  border-style: none;
+}
+/* .AdminDisabledButtons:hover {
+  background-color: none !important;
+  border: 2px solid #c7d0de !important;
+} */
+
+.AdminDisabledButtons:focus {
+  outline: none;
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.12);
+}
+
+/* button component */
+.AdminButtonContainer {
+  /* margin-top: 5px; */
+  text-align: center;
+}
+.AdminButtonContainer button {
+  cursor: pointer;
+  border: 2px solid #2ec2e2;
+  padding: 8px 18px 8px 18px;
+  background: transparent;
+  color: #2ec2e2;
+  font-weight: 700;
+  text-transform: capitalize;
+  border-radius: 50px;
+  /* padding: 10px; */
+  width: 100%;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+
+  text-align: center;
+
+  /* color: #ffffff; */
+}
+.AdminButtonOnclcik {
+  background-color: #2ec2e2 !important;
+  color: #ffff !important;
+  font-family: 'Montseraat';
+  padding: 8px 18px 8px 18px;
+  text-transform: capitalize;
+  font-weight: 700 !important;
+}
+
+/* admin pie chart graph */

@@ -1,0 +1,296 @@
+.SignupMainContainer {
+  width: 100%;
+  display: flex;
+  height: 100%;
+}
+
+.InnerMainContainer {
+  width: auto;
+}
+.LoginRightHalfContainer img {
+  margin-top: auto;
+  width: 100%;
+  height: 182px;
+}
+.LoginRightHalfContainer h1 {
+  font-family: 'Montserrat';
+  font-weight: bold;
+  font-size: 47px;
+  line-height: 57px;
+  letter-spacing: -0.03em;
+  color: #ffffff;
+}
+.signup-para p:first-child {
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: #2ec2e2;
+}
+.signup-para p:last-child {
+  font-family: 'Montserrat';
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 156.1%;
+  color: #e3e9f1;
+}
+.MainContainer {
+  flex-grow: 0.5;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.CheckBoxText_blue {
+  color: rgb(46, 194, 226) !important;
+}
+.TitleTextConatiner {
+  width: 405px;
+  margin-top: 37px;
+  margin-right: 8%;
+}
+.TitleText {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 33px;
+  letter-spacing: -0.02em;
+
+  color: #ffff;
+}
+.SignUpTextComponent {
+  margin-top: 20%;
+}
+.SignUpText {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 39px;
+  /* identical to box height */
+
+  letter-spacing: -0.03em;
+
+  color: #162a49;
+}
+.AccountTypeContainer {
+  margin-top: 10px;
+}
+.AccountTypeText {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #808fa6;
+}
+.GoogleLoginButton {
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  width: 100%;
+  background: #ffffff;
+  border: 2px solid #f0f6f8;
+  box-sizing: border-box;
+  border-radius: 50px !important;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px !important;
+  line-height: 18px;
+  text-align: center;
+
+  color: #162a49 !important;
+}
+.GoogleButtonContainer {
+  margin: 37px 0px 0px 0px;
+  width: 341px;
+}
+.GoogleButtonContainer button {
+  box-shadow: none !important;
+  padding: 0px 40px 0px 0px !important;
+  border: 2px solid #f0f6f8 !important;
+  width: 100%;
+}
+.DivideLine {
+  margin-top: 7%;
+  margin-bottom: 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.LeftHalfDivider {
+  border-bottom: 1px solid #e1e5ec;
+  width: 40%;
+}
+.DividerText {
+  margin-left: 5%;
+  margin-right: 5%;
+  color: #dadde2;
+}
+.RightHalfDivider {
+  border-bottom: 1px solid #e1e5ec;
+  width: 40%;
+}
+
+.CheckBoxCustomize {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.CheckBoxText {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  color: #5e7291;
+  font-weight: 500;
+  font-size: 14px;
+  margin-left: 10px;
+  margin-bottom: 13px;
+}
+.ChecBoxContainer {
+  display: flex;
+  margin-top: 2%;
+}
+.termsOfUseCheck {
+  text-align: left;
+}
+.LabelCustomizer {
+  font-family: 'Montserrat', sans-serif;
+  color: #808fa6;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.ButtonContainer {
+}
+.FormGroupCustomize {
+  height: 60px;
+  background: #ffffff;
+  border: 2px solid #e3e9f1;
+  box-sizing: border-box;
+  border-radius: 6px;
+}
+.ButtonCustomize {
+  width: 100%;
+  height: 30%;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.ButtonCustomizeStyling {
+  height: 50px;
+  width: 100%;
+}
+.UsernameCustomize {
+  display: flex;
+  flex-direction: row;
+}
+.SignupLoginText {
+  display: flex;
+}
+.TextSecondary {
+  color: yellow;
+}
+.FirstNameLastName {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.FormCustomizer {
+  width: 100%;
+  /* display: flex; */
+  /* height: 100%; */
+  /* justify-content: center;
+    align-items: center; */
+}
+.InpuStyling {
+  height: 60px;
+  width: 60%;
+  border-radius: 10px;
+}
+.SignupMainContainer .form-row {
+  width: 342px;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
+.loginOptions.form-group > div {
+  text-align: center;
+  width: 342px;
+}
+.CreateProfileContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.RightHalfButton {
+  width: 100%;
+  /* display: flex;
+  justify-content: flex-start; */
+  margin-top: 20px;
+}
+
+/* .RightHalfButton .SwitchButtonGroup {
+  width: 380px !important;
+} */
+
+.CustomCheckBox {
+  width: 20px;
+  white-space: nowrap;
+}
+
+.SignupMainContainer
+  .ButtonContainer
+  .SwitchButtonGroup.btn-group
+  button:first-child {
+  background-color: #eceef0 !important;
+  padding: 12px !important;
+  font-size: 14px !important;
+}
+
+.SignupMainContainer
+  .ButtonContainer
+  .SwitchButtonGroup.btn-group
+  button:last-child {
+  font-size: 14px !important;
+}
+
+.SignupMainContainer
+  .ButtonContainer
+  .SwitchButtonGroup.btn-group
+  button.DisabledButtons.btn.btn-secondary {
+  background-color: #fff !important;
+  padding: 12px !important;
+  font-size: 14px !important;
+}
+
+/* ----- Switch Button Styling ---- */
+
+.SwitchButtonDiv {
+  display: flex;
+  justify-content: center;
+}
+
+.SignUpPageButtonContainers {
+  align-items: center;
+}
+.ForErrrorPasswordForm {
+  width: 342px;
+}
+.CustomizeCompanyNameWidth {
+  width: 342px;
+  margin-top: 30px;
+}

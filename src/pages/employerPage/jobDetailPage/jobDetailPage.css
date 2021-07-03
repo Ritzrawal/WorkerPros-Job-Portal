@@ -1,0 +1,90 @@
+.Loading__Container {
+  padding-top: 20px;
+}
+
+.EmployerJobDetail {
+  display: flex;
+}
+
+.EmployerJobDetail .EmployerJobDetail__Body {
+  width: 100%;
+  height: calc(100vh - 75px);
+  overflow-y: scroll;
+  padding: 39px 65px 39px 47px;
+  background-color: #F2F4FA;
+}
+
+.EmployerJobDetail .EmployerJobDetail__Body .EmployerJobDetail__Body--Title {}
+
+.EmployerJobDetail .EmployerJobDetail__Body .EmployerJobDetail__Body--Title .EmployerJobDetail__Body--Title--Link {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #808FA6;
+}
+
+.EmployerJobDetail .EmployerJobDetail__Body .EmployerJobDetail__Body--Title .EmployerJobDetail__Body--Title--Link a {
+  color: #808FA6;
+}
+
+.EmployerJobDetail .EmployerJobDetail__Body .EmployerJobDetail__Body--Title .EmployerJobDetail__Body--Title--Link a:hover {
+  text-decoration: none;
+}
+
+.EmployerJobDetail .EmployerJobDetail__Body .EmployerJobDetail__Body--Title .EmployerJobDetail__Body--Title--Name {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  color: #162A49;
+  padding-top: 15px;
+}
+
+.EmployerJobDetail .EmployerJobDetail__Body .EmployerJobDetail__Body--Title .EmployerJobDetail__Body--Title--Location {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #234476; 
+  padding-top: 7px;
+}
+
+.EmployerJobDetail .EmployerJobDetail__Body .EmployerJobDetail__Body--SubTitle {
+  display: flex;
+  padding-top: 31px;
+  border-bottom: 1px solid #F2F6FB;
+}
+
+.EmployerJobDetail .EmployerJobDetail__Body .EmployerJobDetail__Body--SubTitle .EmployerJobDetail__Body--SubTitle--Description,
+.EmployerJobDetail .EmployerJobDetail__Body .EmployerJobDetail__Body--SubTitle .EmployerJobDetail__Body--SubTitle--Candidate,
+.EmployerJobDetail .EmployerJobDetail__Body .EmployerJobDetail__Body--SubTitle .EmployerJobDetail__Body--SubTitle--Pipeline {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: #808FA6;
+  padding-bottom: 18px;
+}
+
+.EmployerJobDetail .EmployerJobDetail__Body .EmployerJobDetail__Body--SubTitle .EmployerJobDetail__Body--SubTitle--Candidate,
+.EmployerJobDetail .EmployerJobDetail__Body .EmployerJobDetail__Body--SubTitle .EmployerJobDetail__Body--SubTitle--Pipeline {
+  margin-left: 36px;
+}
+
+.EmployerJobDetail .EmployerJobDetail__Body .EmployerJobDetail__Body--SubTitle .EmployerJobDetail__Body--SubTitle--Description.Active,
+.EmployerJobDetail .EmployerJobDetail__Body .EmployerJobDetail__Body--SubTitle .EmployerJobDetail__Body--SubTitle--Candidate.Active,
+.EmployerJobDetail .EmployerJobDetail__Body .EmployerJobDetail__Body--SubTitle .EmployerJobDetail__Body--SubTitle--Pipeline.Active {
+  color: #000;
+  border-bottom: 2px solid #2EC2E2;
+}
+
+.EmployerJobDetail .EmployerJobDetail__Body .EmployerJobDetail__Body--Container {
+  padding-top: 26px;
+}

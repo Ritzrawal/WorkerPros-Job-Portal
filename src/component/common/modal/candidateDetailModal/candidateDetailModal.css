@@ -1,0 +1,282 @@
+.CandidateDetailModal {
+    background: #FFFFFF;
+    border: 1px solid rgba(160, 172, 189, 0.19);
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.03);
+    border-radius: 6px;
+    padding: 21px;
+}
+
+.CandidateDetailModal .CandidateDetailModal__Header {
+    display: flex;
+    border-bottom: 1px solid #EAEFF5;
+    padding-bottom: 28px;
+}
+
+.CandidateDetailModal .CandidateDetailModal__Header .CandidateDetailModal__Header--Image {
+    height: 109px;
+    width: 109px;
+    border-radius: 109px;
+    overflow: hidden;
+}
+
+.CandidateDetailModal .CandidateDetailModal__Header .CandidateDetailModal__Header--Image img {
+    height: 100%;
+    width: 100%;
+}
+
+.CandidateDetailModal .CandidateDetailModal__Header .CandidateDetailModal__Header--Detail {
+    padding-top: 8px;
+    padding-left: 21px;
+}
+
+.CandidateDetailModal .CandidateDetailModal__Header .CandidateDetailModal__Header--Detail .CandidateDetailModal__Header--Detail--Name {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 150%;
+    letter-spacing: -0.03em;
+    color: #162A49;
+    display: flex;
+}
+
+.CandidateDetailModal .CandidateDetailModal__Header .CandidateDetailModal__Header--Detail .CandidateDetailModal__Header--Detail--Name .CandidateDetailModal__Header--Detail--Name--Rating {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 21px;
+    color: #F09D20;
+    padding-left: 11px;
+    padding-top: 6px;
+}
+
+.CandidateDetailModal .CandidateDetailModal__Header .CandidateDetailModal__Header--Detail .CandidateDetailModal__Header--Detail--Joined {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #C8CFDA;
+}
+
+.CandidateDetailModal .CandidateDetailModal__Header .CandidateDetailModal__Header--Detail .CandidateDetailModal__Header--Detail--Category {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 21px;
+    color: #162A49;
+}
+
+.CandidateDetailModal .CandidateDetailModal__Header .CandidateDetailModal__Header--Option {
+    margin-left: auto;
+    margin-right: 45px;
+    text-align: right;
+}
+
+.CandidateDetailModal .CandidateDetailModal__Header .CandidateDetailModal__Header--Option .CandidateDetailModal__Header--Option--Close {
+    float: right;
+    color: #2EC2E2;
+    cursor: pointer;
+}
+
+.CandidateDetailModal .CandidateDetailModal__Header .CandidateDetailModal__Header--Option .CandidateDetailModal__Header--Option--Button {
+    padding-top: 5px;
+}
+
+.CandidateDetailModal .CandidateDetailModal__Header .CandidateDetailModal__Header--Option .CandidateDetailModal__Header--Option--Button button {
+    background: #2EC2E2;
+    border: none;
+    border-radius: 50px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #fff;
+    padding: 10px 30px;
+    margin-left: 17px;
+}
+
+.CandidateDetailModal .CandidateDetailModal__Header .CandidateDetailModal__Header--Option .CandidateDetailModal__Header--Option--Button svg {
+    color: #CED7E6;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: 10px
+}
+
+.CandidateDetailModal .CandidateDetailModal__Header .CandidateDetailModal__Header--Option .CandidateDetailModal__Header--Option--Type {
+    display: flex;
+    padding-top: 15px;
+    float: right;
+}
+
+.CandidateDetailModal .CandidateDetailModal__Header .CandidateDetailModal__Header--Option .CandidateDetailModal__Header--Option--Type .CandidateDetailModal__Header--Option--Type--Dropdown {
+    margin-right: 11px;
+    width: 162px;
+}
+
+.CandidateDetailModal .CandidateDetailModal__Header .CandidateDetailModal__Header--Option .CandidateDetailModal__Header--Option--Type .CandidateDetailModal__Header--Option--Type--Like {
+    background: #FFFFFF;
+    border: 2px solid #E7ECF3;
+    box-sizing: border-box;
+    border-radius: 6px;
+    padding: 8px;
+    margin-right: 11px;
+}
+
+.CandidateDetailModal .CandidateDetailModal__Header .CandidateDetailModal__Header--Option .CandidateDetailModal__Header--Option--Type .CandidateDetailModal__Header--Option--Type--UnLike {
+    background: #FFFFFF;
+    border: 2px solid #E7ECF3;
+    box-sizing: border-box;
+    border-radius: 6px;
+    padding: 8px;
+}
+
+.CandidateDetailModal .CandidateDetailModal__Header .CandidateDetailModal__Header--Close {
+    margin-right: -70px;
+    color: #fff;
+    margin-top: -20px;
+}
+
+.CandidateDetailModal .CandidateDetailModal__Header .CandidateDetailModal__Header--Close svg {
+    color: #fff;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.CandidateDetailModal .CandidateDetailModal__Trade,
+.CandidateDetailModal .CandidateDetailModal__Skill,
+.CandidateDetailModal .CandidateDetailModal__Experience {
+    padding-top: 26px;
+}
+
+.CandidateDetailModal .CandidateDetailModal__Trade .CandidateDetailModal__Trade--Title,
+.CandidateDetailModal .CandidateDetailModal__Skill .CandidateDetailModal__Skill--Title,
+.CandidateDetailModal .CandidateDetailModal__Experience .CandidateDetailModal__Experience--Title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: -0.03em;
+    color: #162A49;
+}
+
+.CandidateDetailModal .CandidateDetailModal__Trade .CandidateDetailModal__Trade--Body {
+   display: flex;
+   flex-wrap: wrap;
+   padding-top: 10px;
+}
+
+.CandidateDetailModal .CandidateDetailModal__Trade .CandidateDetailModal__Trade--Body .CandidateDetailModal__Trade--Body--Container{
+   padding-right: 17px;
+   padding-bottom: 15px;
+ }
+
+.CandidateDetailModal .CandidateDetailModal__Skill .CandidateDetailModal__Skill--Detail .CandidateDetailModal__Skill--Detail--List {
+    padding-top: 21px;
+    
+}
+
+.CandidateDetailModal .CandidateDetailModal__Skill .CandidateDetailModal__Skill--Detail .CandidateDetailModal__Skill--Detail--List .CandidateDetailModal__Skill--Detail--List--Title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #808FA6;
+}
+
+.CandidateDetailModal .CandidateDetailModal__Skill .CandidateDetailModal__Skill--Detail .CandidateDetailModal__Skill--Detail--List .CandidateDetailModal__Skill--Detail--List--Body {
+    padding-top: 13px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.CandidateDetailModal .CandidateDetailModal__Skill .CandidateDetailModal__Skill--Detail .CandidateDetailModal__Skill--Detail--List .CandidateDetailModal__Skill--Detail--List--Body .CandidateDetailModal__Skill--Detail--List--Body--Container {
+    padding-right: 8px;
+    padding-bottom: 7px;
+}
+
+.CandidateDetailModal .CandidateDetailModal__Experience .CandidateDetailModal__Experience--Detail {
+    padding-top: 10px;
+}
+
+.CandidateDetailModal .CandidateDetailModal__Experience .CandidateDetailModal__Experience--Detail .CandidateDetailModal__Experience--Detail--List {
+    padding-top: 25px;
+}
+
+.CandidateDetailModal .CandidateDetailModal__Experience .CandidateDetailModal__Experience--Detail .CandidateDetailModal__Experience--Detail--List .CandidateDetailModal__Experience--Detail--List--Title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #234476;
+}
+
+.CandidateDetailModal .CandidateDetailModal__Experience .CandidateDetailModal__Experience--Detail .CandidateDetailModal__Experience--Detail--List .CandidateDetailModal__Experience--Detail--List--Year {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #808FA6;
+}
+
+.CandidateDetailModal .CandidateDetailModal__Experience .CandidateDetailModal__Experience--Detail .CandidateDetailModal__Experience--Detail--List .CandidateDetailModal__Experience--Detail--List--Info {
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.CandidateDetailModal .CandidateDetailModal__Experience .CandidateDetailModal__Experience--Detail .CandidateDetailModal__Experience--Detail--List .CandidateDetailModal__Experience--Detail--List--Info .CandidateDetailModal__Experience--Detail--List--Info--Single {
+  
+}
+
+.CandidateDetailModal .CandidateDetailModal__Experience .CandidateDetailModal__Experience--Detail .CandidateDetailModal__Experience--Detail--List .CandidateDetailModal__Experience--Detail--List--Info .CandidateDetailModal__Experience--Detail--List--Info--Single .CandidateDetailModal__Experience--Detail--List--Info--Single--Title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #AEB8C7;
+}
+
+.CandidateDetailModal .CandidateDetailModal__Experience .CandidateDetailModal__Experience--Detail .CandidateDetailModal__Experience--Detail--List .CandidateDetailModal__Experience--Detail--List--Info .CandidateDetailModal__Experience--Detail--List--Info--Single .CandidateDetailModal__Experience--Detail--List--Info--Single--Detail {
+    padding-top: 4px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #162A49;
+}
+
+.CandidateDetailModal .CandidateDetailModal__Experience .CandidateDetailModal__Experience--Detail .CandidateDetailModal__Experience--Detail--List .CandidateDetailModal__Experience--Detail--List--Reference {
+    padding-top: 23px;
+}
+
+.CandidateDetailModal .CandidateDetailModal__Experience .CandidateDetailModal__Experience--Detail .CandidateDetailModal__Experience--Detail--List .CandidateDetailModal__Experience--Detail--List--Reference .CandidateDetailModal__Experience--Detail--List--Reference--Button {}
+
+.CandidateDetailModal .CandidateDetailModal__Experience .CandidateDetailModal__Experience--Detail .CandidateDetailModal__Experience--Detail--List .CandidateDetailModal__Experience--Detail--List--Reference .CandidateDetailModal__Experience--Detail--List--Reference--Button button {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.06);
+    border: none;
+    border-radius: 16px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    color: #000000;
+    padding: 8px 22px;
+}
+
+.CandidateDetailModal .CandidateDetailModal__Experience .CandidateDetailModal__Experience--Detail .CandidateDetailModal__Experience--Detail--List .CandidateDetailModal__Experience--Detail--List--Reference .CandidateDetailModal__Experience--Detail--List--Reference--Button button svg {
+    color: #2EC2E2;
+    margin-right: 12px;
+    font-size: 14px;
+}

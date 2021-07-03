@@ -1,0 +1,43 @@
+.EmployerTextBox {
+}
+
+.EmployerTextBox .EmployerTextBox__Label {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  color: #162a49;
+}
+
+.EmployerTextBox .EmployerTextBox__Box {
+  margin-top: 7px;
+  border: 2px solid #c7d0de;
+  box-sizing: border-box;
+  border-radius: 6px;
+  padding: 15px;
+}
+
+.EmployerTextBox .EmployerTextBox__Box.Error {
+  border: 2px solid red;
+}
+
+.EmployerTextBox .EmployerTextBox__Box .EmployerTextBox__Box--Input {
+  width: 100%;
+}
+
+.EmployerTextBox .EmployerTextBox__Box .EmployerTextBox__Box--Input textarea {
+  width: 100%;
+  height: 100%;
+  border: none;
+  font-size: 16px;
+  line-height: 20px;
+  color: #808fa6;
+}
+
+.EmployerTextBox .EmployerTextBox__Box .EmployerTextBox__Box--BottomText {
+  text-align: end;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #9DA6B5;
+}

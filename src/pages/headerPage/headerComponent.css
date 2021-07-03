@@ -1,0 +1,367 @@
+.navbar {
+  padding: 15px 40px;
+  height: 60px;
+}
+
+.NavbarIcon {
+  background-color: #234476;
+  padding: 5px 0px;
+  height: 100%;
+  position: relative;
+  z-index: 1000;
+}
+.HeaderComponent {
+  /* width: 80%; */
+  display: flex;
+  /* align-items: center;
+    justify-content: center; */
+}
+.collapse.show.navbar-collapse {
+  position: relative;
+  z-index: 44;
+  background: rgba(10, 10, 10, 0.7);
+  margin: 8px -8px;
+  transition: all 0.3s ease-out;
+}
+.HomevbarComponent {
+  margin-left: 5%;
+}
+.HeaderItemComponent {
+  width: 50%;
+  margin-left: 2%;
+  /* background-color: green; */
+  display: flex;
+  flex-direction: row;
+  /* justify-content: center; */
+  align-items: center;
+  width: 100%;
+}
+.NavTextCustomize {
+  /* margin-left: 2%; */
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+}
+.HeaderTextCustomize {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+}
+.HomebarTextComponent {
+  /* font-family: 'Poppins'; */
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 33px;
+  /* identical to box height */
+
+  letter-spacing: -0.02em;
+
+  color: #ffffff;
+}
+.SignupButtonContainer {
+  margin-left: 2%;
+}
+
+.NavLoginBtn {
+  display: flex;
+}
+
+.navbar-brand {
+  margin-right: 45px;
+}
+
+.NavLoginBtn .nav-link {
+  padding: 0 10px;
+}
+
+.navbar-expand-md .navbar-nav .nav-link {
+  padding: 10px 15px;
+}
+
+.navbar-expand-md .navbar-nav .nav-link .HeaderTextCustomize {
+  position: relative;
+}
+
+.navbar-expand-md .navbar-nav .nav-link .HeaderTextCustomize:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 100%;
+  width: 0;
+  height: 2px;
+  background: #fff;
+  transition: width 0.3s ease;
+}
+
+.navbar-expand-md .navbar-nav .nav-link .HeaderTextCustomize:hover:after {
+  width: 100%;
+}
+.HeaderLoginDiv {
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 38px;
+}
+.LoginHeaderText {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+
+/* ---------- HeaderComponent 2 Styling ------------ */
+
+.Header2UL {
+  list-style: none;
+  display: flex;
+  margin-bottom: 0px;
+  padding-left: 0px;
+}
+
+.Header2UL li {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  cursor: pointer;
+  align-items: center;
+}
+
+.Header2UL li img {
+  margin-bottom: 2px;
+  width: 25px;
+  height: 25px;
+}
+
+/* Search Bar */
+
+.searchInput {
+  background: rgba(255, 255, 255, 0.1);
+  color: white !important;
+  border-left: none;
+  border-radius: 0px 50px 50px 0px;
+  border: none;
+  position: relative;
+}
+
+.searchInput:focus {
+  background: #234476;
+  outline: none;
+  border: none;
+}
+
+.searchLogo {
+  background: rgba(255, 255, 255, 0.1) !important;
+  background: none;
+  color: #ffffff;
+  border-radius: 50px 0px 0px 50px;
+  border: none;
+}
+
+.headerPageSearchContainer {
+  width: 342px;
+}
+
+/* HeaderPage2 Onclick Blue  */
+
+.Header2UL a {
+  padding: 7.5px 15px;
+  transition: background-color 0.1s ease-in;
+}
+
+.Header2UL .active {
+  background-color: #2ec2e2;
+}
+
+.headerJobsHover {
+  background-color: #2ec2e2;
+  height: fit-content;
+}
+
+.dropdown .btn {
+  background: transparent;
+  border: none;
+}
+
+.dropdown.show .btn {
+  background: #2ec2e2;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  cursor: pointer;
+  align-items: center;
+}
+
+.Header2UL .dropdown .btn:active {
+  border-radius: 0px !important;
+  box-shadow: none;
+  outline: none;
+  border: none;
+}
+
+.Header2UL .dropdown .btn.btn-secondary:active {
+  background: none;
+}
+.Header2UL .dropdown .btn {
+  border-radius: 0px;
+}
+
+.Header2UL .dropdown:focus {
+  border-radius: 0px !important;
+  border: none;
+  box-shadow: none;
+}
+.Header2UL .dropdown {
+  border-radius: 0px;
+}
+.Header2UL .dropdown .btn:focus {
+  border: none;
+  border-radius: 0px !important;
+  box-shadow: none;
+  outline: none;
+}
+
+.Header2UL .dropdown:active {
+  border-radius: 0px !important;
+  border: none;
+  box-shadow: none;
+}
+
+.Header2UL .dropdown .btn:active {
+  border: none;
+  border-radius: 0px !important;
+  box-shadow: none;
+  outline: none;
+}
+.logoutDropDown {
+  cursor: pointer;
+}
+
+.header2li {
+  text-transform: capitalize;
+  padding: 1.5px;
+}
+
+/* Search Field Design */
+
+.headerPageSearchContainer {
+  position: relative;
+  align-items: center;
+}
+
+.headerPageBlueSearch {
+  position: absolute;
+  top: 10px;
+  left: 13px;
+}
+
+.searchInputHeader.form-control {
+  margin-bottom: 0px !important;
+}
+
+.searchInputHeader::placeholder {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 138.5%;
+  /* or 19px */
+
+  color: #ced5df;
+}
+
+.searchInputHeader {
+  background: rgba(255, 255, 255, 0.1);
+  color: white !important;
+  border-left: none;
+  border-radius: 50px;
+  padding-left: 45px;
+  border: none;
+}
+
+.searchInputHeader:focus {
+  background: #234476;
+  outline: none;
+  border: none;
+}
+
+.subHeader {
+  position: absolute;
+  width: 100%;
+  background-color: white !important;
+  display: flex;
+  padding: 20px 120px;
+  margin-top: 5px;
+}
+
+.subHeaderUL {
+  padding-left: 0px;
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  margin: auto;
+}
+
+.subHeaderUL a {
+  text-decoration: none;
+}
+
+.subHeaderUL li {
+  cursor: pointer;
+  text-transform: uppercase;
+  border-right: 1px solid grey !important;
+  padding: 0px 15px 0px 15px;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+
+  color: #162a49;
+}
+
+.subHeaderUL li:last-child {
+  border: none;
+}
+
+.NavLoginBtn .dropdown-menu.show {
+  top: -2px !important;
+  left: -80px !important;
+}
+
+.message-container {
+}
+
+.message-container span {
+  background: #2ec2e2;
+  border-radius: 25px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 17px;
+  text-align: center;
+  color: #ffffff;
+  padding: 1px 6px;
+  margin-left: 25px;
+  position: absolute;
+}
+
+.CandidateNavbar__Search--Container--SearchBox {
+  position: absolute;
+  width: 340px;
+  top: 45px;
+}

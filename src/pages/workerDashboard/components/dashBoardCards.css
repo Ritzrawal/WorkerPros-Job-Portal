@@ -1,0 +1,1156 @@
+/* -------- User Detail Card Component -------- */
+
+.userDetailCardMainDiv {
+  font-family: "Montseraat", sans-serif;
+  padding: 10px;
+  width: 100%;
+  height: 374px;
+
+  background: #ffffff;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.04);
+  border-radius: 6px;
+  margin-top: 40px;
+}
+
+.userDetailImageDiv {
+  display: flex;
+  justify-content: center;
+}
+
+.userDetailImageInnerDiv {
+  width: 69px;
+  height: 69px;
+}
+
+.userDetailImage {
+  width: 69px;
+  height: 69px;
+  border-radius: 50px;
+  margin-top: -35px;
+}
+
+.userDetailOverView {
+  text-align: center;
+}
+
+.userDetailName {
+  font-family: "Montseraat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 21px;
+  /* identical to box height */
+  text-transform: capitalize;
+
+  color: #162a49;
+}
+
+.userDetailText {
+  font-family: "Montseraat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 150%;
+  /* or 21px */
+
+  text-align: center;
+
+  color: #afb9c8;
+}
+
+.userDetailCardUL {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.userDetailCardUL li {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.userDetailsTitle {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+
+  color: #234476;
+}
+
+.userDetailsNumber {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: right;
+
+  color: #2ec2e2;
+}
+
+.userDetailCompleteProfile {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.completeProfile {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height */
+
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: #808fa6;
+}
+
+.addTrades {
+  margin-top: 7px;
+  font-style: normal;
+
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+
+  color: #2ec2e2;
+}
+
+.addTrades img {
+  margin-right: 10px;
+}
+
+/* -------- Connection Card Styling --------- */
+
+.connectionCardMainDiv {
+  font-family: "Montseraat", sans-serif;
+  background: #ffffff;
+  box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.07);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.connectionCardImageDiv {
+  display: flex;
+  cursor: pointer;
+  justify-content: center;
+}
+
+.connectionCardImageInnerDiv {
+  width: 69px;
+  height: 69px;
+}
+
+.connectionCardImageInnerDiv img {
+  width: 69px;
+  height: 69px;
+  border-radius: 50px;
+}
+
+.connectionCardUserInfoDiv {
+  margin-top: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.connectionCardName {
+  cursor: pointer;
+  text-transform: capitalize;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+
+  color: #162a49;
+}
+
+.connectionCardOverview {
+  margin-top: 10px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 150%;
+  /* or 18px */
+
+  text-align: center;
+
+  color: #afb9c8;
+}
+
+.connectionCardMutual {
+  margin-top: 10px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 150%;
+  /* identical to box height, or 19px */
+
+  text-align: center;
+  white-space: nowrap;
+
+  color: #234476;
+}
+
+.connectionCardButtonDiv {
+  margin-top: 5px;
+  text-align: center;
+}
+.connectionCardButtonDiv button {
+  cursor: pointer;
+  border: 2px solid #2ec2e2;
+  background: transparent;
+  color: #2ec2e2;
+  font-weight: 600;
+  border-radius: 50px;
+  padding: 10px;
+  width: 100%;
+  transition: color 0.1s ease-in;
+  transition: background 0.1s ease-in;
+  max-width: 153px;
+}
+
+.connectionCardButtonDiv button:hover {
+  background: #2ec2e2;
+  color: white;
+}
+.ButtonOnclickOnConnect {
+  background-color: #234476 !important;
+  color: #ffff !important;
+  font-family: "Montseraat";
+  text-transform: capitalize;
+  font-weight: 600 !important;
+  letter-spacing: 0.06em !important;
+}
+
+/* --------- Upcoming Interviews Card Styling ------------ */
+
+.InterviewCardMainDiv {
+  font-family: "Montseraat", sans-serif;
+  width: 100%;
+  padding: 10px;
+  background: #ffffff;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.04);
+  border-radius: 6px;
+}
+
+.InterviewCardTitle {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  /* identical to box height */
+
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: #808fa6;
+  margin-bottom: 15px;
+}
+
+.InterviewUL {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.InterviewUL li {
+  padding-bottom: 5px;
+  border-bottom: 1px solid #ebeff4;
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.InterviewUL li:last-child {
+  border: none;
+}
+
+.InterviewDateDiv {
+  display: flex;
+  flex-direction: column;
+}
+
+.InterviewJob {
+  margin-left: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.interviewDate {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 26px;
+  /* identical to box height */
+
+  color: #162a49;
+}
+
+.interviewMonth {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #2ec2e2;
+}
+
+.interviewjobName {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+
+  color: #162a49;
+}
+
+.interviewjobType {
+  margin-top: 2px;
+  font-style: normal;
+
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+  color: #808fa6;
+}
+
+/* ---------- Message Card Component ------- */
+
+.noMessageDashboard {
+  font-family: "Montseraat", sans-serif;
+  margin-top: 15px;
+  font-weight: 600;
+  color: rgb(128, 143, 166);
+  text-align: center;
+}
+
+.messageCardMainDiv {
+  font-family: "Montseraat", sans-serif;
+  background: #ffffff;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.04);
+  border-radius: 6px;
+  width: 100%;
+
+  padding: 10px;
+}
+
+.messageCardTitle span {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  /* identical to box height */
+
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: #808fa6;
+}
+
+.messageCardUL {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.messageCardUL li {
+  word-break: break-all;
+  display: flex;
+  margin-top: 10px;
+  border-bottom: 1px solid #ebeff4;
+  padding-bottom: 15px;
+}
+
+/* .messageCardUL li:last-child {
+  border: none;
+} */
+
+.messageCardImageDiv {
+  width: 35px;
+  height: 35px;
+  margin-right: 10px;
+}
+
+.messageCardInnerDiv {
+  width: 35px;
+  height: 35px;
+}
+
+.messageCardInnerDiv img {
+  border-radius: 50px;
+  width: 35px;
+  height: 35px;
+}
+
+.messageCardUserName {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+  color: #162a49;
+}
+
+.messageCardUserMessage {
+  margin-top: 5px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+  color: #8d9bb0;
+}
+
+.messageCardMessageDiv {
+  display: flex;
+  flex-direction: column;
+}
+
+.messageNumLogoDiv {
+  align-self: center;
+  margin-left: auto;
+  background-color: #2ec2e2;
+  padding: 2px 2px 13px 2px;
+  height: 20px;
+  width: 20px;
+  color: #ffffff;
+  border-radius: 50%;
+  font-size: 12px;
+  text-align: center;
+}
+
+/* ------------- Recommended Jobs Card Styling ------------ */
+
+.recomJobCardMainDiv {
+  font-family: "Montseraat", sans-serif;
+  width: 256px;
+  left: 945px;
+  top: 176px;
+  padding: 10px;
+  margin-bottom: 20px !important;
+
+  background: #ffffff;
+  box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+}
+
+.recomJobCardTopSection {
+  display: flex;
+  justify-content: space-between;
+}
+
+.recomJobCardImageDiv {
+  border: 1px solid #ecf0f7;
+  box-sizing: border-box;
+  border-radius: 4px;
+  width: 53px;
+  height: 53px;
+}
+
+.recomJobCardImageDiv img {
+  width: 53px;
+  height: 53px;
+}
+
+.recomJobCardApplyDiv {
+  display: flex;
+  align-items: baseline;
+}
+
+.recomJobCardApplyDiv .dashboardButtonApplied {
+  width: 68px;
+  height: 23px;
+  border: none;
+
+  background: #2ec2e2;
+  border-radius: 17px;
+  margin-right: 5px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.recomJobCardApplyDiv .dashboardButtonNotApplied {
+  width: 68px;
+  height: 23px;
+  border: none;
+  margin-right: 5px;
+
+  background: #f8fbff;
+  border-radius: 17px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #2ec2e2;
+}
+
+.recomJobCardApplyDiv img {
+  margin-left: 10px;
+}
+
+.recomJobCardApplyDiv .fa.fa-bookmark {
+  cursor: pointer;
+  transition: color 0.1s ease-in;
+}
+
+.recomJobCardApplyDiv .fa.fa-bookmark.saved {
+  color: #2ec2e2;
+}
+
+.recomJobCardJobName {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 138.5%;
+  /* or 22px */
+
+  color: #162a49;
+}
+
+.recomJobCardMidSection {
+  margin-top: 10px;
+}
+
+.recomJobCardJobLocation {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.recomJobCardJobLocation span {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+  color: #b6c4d9;
+  text-transform: capitalize;
+  margin-bottom: 5px;
+}
+
+.recomJobcardBottomSection {
+  margin-top: 43px;
+}
+
+.recomHourly {
+  width: 100%;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+
+  color: #234476;
+}
+
+.recomDollar {
+  color: gray;
+}
+
+.recomRate {
+  font-weight: 600;
+}
+
+.recomCardPerksUL {
+  padding-top: 10px;
+  border-top: 1px solid #f7f7f8;
+  display: flex;
+  padding-left: 0px;
+  list-style: none;
+}
+
+.recomCardPerksUL li {
+  margin-right: 15px;
+}
+
+/* ----------- WritePost Component ------------ */
+
+.writePostMainDiv {
+  font-family: "Montseraat", sans-serif;
+  padding: 15px;
+  width: 557px;
+
+  background: #ffffff;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.04);
+  border-radius: 6px;
+  margin-bottom: 15px;
+}
+
+.dashBoardImageUploadContainer {
+  position: relative;
+}
+
+.dashBoardImageUploadContainer .fa.fa-times {
+  position: absolute;
+  top: -5px;
+  right: 30px;
+  cursor: pointer;
+}
+
+.inputTextField {
+  width: 100%;
+  padding: 10px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 156%;
+  /* or 22px */
+
+  color: #808fa6;
+  border: none;
+  background: #f1f3f4;
+  border-radius: 50px;
+  padding-left: 55px;
+}
+
+.writePostInputContainer {
+  position: relative;
+}
+
+.writePostPlaceholderImage {
+  position: absolute;
+  left: 20px;
+  top: 8px;
+}
+
+.addPostDiv {
+  margin-top: 10px;
+  padding-left: 18px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.AddPostButtonDiv button {
+  border: none;
+  padding: 0px 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #2ec2e2;
+}
+
+.addPostText {
+  cursor: pointer;
+  margin-right: 10px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 156%;
+  /* or 22px */
+
+  color: #2ec2e2;
+}
+
+.addPostText img {
+  margin-right: 5px;
+}
+
+/* -------------- Image Post Component Styling ---------------- */
+
+.imagePostMainDiv {
+  font-family: "Montseraat", sans-serif;
+  background: #ffffff;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.04);
+  border-radius: 6px;
+  padding: 15px;
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.loadMoreCommentsDashboard {
+  display: flex;
+  justify-content: center;
+  font-size: 12px;
+  margin-top: 10px;
+  font-family: "Montseraat", sans-serif;
+  color: #808fa6;
+  cursor: pointer;
+}
+
+/* ------------ Like Comment Share styling change ------------- */
+
+.dashBoardPostMenu {
+  font-family: "Montseraat", sans-serif;
+  position: absolute;
+  cursor: pointer;
+  right: 20px;
+  top: 20px;
+  font-size: 12px;
+  border: 1px solid #8d9bb0;
+  padding: 5px;
+  color: #8d9bb0;
+}
+
+.imagePostMainDiv .fa-ellipsis-h {
+  position: absolute;
+  top: 5px;
+  right: 18px;
+  font-size: 19px;
+  color: grey;
+  cursor: pointer;
+}
+
+.blueColorHash {
+  color: #2ec2e2 !important;
+}
+
+.imagePostTopSection {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.imagePostuserImageDiv {
+  width: 43px;
+  height: 43px;
+}
+
+.imagePostuserImageDiv img {
+  width: 43px;
+  height: 43px;
+  border-radius: 50px;
+}
+
+.imagePostUserInfo {
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+}
+
+.imagePostUserName {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+  color: #162a49;
+}
+
+.imagePostTime {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+
+  color: #8d9bb0;
+}
+
+.imagePostImageSection {
+  cursor: pointer;
+  margin-bottom: 15px;
+  width: 100%;
+  height: 100%;
+}
+
+.imagePostImageSection img {
+  height: 100%;
+  width: 100%;
+}
+
+.imagePostTextSection p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 156%;
+  /* or 22px */
+
+  color: #162a49;
+}
+
+.LikeCommentDiv {
+  display: flex;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 156%;
+  /* or 22px */
+
+  color: #808fa6;
+  border-top: 1px solid #ebeff4;
+
+  padding-top: 15px;
+}
+
+.LikeCommentDiv img {
+  margin-right: 10px;
+}
+
+.LikeCommentDiv span {
+  margin-right: 13px;
+  cursor: pointer;
+}
+
+/* ----------- Stories Section Dashboard ------------ */
+
+.storyViewCardMain {
+  position: relative;
+  background: transparent !important;
+}
+
+.dashBoardStoryUL {
+  list-style: none;
+  padding-left: 0px;
+  display: flex;
+}
+
+.dashBoardStoryUL li {
+  cursor: pointer;
+  text-align: center;
+  margin-right: 10px;
+}
+
+.userStoriesImage {
+  padding: 3px;
+  border: 2px solid #2ec2e2;
+}
+
+.dashBoardAddStory {
+  position: relative;
+}
+
+.storyImageDiv {
+  display: flex;
+  flex-direction: column;
+  pointer-events: none;
+  margin-right: 13px;
+}
+
+.storyBottomText {
+  white-space: nowrap;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 13px;
+
+  color: #162a49;
+  pointer-events: none;
+}
+
+.addStoryPlus {
+  position: absolute;
+  top: 39px;
+  left: 44px;
+}
+
+.storyImageDiv img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50px;
+  margin-bottom: 5px;
+  pointer-events: none;
+}
+
+.storyModal {
+  margin-top: 190px;
+  width: fit-content;
+  background: transparent;
+}
+
+.storyViewerImageDiv {
+  width: 286px;
+}
+
+.storyViewerImageDiv img {
+  width: 286px;
+}
+
+.storyRightArrDiv {
+  display: flex;
+  align-items: center;
+}
+
+.storyRightArrDiv img {
+  cursor: pointer;
+}
+
+/* --- Progress Bar --- */
+
+.bar {
+  border-radius: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  height: 3px;
+  width: 100%;
+}
+
+.in {
+  animation: fill 3s linear 1;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+@keyframes fill {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+/* --------- Storyview Card ---------- */
+
+.storyViewCard {
+  /* display: flex; */
+  position: relative;
+  flex-direction: column;
+}
+
+.storyViewCardTopSection {
+  padding: 15px;
+  width: 100%;
+  position: absolute;
+  height: 20%;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.5) 0%,
+    rgba(0, 0, 0, 0) 100%
+  );
+}
+
+.storyViewCardTopSection span {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+  color: #ffffff;
+  margin-left: 10px;
+}
+
+.storyCloseLogo {
+  position: absolute;
+  top: -40px;
+  right: 10px;
+  cursor: pointer;
+}
+
+.storyLeftLogo {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  left: -10%;
+}
+
+.storyRightLogo {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  right: -10%;
+}
+
+.storyViewBottomSection {
+  position: absolute;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.5) 100%
+  );
+  height: 20%;
+  bottom: 0px;
+  width: 100%;
+  padding: 15px;
+}
+
+.storyViewBottomLogos {
+  margin-bottom: 15px;
+}
+
+.storyheart {
+  margin-right: 10px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+
+.storyheart img {
+  margin-right: 8px;
+}
+
+.storycomment {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+
+.storycomment img {
+  margin-right: 8px;
+}
+
+.storyViewBottomInput .inputTextField {
+  padding-left: 10px;
+  background: transparent;
+  color: #ffffff !important;
+
+  border: 1.4px solid rgba(255, 255, 255, 0.29);
+  box-sizing: border-box;
+  border-radius: 50px;
+}
+
+.storyViewBottomInput .inputTextField::placeholder {
+  color: white;
+}
+
+.storyViewUserImage {
+  width: 35px;
+  height: 35px;
+}
+
+.storyViewUserInfo {
+  display: flex;
+  margin-top: 10px;
+}
+
+.storyPostTime {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+
+  color: #ffffff;
+  margin-left: 10px;
+}
+
+.storyViewUserImage img {
+  width: 35px;
+  height: 35px;
+  border-radius: 50px;
+}
+
+.storyUserInfotext {
+  display: flex;
+  flex-direction: column;
+}
+
+/* ------------ Add Comment Div -----------  */
+
+/* Like comment and share styling */
+
+.imagePostComponentAddCommentDiv {
+  margin: auto;
+}
+
+.likeButtonDashBoard {
+  font-size: 20px;
+}
+
+.likeButtonDashBoard.liked {
+  color: #2ec2e2;
+}
+
+.dashBoardCommentInputField {
+  width: 100%;
+  padding: 10px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 156%;
+  /* or 22px */
+
+  color: #808fa6;
+  border: none;
+  background: #f1f3f4;
+  padding-left: 55px;
+  position: relative;
+  margin-top: 4px;
+}
+
+.dashBoardCommentUserImage {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  left: 10px;
+  top: 14px;
+  border-radius: 50px;
+}
+
+.dashboardCommenterName {
+  font-weight: 600;
+  color: #162a49;
+}
+
+.dashboardCommenterComment {
+}
+
+.postCommentTexts {
+  display: flex;
+  flex-direction: column;
+}
+
+.imagePostComponentAddCommentDiv .writeCommentInputContainer {
+  margin-top: 20px;
+  position: relative;
+}
+
+.writeCommentPlaceholderImage {
+  width: 25px;
+  height: 24px;
+  position: absolute;
+  left: 10px;
+  top: 5px;
+  border-radius: 50px;
+}
+
+/* -------------- Image View Modal -------------- */
+
+.imageViewModal {
+  width: 100%;
+}
+
+.postImageViewModal {
+  margin-top: 150px;
+}
+
+.imageViewModal img {
+  width: 100%;
+}
+
+.imagePostMainDiv .modal-body {
+  background: #234476 !important;
+}
+
+.imagePostMainDiv .modal-content {
+  width: 130% !important;
+}
+
+.totalLikesDashboard {
+  color: #8d9bb0;
+  font-size: 12px;
+}
+
+.dashboardCommentTime {
+  font-size: 12px;
+  margin-left: 10px;
+}
+
+.ApplicationsSentDiv {
+  padding: 7px;
+}

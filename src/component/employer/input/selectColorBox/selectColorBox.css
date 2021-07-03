@@ -1,0 +1,46 @@
+.EmployerSelectColorBox {
+}
+
+.EmployerSelectColorBox .EmployerSelectColorBox__Input {
+    border: 1px solid rgba(160, 172, 189, 0.19);
+  padding: 10px 20px 5px 15px;
+  border-radius: 6px;
+}
+
+.EmployerSelectColorBox .EmployerSelectColorBox__Input input {
+  display: none;
+}
+
+.EmployerSelectColorBox .EmployerSelectColorBox__Input label {
+  padding-left: 10px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #203452;
+  text-transform: capitalize;
+}
+
+.EmployerSelectColorBox .EmployerSelectColorBox__Input svg {
+  color: #2ec2e2;
+}
+
+.EmployerSelectColorBox
+  .EmployerSelectColorBox__Input.EmployerSelectColorBox__Input--Active {
+  border: 2px solid #2ec2e2;
+  color: #2ec2e2;
+}
+
+.EmployerSelectColorBox
+  .EmployerSelectColorBox__Input.EmployerSelectColorBox__Input--Active
+  label {
+  color: #2ec2e2;
+}
+
+.EmployerSelectColorBox
+  .EmployerSelectColorBox__Input.EmployerSelectColorBox__Input--Active
+  svg {
+  color: #2ec2e2;
+  font-size: 15px;
+ float: right;
+ margin-top: 5px;
+}

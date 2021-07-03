@@ -1,0 +1,60 @@
+.EmployerCandidate {
+    display: flex;
+  }
+  
+  .EmployerCandidate .EmployerCandidate__Body {
+    width: 100%;
+    height: calc(100vh - 75px);
+    overflow-y: scroll;
+    padding: 0px 65px 39px 47px;
+    background-color: #F2F4FA;
+  }
+  
+  .EmployerCandidate .EmployerCandidate__Body .EmployerCandidate__Body--Title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: -0.03em;
+    color: #162A49;
+    padding-top: 39px;
+  }
+  
+  .EmployerCandidate .EmployerCandidate__Body .EmployerCandidate__Body--SubTitle {
+    display: flex;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    color: #808FA6;
+    padding-top: 19px;
+    border-bottom: 1px solid #eaeaea;
+  }
+
+  .EmployerCandidate .EmployerCandidate__Body .EmployerCandidate__Body--SubTitle .EmployerCandidate__Body--SubTitle--Invite {
+  margin-left: 31px;
+}
+
+.EmployerCandidate .EmployerCandidate__Body .EmployerCandidate__Body--SubTitle .EmployerCandidate__Body--SubTitle--Invite,
+.EmployerCandidate .EmployerCandidate__Body .EmployerCandidate__Body--SubTitle .EmployerCandidate__Body--SubTitle--Applied {
+  padding-bottom: 18px;
+  cursor: pointer;
+}
+
+.EmployerCandidate .EmployerCandidate__Body .EmployerCandidate__Body--SubTitle .EmployerCandidate__Body--SubTitle--Invite a,
+.EmployerCandidate .EmployerCandidate__Body .EmployerCandidate__Body--SubTitle .EmployerCandidate__Body--SubTitle--Applied a {
+  text-decoration: none;
+  color: #000;
+}
+
+.EmployerCandidate .EmployerCandidate__Body .EmployerCandidate__Body--SubTitle .EmployerCandidate__Body--SubTitle--Invite.Active,
+.EmployerCandidate .EmployerCandidate__Body .EmployerCandidate__Body--SubTitle .EmployerCandidate__Body--SubTitle--Applied.Active {
+  color: #000;
+  border-bottom: 2px solid #2EC2E2;
+}
+
+.EmployerCandidate .EmployerCandidate__Body .EmployerCandidate__Body--Container  {
+    padding-top: 26px;
+}  

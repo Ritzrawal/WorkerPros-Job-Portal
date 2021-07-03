@@ -1,0 +1,119 @@
+.EmployerJobBasicForm {
+}
+
+.EmployerJobBasicForm .EmployerJobBasicForm__Location,
+.EmployerJobBasicForm .EmployerJobBasicForm__Type,
+.EmployerJobBasicForm .EmployerJobBasicForm__Role,
+.EmployerJobBasicForm .EmployerJobBasicForm__Rate {
+  padding-top: 31px;
+}
+
+.EmployerJobBasicForm
+  .EmployerJobBasicForm__Type
+  .EmployerJobBasicForm__Type--Label,
+.EmployerJobBasicForm
+  .EmployerJobBasicForm__Role
+  .EmployerJobBasicForm__Role--Label,
+.EmployerJobBasicForm
+  .EmployerJobBasicForm__Rate
+  .EmployerJobBasicForm__Rate--Label {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  color: #162a49;
+}
+
+.EmployerJobBasicForm__Role
+.EmployerJobBasicForm__Role--Label span {
+  font-weight: normal;
+}
+
+.EmployerJobBasicForm
+  .EmployerJobBasicForm__Type
+  .EmployerJobBasicForm__Type--Box,
+.EmployerJobBasicForm
+  .EmployerJobBasicForm__Role
+  .EmployerJobBasicForm__Role--Box {
+  padding-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.EmployerJobBasicForm
+  .EmployerJobBasicForm__Type
+  .EmployerJobBasicForm__Type--Box
+  .EmployerJobBasicForm__Type--Box--Container,
+.EmployerJobBasicForm
+  .EmployerJobBasicForm__Role
+  .EmployerJobBasicForm__Role--Box
+  .EmployerJobBasicForm__Role--Box--Container {
+  padding-right: 15px;
+  padding-bottom: 15px;
+}
+
+.EmployerJobBasicForm
+  .EmployerJobBasicForm__Rate
+  .EmployerJobBasicForm__Rate--Box {
+  margin-top: 24px;
+}
+
+.EmployerJobBasicForm
+  .EmployerJobBasicForm__Rate
+  .EmployerJobBasicForm__Rate--Type {
+  display: flex;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #808fa6;
+  padding-top: 18px;
+}
+
+.EmployerJobBasicForm
+  .EmployerJobBasicForm__Rate
+  .EmployerJobBasicForm__Rate--Type--Hourly.Active,
+.EmployerJobBasicForm
+  .EmployerJobBasicForm__Rate
+  .EmployerJobBasicForm__Rate--Type--Salary.Active {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #162a49;
+}
+
+.EmployerJobBasicForm
+  .EmployerJobBasicForm__Rate
+  .EmployerJobBasicForm__Rate--Type--Salary {
+  padding-left: 21px;
+}
+
+.EmployerJobBasicForm .EmployerJobBasicForm__Rate .EmployerJobBasicForm__Rate--Number {
+  display: flex;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #9BA8BC;
+  padding-top: 6px;
+}
+
+.EmployerJobBasicForm .EmployerJobBasicForm__Rate .EmployerJobBasicForm__Rate--Number .EmployerJobBasicForm__Rate--Number--Left {}
+
+.EmployerJobBasicForm .EmployerJobBasicForm__Rate .EmployerJobBasicForm__Rate--Number .EmployerJobBasicForm__Rate--Number--Right {
+  margin-left: auto;
+}
+
+.EmployerJobBasicForm
+  .EmployerJobBasicForm__Type
+  .EmployerJobBasicForm__Type--Error,
+  .EmployerJobBasicForm
+  .EmployerJobBasicForm__Role
+  .EmployerJobBasicForm__Role--Error {
+  color: red;
+  font-weight: 600;
+}

@@ -1,0 +1,140 @@
+.EmployerPaymentHistoryBox {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+}
+
+.EmployerPaymentHistoryBox .EmployerPaymentHistoryBox__Info {
+    display: flex;
+    padding: 20px;
+}
+
+.EmployerPaymentHistoryBox .EmployerPaymentHistoryBox__Info .EmployerPaymentHistoryBox__Info--Plan {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    color: #162A49;
+    width: 30%;
+}
+
+.EmployerPaymentHistoryBox .EmployerPaymentHistoryBox__Info .EmployerPaymentHistoryBox__Info--Price {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    color: #2EC2E2;
+    width: 20%;
+}
+
+.EmployerPaymentHistoryBox .EmployerPaymentHistoryBox__Info .EmployerPaymentHistoryBox__Info--Date {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;    
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    color: #162A49;
+    width: 30%;
+}
+
+.EmployerPaymentHistoryBox .EmployerPaymentHistoryBox__Info .EmployerPaymentHistoryBox__Info--Status {
+    width: 10%;
+}
+
+.EmployerPaymentHistoryBox .EmployerPaymentHistoryBox__Info .EmployerPaymentHistoryBox__Info--Status span {
+    background: #F2F9E8;
+    border-radius: 17px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    color: #85D700;
+    padding: 5px 10px;
+}
+
+.EmployerPaymentHistoryBox .EmployerPaymentHistoryBox__Info .EmployerPaymentHistoryBox__Info--Icon {
+    width: 10%; 
+}
+
+.EmployerPaymentHistoryBox .EmployerPaymentHistoryBox__Info .EmployerPaymentHistoryBox__Info--Icon span {
+    background: rgba(239, 242, 245, 0.53);
+    border-radius: 4px;
+    float: right;
+    padding: 5px 10px 0px 10px;
+    cursor: pointer;
+}
+
+.EmployerPaymentHistoryBox .EmployerPaymentHistoryBox__Info .EmployerPaymentHistoryBox__Info--Icon svg {
+    color: #2EC2E2;
+    font-size: 20px;
+}
+
+.EmployerPaymentHistoryBox .EmployerPaymentHistoryBox__Detail {
+    border-top: 1px solid #F2F4FA;
+    padding: 20px;
+}
+
+.EmployerPaymentHistoryBox .EmployerPaymentHistoryBox__Detail .EmployerPaymentHistoryBox__Detail--Reference {
+    display: flex;
+}
+
+.EmployerPaymentHistoryBox .EmployerPaymentHistoryBox__Detail .EmployerPaymentHistoryBox__Detail--Reference .EmployerPaymentHistoryBox__Detail--Reference--Made,
+.EmployerPaymentHistoryBox .EmployerPaymentHistoryBox__Detail .EmployerPaymentHistoryBox__Detail--Reference .EmployerPaymentHistoryBox__Detail--Reference--Status,
+.EmployerPaymentHistoryBox .EmployerPaymentHistoryBox__Detail .EmployerPaymentHistoryBox__Detail--Reference .EmployerPaymentHistoryBox__Detail--Reference--Payment {
+    width: 33%
+}
+
+.EmployerPaymentHistoryBox .EmployerPaymentHistoryBox__Detail .EmployerPaymentHistoryBox__Detail--Reference .EmployerPaymentHistoryBox__Detail--Reference--Made .EmployerPaymentHistoryBox__Detail--Reference--Made--Title,
+.EmployerPaymentHistoryBox .EmployerPaymentHistoryBox__Detail .EmployerPaymentHistoryBox__Detail--Reference .EmployerPaymentHistoryBox__Detail--Reference--Status .EmployerPaymentHistoryBox__Detail--Reference--Status--Title,
+.EmployerPaymentHistoryBox .EmployerPaymentHistoryBox__Detail .EmployerPaymentHistoryBox__Detail--Reference .EmployerPaymentHistoryBox__Detail--Reference--Payment .EmployerPaymentHistoryBox__Detail--Reference--Payment--Title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 136%;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    color: #808FA6;
+}
+
+.EmployerPaymentHistoryBox .EmployerPaymentHistoryBox__Detail .EmployerPaymentHistoryBox__Detail--Reference .EmployerPaymentHistoryBox__Detail--Reference--Made .EmployerPaymentHistoryBox__Detail--Reference--Made--Body,
+.EmployerPaymentHistoryBox .EmployerPaymentHistoryBox__Detail .EmployerPaymentHistoryBox__Detail--Reference .EmployerPaymentHistoryBox__Detail--Reference--Status .EmployerPaymentHistoryBox__Detail--Reference--Status--Body,
+.EmployerPaymentHistoryBox .EmployerPaymentHistoryBox__Detail .EmployerPaymentHistoryBox__Detail--Reference .EmployerPaymentHistoryBox__Detail--Reference--Payment .EmployerPaymentHistoryBox__Detail--Reference--Payment--Body {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 136%;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    color: #162A49;
+}
+
+.EmployerPaymentHistoryBox .EmployerPaymentHistoryBox__Detail .EmployerPaymentHistoryBox__Detail--Price {
+    display: flex;
+    padding-top: 20px;
+}
+
+.EmployerPaymentHistoryBox .EmployerPaymentHistoryBox__Detail .EmployerPaymentHistoryBox__Detail--Price .EmployerPaymentHistoryBox__Detail--Price--Card,
+.EmployerPaymentHistoryBox .EmployerPaymentHistoryBox__Detail .EmployerPaymentHistoryBox__Detail--Price .EmployerPaymentHistoryBox__Detail--Price--Fee {
+    width: 33%
+}
+
+.EmployerPaymentHistoryBox .EmployerPaymentHistoryBox__Detail .EmployerPaymentHistoryBox__Detail--Price .EmployerPaymentHistoryBox__Detail--Price--Card .EmployerPaymentHistoryBox__Detail--Price--Card--Title,
+.EmployerPaymentHistoryBox .EmployerPaymentHistoryBox__Detail .EmployerPaymentHistoryBox__Detail--Price .EmployerPaymentHistoryBox__Detail--Price--Fee .EmployerPaymentHistoryBox__Detail--Price--Fee--Title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 136%;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    color: #808FA6;
+}
+
+.EmployerPaymentHistoryBox .EmployerPaymentHistoryBox__Detail .EmployerPaymentHistoryBox__Detail--Price .EmployerPaymentHistoryBox__Detail--Price--Card .EmployerPaymentHistoryBox__Detail--Price--Card--Body,
+.EmployerPaymentHistoryBox .EmployerPaymentHistoryBox__Detail .EmployerPaymentHistoryBox__Detail--Price .EmployerPaymentHistoryBox__Detail--Price--Fee .EmployerPaymentHistoryBox__Detail--Price--Fee--Body {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 136%;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    color: #162A49;
+}

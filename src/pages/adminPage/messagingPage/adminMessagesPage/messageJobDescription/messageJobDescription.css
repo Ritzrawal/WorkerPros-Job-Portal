@@ -1,0 +1,168 @@
+.messageJobDescriptionMainContainer {
+  padding: 27px 24px;
+}
+
+.messageJobDescriptionTopSection {
+  padding: 20px 45px;
+  background: rgba(240, 244, 251, 0.36);
+  position: relative;
+  height: 148px;
+}
+
+.messageJobDescriptionMainInfo {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.messagejobDescriptionCompanyLogoDiv {
+  width: 69px;
+  height: 69px;
+}
+
+.messagejobDescriptionCompanyLogoDiv img {
+  width: 69px;
+  height: 69px;
+  border-radius: 50%;
+}
+
+.jobDescriptionCompanyJobInfo {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  margin-left: 15px;
+}
+
+.messagejobDescriptionCompanyName {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  /* identical to box height */
+
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: #162a49;
+}
+
+.messagejobDescriptionJobCategory {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 138.5%;
+  /* or 22px */
+
+  color: #162a49;
+}
+
+.messageJobDescriptionSwitchButtonDiv {
+  text-align: center;
+  position: absolute;
+  bottom: 10px;
+  left: 80px;
+}
+
+.messageJobDescriptionSwitchButtonDiv span {
+  margin-right: 60px;
+}
+
+.messageJobDescriptionButton {
+  cursor: pointer;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 138.5%;
+  /* identical to box height, or 21px */
+
+  text-align: center;
+  padding-bottom: 10px;
+
+  color: #808fa6;
+}
+
+.messageJobDescriptionButton.active {
+  border-bottom: 2px solid #2ec2e2;
+}
+
+.messageJobDescriptionFiles {
+  padding-bottom: 10px;
+  cursor: pointer;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 138.5%;
+  /* identical to box height, or 21px */
+
+  text-align: center;
+
+  color: #808fa6;
+}
+
+.messageJobDescriptionFiles.active {
+  border-bottom: 2px solid #2ec2e2;
+}
+
+.messageJobDescriptionMidSection {
+  padding: 22px;
+}
+
+.messageJobDescriptionMidSectionDiv {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.messageJobDescriptionMidSectionDivTitle {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height */
+
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: #808fa6;
+  margin-bottom: 5px;
+}
+
+.messageJobDescriptionMidSectionDivValue {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 18px;
+
+  color: #162a49;
+}
+
+.messageJobDescriptionOverViewSection {
+  padding: 10px 22px 22px 22px;
+}
+
+.messageJobDescriptionOverViewTitle {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+
+  color: #162a49;
+}
+
+.messageJobDescriptionOverViewPara {
+  margin-top: 10px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 156%;
+  /* or 22px */
+
+  color: #888f99;
+}
+
+.NoJobDescriptionMessages {
+  padding: 27px 24px;
+  vertical-align: middle;
+  font-size: 24px;
+  font-weight: 600;
+}

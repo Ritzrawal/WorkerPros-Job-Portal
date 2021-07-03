@@ -1,0 +1,183 @@
+.EmployerJobSkillForm {
+}
+
+.EmployerJobSkillForm .EmployerJobSkillForm__Certificate,
+.EmployerJobSkillForm .EmployerJobSkillForm__Benefit {
+  padding-top: 31px;
+}
+
+.EmployerJobSkillForm
+  .EmployerJobSkillForm__Special
+  .EmployerJobSkillForm__Special--Label,
+.EmployerJobSkillForm
+  .EmployerJobSkillForm__Certificate
+  .EmployerJobSkillForm__Certificate--Label,
+.EmployerJobSkillForm
+  .EmployerJobSkillForm__Benefit
+  .EmployerJobSkillForm__Benefit--Label {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  color: #162a49;
+}
+
+.EmployerJobSkillForm
+  .EmployerJobSkillForm__Special
+  .EmployerJobSkillForm__Special--Label span,
+  .EmployerJobSkillForm
+  .EmployerJobSkillForm__Certificate
+  .EmployerJobSkillForm__Certificate--Label span,
+.EmployerJobSkillForm
+  .EmployerJobSkillForm__Benefit
+  .EmployerJobSkillForm__Benefit--Label span {
+    font-weight: normal;
+  }
+
+.EmployerJobSkillForm
+  .EmployerJobSkillForm__Special
+  .EmployerJobSkillForm__Special--Box,
+.EmployerJobSkillForm
+  .EmployerJobSkillForm__Skill
+  .EmployerJobSkillForm__Skill--Box,
+.EmployerJobSkillForm
+  .EmployerJobSkillForm__Certificate
+  .EmployerJobSkillForm__Certificate--Box,
+.EmployerJobSkillForm
+  .EmployerJobSkillForm__Benefit
+  .EmployerJobSkillForm__Benefit--Box {
+  padding-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.EmployerJobSkillForm
+  .EmployerJobSkillForm__Special
+  .EmployerJobSkillForm__Special--Box
+  .EmployerJobSkillForm__Special--Box--Container,
+.EmployerJobSkillForm
+  .EmployerJobSkillForm__Skill
+  .EmployerJobSkillForm__Skill--Box
+  .EmployerJobSkillForm__Skill--Box--Container {
+  padding-right: 15px;
+  padding-bottom: 15px;
+}
+
+.EmployerJobSkillForm
+  .EmployerJobSkillForm__Certificate
+  .EmployerJobSkillForm__Certificate--Box
+  .EmployerJobSkillForm__Certificate--Box--Container,
+.EmployerJobSkillForm
+  .EmployerJobSkillForm__Benefit
+  .EmployerJobSkillForm__Benefit--Box
+  .EmployerJobSkillForm__Benefit--Box--Container {
+  padding-right: 15px;
+  padding-bottom: 25px;
+  width: 50%;
+}
+
+.EmployerJobSkillForm
+  .EmployerJobSkillForm__Certificate
+  .EmployerJobSkillForm__Certificate--Box
+  .EmployerJobSkillForm__Certificate--Box--Other {
+  width: 80%;
+}
+
+.EmployerJobSkillForm
+  .EmployerJobSkillForm__Certificate
+  .EmployerJobSkillForm__Certificate--Box
+  .EmployerJobSkillForm__Certificate--Box--Other
+  .EmployerJobSkillForm__Certificate--Box--Other--Title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #5e7291;
+}
+
+.EmployerJobSkillForm
+  .EmployerJobSkillForm__Certificate
+  .EmployerJobSkillForm__Certificate--Box
+  .EmployerJobSkillForm__Certificate--Box--Other
+  .EmployerJobSkillForm__Certificate--Box--Other--Title
+  svg {
+  color: #2ec2e2;
+  margin-right: 12px;
+}
+
+.EmployerJobSkillForm
+  .EmployerJobSkillForm__Certificate
+  .EmployerJobSkillForm__Certificate--Box
+  .EmployerJobSkillForm__Certificate--Box--Other
+  .EmployerJobSkillForm__Certificate--Box--Other--Title
+  span {
+  cursor: pointer;
+}
+
+.EmployerJobSkillForm
+  .EmployerJobSkillForm__Certificate
+  .EmployerJobSkillForm__Certificate--Box
+  .EmployerJobSkillForm__Certificate--Box--Other
+  .EmployerJobSkillForm__Certificate--Box--Other--InputBox {
+  padding-top: 10px;
+}
+
+.EmployerJobSkillForm
+  .EmployerJobSkillForm__Certificate
+  .EmployerJobSkillForm__Certificate--Box
+  .EmployerJobSkillForm__Certificate--Box--Other
+  .EmployerJobSkillForm__Certificate--Box--Other--InputBox.Hide {
+  display: none;
+}
+
+.EmployerJobSkillForm .EmployerJobSkillForm__Skill {
+  border: 2px solid #f4f7fc;
+  box-sizing: border-box;
+  border-radius: 6px;
+  padding: 13px 22px;
+  margin-top: 45px;
+}
+
+.EmployerJobSkillForm
+  .EmployerJobSkillForm__Skill
+  .EmployerJobSkillForm__Skill--Label {
+  font-weight: bold;
+  font-size: 18px;
+  color: #162a49;
+  text-transform: capitalize;
+}
+
+.EmployerJobSkillForm
+  .EmployerJobSkillForm__Skill
+  .EmployerJobSkillForm__Skill--Title,
+.EmployerJobSkillForm
+  .EmployerJobSkillForm__Skill
+  .EmployerJobSkillForm__Skill--Experience
+  .EmployerJobSkillForm__Skill--Experience--Title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.EmployerJobSkillForm
+  .EmployerJobSkillForm__Skill
+  .EmployerJobSkillForm__Skill--Title
+  span,
+.EmployerJobSkillForm
+  .EmployerJobSkillForm__Skill
+  .EmployerJobSkillForm__Skill--Experience
+  .EmployerJobSkillForm__Skill--Experience--Title
+  span {
+  color: #2ec2e2;
+}
+
+.EmployerJobSkillForm
+  .EmployerJobSkillForm__Special
+  .EmployerJobSkillForm__Special--Error {
+  color: red;
+  font-weight: 600;
+}

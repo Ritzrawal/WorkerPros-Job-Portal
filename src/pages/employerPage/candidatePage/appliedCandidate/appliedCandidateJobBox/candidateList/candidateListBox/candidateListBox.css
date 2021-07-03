@@ -1,0 +1,80 @@
+.EmployerCandidateListBox {
+    background: #FFFFFF;
+    border: 1px solid #E8EBF0;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.03);
+    border-radius: 6px;
+    padding: 13px;
+    width: 250px;
+    cursor: pointer;
+}
+
+.EmployerCandidateListBox .EmployerCandidateListBox__Info {
+    display: flex;
+}
+
+.EmployerCandidateListBox .EmployerCandidateListBox__Info .EmployerCandidateListBox__Info--Image {
+    height: 69px;
+    width: 69px;
+    border-radius: 69px;
+    overflow: hidden;
+}
+
+.EmployerCandidateListBox .EmployerCandidateListBox__Info .EmployerCandidateListBox__Info--Image img {
+    height: 100%;
+    width: 100%;
+}
+
+.EmployerCandidateListBox .EmployerCandidateListBox__Info .EmployerCandidateListBox__Info--Detail {
+    padding-left: 15px;
+}
+
+.EmployerCandidateListBox .EmployerCandidateListBox__Info .EmployerCandidateListBox__Info--Detail .EmployerCandidateListBox__Info--Detail--Name {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #162A49;
+}
+
+.EmployerCandidateListBox .EmployerCandidateListBox__Info .EmployerCandidateListBox__Info--Detail .EmployerCandidateListBox__Info--Detail--Category {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #2EC2E2;
+    padding-top: 5px;
+}
+
+.EmployerCandidateListBox .EmployerCandidateListBox__Info .EmployerCandidateListBox__Info--Detail .EmployerCandidateListBox__Info--Detail--Status {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #808FA6;
+    padding-top: 5px;
+}
+
+.EmployerCandidateListBox .EmployerCandidateListBox__Category {
+    padding-top: 12px;
+}
+
+.EmployerCandidateListBox .EmployerCandidateListBox__Location {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #234476;
+    padding-top: 13px;
+}
+
+.EmployerCandidateListBox .EmployerCandidateListBox__Location svg {
+    color: #2EC2E2;
+    margin-right: 5px;
+
+}
+

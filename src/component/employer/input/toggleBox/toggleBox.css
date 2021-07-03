@@ -1,0 +1,47 @@
+.EmployerToggleBox {}
+
+.EmployerToggleBox .EmployerToggleBox__Input {
+    position: relative;
+    width: 40px;
+    height: 21px;
+}
+
+.EmployerToggleBox .EmployerToggleBox__Input input {
+    display: none;
+}
+
+.EmployerToggleBox .EmployerToggleBox__Input .EmployerToggleBox__Input--Switch {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+    border-radius: 34px;
+}
+
+.EmployerToggleBox .EmployerToggleBox__Input .EmployerToggleBox__Input--Switch::before {
+    position: absolute;
+    content: "";
+    height: 15px;
+    width: 15px;
+    left: 2px;
+    bottom: 3px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+    border-radius: 50%;
+}
+
+.EmployerToggleBox .EmployerToggleBox__Input .EmployerToggleBox__Input--Switch.EmployerToggleBox__Input--Switch--Active {
+    background-color: #85D700;
+}
+
+.EmployerToggleBox .EmployerToggleBox__Input .EmployerToggleBox__Input--Switch.EmployerToggleBox__Input--Switch--Active::before {
+    -webkit-transform: translateX(21px);
+  -ms-transform: translateX(21px);
+  transform: translateX(21px);
+}

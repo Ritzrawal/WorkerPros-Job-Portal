@@ -1,0 +1,166 @@
+.EmployerAppliedCandidateJobBox{
+    padding: 13px 20px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+}
+
+.EmployerAppliedCandidateJobBox a {
+    text-decoration: none;
+}
+
+.EmployerAppliedCandidateJobBox__List {
+    display: flex;
+}
+
+.EmployerAppliedCandidateJobBox__List.BottomBorder {
+    padding-bottom: 23px;
+    border-bottom: 2px solid #F3F6F9;
+}
+
+.EmployerAppliedCandidateJobBox__List .EmployerAppliedCandidateJobBox__List--Title {}
+
+.EmployerAppliedCandidateJobBox__List .EmployerAppliedCandidateJobBox__List--Title .EmployerAppliedCandidateJobBox__List--Title--Name {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 21px;
+    color: #162A49;
+}
+
+.EmployerAppliedCandidateJobBox__List .EmployerAppliedCandidateJobBox__List--Title .EmployerAppliedCandidateJobBox__List--Title--Info {
+    display: flex;
+    padding-top: 15px;
+}
+
+.EmployerAppliedCandidateJobBox__List .EmployerAppliedCandidateJobBox__List--Title .EmployerAppliedCandidateJobBox__List--Title--Info .EmployerAppliedCandidateJobBox__List--Title--Info--Location {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    color: #234476;
+}
+
+.EmployerAppliedCandidateJobBox__List .EmployerAppliedCandidateJobBox__List--Title .EmployerAppliedCandidateJobBox__List--Title--Info .EmployerAppliedCandidateJobBox__List--Title--Info--Location svg {
+    color: #2EC2E2; 
+}
+
+.EmployerAppliedCandidateJobBox__List .EmployerAppliedCandidateJobBox__List--Title .EmployerAppliedCandidateJobBox__List--Title--Info .EmployerAppliedCandidateJobBox__List--Title--Info--Pay {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    color: #234476;
+    padding-left: 32px;
+}
+
+.EmployerAppliedCandidateJobBox__List .EmployerAppliedCandidateJobBox__List--Title .EmployerAppliedCandidateJobBox__List--Title--Info .EmployerAppliedCandidateJobBox__List--Title--Info--Pay span {
+    color: #2EC2E2; 
+}
+
+.EmployerAppliedCandidateJobBox__List .EmployerAppliedCandidateJobBox__List--Count {
+    margin-left: auto;
+    padding-top: 5px;
+    min-width: 165px;
+}
+
+.EmployerAppliedCandidateJobBox__List .EmployerAppliedCandidateJobBox__List--Count .EmployerAppliedCandidateJobBox__List--Count--New {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #808FA6;
+}
+
+.EmployerAppliedCandidateJobBox__List .EmployerAppliedCandidateJobBox__List--Count .EmployerAppliedCandidateJobBox__List--Count--New span {
+    background: #2EC2E2;
+    border-radius: 13px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 2px 5px;
+}
+
+.EmployerAppliedCandidateJobBox__List .EmployerAppliedCandidateJobBox__List--Count .EmployerAppliedCandidateJobBox__List--Count--Total {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #808FA6;
+    padding-top: 12px;
+}
+
+.EmployerAppliedCandidateJobBox__List .EmployerAppliedCandidateJobBox__List--Count .EmployerAppliedCandidateJobBox__List--Count--Total span {
+    background: #162A49;
+    border-radius: 13px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 2px 5px;
+}
+
+.EmployerAppliedCandidateJobBox__List .EmployerAppliedCandidateJobBox__List--Dropdown {
+    padding-left: 60px;
+    padding-top: 15px;
+}
+
+.EmployerAppliedCandidateJobBox__List .EmployerAppliedCandidateJobBox__List--Dropdown svg {
+   font-size: 20px;
+   color: #2EC2E2;
+   cursor: pointer;
+}
+
+.EmployerAppliedCandidateJobBox__Detail {
+    padding-top: 26px;
+}
+
+.EmployerAppliedCandidateJobBox__Detail .EmployerAppliedCandidateJobBox__Detail--Title {
+    display: flex;
+    border-bottom: 1px solid #E4E8ED;
+}
+
+.EmployerAppliedCandidateJobBox__Detail .EmployerAppliedCandidateJobBox__Detail--Title .EmployerAppliedCandidateJobBox__Detail--Title--Candidate,
+.EmployerAppliedCandidateJobBox__Detail .EmployerAppliedCandidateJobBox__Detail--Title .EmployerAppliedCandidateJobBox__Detail--Title--Pipeline,
+.EmployerAppliedCandidateJobBox__Detail .EmployerAppliedCandidateJobBox__Detail--Title .EmployerAppliedCandidateJobBox__Detail--Title--Interview {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    color: #808FA6;
+    padding-bottom: 18px;
+    cursor: pointer;
+}
+
+.EmployerAppliedCandidateJobBox__Detail .EmployerAppliedCandidateJobBox__Detail--Title .EmployerAppliedCandidateJobBox__Detail--Title--Candidate.Active,
+.EmployerAppliedCandidateJobBox__Detail .EmployerAppliedCandidateJobBox__Detail--Title .EmployerAppliedCandidateJobBox__Detail--Title--Pipeline.Active,
+.EmployerAppliedCandidateJobBox__Detail .EmployerAppliedCandidateJobBox__Detail--Title .EmployerAppliedCandidateJobBox__Detail--Title--Interview.Active {
+    color: #162A49;
+    border-bottom: 2px solid #2EC2E2;
+}
+
+.EmployerAppliedCandidateJobBox__Detail .EmployerAppliedCandidateJobBox__Detail--Title .EmployerAppliedCandidateJobBox__Detail--Title--Pipeline,
+.EmployerAppliedCandidateJobBox__Detail .EmployerAppliedCandidateJobBox__Detail--Title .EmployerAppliedCandidateJobBox__Detail--Title--Interview {
+    margin-left: 31px;
+}
+
+.EmployerAppliedCandidateJobBox__Detail .EmployerAppliedCandidateJobBox__Detail--Body {
+    padding: 18px 0px;
+}

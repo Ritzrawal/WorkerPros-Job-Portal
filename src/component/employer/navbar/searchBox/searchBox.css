@@ -1,0 +1,50 @@
+.EmployerSearchBox {
+  border: 1px solid #eaeaea;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+.EmployerSearchBox .EmployerSearchBox__Title {
+  font-size: 14px;
+  color: #808fa6;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+  border-bottom: 1px solid #bfbfbf;
+  text-transform: capitalize;
+}
+
+.EmployerSearchBox .EmployerSearchBox__Body {
+  max-height: 400px;
+  overflow-y: scroll;
+}
+
+.EmployerSearchBox .EmployerSearchBox__Body .EmployerSearchBox__Body--List {}
+
+.EmployerSearchBox .EmployerSearchBox__Body .EmployerSearchBox__Body--List .EmployerSearchBox__Body--List--Heading {
+  font-size: 14px;
+  color: #808fa6;
+  padding-bottom: 2px;
+}
+
+.EmployerSearchBox .EmployerSearchBox__Body .EmployerSearchBox__Body--List .EmployerSearchBox__Body--List--Heading svg {
+  color: #808fa6 !important;
+  font-size: 14px !important;
+}
+.EmployerSearchBox .EmployerSearchBox__Body .EmployerSearchBox__Body--List .EmployerSearchBox__Body--List--Detail {}
+
+.EmployerSearchBox .EmployerSearchBox__Body .EmployerSearchBox__Body--List .EmployerSearchBox__Body--List--Detail a {
+  text-decoration: none;
+}
+
+.EmployerSearchBox .EmployerSearchBox__Body .EmployerSearchBox__Body--List .EmployerSearchBox__Body--List--Detail a:hover {
+  text-decoration: none;
+}
+
+.EmployerSearchBox .EmployerSearchBox__Body .EmployerSearchBox__Body--List .EmployerSearchBox__Body--List--Detail .EmployerSearchBox__Body--List--Detail--Container {
+  padding-left: 22px;
+  font-size: 14px;
+  color: #808fa6;
+  padding-bottom: 2px;
+  cursor: pointer;
+}

@@ -1,0 +1,56 @@
+.EmployerDashboardMessageList {
+  background: #ffffff;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.04);
+  border-radius: 6px;
+  padding: 12px;
+}
+
+.EmployerDashboardMessageList .EmployerDashboardMessageList__Title {
+  display: flex;
+}
+
+.EmployerDashboardMessageList
+  .EmployerDashboardMessageList__Title
+  .EmployerDashboardMessageList__Title--Left {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #808fa6;
+}
+
+.EmployerDashboardMessageList
+  .EmployerDashboardMessageList__Title
+  .EmployerDashboardMessageList__Title--Right {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  text-align: right;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #2ec2e2;
+  margin-left: auto;
+}
+
+.EmployerDashboardMessageList
+  .EmployerDashboardMessageList__Title
+  .EmployerDashboardMessageList__Title--Right a {
+  text-decoration: none;
+  color: #2ec2e2;
+}
+
+.EmployerDashboardMessageList
+  .EmployerDashboardMessageList__Title
+  .EmployerDashboardMessageList__Title--Right a:hover {
+  text-decoration: none;
+  color: #2ec2e2;
+}
+
+.EmployerDashboardMessageList
+  .EmployerDashboardMessageList__Body
+  .EmployerDashboardMessageList__Body--MessageListBox.BottomBorder {
+  border-bottom: 1px solid #ebeff4;
+}

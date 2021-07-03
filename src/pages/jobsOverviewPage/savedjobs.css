@@ -1,0 +1,132 @@
+.Savedjobs {
+  display: flex;
+
+  background: #f2f4fa;
+}
+
+.Savedjobs .Savedjobs__Body {
+  padding: 37px 29px 33px 33px;
+  width: 100%;
+  background: #ffffff;
+}
+
+.Savedjobs,
+.Savedjobs__Body .Savedjobs__Body--Header {
+  display: flex;
+}
+
+.Savedjobs__SideBar {
+  width: 30%;
+}
+
+.Savedjobs
+  .Savedjobs__Body
+  .Savedjobs__Body--Header
+  .Savedjobs__Body--Header--Title {
+  font-size: 28px;
+  line-height: 34px;
+  font-weight: bold;
+}
+
+.Savedjobs
+  .Savedjobs__Body
+  .Savedjobs__Body--Header
+  .Savedjobs__Body--Header--Counter {
+  position: relative;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 17px;
+  padding: 12px 0px 0px 22px;
+  color: #fff;
+}
+
+.Savedjobs
+  .Savedjobs__Body
+  .Savedjobs__Body--Header
+  .Savedjobs__Body--Header--Counter
+  span {
+  background-color: #2ec2e2;
+  padding: 2px 6px;
+  border-radius: 25px;
+  position: absolute;
+  top: 3px;
+  left: 15px;
+}
+
+.Savedjobs
+  .Savedjobs__Body
+  .Savedjobs__Body--Header
+  .Savedjobs__Body--Header--Search {
+  margin-left: auto;
+}
+
+.Savedjobs .Savedjobs__Body .Savedjobs__Body--Filter {
+  display: flex;
+}
+
+.Savedjobs .Savedjobs__Body .Savedjobs__Body--Filter button {
+  border: 2px solid #2ec2e2;
+  border-radius: 50px;
+  padding: 5px 20px;
+  margin-right: 10px;
+  color: #2ec2e2;
+  background-color: #fff;
+}
+
+.Savedjobs .Savedjobs__Body .Savedjobs__Body--Filter .active {
+  border: 2px solid #2ec2e2;
+  background-color: #2ec2e2;
+  border-radius: 50px;
+  padding: 5px 20px;
+  margin-right: 10px;
+  color: #fff;
+}
+
+.Savedjobs .Savedjobs__Body .Savedjobs__Body--Table {
+  padding-top: 10px;
+}
+
+.NoJobsMessageDiv {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+.headerCustomWidth .navbar {
+  padding: 10px 40px 10px 25px !important;
+}
+
+/* For search box */
+
+.Savedjobs__Body--Header--Search {
+  margin-left: auto;
+}
+
+.Savedjobs__Body--Header--Search .SearchBox__Icon {
+  position: relative;
+}
+
+.Savedjobs__Body--Header--Search .SearchBox__Icon .fa.fa-search {
+  position: absolute;
+  top: 12px;
+  left: 18px;
+  color: #2ec2e2;
+}
+
+.Savedjobs__Body--Header--Search .SearchBox__Icon .searchJobsPageInputModule {
+  padding-left: 40px;
+  width: 269px;
+  height: 40px;
+  border: 1px solid #edf1f8;
+  border-radius: 6px;
+  display: flex;
+}
+
+.Savedjobs__Body--Header--Search
+  .SearchBox__Icon
+  .searchJobsPageInputModule::placeholder {
+  padding: 9px 0px 12px 10px;
+  color: #ced5df;
+  font-size: 14px;
+}

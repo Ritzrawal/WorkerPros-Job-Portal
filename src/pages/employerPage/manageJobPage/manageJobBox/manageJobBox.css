@@ -1,0 +1,140 @@
+.EmployerManageJobBox {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    padding: 12px 20px;
+    display: flex;
+}
+
+.EmployerManageJobBox .EmployerManageJobBox__Detail {
+    width: 60%;
+}
+
+.EmployerManageJobBox .EmployerManageJobBox__Detail .EmployerManageJobBox__Detail--Title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 21px;
+    color: #162A49;
+}
+
+.EmployerManageJobBox .EmployerManageJobBox__Detail .EmployerManageJobBox__Detail--Title a {
+    color: #162A49;
+}
+
+.EmployerManageJobBox .EmployerManageJobBox__Detail .EmployerManageJobBox__Detail--Title a:hover {
+    text-decoration: none;
+    color: #162A49;
+}
+
+.EmployerManageJobBox .EmployerManageJobBox__Detail .EmployerManageJobBox__Detail--Overview {
+    display: flex;
+    padding-top: 15px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    color: #234476;
+}
+
+.EmployerManageJobBox .EmployerManageJobBox__Detail .EmployerManageJobBox__Detail--Overview .EmployerManageJobBox__Detail--Overview--Location svg {
+    margin-right: 9px;
+}   
+
+.EmployerManageJobBox .EmployerManageJobBox__Detail .EmployerManageJobBox__Detail--Overview .EmployerManageJobBox__Detail--Overview--Pay {
+    padding-left: 32px;
+}
+
+.EmployerManageJobBox .EmployerManageJobBox__Detail .EmployerManageJobBox__Detail--Description {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 150%;
+    color: #808FA6;
+    padding-top: 12px;
+    white-space: nowrap;
+    height: 55px;
+    width: inherit;
+    overflow: hidden;
+}
+
+.EmployerManageJobBox .EmployerManageJobBox__Detail .EmployerManageJobBox__Detail--Category {
+    padding-top: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 15px;
+}
+.EmployerManageJobBox .EmployerManageJobBox__Detail .EmployerManageJobBox__Detail--Category--Container {
+    padding-right: 10px;
+    padding-bottom: 15px;
+}
+
+.EmployerManageJobBox .EmployerManageJobBox__Overview {
+ margin-left: auto;
+}   
+
+.EmployerManageJobBox .EmployerManageJobBox__Overview .EmployerManageJobBox__Overview--Status {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.EmployerManageJobBox .EmployerManageJobBox__Overview .EmployerManageJobBox__Overview--Status .EmployerManageJobBox__Overview--Status--Text {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: right;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #9DA6B5;
+    padding-top: 2px;
+}
+
+.EmployerManageJobBox .EmployerManageJobBox__Overview .EmployerManageJobBox__Overview--Status .EmployerManageJobBox__Overview--Status--ToggleBox {
+    padding-left: 10px;
+} 
+
+.EmployerManageJobBox .EmployerManageJobBox__Overview .EmployerManageJobBox__Overview--Count {
+    display: flex;
+    padding-top: 15px;
+    padding-right: 40px;
+}
+
+.EmployerManageJobBox .EmployerManageJobBox__Overview .EmployerManageJobBox__Overview--Count .EmployerManageJobBox__Overview--Count--Applicant .EmployerManageJobBox__Overview--Count--Applicant--Number,
+.EmployerManageJobBox .EmployerManageJobBox__Overview .EmployerManageJobBox__Overview--Count .EmployerManageJobBox__Overview--Count--Message .EmployerManageJobBox__Overview--Count--Message--Number,
+.EmployerManageJobBox .EmployerManageJobBox__Overview .EmployerManageJobBox__Overview--Count .EmployerManageJobBox__Overview--Count--Interview .EmployerManageJobBox__Overview--Count--Interview--Number {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #162A49;
+}
+
+.EmployerManageJobBox .EmployerManageJobBox__Overview .EmployerManageJobBox__Overview--Count .EmployerManageJobBox__Overview--Count--Applicant .EmployerManageJobBox__Overview--Count--Applicant--Number a,
+.EmployerManageJobBox .EmployerManageJobBox__Overview .EmployerManageJobBox__Overview--Count .EmployerManageJobBox__Overview--Count--Message .EmployerManageJobBox__Overview--Count--Message--Number a,
+.EmployerManageJobBox .EmployerManageJobBox__Overview .EmployerManageJobBox__Overview--Count .EmployerManageJobBox__Overview--Count--Interview .EmployerManageJobBox__Overview--Count--Interview--Number a {
+    text-decoration: none;
+    color: #000;
+}
+
+.EmployerManageJobBox .EmployerManageJobBox__Overview .EmployerManageJobBox__Overview--Count .EmployerManageJobBox__Overview--Count--Applicant .EmployerManageJobBox__Overview--Count--Applicant--Number span {
+    color: #2EC2E2;
+    padding-left: 5px;
+}
+
+.EmployerManageJobBox .EmployerManageJobBox__Overview .EmployerManageJobBox__Overview--Count .EmployerManageJobBox__Overview--Count--Applicant .EmployerManageJobBox__Overview--Count--Applicant--Title,
+.EmployerManageJobBox .EmployerManageJobBox__Overview .EmployerManageJobBox__Overview--Count .EmployerManageJobBox__Overview--Count--Message .EmployerManageJobBox__Overview--Count--Message--Title,
+.EmployerManageJobBox .EmployerManageJobBox__Overview .EmployerManageJobBox__Overview--Count .EmployerManageJobBox__Overview--Count--Interview .EmployerManageJobBox__Overview--Count--Interview--Title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #808FA6;
+}
+
+.EmployerManageJobBox .EmployerManageJobBox__Overview .EmployerManageJobBox__Overview--Count .EmployerManageJobBox__Overview--Count--Message,
+.EmployerManageJobBox .EmployerManageJobBox__Overview .EmployerManageJobBox__Overview--Count .EmployerManageJobBox__Overview--Count--Interview {
+    padding-left: 42px;
+}

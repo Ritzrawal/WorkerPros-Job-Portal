@@ -1,0 +1,189 @@
+.messagePageConversationMainContainer {
+  padding: 28px 26px;
+  height: 100%;
+  background: #ffffff;
+}
+
+.messagePageConversationTopSection {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.messagePageConversationCategoryType {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 21px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #162a49;
+}
+
+.messagePageConversationStarted {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 134%;
+  /* or 15px */
+
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: #808fa6;
+}
+
+/* Card Styling */
+
+.messagePageConversationMessageCard {
+  display: flex;
+  /* width: 50%; */
+  background: #ffffff;
+  border: 1px solid #edf1f8;
+  box-sizing: border-box;
+  border-radius: 6px;
+  padding: 13px;
+}
+
+.messagePageConversationMessageCard .messageCardLeft {
+  width: 44px;
+  height: 44px;
+  margin-right: 14px;
+}
+
+.messagePageConversationMessageCard .messageCardLeft img {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+}
+
+.messagePageConversationMessageCard
+  .messageCardRight
+  .messageCardUserInfo
+  .messageCardRightName {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 138.5%;
+  /* or 19px */
+
+  color: #162a49;
+  margin-right: 10px;
+}
+
+.messagePageConversationMessageCard
+  .messageCardRight
+  .messageCardUserInfo
+  .messageCardRightTime {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 134%;
+  /* or 15px */
+
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: #808fa6;
+}
+
+.messagePageConversationMessageCard .messageCardRight .messageCardRightBottom {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 156%;
+  /* or 22px */
+
+  color: #162a49;
+}
+
+.messagePageConversationMessagesSection {
+  margin-top: 20px;
+  position: relative;
+  height: 100%;
+}
+
+.messagePageConversationMessagesContainer {
+  margin-top: auto;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.loaderDivMessagesDetail {
+  top: 5px;
+  position: absolute;
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.messagePageConversationTextFieldSection {
+  position: absolute;
+  bottom: 12px;
+  width: 100%;
+}
+
+.messagePageConversationTextFieldInputContainer {
+  position: relative;
+  background: #ffffff;
+  border: 2px solid #c1cee1;
+  box-sizing: border-box;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.04);
+  border-radius: 6px;
+}
+
+.messagePageConversationTextFieldInputContainer .form-group {
+  width: 100%;
+}
+
+.messagePageConversationTextFieldInputContainer .form-control {
+  margin-bottom: 0px;
+}
+
+.messagePageConversationTextField {
+  border: none;
+  height: 55px;
+  width: 80%;
+}
+
+.messagePageConversationTextFieldSendIcon {
+  position: absolute;
+  right: 37px;
+  bottom: 20px;
+}
+
+.messagePageConversationTextFieldAttachIcon {
+  position: absolute;
+  right: 80px;
+  bottom: 20px;
+}
+
+.messagePageConversationTextFieldSection .fa.fa-search {
+}
+
+.messengerEmojiIcon {
+  position: absolute;
+  right: 120px;
+  bottom: 20px;
+  cursor: pointer;
+  color: #234476;
+}
+
+.messageEmojiSelector {
+  position: absolute;
+  bottom: 84px;
+  right: 30px;
+}
+
+.fileattachmentMessage {
+  width: 100%;
+}

@@ -1,0 +1,98 @@
+.EmployerInterviewListBox {
+    background: #FFFFFF;
+    border: 1px solid rgba(160, 172, 189, 0.19);
+    box-sizing: border-box;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.03);
+    border-radius: 6px;
+    padding: 13px;
+    width: 250px;
+}
+
+.EmployerInterviewListBox .EmployerInterviewListBox__Info {
+    display: flex;
+}
+
+.EmployerInterviewListBox .EmployerInterviewListBox__Info .EmployerInterviewListBox__Info--Image {
+    height: 44px;
+    width: 44px;
+    border-radius: 44px;
+    overflow: hidden;
+}
+
+.EmployerInterviewListBox .EmployerInterviewListBox__Info .EmployerInterviewListBox__Info--Image img {
+    height: 100%;
+    width: 100%;
+}
+
+.EmployerInterviewListBox .EmployerInterviewListBox__Info .EmployerInterviewListBox__Info--Detail {
+    padding-left: 12px;
+}
+
+.EmployerInterviewListBox .EmployerInterviewListBox__Info .EmployerInterviewListBox__Info--Detail .EmployerInterviewListBox__Info--Detail--Name {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    color: #162A49;
+}
+
+.EmployerInterviewListBox .EmployerInterviewListBox__Info .EmployerInterviewListBox__Info--Detail .EmployerInterviewListBox__Info--Detail--Profile {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #2EC2E2;
+    padding-top: 5px;
+}
+
+.EmployerInterviewListBox .EmployerInterviewListBox__Info .EmployerInterviewListBox__Info--Detail .EmployerInterviewListBox__Info--Detail--Profile span {
+    cursor: pointer;
+}
+
+.EmployerInterviewListBox .EmployerInterviewListBox__Title {
+    padding-top: 10px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    color: #162A49;
+}
+
+.EmployerInterviewListBox .EmployerInterviewListBox__Date {
+    padding-top: 15px;
+    display: flex;
+}
+
+.EmployerInterviewListBox .EmployerInterviewListBox__Date .EmployerInterviewListBox__Date--Date {
+    background: #2EC2E2;
+    border-radius: 14px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 16px;
+    color: #FFFFFF;
+    padding: 1px 8px;
+}
+
+.EmployerInterviewListBox .EmployerInterviewListBox__Date .EmployerInterviewListBox__Date--Time {
+    padding-left: 10px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #162A49;
+    padding-top: 2px;
+}
+
+.EmployerInterviewListBox .EmployerInterviewListBox__Contact {
+    padding-top: 15px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    color: #2EC2E2;
+}
+
+.EmployerInterviewListBox .EmployerInterviewListBox__Contact svg {
+    margin-right: 10px;
+}

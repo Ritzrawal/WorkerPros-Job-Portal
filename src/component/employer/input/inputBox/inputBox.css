@@ -1,0 +1,72 @@
+.EmployerInputBox {
+  background-color: #fff;
+  border-radius: 6px;
+}
+
+.EmployerInputBox .EmployerInputBox__Title {
+  display: flex;
+}
+
+.EmployerInputBox .EmployerInputBox__Title .EmployerInputBox__Title--Label {
+  font-weight: 600;
+  line-height: 22px;
+  text-align: left;
+  margin-bottom: 7px;
+  font-weight: 600;
+}
+
+.EmployerInputBox .EmployerInputBox__Title .EmployerInputBox__Title--Error {
+  font-size: 14px;
+  color: red;
+  padding: 2px 0px 0px 12px;
+}
+
+.EmployerInputBox .EmployerInputBox__Box {
+  display: flex;
+  box-sizing: border-box;
+  border-radius: 6px;
+}
+
+.EmployerInputBox .EmployerInputBox__Box.Error {
+  border: 2px solid red;
+}
+
+.EmployerInputBox .EmployerInputBox__Box--LeftIcon,
+.EmployerInputBox .EmployerInputBox__Box--RightIcon,
+.EmployerInputBox .EmployerInputBox__Box--RightText {
+  font-weight: 600;
+  line-height: 20px;
+  color: #9da6b5;
+  margin-top: 2px;
+}
+
+.EmployerInputBox .EmployerInputBox__Box--LeftIcon,
+.EmployerInputBox .EmployerInputBox__Box--RightIcon {
+  font-size: 18px;
+}
+
+.EmployerInputBox .EmployerInputBox__Box--RightText {
+  font-size: 16px;
+}
+
+.EmployerInputBox .EmployerInputBox__Box--LeftIcon {
+  padding-right: 8px;
+}
+
+.EmployerInputBox .EmployerInputBox__Box--RightIcon,
+.EmployerInputBox .EmployerInputBox__Box--RightText {
+  padding-left: 8px;
+}
+
+.EmployerInputBox .EmployerInputBox__Box .EmployerInputBox__Box--Input {
+  width: 100%;
+}
+
+.EmployerInputBox .EmployerInputBox__Box .EmployerInputBox__Box--Input input {
+  width: 100%;
+  height: 100%;
+  border: none;
+  font-size: 16px;
+  line-height: 20px;
+  color: #808fa6;
+}

@@ -1,0 +1,115 @@
+.EmployerTeamMember {
+    display: flex;
+}
+
+.EmployerTeamMember .EmployerTeamMember__Body {
+    width: 100%;
+    height: calc(100vh - 75px); 
+    background-color: #F2F4FA;
+    padding: 35px 77px 35px 39px;
+    overflow-y: scroll;
+}
+
+.EmployerTeamMember .EmployerTeamMember__Body .EmployerTeamMember__Body--Title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: -0.03em;
+    color: #162A49;
+}
+
+.EmployerTeamMember .EmployerTeamMember__Body .EmployerTeamMember__Body--Detail {
+    display: flex;
+    padding-top: 18px;
+}
+
+.EmployerTeamMember .EmployerTeamMember__Body .EmployerTeamMember__Body--Detail .EmployerTeamMember__Body--Detail--Left {
+    margin-right: 33px;
+    width: 492px;
+}
+
+.EmployerTeamMember .EmployerTeamMember__Body .EmployerTeamMember__Body--Detail .EmployerTeamMember__Body--Detail--Left a {
+    text-decoration: none;
+}
+
+.EmployerTeamMember .EmployerTeamMember__Body .EmployerTeamMember__Body--Detail .EmployerTeamMember__Body--Detail--Left .EmployerTeamMember__Body--Detail--Left--Member {
+    background: #fff;
+    border-radius: 6px;
+}
+
+.EmployerTeamMember .EmployerTeamMember__Body .EmployerTeamMember__Body--Detail .EmployerTeamMember__Body--Detail--Left .EmployerTeamMember__Body--Detail--Left--Member .EmployerTeamMember__Body--Detail--Left--Member--Info {
+    display: flex;
+    padding: 13px;
+    cursor: pointer;
+}
+
+.EmployerTeamMember .EmployerTeamMember__Body .EmployerTeamMember__Body--Detail .EmployerTeamMember__Body--Detail--Left .EmployerTeamMember__Body--Detail--Left--Member .EmployerTeamMember__Body--Detail--Left--Member--Info.Active {
+    background-color: #2EC2E2;
+}
+
+.EmployerTeamMember .EmployerTeamMember__Body .EmployerTeamMember__Body--Detail .EmployerTeamMember__Body--Detail--Left .EmployerTeamMember__Body--Detail--Left--Member .EmployerTeamMember__Body--Detail--Left--Member--Info .EmployerTeamMember__Body--Detail--Left--Member--Info--Image {
+    width: 37px;
+    height: 37px;
+    border-radius: 37px;
+    overflow: hidden;
+}
+
+.EmployerTeamMember .EmployerTeamMember__Body .EmployerTeamMember__Body--Detail .EmployerTeamMember__Body--Detail--Left .EmployerTeamMember__Body--Detail--Left--Member .EmployerTeamMember__Body--Detail--Left--Member--Info .EmployerTeamMember__Body--Detail--Left--Member--Info--Image img {
+    width: 100%;
+    height: 100%;
+}
+
+.EmployerTeamMember .EmployerTeamMember__Body .EmployerTeamMember__Body--Detail .EmployerTeamMember__Body--Detail--Left .EmployerTeamMember__Body--Detail--Left--Member .EmployerTeamMember__Body--Detail--Left--Member--Info .EmployerTeamMember__Body--Detail--Left--Member--Info--Name {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #162A49;
+    padding-left: 14px;
+    padding-top: 10px;
+    text-transform: capitalize;
+}
+
+.EmployerTeamMember .EmployerTeamMember__Body .EmployerTeamMember__Body--Detail .EmployerTeamMember__Body--Detail--Left .EmployerTeamMember__Body--Detail--Left--Member .EmployerTeamMember__Body--Detail--Left--Member--Info.Active .EmployerTeamMember__Body--Detail--Left--Member--Info--Name {
+    color: #fff;
+}
+
+.EmployerTeamMember .EmployerTeamMember__Body .EmployerTeamMember__Body--Detail .EmployerTeamMember__Body--Detail--Left .EmployerTeamMember__Body--Detail--Left--Member .EmployerTeamMember__Body--Detail--Left--Member--Info .EmployerTeamMember__Body--Detail--Left--Member--Info--Time {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #808FA6;
+    margin-left: auto;
+    padding-top: 12px;
+    text-transform: capitalize;
+}
+
+.EmployerTeamMember .EmployerTeamMember__Body .EmployerTeamMember__Body--Detail .EmployerTeamMember__Body--Detail--Left .EmployerTeamMember__Body--Detail--Left--Member .EmployerTeamMember__Body--Detail--Left--Member--Info.Active .EmployerTeamMember__Body--Detail--Left--Member--Info--Time {
+    color: #fff;
+}
+
+.EmployerTeamMember .EmployerTeamMember__Body .EmployerTeamMember__Body--Detail .EmployerTeamMember__Body--Detail--Left .EmployerTeamMember__Body--Detail--Left--Button {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    color: #2EC2E2;
+    padding: 22px;
+    background: #fff;
+    margin-top: 12px;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.EmployerTeamMember .EmployerTeamMember__Body .EmployerTeamMember__Body--Detail .EmployerTeamMember__Body--Detail--Left .EmployerTeamMember__Body--Detail--Left--Button svg {
+    color: #2EC2E2;
+    margin-right: 22px;
+}
+
+.EmployerTeamMember .EmployerTeamMember__Body .EmployerTeamMember__Body--Detail .EmployerTeamMember__Body--Detail--Right {
+    width: 100%;
+}

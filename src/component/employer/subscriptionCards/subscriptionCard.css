@@ -1,0 +1,174 @@
+.subscriptionCardMainContainer {
+  width: 300px;
+  background: #ffffff;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+}
+
+.subscriptionCardTopSection {
+  padding: 18px 75px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #f5f9ff;
+  border-radius: 8px 8px 0px 0px;
+}
+
+.subscriptionCardTopSectionPlanTitle {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #162a49;
+}
+
+.subscriptionCardPriceDiv {
+  position: relative;
+}
+
+.subscriptionCardPriceDollar {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+
+  color: #808fa6;
+  position: absolute;
+  left: -16px;
+  top: 7px;
+}
+
+.subscriptionCardPrice {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 35px;
+  line-height: 43px;
+  /* identical to box height */
+
+  letter-spacing: -0.03em;
+
+  color: #162a49;
+}
+
+.subscriptionCardPricePerMonth {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+
+  /* Primary Grey */
+
+  color: #808fa6;
+}
+
+.subscriptionCardJobToPostUnlimited {
+  margin-top: 12px;
+  background: #85d700;
+  border-radius: 50px;
+  padding: 6px 15px;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+
+  color: #ffffff;
+}
+
+.subscriptionCardJobToPost {
+  margin-top: 12px;
+  background: #2ec2e2;
+  border-radius: 50px;
+  padding: 6px 15px;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+
+  color: #ffffff;
+}
+
+.subscriptionCardBottomSection {
+  padding: 19px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background: white;
+}
+
+.subscriptionCardBottomSection ul {
+  padding: 0px;
+  margin-bottom: 24px;
+}
+
+.subscriptionCardBottomSection ul li {
+  list-style: none;
+  margin-left: 4px;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 160%;
+  /* identical to box height, or 24px */
+
+  /* Text Dark */
+
+  color: #162a49;
+}
+
+.subscriptionCardBottomSection .fa-check-circle {
+  margin-right: 11px;
+}
+
+.subscriptionCardSelectPlanButton {
+  cursor: pointer;
+  margin-top: 15px;
+  border: 2px solid #808fa6;
+  box-sizing: border-box;
+  border-radius: 6px;
+  padding: 14px 75px;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #808fa6;
+}
+
+.subscriptionCardSelectPlanButton:hover {
+  background-color: #2ec2e2;
+  border: 2px solid #2ec2e2;
+  color: #ffffff;
+}
+
+/* -------------- Recommended Card -------------- */
+
+.subscriptionCardRecommended {
+  background-color: #2ec2e2;
+  color: white;
+  text-align: center;
+  padding: 7px 29px;
+}
+
+.subscriptionCardRecomMainContainer {
+  margin-top: -38px;
+  border-radius: 5px;
+  border: 2px solid #2ec2e2;
+  background-color: #2ec2e2;
+}
+
+.subscriptionCardTopSection.recom {
+  border-radius: 8px 8px 0px 0px;
+}

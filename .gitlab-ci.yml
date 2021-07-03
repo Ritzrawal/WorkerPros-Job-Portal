@@ -1,0 +1,37 @@
+cache:
+  paths:
+    - node_modules/
+    - .yarn
+stages:
+  - build
+  - deploy
+build:
+  image: node:12
+  stage: build
+  script:
+    - yarn install
+    - CI=false yarn build
+  artifacts:
+    paths:
+      - ./build
+  only:
+    - develop
+# test:
+#   image: node:10
+#   stage: test
+#   script:
+#     - echo "Running react test suite......"
+#     - yarn test
+#   only:
+#     - develop
+deploy:
+  image: python:latest
+  stage: deploy
+  script:
+    - pip install awscli
+    - aws configure set aws_access_key_id $AWS_ACCESS_KEY_ID
+    - aws configure set aws_secret_access_key $AWS_SECRET_ACCESS_KEY
+    - aws s3 sync ./build/ s3://workerprosapp/ --delete
+  only:
+    - develop
+  when: manual

@@ -1,0 +1,111 @@
+.CandidateInviteDetailModal {
+    padding: 19px 26px;
+}
+
+.CandidateInviteDetailModal .CandidateInviteDetailModal__Title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: -0.03em;
+    color: #000000;
+}
+
+.CandidateInviteDetailModal .CandidateInviteDetailModal__Info {
+    padding-top: 19px;
+    display: flex;
+}
+
+.CandidateInviteDetailModal .CandidateInviteDetailModal__Info .CandidateInviteDetailModal__Info--Image {
+    height: 70px;
+    width: 70px;
+    border-radius: 70px;
+    overflow: hidden;
+}
+
+.CandidateInviteDetailModal .CandidateInviteDetailModal__Info .CandidateInviteDetailModal__Info--Image img {
+    height: 100%;
+    width: 100%;
+}
+
+.CandidateInviteDetailModal .CandidateInviteDetailModal__Info .CandidateInviteDetailModal__Info--Detail {
+    padding-left: 15px;
+}
+
+.CandidateInviteDetailModal .CandidateInviteDetailModal__Info .CandidateInviteDetailModal__Info--Detail .CandidateInviteDetailModal__Info--Detail--Name {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #162A49;
+}
+
+.CandidateInviteDetailModal .CandidateInviteDetailModal__Info .CandidateInviteDetailModal__Info--Detail .CandidateInviteDetailModal__Info--Detail--Category {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #2EC2E2;
+    padding-top: 5px;
+}
+
+.CandidateInviteDetailModal .CandidateInviteDetailModal__Info .CandidateInviteDetailModal__Info--Detail .CandidateInviteDetailModal__Info--Detail--Location {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #234476;
+    padding-top: 5px;
+}
+
+.CandidateInviteDetailModal .CandidateInviteDetailModal__Info .CandidateInviteDetailModal__Info--Detail .CandidateInviteDetailModal__Info--Detail--Location img {
+    margin-right: 6px;
+}
+
+.CandidateInviteDetailModal .CandidateInviteDetailModal__Message {
+    padding-top: 25px;
+}
+
+.CandidateInviteDetailModal .CandidateInviteDetailModal__Job {
+    padding-top: 17px;
+}
+
+.CandidateInviteDetailModal .CandidateInviteDetailModal__Footer {
+    padding-top: 37px;
+    display: flex;
+}
+
+.CandidateInviteDetailModal .CandidateInviteDetailModal__Footer .CandidateInviteDetailModal__Footer--Info {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #808FA6;
+    padding-top: 10px;
+}
+
+.CandidateInviteDetailModal .CandidateInviteDetailModal__Footer .CandidateInviteDetailModal__Footer--Info span {
+    color: #2EC2E2;
+}
+
+.CandidateInviteDetailModal .CandidateInviteDetailModal__Footer .CandidateInviteDetailModal__Footer--Button {
+    margin-left: auto;
+}
+
+.CandidateInviteDetailModal .CandidateInviteDetailModal__Footer .CandidateInviteDetailModal__Footer--Button button {
+    background: #2EC2E2;
+    border-radius: 50px;
+    border: none;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 10px 50px;
+}

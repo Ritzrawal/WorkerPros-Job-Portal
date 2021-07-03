@@ -1,0 +1,271 @@
+.EmployerInterviewSchedule {    
+    display: flex;
+}
+
+.EmployerInterviewSchedule .EmployerInterviewSchedule__Body {
+    width: 100%;
+    height: calc(100vh - 75px);
+    overflow-y: scroll;
+    padding: 39px 65px 39px 47px;
+    display: flex;
+    background: #F2F4FA;
+}
+
+.EmployerInterviewSchedule .EmployerInterviewSchedule__Body .EmployerInterviewSchedule__Body--Left {
+    width: 300px;
+    margin-right: 36px;
+}
+
+.EmployerInterviewSchedule .EmployerInterviewSchedule__Body .EmployerInterviewSchedule__Body--Left .EmployerInterviewSchedule__Body--Left--Title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    color: #2EC2E2;
+}
+
+.EmployerInterviewSchedule .EmployerInterviewSchedule__Body .EmployerInterviewSchedule__Body--Left .EmployerInterviewSchedule__Body--Left--Title a {
+    text-decoration: none;
+    color: #2EC2E2;
+}
+
+.EmployerInterviewSchedule .EmployerInterviewSchedule__Body .EmployerInterviewSchedule__Body--Left .EmployerInterviewSchedule__Body--Left--Title svg {
+    margin-right: 13px;
+}
+
+.EmployerInterviewSchedule .EmployerInterviewSchedule__Body .EmployerInterviewSchedule__Body--Left .EmployerInterviewSchedule__Body--Left--Calendar {
+    padding-top: 40px;
+}
+
+.EmployerInterviewSchedule .EmployerInterviewSchedule__Body .EmployerInterviewSchedule__Body--Left .EmployerInterviewSchedule__Body--Left--Calendar .EmployerInterviewSchedule__Body--Left--Calendar--Box {
+    border: none;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    padding: 10px;
+}
+
+.EmployerInterviewSchedule .EmployerInterviewSchedule__Body .EmployerInterviewSchedule__Body--Left .EmployerInterviewSchedule__Body--Left--Calendar .EmployerInterviewSchedule__Body--Left--Calendar--Box .react-calendar__navigation__label__labelText.react-calendar__navigation__label__labelText--from {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 160%;
+    color: #162A49;
+
+}
+
+.EmployerInterviewSchedule .EmployerInterviewSchedule__Body .EmployerInterviewSchedule__Body--Left .EmployerInterviewSchedule__Body--Left--Calendar .EmployerInterviewSchedule__Body--Left--Calendar--Box .react-calendar__month-view__weekdays__weekday abbr {
+    text-decoration: none;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: center;
+    color: #808FA6;
+}
+
+.EmployerInterviewSchedule .EmployerInterviewSchedule__Body .EmployerInterviewSchedule__Body--Left .EmployerInterviewSchedule__Body--Left--Calendar .EmployerInterviewSchedule__Body--Left--Calendar--Box .react-calendar__tile.react-calendar__month-view__days__day {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    color: #162A49;
+}
+
+.EmployerInterviewSchedule .EmployerInterviewSchedule__Body .EmployerInterviewSchedule__Body--Left .EmployerInterviewSchedule__Body--Left--Calendar .EmployerInterviewSchedule__Body--Left--Calendar--Box .react-calendar__tile.react-calendar__month-view__days__day.react-calendar__month-view__days__day--neighboringMonth {
+    color: #eaeaea;
+}
+
+.EmployerInterviewSchedule .EmployerInterviewSchedule__Body .EmployerInterviewSchedule__Body--Left .EmployerInterviewSchedule__Body--Left--Calendar .EmployerInterviewSchedule__Body--Left--Calendar--Box .react-calendar__tile.react-calendar__tile--now.react-calendar__tile--active.react-calendar__tile--range.react-calendar__tile--rangeStart.react-calendar__tile--rangeEnd.react-calendar__tile--rangeBothEnds.react-calendar__month-view__days__day,
+.EmployerInterviewSchedule .EmployerInterviewSchedule__Body .EmployerInterviewSchedule__Body--Left .EmployerInterviewSchedule__Body--Left--Calendar .EmployerInterviewSchedule__Body--Left--Calendar--Box .react-calendar__tile.react-calendar__tile--active.react-calendar__tile--range.react-calendar__tile--rangeStart.react-calendar__tile--rangeEnd.react-calendar__tile--rangeBothEnds.react-calendar__month-view__days__day {                                                                                                                                                                                         
+    background: #2EC2E2;
+    border-radius: 20px;
+    color: #fff; 
+}
+
+.EmployerInterviewSchedule .EmployerInterviewSchedule__Body .EmployerInterviewSchedule__Body--Left .EmployerInterviewSchedule__Body--Left--Calendar .EmployerInterviewSchedule__Body--Left--Calendar--Box .react-calendar__tile.react-calendar__tile--now.react-calendar__month-view__days__day {                                                                                                                                                                                         
+    background: none;    
+}
+
+
+.EmployerInterviewSchedule .EmployerInterviewSchedule__Body .EmployerInterviewSchedule__Body--Right {
+    width: 100%;
+}
+
+.EmployerInterviewSchedule .EmployerInterviewSchedule__Body .EmployerInterviewSchedule__Body--Right .EmployerInterviewSchedule__Body--Right--Title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: -0.03em;
+    color: #162A49;
+}
+
+.EmployerInterviewSchedule .EmployerInterviewSchedule__Body .EmployerInterviewSchedule__Body--Right .EmployerInterviewSchedule__Body--Right--Form {
+    background: #fff;
+    padding: 40px 35px;
+    margin-top: 24px;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    margin-bottom: 50px;
+}
+
+.EmployerInterviewSchedule .EmployerInterviewSchedule__Body .EmployerInterviewSchedule__Body--Right .EmployerInterviewSchedule__Body--Right--Form .EmployerInterviewSchedule__Body--Right--Form--Info {
+    display: flex;
+}
+
+.EmployerInterviewSchedule .EmployerInterviewSchedule__Body .EmployerInterviewSchedule__Body--Right .EmployerInterviewSchedule__Body--Right--Form .EmployerInterviewSchedule__Body--Right--Form--Info .EmployerInterviewSchedule__Body--Right--Form--Info--Image {
+    height: 90px;
+    width: 90px;
+    border-radius: 90px;
+    overflow: hidden;
+}
+
+.EmployerInterviewSchedule .EmployerInterviewSchedule__Body .EmployerInterviewSchedule__Body--Right .EmployerInterviewSchedule__Body--Right--Form .EmployerInterviewSchedule__Body--Right--Form--Info .EmployerInterviewSchedule__Body--Right--Form--Info--Image img {
+    width: 100%;
+    height: 100%;
+}
+
+
+.EmployerInterviewSchedule .EmployerInterviewSchedule__Body .EmployerInterviewSchedule__Body--Right .EmployerInterviewSchedule__Body--Right--Form .EmployerInterviewSchedule__Body--Right--Form--Info .EmployerInterviewSchedule__Body--Right--Form--Info--Detail {
+    padding-left: 24px;
+}
+
+.EmployerInterviewSchedule .EmployerInterviewSchedule__Body .EmployerInterviewSchedule__Body--Right .EmployerInterviewSchedule__Body--Right--Form .EmployerInterviewSchedule__Body--Right--Form--Info .EmployerInterviewSchedule__Body--Right--Form--Info--Detail .EmployerInterviewSchedule__Body--Right--Form--Info--Detail--Name {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #162A49;
+}
+
+.EmployerInterviewSchedule .EmployerInterviewSchedule__Body .EmployerInterviewSchedule__Body--Right .EmployerInterviewSchedule__Body--Right--Form .EmployerInterviewSchedule__Body--Right--Form--Info .EmployerInterviewSchedule__Body--Right--Form--Info--Detail .EmployerInterviewSchedule__Body--Right--Form--Info--Detail--Location {
+    padding-top: 7px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #234476;
+}
+
+.EmployerInterviewSchedule .EmployerInterviewSchedule__Body .EmployerInterviewSchedule__Body--Right .EmployerInterviewSchedule__Body--Right--Form .EmployerInterviewSchedule__Body--Right--Form--Info .EmployerInterviewSchedule__Body--Right--Form--Info--Detail .EmployerInterviewSchedule__Body--Right--Form--Info--Detail--Category {
+    padding-top: 13px;
+    display: flex;
+}
+
+.EmployerInterviewSchedule .EmployerInterviewSchedule__Body .EmployerInterviewSchedule__Body--Right .EmployerInterviewSchedule__Body--Right--Form .EmployerInterviewSchedule__Body--Right--Form--Info .EmployerInterviewSchedule__Body--Right--Form--Info--Detail .EmployerInterviewSchedule__Body--Right--Form--Info--Detail--Category .EmployerInterviewSchedule__Body--Right--Form--Info--Detail--Category--Button {
+    margin-right: 12px;
+}
+
+.EmployerInterviewSchedule .EmployerInterviewSchedule__Body .EmployerInterviewSchedule__Body--Right .EmployerInterviewSchedule__Body--Right--Form .EmployerInterviewSchedule__Body--Right--Form--Type {
+    padding-top: 34px;
+}
+
+.EmployerInterviewSchedule .EmployerInterviewSchedule__Body .EmployerInterviewSchedule__Body--Right .EmployerInterviewSchedule__Body--Right--Form .EmployerInterviewSchedule__Body--Right--Form--Type .EmployerInterviewSchedule__Body--Right--Form--Type--Title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 23px;
+    color: #162A49;
+}
+
+.EmployerInterviewSchedule .EmployerInterviewSchedule__Body .EmployerInterviewSchedule__Body--Right .EmployerInterviewSchedule__Body--Right--Form .EmployerInterviewSchedule__Body--Right--Form--Type .EmployerInterviewSchedule__Body--Right--Form--Type--Input {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 21px;
+}
+
+.EmployerInterviewSchedule .EmployerInterviewSchedule__Body .EmployerInterviewSchedule__Body--Right .EmployerInterviewSchedule__Body--Right--Form .EmployerInterviewSchedule__Body--Right--Form--Type .EmployerInterviewSchedule__Body--Right--Form--Type--Input .EmployerInterviewSchedule__Body--Right--Form--Type--Input--Container {
+    width: 48%;
+}
+
+.EmployerInterviewSchedule .EmployerInterviewSchedule__Body .EmployerInterviewSchedule__Body--Right .EmployerInterviewSchedule__Body--Right--Form .EmployerInterviewSchedule__Body--Right--Form--Location {
+padding-top: 51px;
+}
+
+.EmployerInterviewSchedule .EmployerInterviewSchedule__Body .EmployerInterviewSchedule__Body--Right .EmployerInterviewSchedule__Body--Right--Form .EmployerInterviewSchedule__Body--Right--Form--Location .EmployerInterviewSchedule__Body--Right--Form--Location--Title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 23px;
+    color: #162A49;
+}
+
+.EmployerInterviewSchedule .EmployerInterviewSchedule__Body .EmployerInterviewSchedule__Body--Right .EmployerInterviewSchedule__Body--Right--Form .EmployerInterviewSchedule__Body--Right--Form--Location .EmployerInterviewSchedule__Body--Right--Form--Location--Input {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+}
+
+.EmployerInterviewSchedule .EmployerInterviewSchedule__Body .EmployerInterviewSchedule__Body--Right .EmployerInterviewSchedule__Body--Right--Form .EmployerInterviewSchedule__Body--Right--Form--Location .EmployerInterviewSchedule__Body--Right--Form--Location--Input .EmployerInterviewSchedule__Body--Right--Form--Location--Input--Address {
+    width: 48%;
+}
+
+.EmployerInterviewSchedule .EmployerInterviewSchedule__Body .EmployerInterviewSchedule__Body--Right .EmployerInterviewSchedule__Body--Right--Form .EmployerInterviewSchedule__Body--Right--Form--Location .EmployerInterviewSchedule__Body--Right--Form--Location--Input .EmployerInterviewSchedule__Body--Right--Form--Location--Input--City {
+    width: 48%;
+}
+
+.EmployerInterviewSchedule .EmployerInterviewSchedule__Body .EmployerInterviewSchedule__Body--Right .EmployerInterviewSchedule__Body--Right--Form .EmployerInterviewSchedule__Body--Right--Form--Time {
+    padding-top: 52px;
+}
+
+.EmployerInterviewSchedule .EmployerInterviewSchedule__Body .EmployerInterviewSchedule__Body--Right .EmployerInterviewSchedule__Body--Right--Form .EmployerInterviewSchedule__Body--Right--Form--Time .EmployerInterviewSchedule__Body--Right--Form--Time--Title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 23px;
+    color: #162A49;
+}
+
+.EmployerInterviewSchedule .EmployerInterviewSchedule__Body .EmployerInterviewSchedule__Body--Right .EmployerInterviewSchedule__Body--Right--Form .EmployerInterviewSchedule__Body--Right--Form--Time .EmployerInterviewSchedule__Body--Right--Form--Time--Morning,
+.EmployerInterviewSchedule .EmployerInterviewSchedule__Body .EmployerInterviewSchedule__Body--Right .EmployerInterviewSchedule__Body--Right--Form .EmployerInterviewSchedule__Body--Right--Form--Time .EmployerInterviewSchedule__Body--Right--Form--Time--Evening {
+    padding-top: 21px;
+}
+
+.EmployerInterviewSchedule .EmployerInterviewSchedule__Body .EmployerInterviewSchedule__Body--Right .EmployerInterviewSchedule__Body--Right--Form .EmployerInterviewSchedule__Body--Right--Form--Time .EmployerInterviewSchedule__Body--Right--Form--Time--Morning .EmployerInterviewSchedule__Body--Right--Form--Time--Morning--Title,
+.EmployerInterviewSchedule .EmployerInterviewSchedule__Body .EmployerInterviewSchedule__Body--Right .EmployerInterviewSchedule__Body--Right--Form .EmployerInterviewSchedule__Body--Right--Form--Time .EmployerInterviewSchedule__Body--Right--Form--Time--Evening .EmployerInterviewSchedule__Body--Right--Form--Time--Evening--Title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #808FA6;
+}
+
+.EmployerInterviewSchedule .EmployerInterviewSchedule__Body .EmployerInterviewSchedule__Body--Right .EmployerInterviewSchedule__Body--Right--Form .EmployerInterviewSchedule__Body--Right--Form--Time .EmployerInterviewSchedule__Body--Right--Form--Time--Morning .EmployerInterviewSchedule__Body--Right--Form--Time--Morning--Input,
+.EmployerInterviewSchedule .EmployerInterviewSchedule__Body .EmployerInterviewSchedule__Body--Right .EmployerInterviewSchedule__Body--Right--Form .EmployerInterviewSchedule__Body--Right--Form--Time .EmployerInterviewSchedule__Body--Right--Form--Time--Evening .EmployerInterviewSchedule__Body--Right--Form--Time--Evening--Input {
+    padding-top: 12px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.EmployerInterviewSchedule .EmployerInterviewSchedule__Body .EmployerInterviewSchedule__Body--Right .EmployerInterviewSchedule__Body--Right--Form .EmployerInterviewSchedule__Body--Right--Form--Time .EmployerInterviewSchedule__Body--Right--Form--Time--Morning .EmployerInterviewSchedule__Body--Right--Form--Time--Morning--Input .EmployerInterviewSchedule__Body--Right--Form--Time--Morning--Input--Container,
+.EmployerInterviewSchedule .EmployerInterviewSchedule__Body .EmployerInterviewSchedule__Body--Right .EmployerInterviewSchedule__Body--Right--Form .EmployerInterviewSchedule__Body--Right--Form--Time .EmployerInterviewSchedule__Body--Right--Form--Time--Evening .EmployerInterviewSchedule__Body--Right--Form--Time--Evening--Input .EmployerInterviewSchedule__Body--Right--Form--Time--Evening--Input--Container {
+    margin-right: 11px;
+    margin-bottom: 11px;
+}
+
+.EmployerInterviewSchedule .EmployerInterviewSchedule__Body .EmployerInterviewSchedule__Body--Right .EmployerInterviewSchedule__Body--Right--Form .EmployerInterviewSchedule__Body--Right--Form--Button {
+    padding-top: 48px;
+}
+
+.EmployerInterviewSchedule .EmployerInterviewSchedule__Body .EmployerInterviewSchedule__Body--Right .EmployerInterviewSchedule__Body--Right--Form .EmployerInterviewSchedule__Body--Right--Form--Button button {
+    background: #2EC2E2;
+    border-radius: 50px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
+    padding: 15px 30px;
+}                

@@ -1,0 +1,151 @@
+.workerDashboardMainContainer {
+  outline: none;
+
+  background: #f2f4fa;
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.workerDashboardMainContainer .connectionCardMainDiv {
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.workerDashboardInnerContainer {
+  font-family: "Montseraat", sans-serif;
+  padding: 20px 80px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.dashBoardPageTitle {
+  margin-bottom: 85px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 39px;
+  /* identical to box height */
+
+  letter-spacing: -0.03em;
+
+  color: #162a49;
+}
+
+.workerDashboardMainSection {
+  display: flex;
+  justify-content: center;
+}
+
+.workerDashboardLeft {
+  margin-top: 12px;
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+}
+
+.workerDashboardLeft .userDetailCardMainDiv {
+  margin-top: -40px;
+}
+
+.workerDashboardLeft .userDetailCardMainDiv,
+.workerDashboardLeft .InterviewCardMainDiv,
+.workerDashboardLeft .messageCardMainDiv {
+  margin-bottom: 15px;
+}
+
+.recommendedTitle {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  /* identical to box height */
+
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: #808fa6;
+}
+
+.workerDashboardPosts::-webkit-scrollbar {
+  display: none;
+}
+
+.workerDashboardMid {
+  margin-top: 50px;
+  margin-left: 25px;
+  margin-right: 25px;
+  width: 560px;
+}
+
+.workerDashboardPosts {
+  height: 600px;
+  width: 100%;
+  overflow: auto;
+  overflow-y: scroll;
+}
+
+.workerDashboardRight {
+  margin-top: 50px;
+}
+
+.workerDashboardStoriesSection {
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.workerDashboardMutualSection {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.workerDashboardPostsSection {
+  margin-top: 15px;
+}
+
+.allpostsBtnDiv {
+  display: flex;
+}
+
+.dashBoardButtonUL {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  padding-left: 0px;
+}
+
+.dashBoardButtonUL li {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.allpostsButton {
+  border: none;
+  padding: 5px 10px;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+  border-radius: 50px;
+}
+
+.recommendedJobsDiv {
+  margin-top: 20px !important;
+}
+
+.fa.fa-bookmark {
+  color: black;
+}
+
+.NoPostsFoundDashboard {
+  font-family: "Montseraat" sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  width: 100%;
+  display: flex;
+  color: #808fa6;
+  justify-content: center;
+}

@@ -1,0 +1,194 @@
+.EmployerEventModal {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.13);
+    border-radius: 6px;
+    padding: 20px;
+}
+
+.EmployerEventModal .EmployerEventModal__Header {
+    display: flex;
+}
+
+.EmployerEventModal .EmployerEventModal__Header .EmployerEventModal__Header--Title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    color: #000000;
+}
+
+.EmployerEventModal .EmployerEventModal__Header .EmployerEventModal__Header--Option {
+    margin-top: -2px;
+    margin-left: auto;
+}
+
+.EmployerEventModal .EmployerEventModal__Header .EmployerEventModal__Header--Option svg {
+    color: #808FA6;
+}
+
+.EmployerEventModal .EmployerEventModal__Header .EmployerEventModal__Header--Close {
+    margin-top: -2px;
+    margin-left: 20px;
+}
+
+.EmployerEventModal .EmployerEventModal__Header .EmployerEventModal__Header--Close svg {
+    color: #2EC2E2;
+    cursor: pointer;
+}
+
+.EmployerEventModal .EmployerEventModal__Title {
+    padding-top: 16px;
+    display: flex;
+    border-bottom: 1px solid #F2F4FA;
+}
+
+.EmployerEventModal .EmployerEventModal__Title .EmployerEventModal__Title--Text {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #808FA6;
+    padding-bottom: 8px;
+    margin-right: 26px;
+}
+
+.EmployerEventModal .EmployerEventModal__Title .EmployerEventModal__Title--Text.Active {
+    color: #2EC2E2;
+    border-bottom: 2px solid #2EC2E2;
+}
+
+.EmployerEventModal .EmployerEventModal__Body {
+    padding-top: 12px;
+}
+
+.EmployerEventModal .EmployerEventModal__Body .EmployerEventModal__Body--Detail {
+    padding-bottom: 20px;
+}
+
+.EmployerEventModal .EmployerEventModal__Body .EmployerEventModal__Body--Detail .EmployerEventModal__Body--Detail--Title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #808FA6;
+}
+
+.EmployerEventModal .EmployerEventModal__Body .EmployerEventModal__Body--Detail .EmployerEventModal__Body--Detail--Meeting {
+    display: flex;
+    padding-top: 5px;
+}
+
+.EmployerEventModal .EmployerEventModal__Body .EmployerEventModal__Body--Detail .EmployerEventModal__Body--Detail--Meeting .EmployerEventModal__Body--Detail--Meeting--Date {
+    background: #2EC2E2;
+    border-radius: 14px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 16px;
+    color: #FFFFFF;
+    padding: 2px 10px;
+    margin-right: 10px;
+}
+
+.EmployerEventModal .EmployerEventModal__Body .EmployerEventModal__Body--Detail .EmployerEventModal__Body--Detail--Meeting .EmployerEventModal__Body--Detail--Meeting--Time {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #162A49;
+    padding-top: 2px;
+}
+
+.EmployerEventModal .EmployerEventModal__Body .EmployerEventModal__Body--Detail .EmployerEventModal__Body--Detail--Interview {
+    display: flex;
+    padding-top: 5px;
+}
+
+.EmployerEventModal .EmployerEventModal__Body .EmployerEventModal__Body--Detail .EmployerEventModal__Body--Detail--Interview .EmployerEventModal__Body--Detail--Interview--Image {
+    height: 30px;
+    width: 30px;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.EmployerEventModal .EmployerEventModal__Body .EmployerEventModal__Body--Detail .EmployerEventModal__Body--Detail--Interview .EmployerEventModal__Body--Detail--Interview--Image img {
+    height: 100%;
+    width: 100%;
+}
+
+.EmployerEventModal .EmployerEventModal__Body .EmployerEventModal__Body--Detail .EmployerEventModal__Body--Detail--Interview .EmployerEventModal__Body--Detail--Interview--Name {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #162A49;
+    padding-left: 8px;
+    padding-top: 5px;
+}
+
+.EmployerEventModal .EmployerEventModal__Body .EmployerEventModal__Body--Detail .EmployerEventModal__Body--Detail--Mobile {
+    display: flex;
+    padding-top: 5px;
+}
+
+.EmployerEventModal .EmployerEventModal__Body .EmployerEventModal__Body--Detail .EmployerEventModal__Body--Detail--Mobile .EmployerEventModal__Body--Detail--Mobile--Text {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    color: #162A49;
+}
+
+.EmployerEventModal .EmployerEventModal__Body .EmployerEventModal__Body--Detail .EmployerEventModal__Body--Detail--Mobile .EmployerEventModal__Body--Detail--Mobile--Number {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    color: #2EC2E2;
+    padding-left: 2px;
+}
+
+.EmployerEventModal .EmployerEventModal__Body .EmployerEventModal__Body--Detail .EmployerEventModal__Body--Detail--Description {
+    padding-top: 5px;
+}
+
+.EmployerEventModal .EmployerEventModal__Body .EmployerEventModal__Body--Detail .EmployerEventModal__Body--Detail--Description .EmployerEventModal__Body--Detail--Description--Title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #162A49;
+}
+
+.EmployerEventModal .EmployerEventModal__Body .EmployerEventModal__Body--Detail .EmployerEventModal__Body--Detail--Description .EmployerEventModal__Body--Detail--Description--Location {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #234476;
+    padding-top: 11px;
+}
+
+.EmployerEventModal .EmployerEventModal__Body .EmployerEventModal__Body--Detail .EmployerEventModal__Body--Detail--Description .EmployerEventModal__Body--Detail--Description--Location img {
+    height: 15px;
+    width: 13px;
+    margin-right: 5px;
+}
+
+.EmployerEventModal .EmployerEventModal__Footer {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 156%;
+    color: #162A49;
+}
+
+.EmployerEventModal .EmployerEventModal__Footer span {
+    color: #2EC2E2;
+}

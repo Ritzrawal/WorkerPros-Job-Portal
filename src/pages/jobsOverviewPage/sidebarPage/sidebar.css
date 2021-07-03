@@ -1,0 +1,56 @@
+.SideBar {
+  min-width: 270px;
+  height: 100vh;
+  background-color: #f2f4fa;
+}
+
+.SideBar__List ul li {
+  cursor: pointer;
+}
+
+.SideBar .SideBar__List {
+  padding: 36px;
+}
+
+.SideBar .SideBar__List ul {
+  list-style: none;
+  padding: 0px;
+}
+
+.SideBar .SideBar__List ul li {
+  font-style: normal;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 21px;
+  margin-bottom: 27px;
+}
+
+.SideBar .SideBar__List ul li span {
+  display: none;
+}
+
+.SideBar .SideBar__List .SideBar__List--Active {
+  background-color: #fff;
+  border: none;
+  border-radius: 25px;
+  padding: 8px 0px 8px 15px;
+  margin: -17px 0px 15px -15px;
+  color: #2ec2e2;
+}
+
+.SideBar .SideBar__List .SideBar__List--Active span {
+  display: block;
+}
+
+.SideBar .SideBar__List .SideBar__List--Active .SideBar__List--Active--Icon {
+  float: right;
+  padding-right: 13px;
+  color: #2ec2e2;
+  font-size: 25px;
+  margin-top: -3px;
+}
+
+.SideBar a {
+  text-decoration: none !important;
+  color: #000000;
+}

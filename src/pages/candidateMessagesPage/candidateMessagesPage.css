@@ -1,0 +1,26 @@
+.messagesPageMessengerSection {
+  width: 25%;
+}
+
+.messagesPageMessengerSection select {
+  width: 100%;
+}
+
+.messagesPageConversationSection {
+  width: 50%;
+}
+
+.messagesPageJobDescriptionSection {
+  width: 25%;
+}
+
+.ClickAMessageDiv {
+  text-align: center;
+  padding: 120px;
+}
+
+.newUserSelectMessage select {
+  padding: 10px;
+  border: 2px solid #2ec2e2;
+  border-radius: 5px;
+}

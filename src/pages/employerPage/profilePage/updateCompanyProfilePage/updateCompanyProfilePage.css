@@ -1,0 +1,344 @@
+.EmployerUpdateCompanyProfile {
+    display: flex;
+}
+
+.EmployerUpdateCompanyProfile .EmployerUpdateCompanyProfile__Body {
+    width: 100%;
+    height: calc(100vh - 75px);
+    overflow-y: scroll;
+    padding: 39px 65px 39px 47px;
+    background-color: #F2F4FA;
+}
+
+.EmployerUpdateCompanyProfile .EmployerUpdateCompanyProfile__Body .EmployerUpdateCompanyProfile__Body--Title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: -0.03em;
+    color: #162A49;
+}
+
+.EmployerUpdateCompanyProfile .EmployerUpdateCompanyProfile__Body .EmployerUpdateCompanyProfile__Body--Form {
+    margin-top: 17px;
+    padding: 40px;
+    background-color: #fff;
+}
+
+.EmployerUpdateCompanyProfile .EmployerUpdateCompanyProfile__Body .EmployerUpdateCompanyProfile__Body--Form .EmployerUpdateCompanyProfile__Body--Form--Info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.EmployerUpdateCompanyProfile .EmployerUpdateCompanyProfile__Body .EmployerUpdateCompanyProfile__Body--Form .EmployerUpdateCompanyProfile__Body--Form--Info .EmployerUpdateCompanyProfile__Body--Form--Info--Left {
+    padding-top: 20px;
+}
+
+.EmployerUpdateCompanyProfile .EmployerUpdateCompanyProfile__Body .EmployerUpdateCompanyProfile__Body--Form .EmployerUpdateCompanyProfile__Body--Form--Info .EmployerUpdateCompanyProfile__Body--Form--Info--Left .EmployerUpdateCompanyProfile__Body--Form--Info--Left--Upload {
+    height: 117px;
+    width: 117px;
+    border-radius: 117px;
+    background: #F5FDFF;
+    border: 2px dashed #2EC2E2;
+    position: relative;
+}
+
+.EmployerUpdateCompanyProfile .EmployerUpdateCompanyProfile__Body .EmployerUpdateCompanyProfile__Body--Form .EmployerUpdateCompanyProfile__Body--Form--Info .EmployerUpdateCompanyProfile__Body--Form--Info--Left .EmployerUpdateCompanyProfile__Body--Form--Info--Left--Upload .EmployerUpdateCompanyProfile__Body--Form--Info--Left--Upload--Image {
+    height: 100%;
+    width: 100%;
+    border-radius: 100%;
+    overflow: hidden;
+}
+
+.EmployerUpdateCompanyProfile .EmployerUpdateCompanyProfile__Body .EmployerUpdateCompanyProfile__Body--Form .EmployerUpdateCompanyProfile__Body--Form--Info .EmployerUpdateCompanyProfile__Body--Form--Info--Left .EmployerUpdateCompanyProfile__Body--Form--Info--Left--Upload .EmployerUpdateCompanyProfile__Body--Form--Info--Left--Upload--Image img {
+    height: 100%;
+    width: 100%;
+}
+
+.EmployerUpdateCompanyProfile .EmployerUpdateCompanyProfile__Body .EmployerUpdateCompanyProfile__Body--Form .EmployerUpdateCompanyProfile__Body--Form--Info .EmployerUpdateCompanyProfile__Body--Form--Info--Left .EmployerUpdateCompanyProfile__Body--Form--Info--Left--Upload button {
+    background: #2EC2E2;
+    border-radius: 50px;
+    border: none;
+    color: #fff;
+    padding: 3px 8px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    z-index: 9;
+}
+
+.EmployerUpdateCompanyProfile .EmployerUpdateCompanyProfile__Body .EmployerUpdateCompanyProfile__Body--Form .EmployerUpdateCompanyProfile__Body--Form--Info .EmployerUpdateCompanyProfile__Body--Form--Info--Left .EmployerUpdateCompanyProfile__Body--Form--Info--Left--Text {
+    padding-top: 15px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    color: #808FA6;
+}
+
+.EmployerUpdateCompanyProfile .EmployerUpdateCompanyProfile__Body .EmployerUpdateCompanyProfile__Body--Form .EmployerUpdateCompanyProfile__Body--Form--Info .EmployerUpdateCompanyProfile__Body--Form--Info--Left .EmployerUpdateCompanyProfile__Body--Form--Info--Left--Error {
+    color: red;
+}
+
+.EmployerUpdateCompanyProfile .EmployerUpdateCompanyProfile__Body .EmployerUpdateCompanyProfile__Body--Form .EmployerUpdateCompanyProfile__Body--Form--Info .EmployerUpdateCompanyProfile__Body--Form--Info--Left {
+    width: 20%;
+}
+
+.EmployerUpdateCompanyProfile .EmployerUpdateCompanyProfile__Body .EmployerUpdateCompanyProfile__Body--Form .EmployerUpdateCompanyProfile__Body--Form--Info .EmployerUpdateCompanyProfile__Body--Form--Info--Middle,
+.EmployerUpdateCompanyProfile .EmployerUpdateCompanyProfile__Body .EmployerUpdateCompanyProfile__Body--Form .EmployerUpdateCompanyProfile__Body--Form--Info .EmployerUpdateCompanyProfile__Body--Form--Info--Right {
+    width: 35%;
+}
+
+.EmployerUpdateCompanyProfile .EmployerUpdateCompanyProfile__Body .EmployerUpdateCompanyProfile__Body--Form .EmployerUpdateCompanyProfile__Body--Form--Info .EmployerUpdateCompanyProfile__Body--Form--Info--Middle .EmployerUpdateCompanyProfile__Body--Form--Info--Middle--Name,
+.EmployerUpdateCompanyProfile .EmployerUpdateCompanyProfile__Body .EmployerUpdateCompanyProfile__Body--Form .EmployerUpdateCompanyProfile__Body--Form--Info .EmployerUpdateCompanyProfile__Body--Form--Info--Right .EmployerUpdateCompanyProfile__Body--Form--Info--Right--Website {
+    padding-bottom: 23px;
+}
+
+.EmployerUpdateCompanyProfile .EmployerUpdateCompanyProfile__Body .EmployerUpdateCompanyProfile__Body--Form .EmployerUpdateCompanyProfile__Body--Form--Subscription {
+    padding-top: 55px;
+}
+
+.EmployerUpdateCompanyProfile .EmployerUpdateCompanyProfile__Body .EmployerUpdateCompanyProfile__Body--Form .EmployerUpdateCompanyProfile__Body--Form--Subscription .EmployerUpdateCompanyProfile__Body--Form--Subscription--Title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    color: #162A49;
+}
+
+.EmployerUpdateCompanyProfile .EmployerUpdateCompanyProfile__Body .EmployerUpdateCompanyProfile__Body--Form .EmployerUpdateCompanyProfile__Body--Form--Subscription .EmployerUpdateCompanyProfile__Body--Form--Subscription--Detail {
+    padding-top: 17px;
+    display: flex;
+}
+
+.EmployerUpdateCompanyProfile .EmployerUpdateCompanyProfile__Body .EmployerUpdateCompanyProfile__Body--Form .EmployerUpdateCompanyProfile__Body--Form--Subscription .EmployerUpdateCompanyProfile__Body--Form--Subscription--Detail .EmployerUpdateCompanyProfile__Body--Form--Subscription--Detail--Text {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    color: #2EC2E2;
+    padding-top: 10px;
+}
+
+.EmployerUpdateCompanyProfile .EmployerUpdateCompanyProfile__Body .EmployerUpdateCompanyProfile__Body--Form .EmployerUpdateCompanyProfile__Body--Form--Subscription .EmployerUpdateCompanyProfile__Body--Form--Subscription--Detail .EmployerUpdateCompanyProfile__Body--Form--Subscription--Detail--Button {
+    padding-left: 24px;
+}
+
+.EmployerUpdateCompanyProfile .EmployerUpdateCompanyProfile__Body .EmployerUpdateCompanyProfile__Body--Form .EmployerUpdateCompanyProfile__Body--Form--Subscription .EmployerUpdateCompanyProfile__Body--Form--Subscription--Detail .EmployerUpdateCompanyProfile__Body--Form--Subscription--Detail--Button button {
+    background: #2EC2E2;
+    border: none;
+    border-radius: 50px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 12px 38px;
+}
+
+.EmployerUpdateCompanyProfile .EmployerUpdateCompanyProfile__Body .EmployerUpdateCompanyProfile__Body--Form .EmployerUpdateCompanyProfile__Body--Form--Location {
+    padding-top: 40px;
+    width: 50%;
+}
+
+.EmployerUpdateCompanyProfile .EmployerUpdateCompanyProfile__Body .EmployerUpdateCompanyProfile__Body--Form .EmployerUpdateCompanyProfile__Body--Form--Detail {
+    display: flex;
+    justify-content: space-between;    
+    padding-top: 40px;
+}
+
+.EmployerUpdateCompanyProfile .EmployerUpdateCompanyProfile__Body .EmployerUpdateCompanyProfile__Body--Form .EmployerUpdateCompanyProfile__Body--Form--Detail .EmployerUpdateCompanyProfile__Body--Form--Detail--Year,
+.EmployerUpdateCompanyProfile .EmployerUpdateCompanyProfile__Body .EmployerUpdateCompanyProfile__Body--Form .EmployerUpdateCompanyProfile__Body--Form--Detail .EmployerUpdateCompanyProfile__Body--Form--Detail--Number,
+.EmployerUpdateCompanyProfile .EmployerUpdateCompanyProfile__Body .EmployerUpdateCompanyProfile__Body--Form .EmployerUpdateCompanyProfile__Body--Form--Detail .EmployerUpdateCompanyProfile__Body--Form--Detail--License {
+    width: 30%;
+}
+
+.EmployerUpdateCompanyProfile .EmployerUpdateCompanyProfile__Body .EmployerUpdateCompanyProfile__Body--Form .EmployerUpdateCompanyProfile__Body--Form--Description {
+    padding-top: 40px;
+}
+
+.EmployerUpdateCompanyProfile .EmployerUpdateCompanyProfile__Body .EmployerUpdateCompanyProfile__Body--Form .EmployerUpdateCompanyProfile__Body--Form--Trade {
+    padding-top: 53px;
+}
+
+.EmployerUpdateCompanyProfile .EmployerUpdateCompanyProfile__Body .EmployerUpdateCompanyProfile__Body--Form .EmployerUpdateCompanyProfile__Body--Form--Trade .EmployerUpdateCompanyProfile__Body--Form--Trade--Title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    color: #162A49;
+}
+
+.EmployerUpdateCompanyProfile .EmployerUpdateCompanyProfile__Body .EmployerUpdateCompanyProfile__Body--Form .EmployerUpdateCompanyProfile__Body--Form--Trade .EmployerUpdateCompanyProfile__Body--Form--Trade--List {
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.EmployerUpdateCompanyProfile .EmployerUpdateCompanyProfile__Body .EmployerUpdateCompanyProfile__Body--Form .EmployerUpdateCompanyProfile__Body--Form--Trade .EmployerUpdateCompanyProfile__Body--Form--Trade--List .EmployerUpdateCompanyProfile__Body--Form--Trade--List--Container {
+    padding-bottom: 15px;
+    padding-right: 15px;
+}
+
+.EmployerUpdateCompanyProfile .EmployerUpdateCompanyProfile__Body .EmployerUpdateCompanyProfile__Body--Form .EmployerUpdateCompanyProfile__Body--Form--Hour {
+    padding-top: 50px;
+}
+
+.EmployerUpdateCompanyProfile .EmployerUpdateCompanyProfile__Body .EmployerUpdateCompanyProfile__Body--Form .EmployerUpdateCompanyProfile__Body--Form--Hour--Title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    color: #162A49;
+}
+
+.EmployerUpdateCompanyProfile .EmployerUpdateCompanyProfile__Body .EmployerUpdateCompanyProfile__Body--Form .EmployerUpdateCompanyProfile__Body--Form--Hour--Error {
+    font-size: 14px;
+    color: red;
+}
+
+.EmployerUpdateCompanyProfile .EmployerUpdateCompanyProfile__Body .EmployerUpdateCompanyProfile__Body--Form .EmployerUpdateCompanyProfile__Body--Form--Hour--Body {
+    display: flex;
+    padding-top: 30px;
+}
+
+.EmployerUpdateCompanyProfile .EmployerUpdateCompanyProfile__Body .EmployerUpdateCompanyProfile__Body--Form .EmployerUpdateCompanyProfile__Body--Form--Hour--Body .EmployerUpdateCompanyProfile__Body--Form--Hour--Body--Time {
+}
+
+.EmployerUpdateCompanyProfile .EmployerUpdateCompanyProfile__Body .EmployerUpdateCompanyProfile__Body--Form .EmployerUpdateCompanyProfile__Body--Form--Hour--Body .EmployerUpdateCompanyProfile__Body--Form--Hour--Body--Time .EmployerUpdateCompanyProfile__Body--Form--Hour--Body--Time--Container {
+    display: flex;
+    padding-bottom: 17px;
+}
+
+.EmployerUpdateCompanyProfile .EmployerUpdateCompanyProfile__Body .EmployerUpdateCompanyProfile__Body--Form .EmployerUpdateCompanyProfile__Body--Form--Hour--Body .EmployerUpdateCompanyProfile__Body--Form--Hour--Body--Time .EmployerUpdateCompanyProfile__Body--Form--Hour--Body--Time--Container .EmployerUpdateCompanyProfile__Body--Form--Hour--Body--Time--Container--Day {
+    padding-top: 10px;
+    width: 30%;
+}
+
+.EmployerUpdateCompanyProfile .EmployerUpdateCompanyProfile__Body .EmployerUpdateCompanyProfile__Body--Form .EmployerUpdateCompanyProfile__Body--Form--Hour--Body .EmployerUpdateCompanyProfile__Body--Form--Hour--Body--Time .EmployerUpdateCompanyProfile__Body--Form--Hour--Body--Time--Container .EmployerUpdateCompanyProfile__Body--Form--Hour--Body--Time--Container--TimeStart,
+.EmployerUpdateCompanyProfile .EmployerUpdateCompanyProfile__Body .EmployerUpdateCompanyProfile__Body--Form .EmployerUpdateCompanyProfile__Body--Form--Hour--Body .EmployerUpdateCompanyProfile__Body--Form--Hour--Body--Time .EmployerUpdateCompanyProfile__Body--Form--Hour--Body--Time--Container .EmployerUpdateCompanyProfile__Body--Form--Hour--Body--Time--Container--TimeEnd {
+    min-width: 130px;
+    padding-right: 17px;
+}
+
+.EmployerUpdateCompanyProfile .EmployerUpdateCompanyProfile__Body .EmployerUpdateCompanyProfile__Body--Form .EmployerUpdateCompanyProfile__Body--Form--Hour--Body .EmployerUpdateCompanyProfile__Body--Form--Hour--Body--Option {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: right;
+    color: #2EC2E2;  
+    padding-top: 10px;
+    cursor: pointer;    
+}
+
+.EmployerUpdateCompanyProfile .EmployerUpdateCompanyProfile__Body .EmployerUpdateCompanyProfile__Body--Error {
+    padding: 0px 45px;
+    font-size: 18px;
+    color: red;
+}
+
+.EmployerUpdateCompanyProfile .EmployerUpdateCompanyProfile__Body .EmployerUpdateCompanyProfile__Body--Action {
+    display: flex;
+    margin-top: 22px;
+    padding: 15px 45px;
+    background-color: #fff;
+}
+
+.EmployerUpdateCompanyProfile .EmployerUpdateCompanyProfile__Body .EmployerUpdateCompanyProfile__Body--Action .EmployerUpdateCompanyProfile__Body--Action--Preview {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    color: #808FA6;
+    padding-top: 15px;
+}
+
+.EmployerUpdateCompanyProfile .EmployerUpdateCompanyProfile__Body .EmployerUpdateCompanyProfile__Body--Action .EmployerUpdateCompanyProfile__Body--Action--Preview svg {
+    margin-right: 7px;
+}
+
+.EmployerUpdateCompanyProfile .EmployerUpdateCompanyProfile__Body .EmployerUpdateCompanyProfile__Body--Action .EmployerUpdateCompanyProfile__Body--Action--Save {
+    margin-left: auto;
+    color: #2EC2E2;
+}
+
+.EmployerUpdateCompanyProfile .EmployerUpdateCompanyProfile__Body .EmployerUpdateCompanyProfile__Body--Action .EmployerUpdateCompanyProfile__Body--Action--Save button {
+    background: #2EC2E2;
+    border-radius: 50px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    border: none;
+    padding: 12px 55px;
+}
+
+.EmployerUpdateCompanyProfile .EmployerUpdateCompanyProfile__Body .EmployerUpdateCompanyProfile__Body--Form .EmployerUpdateCompanyProfile__Body--Form--Image {
+    padding-top: 50px;
+}
+
+.EmployerUpdateCompanyProfile .EmployerUpdateCompanyProfile__Body .EmployerUpdateCompanyProfile__Body--Form .EmployerUpdateCompanyProfile__Body--Form--Image .EmployerUpdateCompanyProfile__Body--Form--Image--Title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    color: #162A49;
+}
+
+.EmployerUpdateCompanyProfile .EmployerUpdateCompanyProfile__Body .EmployerUpdateCompanyProfile__Body--Form .EmployerUpdateCompanyProfile__Body--Form--Image .EmployerUpdateCompanyProfile__Body--Form--Image--Body {
+    height: 290px;
+    width: 100%;
+    border-radius: 9px;
+    background: #F5FDFF;
+    border: 2px dashed #2EC2E2;
+    position: relative;
+    margin-top: 19px;
+}
+
+.EmployerUpdateCompanyProfile .EmployerUpdateCompanyProfile__Body .EmployerUpdateCompanyProfile__Body--Form .EmployerUpdateCompanyProfile__Body--Form--Image .EmployerUpdateCompanyProfile__Body--Form--Image--Body .EmployerUpdateCompanyProfile__Body--Form--Image--Body--Preview {
+    height: 286px;
+    width: 100%;
+    border-radius: 9px;
+    overflow: hidden;
+}
+
+.EmployerUpdateCompanyProfile .EmployerUpdateCompanyProfile__Body .EmployerUpdateCompanyProfile__Body--Form .EmployerUpdateCompanyProfile__Body--Form--Image .EmployerUpdateCompanyProfile__Body--Form--Image--Body .EmployerUpdateCompanyProfile__Body--Form--Image--Body--Preview img {
+    height: 100%;
+    width: 100%;
+}
+
+.EmployerUpdateCompanyProfile .EmployerUpdateCompanyProfile__Body .EmployerUpdateCompanyProfile__Body--Form .EmployerUpdateCompanyProfile__Body--Form--Image .EmployerUpdateCompanyProfile__Body--Form--Image--Body .EmployerUpdateCompanyProfile__Body--Form--Image--Body--Button {
+    position: absolute;
+    text-align: center;
+    top: 35%;
+    right: 45%;
+    color: #2EC2E2;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.EmployerUpdateCompanyProfile .EmployerUpdateCompanyProfile__Body .EmployerUpdateCompanyProfile__Body--Form .EmployerUpdateCompanyProfile__Body--Form--Image .EmployerUpdateCompanyProfile__Body--Form--Image--Body .EmployerUpdateCompanyProfile__Body--Form--Image--Body--Button.Background {
+    background: #0000008c;
+}
+
+.EmployerUpdateCompanyProfile .EmployerUpdateCompanyProfile__Body .EmployerUpdateCompanyProfile__Body--Form .EmployerUpdateCompanyProfile__Body--Form--Image .EmployerUpdateCompanyProfile__Body--Form--Image--Body .EmployerUpdateCompanyProfile__Body--Form--Image--Body--Button .EmployerUpdateCompanyProfile__Body--Form--Image--Body--Button--Logo {
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.EmployerUpdateCompanyProfile .EmployerUpdateCompanyProfile__Body .EmployerUpdateCompanyProfile__Body--Form .EmployerUpdateCompanyProfile__Body--Form--Image .EmployerUpdateCompanyProfile__Body--Form--Image--Body .EmployerUpdateCompanyProfile__Body--Form--Image--Body--Button .EmployerUpdateCompanyProfile__Body--Form--Image--Body--Button--Text {
+    cursor: pointer;
+}

@@ -1,0 +1,69 @@
+.EmployerMessageList {
+    padding-top: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.EmployerMessageList .EmployerMessageList__Title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    color: #162A49;
+}
+
+.EmployerMessageList .EmployerMessageList__Title span {
+    background: #2EC2E2;
+    border-radius: 25px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 3px 8px;
+    margin-left: 10px;
+}
+
+.EmployerMessageList .EmployerMessageList__Option {
+    display: flex;
+    background-color: #fff;
+    border-radius: 50px;
+    margin-top: 18px;
+}
+
+.EmployerMessageList .EmployerMessageList__Option .EmployerMessageList__Option--Candidate,
+.EmployerMessageList .EmployerMessageList__Option .EmployerMessageList__Option--Business {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    color: #162A49;
+    padding: 12px 18px;
+    cursor: pointer;
+}
+
+.EmployerMessageList .EmployerMessageList__Option .EmployerMessageList__Option--Candidate.Active,
+.EmployerMessageList .EmployerMessageList__Option .EmployerMessageList__Option--Business.Active {
+    color: #2EC2E2;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.12);
+    border-radius: 50px;
+}
+
+.EmployerMessageList .EmployerMessageList__Search {
+    margin-top: 19px;
+}
+
+.EmployerMessageList .EmployerMessageList__List {
+    margin-top: 23px;
+    height: calc(100vh - 280px);
+    overflow-y: scroll;
+}
+
+.EmployerMessageList .EmployerMessageList__List .EmployerMessageList__List--MessageListBox {}
+
+.EmployerMessageList .EmployerMessageList__List .EmployerMessageList__List--MessageListBox a {
+    text-decoration: none;
+}

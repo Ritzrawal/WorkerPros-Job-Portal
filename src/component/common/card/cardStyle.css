@@ -1,0 +1,1146 @@
+.CardmainComponent {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  flex-direction: row;
+  width: 70%;
+  height: 25vh;
+  box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.05);
+
+  /* background-color:green ; */
+}
+.AvatarCustomize {
+  width: 100%;
+  height: 100%;
+}
+.AvatarImage {
+}
+
+.OuterComponent {
+  /* background-color:red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.AvatarCustomize {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: blue; */
+}
+.AvatarImage {
+  width: 70%;
+  height: 70%;
+  border-radius: 50%;
+  /* background-color: red; */
+  border: 1px solid #f2f2f2;
+  box-sizing: border-box;
+}
+
+.DescriptionContainer {
+  width: 70%;
+  /* background-color: violet; */
+}
+.HeadingCustomize {
+  display: flex;
+  flex-direction: row;
+}
+.HeadingCustomizeLower {
+  display: flex;
+  flex-direction: row;
+  margin-top: 3%;
+  width: 50%;
+  justify-content: space-around;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+}
+.LogoContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 5%;
+  color: #2ec2e2;
+  height: 200px;
+  /* background-color: yellow; */
+}
+.TitleCustomize {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #162a49;
+}
+.FeaturesButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 2%;
+  background-color: #eaa800;
+}
+.FetureText {
+  border-radius: 4px;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 16px;
+  /* identical to box height */
+
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+.DescriptionDetails {
+  margin-top: 3%;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 150%;
+  /* or 22px */
+
+  color: #6f7681;
+}
+.ButtonComponent {
+  margin-top: 5%;
+}
+.CardButtonContainer {
+  width: 100px;
+  height: 30px;
+  margin-left: 3%;
+  border-color: none !important;
+  border-width: 0px !important;
+  background-color: #edeff2;
+  border-radius: 50px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  text-align: center;
+  color: #6f7785;
+}
+.ButtonContainer:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+/* JobCard Component Sushmit */
+
+.jobCardLi {
+  text-decoration: none;
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+  padding: 12px 23px;
+  box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.05);
+  list-style: none;
+  height: 190px;
+  overflow: hidden;
+  background-color: #ffffff;
+}
+
+.job-text {
+  color: #808fa6;
+  width: 85%;
+  margin-bottom: 0px;
+  color: #808fa6;
+
+  height: 33%;
+  overflow: hidden;
+}
+
+.jobCardLi:hover {
+  text-decoration: none;
+}
+
+.jobs-list-ul-image {
+  width: 153px;
+  height: 153px;
+}
+
+.jobs-list-ul-image img {
+  border-radius: 50%;
+  border: 1px solid #f2f4fa;
+  width: 153px;
+  height: 150px;
+}
+
+.jobs-list-ul-right {
+  margin-top: 15px;
+  width: 70%;
+  text-align: left;
+}
+
+.JobCategoryULJobCard {
+  margin-top: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  align-items: baseline;
+  padding-left: 0px;
+}
+
+.JobCategoryULJobCard li {
+  margin-right: 10px;
+  font-style: normal;
+  font-size: 13px;
+  line-height: 16px;
+  text-align: center;
+  background: #f2f4fa;
+  color: #808fa6;
+  border-radius: 50px;
+  padding: 6px 10px;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+
+.JobCategoryULJobCard .plusMore {
+  line-height: 16px;
+  text-align: center;
+
+  color: #808fa6;
+
+  font-weight: 600;
+}
+
+.jobs-list-ul-right h3 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  margin: 0;
+  /* Text Dark */
+  color: #162a49;
+}
+
+.jobs-list-right-locationInfo {
+  display: flex;
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: #234476;
+  margin-bottom: 12px;
+}
+
+.jobs-card-subdetails {
+  margin-right: 25px;
+}
+
+.jobs-list-right-locationInfo p {
+  border: 0px;
+  margin: 0px 10px 0px 0px;
+}
+
+.RightArrowDiv {
+  display: flex;
+  align-items: center;
+  color: #2ec2e2;
+}
+
+.CardFeatured {
+  height: 18px;
+  font-family: "Montserrat";
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+  padding: 0 5px;
+  background-color: #eaa800;
+  margin-left: 12px;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 16px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.JobCardTitle {
+  display: flex;
+  margin-bottom: 10px;
+  text-transform: capitalize;
+}
+
+/* Top Companies Card Component */
+
+.company-info {
+  position: relative;
+  border: none;
+  border-radius: 10px;
+  height: 300px;
+  width: 234px;
+  margin: auto;
+  box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.06);
+  background-color: white;
+}
+
+.company-image {
+  position: relative;
+  display: flex;
+  height: 138.66px;
+  justify-content: center;
+}
+
+.company-image img {
+  position: relative;
+  min-width: 100%;
+  min-height: 100%;
+  border-radius: 5px 5px 0px 0px;
+  object-fit: cover;
+}
+
+.company-dp {
+  position: absolute;
+  left: 10px;
+  bottom: -23px;
+  background: #ffffff;
+  box-sizing: border-box;
+  width: 70px;
+  height: 70px;
+  /* Implemented later on when real png images are added */
+  /* padding: 10px; */
+  border-radius: 50%;
+}
+
+.company-dp img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.company-type {
+  color: #7b908f;
+  font-size: 12px;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.company-location {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+}
+
+.company-texts {
+  text-align: left;
+  padding: 5px 10px 10px 10px;
+  margin-top: 18px;
+}
+
+.company-texts h3 {
+  text-transform: capitalize;
+}
+
+.company-texts button {
+  border: 1px solid #2ec2e2;
+  background: transparent;
+  border-radius: 50px;
+  padding: 10px;
+  color: #2ec2e2;
+  width: 100%;
+  cursor: pointer;
+  transition: background-color 0.1s ease-in;
+  font-weight: 700;
+}
+
+.company-texts button:hover {
+  color: #f2f2f2;
+  background-color: #2ec2e2;
+}
+
+/* --------------- JobDescriptionCard No Logo---------- */
+
+.NoLogoCard {
+  height: 63px;
+  background: #ffffff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.06);
+  border-radius: 5px;
+  padding: 9px 30px 11px 10px;
+  margin-right: 13px;
+  margin-bottom: 13px;
+  white-space: nowrap;
+}
+
+.CardTitle {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  /* identical to box height */
+
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: #808fa6;
+  margin-bottom: 6px;
+}
+
+.CardValue {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 21px;
+  /* identical to box height */
+
+  color: #162a49;
+}
+
+.BusinessDevelopmentCardDiv {
+  display: flex;
+  padding-bottom: 50px;
+  flex-wrap: wrap;
+}
+
+/* ---------- Job Description Card with logo ------------- */
+
+.LogoCard {
+  display: flex;
+  align-items: center;
+  width: 220px;
+  height: 63px;
+  background: #ffffff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.06);
+  border-radius: 5px;
+  padding: 13px;
+  margin-right: 13px;
+  margin-bottom: 15px;
+}
+
+.LogoCard span {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+
+  color: #162a49;
+}
+
+.LogoCard img {
+  width: 28px;
+  height: 28px;
+  margin-right: 14px;
+}
+
+/* ---------- Work Schedule Card Component -------------- */
+
+.WorkScheduleCard {
+  margin-right: 10px;
+  margin-bottom: 15px;
+  padding: 8px 25px 5px 11px;
+  background: #ffffff;
+  box-shadow: 0px 0px 10px rgb(0 0 0 / 6%);
+  border-radius: 5px;
+  white-space: nowrap;
+  width: 135px;
+  height: 90px;
+}
+.WorkScheduleCard hr {
+  margin: 2px;
+}
+.WorkDay {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+
+  color: #808fa6;
+}
+
+.WorkSchedule h4 {
+  margin-bottom: 15px;
+}
+
+.startTime {
+  padding-left: 10px;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 137.6%;
+  position: relative;
+}
+.startTime > span {
+  position: absolute;
+  right: 114px;
+  top: -2px;
+}
+.startTime > span::before {
+  font-size: 7px;
+  color: #2ec2e2;
+}
+.JobRightCard button {
+  margin: auto;
+  margin-bottom: 10px;
+  width: 92% !important;
+}
+
+.endTime {
+  padding-left: 10px;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 137.6%;
+  position: relative;
+}
+.endTime > span {
+  position: absolute;
+  right: 101px;
+  top: -2px;
+}
+.endTime > span::before {
+  font-size: 7px;
+  color: #2ec2e2;
+}
+.am_pm {
+  font-weight: 300;
+  display: inline;
+}
+.WorkScheduleCardDiv {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* ------------ Job Bottom Card --------- */
+
+.JobBottomCard {
+  margin-right: 25px;
+  margin-top: 40px;
+  position: relative;
+  padding: 20px;
+  width: 210px;
+  background: #ffffff;
+  box-shadow: 0px 0px 16px rgb(0 0 0 / 5%);
+  border-radius: 10px;
+}
+
+.bottomCardText {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 138.5%;
+  color: #162a49;
+}
+
+.bottomCardImage {
+  width: 69px;
+  height: 69px;
+  margin-top: -40px;
+}
+
+.bottomCardImage img {
+  top: -28px;
+  left: 21px;
+  position: absolute;
+  width: 69px;
+  height: 69px;
+  border-radius: 50%;
+}
+
+.BottomCardCompanyName {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height */
+
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+
+  color: #b6c4d9;
+}
+
+.CompanyLocation {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height */
+
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+
+  color: #234476;
+}
+
+.BottomCardsDiv {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* ----------- Right Part Card ----------- */
+
+.JobRightCard {
+  margin-left: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 291px;
+  height: 262px;
+  margin-top: 40px;
+  position: relative;
+  padding: 10px;
+
+  background: #ffffff;
+  box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+}
+
+.rightCardImage {
+  width: 95px;
+  height: 95px;
+}
+
+.rightCardImage img {
+  top: -30px;
+  left: 100px;
+  position: absolute;
+  width: 95px;
+  height: 95px;
+  border-radius: 50%;
+}
+
+.ShareButton {
+  width: 280px;
+  height: 50px;
+  border: 2px solid #c7d0de;
+  border-radius: 50px;
+  padding: 5px;
+  background-color: transparent;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #6b7a90;
+  cursor: pointer;
+  transition: background-color 0.05s ease-in;
+}
+
+.ShareButton:hover {
+  background-color: #2ec2e2;
+  border: 2px solid #2ec2e2;
+  color: #ffffff;
+}
+
+.share {
+  display: flex;
+}
+
+/* ------------ Company Card Styles ----------- */
+
+.companyImage {
+  width: 279px;
+  height: 233px;
+  border-radius: 10px 0px 0px 10px;
+  border: 1px solid #f2f2f2;
+}
+
+.companyCardMain {
+  position: relative;
+  font-family: "Montserrat", sans-serif;
+  list-style: none;
+  display: flex;
+  margin-bottom: 21px;
+  background: #ffffff;
+  box-shadow: 0px 0px 16px rgb(0 0 0 / 5%);
+}
+
+.companyCardMain p {
+  margin-top: 10px;
+}
+
+.companyLogo {
+  width: 76px;
+  height: 76px;
+  border-radius: 50px;
+}
+
+.companyMidImageDiv {
+  width: 76px;
+  height: 76px;
+  border-radius: 50px;
+}
+
+.companyMid {
+  padding: 21px 46px 10px 27px;
+  width: 100%;
+}
+
+.MidTopSection {
+  display: flex;
+}
+
+.CompanyCardName {
+  font-family: "Montserrat", sans-serif;
+  text-transform: capitalize;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+
+  /* Text Dark */
+
+  color: #162a49;
+}
+
+.CompanyCardLocation {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+
+  /* Blue */
+
+  color: #234476;
+  margin-top: 10px;
+}
+
+.MidSection1 {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 14px;
+  padding-left: 10px;
+}
+
+.CompanyFoundedIn {
+  margin-left: 15px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+
+  /* Grey Light */
+
+  color: #c7d0de;
+}
+
+.JobCategoryUL {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  text-align: center;
+
+  /* Primary Grey */
+
+  color: #808fa6;
+  font-weight: 600;
+  margin-top: 20px;
+  display: flex;
+  list-style: none;
+  align-items: center;
+  padding-left: 0px;
+}
+
+.JobCategoryUL li {
+  margin-right: 10px;
+  font-style: normal;
+
+  font-size: 13px;
+  line-height: 16px;
+  text-align: center;
+
+  /* Primary Grey */
+  background: #f2f4fa;
+
+  color: #808fa6;
+  border-radius: 50px;
+  padding: 6px 10px;
+}
+
+.plusMore {
+}
+
+.Mid-BottomSection {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 150%;
+  /* or 22px */
+
+  /* Primary Grey */
+
+  color: #808fa6;
+}
+
+.LocalEmployessText {
+  font-style: normal;
+  font-size: 13px;
+  line-height: 16px;
+  /* identical to box height */
+
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  /* Primary Grey */
+
+  color: #808fa6;
+}
+
+.companyRight {
+  padding-right: 30px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  align-self: center;
+}
+
+.heartLogoDiv {
+  font-size: 20px;
+  cursor: pointer;
+  position: absolute;
+  top: 17px;
+  right: 30px;
+}
+
+.heart-logoRed {
+  color: #e74c3c;
+  transition: color 0.2s ease-in;
+}
+
+.heart-logoBlack {
+  color: black;
+  transition: color 0.2s ease-in;
+}
+
+/* --------- Find Companies Mid Card Styles ----------- */
+
+.midCardMainContainer {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding: 30px;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  background: #234476;
+  box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+}
+
+.midCardRight {
+  margin-left: 79px;
+}
+
+.midCardRight h2 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 27px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+
+.midCardRight p {
+  width: 90%;
+  margin-bottom: 0px;
+}
+
+.midCardLeft {
+  text-align: center;
+  align-self: center;
+  width: 12%;
+  text-align: center;
+  align-self: center;
+  width: 12%;
+  margin-left: 69px;
+  margin-right: 45px;
+}
+
+.download-app-button-div {
+  width: 40%;
+}
+
+.midCardButtonDiv {
+  display: flex;
+  align-items: center;
+}
+
+/* --------------- Message Card Styling --------------- */
+
+.messagesCardMainContainer {
+  cursor: pointer;
+  padding: 15px;
+  background: #ffffff;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.04);
+  border-radius: 6px;
+  margin-bottom: 10px;
+  border-right: 5px solid transparent;
+  word-break: break-all;
+}
+
+.messagesCardMainContainer.active {
+  border-right: 5px solid #2ec2e2;
+}
+
+.messagesCardTopSection {
+  display: flex;
+  margin-bottom: 12px;
+}
+.AdminmessagesCardTopSection {
+  display: flex;
+  align-items: center;
+  /* margin-bottom: 12px; */
+}
+.messageProfileImageSection {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.messagesCardImageDiv {
+  width: 43px;
+  height: 43px;
+  margin-right: 15px;
+}
+
+.messagesCardImageDiv img {
+  border-radius: 50%;
+  width: 43px;
+  height: 43px;
+}
+
+.messagesCardUserInfoDiv {
+  display: flex;
+  flex-direction: column;
+}
+
+.messagesCardUserName {
+  font-family: "Montserrat" sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 138.5%;
+  /* or 22px */
+
+  color: #162a49;
+}
+
+.messagesCardUserCompany {
+  font-family: "Montserrat" sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height */
+
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+
+  color: #647fa9;
+}
+
+.messagesCardMidSection {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  min-height: 40px;
+}
+
+.AdminmessagesCardUnreadNum {
+  align-items: center;
+  background-color: #2ec2e2;
+  display: flex;
+  justify-content: center;
+  width: 22px;
+  height: 22px;
+  color: white;
+  /* width: 8px;
+  height: 8px; */
+  border-radius: 50%;
+  margin-left: auto;
+}
+
+.messagesCardTime {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 134%;
+  /* or 15px */
+
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: #8d9bb0;
+}
+
+.messagesCardLastMessage {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 141%;
+  width: 60%;
+  /* or 20px */
+  display: flex;
+  flex-wrap: wrap;
+
+  color: #8d9bb0;
+}
+
+/* ------------- Messages Page Message Card ----------- */
+
+.messagePageConversationMessagesSection {
+}
+
+.messagePageConversationMessageCard {
+  display: flex;
+  box-sizing: border-box;
+  background: #ffffff;
+  border: 1px solid #edf1f8;
+  box-sizing: border-box;
+  border-radius: 6px;
+  padding: 13px;
+  margin-bottom: 10px;
+  word-break: break-all;
+}
+
+.messagePageConversationMessageCard.sentMessageDesign {
+  margin-left: auto;
+}
+
+.messagePageConversationMessageCard .messageCardLeft {
+  width: 44px;
+  height: 44px;
+  margin-right: 14px;
+}
+
+.messagePageConversationMessageCard .messageCardLeft img {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+}
+
+.messagePageConversationMessageCard
+  .messageCardRight
+  .messageCardUserInfo
+  .messageCardRightName {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 138.5%;
+  /* or 19px */
+
+  color: #162a49;
+  margin-right: 10px;
+}
+
+.messagesCardUnreadNum {
+  background-color: #2ec2e2;
+  color: #ffffff;
+  border-radius: 50%;
+  margin-left: auto;
+  height: 20px;
+  text-align: center;
+  padding-top: 3px;
+  width: 20px;
+  font-size: 10px;
+}
+
+.messagePageConversationMessageCard
+  .messageCardRight
+  .messageCardUserInfo
+  .messageCardRightTime {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 134%;
+  /* or 15px */
+
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: #808fa6;
+}
+
+.messagePageConversationMessageCard .messageCardRight .messageCardRightBottom {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 156%;
+  /* or 22px */
+
+  color: #162a49;
+}
+
+.messagePageConversationMessagesSection {
+  margin-top: 20px;
+}
+
+.messageCardImage {
+  cursor: pointer;
+  width: 150px;
+  height: 200px;
+}
+.messageCardCompanyName {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  margin-right: 10px;
+  font-size: 14px;
+  line-height: 138.5%;
+  /* or 19px */
+
+  color: #2ec2e2;
+}
+.SupportIconAwesomeCustomize {
+  color: #cb1e1e;
+}

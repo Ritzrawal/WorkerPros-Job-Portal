@@ -1,0 +1,376 @@
+.toggle-container {
+  width: 40%;
+  background-color: #1d355a;
+  cursor: pointer;
+  user-select: none;
+  height: 50px;
+  position: relative;
+}
+
+.SelectColor {
+  background-color: #3a5277;
+}
+
+.SelectedButton {
+  border-top-color: #3a5277 !important;
+  border-bottom-left-radius: 50px;
+  border-width: 4px;
+  border-top-width: 0px !important;
+  padding: 0px !important;
+  border-style: none !important;
+  width: 50%;
+  height: 50px;
+  background-color: #3a5277 !important;
+  border-radius: 50px !important;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+}
+
+.dialog-button {
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: #3a5277;
+  color: white;
+  border-radius: 50px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 100%;
+  box-sizing: border-box;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+  position: absolute;
+  left: 50%;
+  transition: all 0.3s ease;
+}
+
+.SelectColor {
+  background-color: #3a5277;
+}
+
+.disabled {
+  background-color: #ffffff;
+  color: #2ec2e2;
+  left: 2px;
+}
+.AdminButtonSelectedButton {
+  border-top-color: #3a5277 !important;
+  border-bottom-left-radius: 50px;
+  border-width: 4px;
+  border-top-width: 0px !important;
+  padding: 0px !important;
+  border-style: none !important;
+  width: 50%;
+  height: 50px;
+  background-color: #f2f4fa !important;
+  border-radius: 50px !important;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+
+  color: #234476 !important;
+}
+.SelectedButton {
+  border-top-color: #3a5277 !important;
+  border-bottom-left-radius: 50px;
+  border-width: 4px;
+  border-top-width: 0px !important;
+  padding: 0px !important;
+  border-style: none !important;
+  width: 50%;
+  height: 50px;
+  background-color: #f2f4fa !important;
+  border-radius: 50px !important;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+
+  color: #234476 !important;
+}
+
+.SelectedButton:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.SelectedButton:hover {
+  background-color: #f2f4fa !important;
+}
+.AdminButtonSelectedButton:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.AdminButtonSelectedButton:hover {
+  background-color: #f2f4fa !important;
+}
+.AdminButtonDisabledButtons {
+  border-color: none !important;
+  border-width: 0px !important;
+  border-style: none !important;
+  width: 50%;
+  height: 50px;
+  background-color: #ffffff !important;
+
+  color: #14d5ee !important;
+
+  border-radius: 50px !important;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.12) !important;
+}
+
+.DisabledButtons {
+  border-color: none !important;
+  border-width: 0px !important;
+  border-style: none !important;
+  width: 50%;
+  height: 50px;
+  background-color: #ffffff !important;
+
+  color: #14d5ee !important;
+
+  border-radius: 50px !important;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.12) !important;
+}
+
+.DisabledButtons:focus {
+  outline: none;
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.12);
+}
+.AdminButtonDisabledButtons:focus {
+  outline: none;
+  box-shadow: none;
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.12);
+}
+.ButtonStyling {
+  display: flex;
+  flex-direction: row;
+  background-color: green;
+  width: 100%;
+}
+.OuterButtonGroup {
+  background-color: #3a5277;
+  width: 50%;
+  height: 50px;
+  border-radius: 50px;
+}
+
+/* button customize  for button component*/
+.CustomizeButton {
+  height: 50px;
+  border-radius: 50px;
+  background-color: transparent;
+}
+.WhiteButtonText {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.CustomizeButton:hover {
+  background-color: #2ec2e2;
+  color: white !important;
+}
+
+/* .CustomizeButton:focus {
+  outline: none;
+  box-shadow: none;
+} */
+
+.DisabledButtons:focus {
+  outline: none;
+  box-shadow: none;
+}
+.ButtonStyling {
+  display: flex;
+  flex-direction: row;
+  background-color: green;
+  width: 100%;
+}
+.SwitchButtonGroup {
+  width: 347px;
+  height: 44px;
+  border-radius: 50px;
+  white-space: nowrap;
+  background-color: #eceef0 !important;
+}
+.AdminButtonSwitchButtonGroup {
+  width: 100%;
+  /* height: 44px; */
+  margin-bottom: 20px;
+  border-radius: 50px;
+  white-space: nowrap;
+  background-color: #f2f4fa !important;
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.12) !important;
+}
+
+.customButtontext {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #2ec2e2;
+}
+
+.customButtontext:hover {
+  color: white;
+}
+
+/* profile button customize */
+.ProfileButtonCustomize {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 49px;
+  border-radius: 5px;
+  border-color: none !important;
+  border-width: 0px !important;
+  border-style: none !important;
+  background-color: #2ec2e2 !important;
+  border-radius: 5px !important;
+}
+.ProfileButtonText {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+.ProfileLogoCustomize {
+  margin-right: 12px;
+  width: 18px;
+  height: 18px;
+  color: #ffffff;
+}
+/* ButtonTag customize */
+.ProfileButtonCustomizeTag {
+  margin-right: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 32px;
+  border-radius: 5px;
+  border-color: none !important;
+  border-width: 0px !important;
+  border-style: none !important;
+  background-color: #234476 !important;
+  border-radius: 50px !important;
+  color: #ffffff;
+}
+.ProfileButtonTextTag {
+  margin-left: 10px;
+  margin-right: 10px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  color: #ffffff;
+}
+.ProfileLogoCustomizeTag {
+  margin-right: 10px;
+  color: #ffffff;
+}
+.ProfileButtonTextTag:hover {
+  color: #ffffff !important ;
+}
+/* Not click Button Tag */
+.ProfileButtonCustomizeTagNotCLick {
+  margin-right: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 32px;
+  border-color: none !important;
+  border: 2px solid #c7d0de !important;
+  background-color: #ffffff !important;
+  border-radius: 50px !important;
+  color: #234476;
+  /* border: 2px solid #C7D0DE; */
+}
+.ProfileButtonCustomizeTagNotCLick .TagSHowHideIconCustomize {
+  display: none;
+}
+.ProfileButtonCustomizeTagNotCLick span {
+  display: none;
+}
+.ProfileButtonCustomizeTagNotCLick:active {
+  color: #234476 !important;
+}
+.ProfileButtonCustomizeTagNotCLick:focus {
+  color: #234476 !important;
+}
+.ProfileButtonTextTagnotCLick {
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  /* text-transform: capitalize; */
+  text-align: center;
+
+  /* color: #234476; */
+}
+.ProfileButtonCustomizeTagNotCLick:hover {
+  color: #234476;
+  text-decoration: none;
+}
+.ButtonTextCUstomeStyling {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+}
+.ButtonTextCustomeStylingYear {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 150%;
+  text-align: center;
+  color: #afb9c8;
+}
+.ProfileLogoButtonInnerTag {
+  font-size: 20px;
+  padding-right: 5px;
+}
+.ButtonCUstomizeonFocus button .btn-secondary:focus {
+  border: 0px;
+  box-shadow: none !important;
+}

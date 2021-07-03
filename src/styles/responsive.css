@@ -1,0 +1,896 @@
+.ProfileMainConatiner .ProfileOuterContainer .SkillList {
+  padding: 13px 14px 16px;
+  margin: 0px 24px 20px;
+}
+@media (max-width: 438px) {
+  .overlay-div {
+    height: 100% !important;
+    max-height: 650px !important;
+    min-height: 600px;
+  }
+  .LoginGoogleButtonContainer {
+    width: 315px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  .LoginDivideLine {
+    width: 315px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  .LoginFormGroupCustomize {
+    width: 315px !important;
+    margin-right: auto !important;
+  }
+  .jobs-list-ul-image {
+    margin: auto !important;
+  }
+  .logInBtn.form-group .btn.btn-secondary.btn-block {
+    width: 315px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  .LoginCreateProfileContainer .logInBtn.form-group button {
+    width: 315px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  .LoginButtonContainer {
+    width: 315px;
+    margin: auto;
+  }
+  .JobDescription2ndDiv {
+    margin-top: 385px !important;
+  }
+  .jobs-list-ul-right {
+    width: 100% !important;
+  }
+  li.jobCardLi {
+    flex-direction: column;
+    align-items: center;
+  }
+  .RightArrowDiv {
+    margin-left: auto;
+  }
+  .LoginMainContainer .form-group {
+    width: 315px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .LoginMainContainer .LoginChecBoxContainer.form-check {
+    width: 315px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (max-width: 576px) {
+  .headLeft-content .buttonDiv {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .headLeft-content .buttonDiv > div {
+    margin: 12px;
+  }
+  .job-category-list li {
+    width: 190px !important;
+  }
+  .download-app-button-div {
+    flex-wrap: wrap;
+    justify-content: center !important;
+  }
+  .download-app-button-div > button {
+    margin: 12px !important;
+  }
+  .JobCardTitle {
+    flex-direction: column;
+    text-align: center;
+  }
+  .DisplayTradeandSkills .WorkExperienceContainer .ProfileDateContainer {
+    margin-top: 12px;
+  }
+  span.CardFeatured {
+    display: block !important;
+    width: 100px;
+    margin: auto;
+    margin-top: 10px;
+  }
+
+  .ParentalLeaveCardDiv {
+    flex-wrap: wrap;
+  }
+  .HeadRightDiv2 {
+    justify-content: center;
+  }
+  .JobCategoryUL {
+    flex-wrap: wrap;
+  }
+  .CompanyUL .midCardMainContainer {
+    padding: 12px;
+  }
+  .midCardLeft img {
+    height: 32px;
+  }
+  .midCardMainContainer .midCardRight {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0%;
+  }
+  .download-app-button-div {
+    width: 100%;
+  }
+  .JobDescription2ndDiv {
+    margin-left: 0px !important;
+    display: flex;
+    margin-bottom: 0px !important;
+    justify-content: center;
+    padding-top: 30px;
+  }
+  .HeaderContainer .left_content {
+    padding: 4px;
+  }
+  .HeaderContainer .left_content h1,
+  h2 {
+    font-size: 32px !important;
+  }
+  .SwitchButtonDiv .SwitchButtonInnerDiv {
+    width: 315px;
+  }
+  .SwitchButtonDiv .SwitchButtonInnerDiv .SwitchButtonGroup {
+    width: 315px;
+  }
+  .SwitchButtonDiv .SwitchButtonInnerDiv .SwitchButtonGroup button:first-child {
+    width: 55%;
+  }
+  .HowItWorksMainContainer .right_content img {
+    max-height: 400px;
+  }
+  .HowItWorksMainContainerOuterContainer .Step1Left {
+    width: 100% !important;
+  }
+  .HowItWorksMainContainerOuterContainer .Step2Right {
+    width: 100% !important;
+  }
+  .HowItWorksMainContainerOuterContainer .Step3Left {
+    width: 100% !important;
+  }
+  .HowItWorksMainContainerOuterContainer .Step4Right {
+    width: 100% !important;
+  }
+  .job-category-list ul {
+    justify-content: center !important;
+  }
+  .Step7Right span {
+    left: 35% !important;
+  }
+  .LogoCard {
+    margin: 8px 8px 8px 0px;
+  }
+  .jobs-list-right-locationInfo {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .jobs-card-subdetails {
+    margin: 5px !important;
+  }
+  .download-app-container {
+    padding-top: 50px !important;
+  }
+  .jobs-card-subdetails p {
+    margin: 0px !important;
+  }
+  .ProfileContent .ImageUploadContainer {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .ProfileContent .ImageUploadContainer .NameAndButton {
+    margin: 0px;
+  }
+  .TradeandSkilContentContainer .TradeSkillsTag {
+    flex-wrap: wrap;
+  }
+  .TradeandSkilContentContainer .TradeSkillsTag button {
+    margin: 3px;
+  }
+  .companiesFilterSection .findJobsInSection {
+    padding: 12px;
+  }
+
+  /* .LoginInnerMainContainer {
+    width: 92% !important;
+  }
+  .InnerMainContainer {
+    width: 92% !important;
+  } */
+  .signup-para {
+    padding: 20px;
+    text-align: center;
+  }
+  .LoginRightHalfContainer {
+    height: fit-content !important;
+  }
+  .TitleTextConatiner {
+    margin-right: 0% !important;
+    width: auto !important;
+  }
+  .signup-para {
+    margin-right: 0% !important;
+  }
+  .TradeandSkilContentContainer .ProfileDateContainer .ProfileDateDropDownYear {
+    margin-left: 0px;
+  }
+  .TradeandSkilContentContainer
+    .ProfileDateContainer
+    .ProfileDateDropDownRightYear {
+    margin-left: 0px;
+  }
+  #root .SignupMainContainer .SwitchButtonGroup.btn-group {
+    width: 315px !important;
+    margin: auto !important;
+  }
+  #root .SignupMainContainer .GoogleButtonContainer {
+    width: 315px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  #root .SignupMainContainer .LoginDivideLine {
+    width: 315px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  #root .SignupMainContainer .form-row {
+    width: 315px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  #root .SignupMainContainer #email {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  #root .SignupMainContainer #password {
+    width: 315px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  #root .SignupMainContainer .logInBtn.form-group button {
+    width: 315px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  #root .SignupMainContainer .loginOptions.form-group > div {
+    width: 315px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  #root .SignupMainContainer #exampleEmail {
+    width: 150px !important;
+  }
+  #root .SignupMainContainer #examplePassword {
+    width: 150px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .landHeader-innerdiv {
+    background-size: cover !important;
+  }
+  .navbar.navbar-expand-md {
+    flex-direction: row-reverse;
+  }
+  .navbar {
+    padding: 8px 10px !important;
+  }
+  .navbar-toggler {
+    border-width: 3px;
+  }
+  .JobDescriptionMainDiv {
+    padding: 20px !important;
+  }
+  .JobDescription2ndDiv .JobInfo {
+    margin-right: 28px !important;
+    white-space: nowrap;
+  }
+  .HeaderLoginDiv {
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 38px;
+    background: transparent;
+    border-radius: 30px;
+  }
+  .HowItWorksMainContainer button.btn.btn-secondary.btn-block {
+    margin: auto;
+  }
+  .NavLoginBtn {
+    padding: 12px 4px;
+  }
+  .CompaniesMainContainer .bannerSection {
+    padding: 12px;
+  }
+  .CompaniesMainContainer .companiesListSection {
+    padding: 12px;
+  }
+  .Step7InnerDiv .Step7Right .iphone span {
+    left: 37%;
+  }
+  .DownloadAppBtnDiv {
+    justify-content: center;
+  }
+  .HowItWorksMainContainerOuterContainer .Step7Right {
+    width: 75% !important;
+  }
+  .JobDescriptionBanner .JobDescriptionHead {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    left: 0;
+  }
+  .BusinessDevelopment_div {
+    flex-direction: column;
+    text-align: center;
+  }
+  .BusinessDevelopment_div .btnDiv {
+    margin: auto;
+  }
+  .BusinessDevelopmentCardDiv {
+    justify-content: center;
+  }
+  .BusinessDevelopment_div .btnDiv .heart-cover {
+    margin-right: 4px !important;
+  }
+  .JobDescriptionMainContainer .JobDescriptionMainDivLeft {
+    width: 100%;
+  }
+  .BusinessDevelopment_div .btnDiv {
+    padding-top: 8px;
+  }
+  .JobsMainContainer .container {
+    padding: 0px;
+  }
+  .JobsMainContainer .jobsListSection {
+    padding: 0px;
+  }
+  .JobsMainContainer .jobsListSection .jobCardLi {
+    padding: 12px;
+  }
+  .JobsMainContainer .jobsListSection .jobs-list-ul-right {
+    text-align: center;
+  }
+  .findJobsInBannerSection {
+    overflow: hidden;
+  }
+  .ProfileOuterContainer .ProfileDisplay {
+    width: 100%;
+  }
+  .ProfileOuterContainer .InputDropDownContainer {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .ProfileOuterContainer .InputDropDownContainer .form-group {
+    margin: 22px;
+  }
+  .ProfileContent .FormContainerProfile {
+    margin-top: 30px;
+  }
+  .SliderCustomizer .RangeSliderCustomizer {
+    width: 100%;
+  }
+  .ProfileSliderValueContainer {
+    width: 100% !important;
+  }
+  .DisplayTradeandSkills .TradeAndSkillContainer {
+    width: 100%;
+  }
+  .TradeAndSkillsInputContainer {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+  .WorkDescriptionCustomize.form-group #exampleText {
+    width: 100%;
+  }
+  .WorkExperienceContainer .WorkExperienceAddBUttonContainer {
+    width: 100%;
+  }
+  .CertificateInnerContainer .CertificateDisplayCheckBox {
+    width: 100%;
+  }
+  .CertificateContainer .CertificateAddButtonContainer {
+    width: 100%;
+  }
+  .DisplayTradeandSkills .WorkPrefenceOuterContainer {
+    width: 100%;
+  }
+  .WorkPrefenceOuterContainer .WorkPrefenceDisplayTypes {
+    width: 100%;
+  }
+  .ProfileOuterContainer .TradeandSkilContentContainer {
+    margin: 12px;
+  }
+  .TradeAndSkillsInputContainer .form-group {
+    margin: 22px 0px;
+  }
+  .DisplayTradeandSkills div.TradeAddBUttonContainer {
+    width: 95%;
+  }
+  .DisplayTradeandSkills .WorkExperienceContainer {
+    width: 100%;
+    height: auto;
+  }
+  .DisplayTradeandSkills .CertificateContainer {
+    width: 100%;
+    height: auto;
+  }
+  .DisplayTradeandSkills .WorkPrefenceCertificateContainer {
+    width: 100%;
+    height: auto;
+  }
+  .TradeandSkilContentContainer .ProfileDateContainer {
+    flex-wrap: wrap;
+  }
+  .TradeandSkilContentContainer .ProfileDateContainer .form-group {
+    flex-grow: 0.5;
+  }
+  .ProfileDateContainer .ProfileDateDropDownRight.form-group {
+    margin-left: 0px;
+  }
+  .TradeAndSkillsInputContainer .TradeInputDropDownField.form-group {
+    width: 100%;
+  }
+  .TradeAndSkillsInputContainer
+    .TradeInputDropDownField.form-group
+    #exampleSelect {
+    width: 75%;
+  }
+  .TradeAndSkillsInputContainer .WorkInputDropDownField.form-group {
+    width: 100%;
+  }
+  .TradeAndSkillsInputContainer
+    .WorkInputDropDownField.form-group
+    .WorkInputDropTextField.form-control {
+    width: 75%;
+  }
+  .ProfileOuterContainer .CertificateInnerContainer {
+    margin: 12px;
+  }
+  .ProfilesaveAddButtonContainer button {
+    width: 95%;
+    margin: auto;
+  }
+  .ProfileContent .SliderCustomizer.form-group > div {
+    width: 100% !important;
+  }
+  .ProfileDisplay .DisplayTradeandSkills > div {
+    width: 100%;
+  }
+  .ProfileDisplay .DisplayTradeandSkills .WorkPrefenceShowMoreDetails {
+    width: 100%;
+  }
+  .ProfileDisplay
+    .DisplayTradeandSkills
+    .WorkPrefenceShowMoreDetails
+    .WorkPrefenceShowMoreDetails {
+    width: 100%;
+  }
+  .ProfileDisplay .CertificateAddButtonContainer {
+    width: 100%;
+  }
+  .ProfileDisplay .CertificateAddButtonContainer button {
+    width: 95%;
+  }
+
+  .overlay-div {
+    position: absolute;
+    width: 100%;
+    max-height: 510px;
+    height: 100%;
+    background-color: rgba(10, 10, 10, 0.6);
+    z-index: 7;
+  }
+  .headLeft {
+    z-index: 22;
+  }
+  .download-app-container.container {
+    flex-direction: column-reverse;
+  }
+  .headLeft-content {
+    padding: 0px !important;
+  }
+}
+@media (max-width: 992px) {
+  .NavBlueDotsLi {
+    padding: 0;
+    width: auto !important;
+  }
+  ul.NavBlueDotsLi li {
+    padding: 0;
+    margin: auto;
+  }
+  hr.horizontalLine {
+    width: calc(100% - 20%);
+    left: 0;
+    right: 0;
+  }
+  .ServicesComponent {
+    padding: 20px !important;
+  }
+  .FeaturesNavButtonDiv {
+    width: 100%;
+  }
+  .NavButtonLi {
+    flex-wrap: wrap;
+    padding: 25px !important;
+  }
+  .NavButtonLi .listItems {
+    margin: 10px !important;
+  }
+
+  .NavImage {
+    width: 100% !important;
+    height: auto !important;
+  }
+  .find-jobs-startImage {
+    width: 100%;
+  }
+  .find-jobs-startImage-wrapper {
+    flex-wrap: wrap;
+  }
+  .find-jobs-in-container {
+    margin: 0px !important;
+    padding: 30px 0px 0px 0px !important;
+  }
+  .job-category-list ul {
+    margin: 0px !important;
+  }
+  .jobs-list-container {
+    margin: 30px 0px !important;
+  }
+  .JobDescriptionHead {
+    flex-direction: column;
+  }
+  .JobDescriptionHeadRight {
+    margin-left: 0;
+    margin-top: 12px;
+  }
+  .JobDescriptionMainContainer .JobDescription2ndDiv {
+    margin-top: 272px;
+  }
+  .BusinessDevelopmentCardDiv {
+    flex-wrap: wrap;
+  }
+  .JobDescriptionHeadRight h2 {
+    color: #162a49;
+  }
+  span.CompanyType {
+    color: #162a49;
+    opacity: 0.6;
+  }
+  ul.jobs-list-ul {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  ul.jobs-list-ul > div {
+    width: 100%;
+  }
+  li.jobCardLi {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  .jobs-list-ul-image {
+    width: 75px !important;
+    height: 75px !important;
+  }
+  .midCardLeft {
+    display: none;
+    margin-right: 20px;
+  }
+
+  .midCardRight p {
+    height: auto !important;
+  }
+  .midCardRight .download-app-button-div {
+    flex-direction: column;
+  }
+  .midCardRight .download-app-button-div button {
+    margin: 4px;
+  }
+  .BusinessDevelopment .BusinessDevelopment_div {
+    margin-bottom: 50px !important;
+  }
+
+  .PerksAndBenefitsButtonDiv button {
+    width: 100%;
+  }
+  .WorkScheduleCardDiv .WorkScheduleCard {
+    margin: 8px;
+  }
+  .WorkScheduleCardDiv {
+    flex-wrap: wrap;
+  }
+  .BottomCardsDiv .JobBottomCard {
+    margin: 8px !important;
+  }
+  .BottomCardsDiv {
+    padding-top: 12px;
+    flex-wrap: wrap;
+  }
+  .JobDescription2ndDiv .JobInfo {
+    margin-right: 50px;
+  }
+
+  .jobs-list-ul-image img {
+    width: 75px !important;
+    height: 75px !important;
+  }
+  div.jobs-list-ul-right {
+    margin: 0px !important;
+  }
+  .download-app-right img {
+    width: 100% !important;
+  }
+  .download-app-left h2 {
+    margin: 0px !important;
+  }
+  .download-app-left-innerdiv {
+    text-align: center;
+  }
+  .JobDescriptionHead .vl {
+    margin: 0px 8px;
+  }
+  .companies-div-row.row {
+    margin: 30px 0px !important;
+  }
+  .companies-div-row.row > .col-md-3 {
+    padding-bottom: 20px;
+  }
+  .SignupMainContainer {
+    flex-direction: column-reverse !important;
+    align-items: center;
+    justify-content: center;
+  }
+  .TitleTextConatiner {
+    margin-right: 0px !important;
+  }
+  .LoginInnerMainContainer {
+    width: auto !important;
+    margin: 0px !important;
+    padding-bottom: 12px;
+  }
+  .signup-para {
+    margin-top: 50px !important;
+    margin-right: 0px !important;
+    text-align: center;
+  }
+  .LoginRightHalfContainer {
+    height: fit-content !important;
+  }
+  .LoginMainContainer {
+    flex-direction: column !important;
+    justify-content: center;
+    align-items: center;
+  }
+  .logInBtn.form-group button {
+    width: 100% !important;
+  }
+}
+@media (max-width: 1200px) {
+  .JobDescriptionHead {
+    width: auto;
+  }
+  .HeadRightDiv2 {
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .BusinessDevelopmentCardDiv .NoLogoCard {
+    margin: 8px;
+  }
+  .JobDescriptionMainDivRight {
+    display: none;
+  }
+  .HeadRightInner1,
+  .HeadRightInner2,
+  .HeadRightInner3 {
+    margin-bottom: 22px;
+  }
+
+  .jobFinderPageFilter1 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .JobDescriptionMainDivLeft {
+    width: 100% !important;
+  }
+  .job-text {
+    width: 100% !important;
+  }
+  .HowItWorksMainContainerOuterContainer .Step1InnerDiv img {
+    width: 100% !important;
+    height: auto !important;
+  }
+  .HowItWorksMainContainerOuterContainer .Step2InnerDiv img {
+    width: 100% !important;
+    height: auto !important;
+  }
+  .HowItWorksMainContainerOuterContainer .Step3InnerDiv img {
+    width: 100% !important;
+    height: auto !important;
+  }
+  .HowItWorksMainContainerOuterContainer .Step4InnerDiv img {
+    width: 100% !important;
+    height: auto !important;
+  }
+  .HowItWorksMainContainerOuterContainer .Step5InnerDiv img {
+    width: 100% !important;
+    height: auto !important;
+  }
+  .HowItWorksMainContainerOuterContainer .Step6InnerDiv img {
+    width: 100% !important;
+    height: auto !important;
+  }
+
+  .DownloadAppBtnDiv {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .DownloadAppBtnDiv button {
+    margin: 8px;
+  }
+  .HowItWorksMainContainerOuterContainer .Step1InnerDiv {
+    flex-direction: column;
+    padding: 20px;
+    padding-top: 50px;
+  }
+  .HowItWorksMainContainerOuterContainer .Step1Left {
+    width: 65%;
+    padding-bottom: 20px;
+  }
+  .HowItWorksMainContainerOuterContainer .Step1Left h2 {
+    width: 100%;
+  }
+  .HowItWorksMainContainerOuterContainer .Step1Left p {
+    width: 100%;
+  }
+  .HowItWorksMainContainerOuterContainer .Step2InnerDiv {
+    flex-direction: column-reverse;
+    padding: 20px;
+  }
+  .HowItWorksMainContainerOuterContainer .Step2Right {
+    width: 65%;
+    padding-bottom: 20px;
+  }
+  .HowItWorksMainContainerOuterContainer .Step2Right h2 {
+    width: 100%;
+  }
+  .HowItWorksMainContainerOuterContainer .Step2Right p {
+    width: 100%;
+  }
+  .HowItWorksMainContainerOuterContainer .Step2Right br {
+    display: none;
+  }
+
+  .HowItWorksMainContainerOuterContainer .Step3InnerDiv {
+    flex-direction: column;
+    padding: 20px;
+  }
+  .HowItWorksMainContainerOuterContainer .Step3Left {
+    width: 65%;
+    padding-bottom: 20px;
+  }
+  .HowItWorksMainContainerOuterContainer .Step3Left h2 {
+    width: 100%;
+  }
+  .HowItWorksMainContainerOuterContainer .Step3Left p {
+    width: 100%;
+  }
+  .HowItWorksMainContainerOuterContainer .Step3Left br {
+    display: none;
+  }
+
+  .HowItWorksMainContainerOuterContainer .Step4InnerDiv {
+    flex-direction: column-reverse;
+    padding: 20px;
+    padding-bottom: 80px;
+  }
+  .HowItWorksMainContainerOuterContainer .Step4Right {
+    width: 65%;
+    padding-bottom: 20px;
+  }
+  .HowItWorksMainContainerOuterContainer .Step4Right h2 {
+    width: 100%;
+  }
+  .HowItWorksMainContainerOuterContainer .Step4Right p {
+    width: 100%;
+  }
+  .HowItWorksMainContainerOuterContainer .Step4Right br {
+    display: none;
+  }
+
+  .HowItWorksMainContainerOuterContainer .Step5InnerDiv {
+    flex-direction: column;
+    padding: 20px;
+    padding-bottom: 80px;
+  }
+  .HowItWorksMainContainerOuterContainer .Step5Left {
+    width: 65%;
+    padding-bottom: 20px;
+  }
+  .HowItWorksMainContainerOuterContainer .Step5Left h2 {
+    width: 100%;
+  }
+  .HowItWorksMainContainerOuterContainer .Step5Left p {
+    width: 100%;
+  }
+  .HowItWorksMainContainerOuterContainer .Step5Left br {
+    display: none;
+  }
+
+  .HowItWorksMainContainerOuterContainer .Step6InnerDiv {
+    flex-direction: column-reverse;
+    padding: 20px;
+    padding-bottom: 80px;
+  }
+  .HowItWorksMainContainerOuterContainer .Step6Right {
+    width: 65%;
+    padding-bottom: 20px;
+  }
+  .HowItWorksMainContainerOuterContainer .Step6Right h2 {
+    width: 100%;
+  }
+  .HowItWorksMainContainerOuterContainer .Step6Right p {
+    width: 100%;
+  }
+  .HowItWorksMainContainerOuterContainer .Step6Right br {
+    display: none;
+  }
+
+  .HowItWorksMainContainerOuterContainer .Step7InnerDiv {
+    flex-direction: column;
+    padding: 20px;
+  }
+  .HowItWorksMainContainerOuterContainer .Step7Left {
+    width: 65%;
+    padding-bottom: 20px;
+  }
+  .HowItWorksMainContainerOuterContainer .Step7Left h2 {
+    width: 100%;
+  }
+  .HowItWorksMainContainerOuterContainer .Step7Left p {
+    width: 100%;
+  }
+  .HowItWorksMainContainerOuterContainer .Step7Left br {
+    display: none;
+  }
+  .Step4Left {
+    width: fit-content !important;
+    height: auto;
+  }
+  .companyCardMain {
+    flex-direction: column;
+    align-items: center;
+  }
+  .companyLeft {
+    padding-top: 8px;
+  }
+  .listHeader {
+    flex-direction: column;
+    align-items: center;
+  }
+  .subHeader {
+    overflow: scroll;
+    white-space: nowrap;
+    padding: 12px !important;
+  }
+  .companyCardMain .companyRight {
+    padding: 0;
+  }
+  .companyCardMain .companyMid {
+    padding: 12px;
+  }
+}

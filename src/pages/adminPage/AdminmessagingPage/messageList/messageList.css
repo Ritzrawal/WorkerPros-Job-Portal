@@ -1,0 +1,93 @@
+.AdminEmployerMessageList {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.AdminEmployerMessageList .AdminEmployerMessageList__Title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  color: #162a49;
+}
+
+.AdminEmployerMessageList .AdminEmployerMessageList__Title span {
+  background: #2ec2e2;
+  border-radius: 25px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #ffffff;
+  padding: 3px 8px;
+  margin-left: 10px;
+}
+
+.AdminEmployerMessageList .AdminEmployerMessageList__Option {
+  display: flex;
+  background-color: #fff;
+  align-items: center;
+  text-align: center;
+  border-radius: 50px;
+  margin-top: 18px;
+}
+
+.AdminEmployerMessageList
+  .AdminEmployerMessageList__Option
+  .AdminEmployerMessageList__Option--Candidate,
+.AdminEmployerMessageList
+  .AdminEmployerMessageList__Option
+  .AdminEmployerMessageList__Option--Business {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  width: 50%;
+  height: 50px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #162a49;
+  padding: 12px 18px;
+  cursor: pointer;
+}
+
+.AdminEmployerMessageList
+  .AdminEmployerMessageList__Option
+  .AdminEmployerMessageList__Option--Candidate.Active,
+.AdminEmployerMessageList
+  .AdminEmployerMessageList__Option
+  .AdminEmployerMessageList__Option--Business.Active {
+  color: #2ec2e2;
+  display: flex;
+  align-items: center;
+  background: #ffffff;
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.12);
+  border-radius: 50px;
+}
+
+.AdminEmployerMessageList .AdminEmployerMessageList__Search {
+  margin-top: 19px;
+}
+
+.AdminEmployerMessageList .AdminEmployerMessageList__List {
+  margin-top: 23px;
+  height: calc(100vh - 300px);
+  overflow-y: scroll;
+}
+
+.AdminEmployerMessageList
+  .AdminEmployerMessageList__List
+  .AdminEmployerMessageList__List--MessageListBox {
+}
+
+.AdminEmployerMessageList
+  .AdminEmployerMessageList__List
+  .AdminEmployerMessageList__List--MessageListBox
+  a {
+  text-decoration: none;
+}
+.AdminEmployerMessageList__Option--Switch-button {
+  margin-top: 20px;
+}

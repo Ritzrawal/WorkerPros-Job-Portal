@@ -1,0 +1,223 @@
+.EmployerCalendar {
+    display: flex;
+}
+
+.EmployerCalendar .EmployerCalendar__Body {
+    width: 100%;
+    height: calc(100vh - 75px); 
+    background-color: #FFF;
+    overflow-y: scroll;
+    display: flex;
+}
+
+.EmployerCalendar .EmployerCalendar__Body .EmployerCalendar__Body--Info {
+    width: 350px;
+    padding: 27px 35px 27px 23px;
+}
+
+.EmployerCalendar .EmployerCalendar__Body .EmployerCalendar__Body--Info .EmployerCalendar__Body--Info--Option {
+    display: flex;
+    background: #F2F4FA;
+    border-radius: 50px;
+}
+
+.EmployerCalendar .EmployerCalendar__Body .EmployerCalendar__Body--Info .EmployerCalendar__Body--Info--Option .EmployerCalendar__Body--Info--Option--Task,
+.EmployerCalendar .EmployerCalendar__Body .EmployerCalendar__Body--Info .EmployerCalendar__Body--Info--Option .EmployerCalendar__Body--Info--Option--Team {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    color: #162A49;
+    padding: 12px 35px;
+    cursor: pointer;
+    width: 50%
+}
+
+.EmployerCalendar .EmployerCalendar__Body .EmployerCalendar__Body--Info .EmployerCalendar__Body--Info--Option .EmployerCalendar__Body--Info--Option--Task.Active,
+.EmployerCalendar .EmployerCalendar__Body .EmployerCalendar__Body--Info .EmployerCalendar__Body--Info--Option .EmployerCalendar__Body--Info--Option--Team.Active {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.12);
+    border-radius: 50px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    color: #2EC2E2; 
+}
+
+.EmployerCalendar .EmployerCalendar__Body .EmployerCalendar__Body--Info .EmployerCalendar__Body--Info--Button {
+    padding-top: 16px;
+}
+
+.EmployerCalendar .EmployerCalendar__Body .EmployerCalendar__Body--Info .EmployerCalendar__Body--Info--Button button {
+    background: #2EC2E2;
+    border: 2px solid #2EC2E2;
+    box-sizing: border-box;
+    border-radius: 50px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 12px 0px;
+    width: 100%;
+}
+
+.EmployerCalendar .EmployerCalendar__Body .EmployerCalendar__Body--Info .EmployerCalendar__Body--Info--Button button svg {
+    margin-right: 10px;
+}
+
+.EmployerCalendar .EmployerCalendar__Body .EmployerCalendar__Body--Info .EmployerCalendar__Body--Info--Calendar {
+    padding-top: 25px;
+}
+
+.EmployerCalendar .EmployerCalendar__Body .EmployerCalendar__Body--Info .EmployerCalendar__Body--Info--Calendar .EmployerCalendar__Body--Info--Calendar--Box {
+    border: none;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    padding: 10px;
+}
+
+.EmployerCalendar .EmployerCalendar__Body .EmployerCalendar__Body--Info .EmployerCalendar__Body--Info--Calendar .EmployerCalendar__Body--Info--Calendar--Box .react-calendar__navigation__label__labelText.react-calendar__navigation__label__labelText--from {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 160%;
+    color: #162A49;
+
+}
+
+.EmployerCalendar .EmployerCalendar__Body .EmployerCalendar__Body--Info .EmployerCalendar__Body--Info--Calendar .EmployerCalendar__Body--Info--Calendar--Box .react-calendar__month-view__weekdays__weekday abbr {
+    text-decoration: none;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: center;
+    color: #808FA6;
+}
+
+.EmployerCalendar .EmployerCalendar__Body .EmployerCalendar__Body--Info .EmployerCalendar__Body--Info--Calendar .EmployerCalendar__Body--Info--Calendar--Box .react-calendar__tile.react-calendar__month-view__days__day {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    color: #162A49;
+}
+
+.EmployerCalendar .EmployerCalendar__Body .EmployerCalendar__Body--Info .EmployerCalendar__Body--Info--Calendar .EmployerCalendar__Body--Info--Calendar--Box .react-calendar__tile.react-calendar__month-view__days__day.react-calendar__month-view__days__day--neighboringMonth {
+    color: #eaeaea;
+}
+
+.EmployerCalendar .EmployerCalendar__Body .EmployerCalendar__Body--Info .EmployerCalendar__Body--Info--Calendar .EmployerCalendar__Body--Info--Calendar--Box .react-calendar__tile.react-calendar__tile--now.react-calendar__tile--active.react-calendar__tile--range.react-calendar__tile--rangeStart.react-calendar__tile--rangeEnd.react-calendar__tile--rangeBothEnds.react-calendar__month-view__days__day,
+.EmployerCalendar .EmployerCalendar__Body .EmployerCalendar__Body--Info .EmployerCalendar__Body--Info--Calendar .EmployerCalendar__Body--Info--Calendar--Box .react-calendar__tile.react-calendar__tile--active.react-calendar__tile--range.react-calendar__tile--rangeStart.react-calendar__tile--rangeEnd.react-calendar__tile--rangeBothEnds.react-calendar__month-view__days__day {                                                                                                                                                                                         
+    background: #2EC2E2;
+    border-radius: 20px;
+    color: #fff; 
+}
+
+.EmployerCalendar .EmployerCalendar__Body .EmployerCalendar__Body--Info .EmployerCalendar__Body--Info--Calendar .EmployerCalendar__Body--Info--Calendar--Box .react-calendar__tile.react-calendar__tile--now.react-calendar__month-view__days__day {                                                                                                                                                                                         
+    background: none;    
+}
+
+.EmployerCalendar .EmployerCalendar__Body .EmployerCalendar__Body--Info .EmployerCalendar__Body--Info--Event {
+    padding-top: 16px;
+}
+
+.EmployerCalendar .EmployerCalendar__Body .EmployerCalendar__Body--Info .EmployerCalendar__Body--Info--Event .EmployerCalendar__Body--Info--Event--Title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    color: #162A49;
+}
+
+.EmployerCalendar .EmployerCalendar__Body .EmployerCalendar__Body--Info .EmployerCalendar__Body--Info--Event .EmployerCalendar__Body--Info--Event--Body {
+    padding-top: 17px;
+}
+
+.EmployerCalendar .EmployerCalendar__Body .EmployerCalendar__Body--Info .EmployerCalendar__Body--Info--Event .EmployerCalendar__Body--Info--Event--Body .EmployerCalendar__Body--Info--Event--Body--EventBox {
+    padding-bottom: 26px
+}
+
+.EmployerCalendar .EmployerCalendar__Body .EmployerCalendar__Body--Detail {
+    width: 100%;
+}
+
+.EmployerCalendar .EmployerCalendar__Body .EmployerCalendar__Body--Detail .fc-col-header-cell-cushion {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #808FA6;
+}
+
+
+.EmployerCalendar .EmployerCalendar__Body .EmployerCalendar__Body--Detail .fc-daygrid-day {
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.EmployerCalendar .EmployerCalendar__Body .EmployerCalendar__Body--Detail .fc-daygrid-day-number {
+    margin: auto;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #162A49;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.EmployerCalendar .EmployerCalendar__Body .EmployerCalendar__Body--Detail .fc-daygrid-event.fc-daygrid-block-event.fc-h-event.fc-event.fc-event-start.fc-event-end {
+    border: none;
+    margin: 0px;
+    margin-bottom: 4px;
+    overflow: hidden    ;
+}
+
+.EmployerCalendar .EmployerCalendar__Body .EmployerCalendar__Body--Detail .fc-daygrid-more-link.fc-more-link {
+    color: #162A49;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.EmployerCalendar .EmployerCalendar__Body .EmployerCalendar__Body--Detail .EmployerCalendar__Body--Detail--EventBox {
+    background-color: #F0FBFD;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    color: #162A49;
+    padding: 3px 5px;
+    cursor: pointer;
+}
+
+.EmployerCalendar .EmployerCalendar__Body .EmployerCalendar__Body--Detail .EmployerCalendar__Body--Detail--EventBox img {
+    height: 22px;
+    width: 22px;
+    border-radius: 22px;
+    margin-right: 5px;
+}
+
+.EmployerCalendar .EmployerCalendar__Body .EmployerCalendar__Body--Detail .EmployerCalendar__Body--Detail--EventModal {
+    position: absolute;
+    width: 335px;
+    height: 415px;
+    bottom: 50px;
+    right: 50px;
+    z-index: 9;
+}
